@@ -5,8 +5,18 @@
 
 function onOpen() {
   try {
+    // Diagnostic: Log that onOpen is executing
+    console.log('K&L CRM: onOpen() triggered - building menu');
     var ui = SpreadsheetApp.getUi();
-
+    
+    // Verify UI is accessible
+    if (!ui) {
+      console.error('K&L CRM: Failed to get UI');
+      return;
+    }
+    
+    console.log('K&L CRM: UI accessed successfully');
+    
     ui.createMenu('K&L CRM')
       // Primary CRM Views
       .addItem('📋 Show Dashboard (Sidepanel)', 'showSidebar')
@@ -43,9 +53,22 @@ function onOpen() {
         .addItem('Refresh Priority Scores', 'runBatchScoring'))
       
       .addToUi();
+    
+    console.log('K&L CRM: Menu created and added successfully');
   } catch (e) {
-    console.error('Failed to create menu: ' + e.message);
+    console.error('K&L CRM: Failed to create menu: ' + e.message);
+    console.error('K&L CRM: Stack trace: ' + e.stack);
   }
+}
+
+/**
+ * Manual test function to verify onOpen works
+ * Run this from the Apps Script editor to test
+ */
+function testOnOpen() {
+  console.log('===== TEST: Running onOpen manually =====');
+  onOpen();
+  console.log('===== TEST: onOpen completed =====');
 }
 
 /**
