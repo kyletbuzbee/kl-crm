@@ -1,0 +1,862 @@
+Company ID,Address,City,Zip Code,Company Name,Industry,Latitude,Longitude,Last Outcome,Last Outreach Date,Days Since Last Contact,Next Step Due Countdown,Next Steps Due Date,Contact Status,Close Probability,Priority Score,UrgencyBand,Urgency Score,Totals
+CID-10X101,"402 S Walnut St, Winnsboro, TX 75494",Winnsboro,75494,10x construction,Construction,32.9536953,-95.2896481,Not Contacted,01/13/2026,24,-10,01/27/2026,Interested (Warm),0.2,70,Medium,65,102
+CID-1ST101,"300 Beaulah St, Hawkins, TX 75765",Hawkins,75765,1st rate appliance repair,Appliance,32.5901886,-95.2046902,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-2MA101,"4064 S Broadway Ave, Tyler, TX 75701",Tyler,75701,2m automotive,Automotive,32.305281,-95.2989375,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-360101,"611 S Trade Days Blvd, Canton, TX 75103",Canton,75103,360 metal buildings,Metal Fabrication,32.55213547,-95.8625412,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-64W101,"12367 State Highway 64 W, Tyler, TX 75704",Tyler,75704,64 west building materials,Construction,32.3583187,-95.3720415,Disqualified,11/14/2025,84,-84,11/14/2025,Disqualified,0,21,Low,25,72.6
+CID-903101,"13872 FM 14, Tyler, TX 75706",Tyler,75706,903 hvac,HVAC,32.4659231,-95.2831766,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-903102,"330 S Vaughn Ave, Tyler, TX 75702",Tyler,75702,903 plumbing,Plumbing,32.3477823,-95.3372541,Initial Contact,12/23/2025,45,-15,01/22/2026,Interested (Warm),0.2,50,Low,25,90
+CID-ABW101,"5201 W Marshall Ave, Longview, TX 75604",Longview,75604,a b welding,Welding,32.5104367,-94.8122799,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-AJR101,"510 Limerick St, Tyler, TX 75703",Tyler,75703,a j roofinf construction,Roofing,32.2341382,-95.3511884,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-AKA101,"301 TX-31 W, Kilgore, TX 75662",Kilgore,75662,a k appliance,Appliance,32.3960845,-94.8831141,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-APL101,"4547 Cantina Dr, Tyler, TX 75708",Tyler,75708,a plus commercial kitchens,Other,32.3843195,-95.2657393,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-APL102,"116 Leisure Ln, Whitehouse, TX 75791",Whitehouse,75791,a plus plumbing,Plumbing,32.2099877,-95.2154959,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-A10101,"814 Jack Brown, Whitehouse, TX 75791",Whitehouse,75791,a10 construction land improvement,Construction,32.2162643,-95.2122961,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AZR101,"15632 TX-110, Whitehouse, TX 75791",Whitehouse,75791,az roofing,Roofing,32.2525081,-95.237349,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ACC101,"2930 County Rd 2347, Tyler, TX 75701",Tyler,75701,ac contractors,HVAC,32.3509994,-95.2631323,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AAA101,"320 S Beckham Ave, Tyler, TX 75702",Tyler,75702,aa auto service,Automotive,32.3475639,-95.2940208,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AWH101,"5604 Old Bullard Rd, Tyler, TX 75703",Tyler,75703,aw hill roofing,Roofing,32.2439355,-95.3195775,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-A1Q101,"5117 Atlanta Ave, Tyler, TX 75703",Tyler,75703,a1 quality roofing,Roofing,32.292754,-95.3018318,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AAR101,"18410 FM 2767, Winona, TX 75792",Winona,75792,aaron mcgaughey,Metal Fabrication,32.3812614,-95.0955328,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ABC101,"306 N NW Loop 323, Tyler, TX 75701",Tyler,75701,abc auto parts,Automotive,32.3565691,-95.343873,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ABC102,"3307 Chandler Hwy, Tyler, TX 75702",Tyler,75702,abc home commercial,Construction,32.3467519,-95.3369672,Initial Contact,01/05/2026,32,-2,02/04/2026,Interested (Warm),0.2,70,Low,25,102
+CID-ABC103,"1802 Shiloh Rd, Tyler, TX 75703",Tyler,75703,abco roofing siding,Roofing,32.2955021,-95.2806672,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ABL101,"12204 County Rd 1114, Tyler, TX 75709",Tyler,75709,abl,Metal Fabrication,32.3093318,-95.3381473,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ACC102,"121 S Broadway Ave Ste 719, Tyler, TX 75702",Tyler,75702,accurate leak and line east texas,Plumbing,32.3500726,-95.3010624,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ACE101,"15330 County Rd 196, Tyler, TX 75703",Tyler,75703,ace air conditioning,HVAC,32.2580591,-95.3853081,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ACT102,"12441 State Highway 155 S, Tyler, TX 75703",Tyler,75703,action autobody,Automotive,32.2994427,-95.3415846,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ADK101,"3115 San Jacinto Dr, Tyler, TX 75701",Tyler,75701,adkins electric,Electrical,32.3143785,-95.320137,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-ADM101,"2540 County Road 376, Tyler, TX 75708",Tyler,75708,admire roofing,Roofing,32.3775075,-95.2717602,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ADV101,"4821 Trenton Dr, Tyler, TX 75703",Tyler,75703,advanced plumbing,Plumbing,32.2973945,-95.3130212,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ADV102,"16678 State Hwy 155 Suite 300A, Tyler, TX 75703",Tyler,75703,advantage roofing,Roofing,32.467864,-95.414359,Interested (Warm),11/11/2025,87,-73,11/25/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-AEG101,"2601 Network Blvd #102, Frisco, TX 75034",Frisco,75034,aegis therapy,Other,33.101736,-96.827312,Initial Contact,12/12/2025,56,-26,01/11/2026,Interested (Warm),0.2,50,Low,25,90
+CID-AFF101,"12379 County Rd 2175, Whitehouse, TX 75791",Whitehouse,75791,affordable seamless gutters,Roofing,32.2031344,-95.2059803,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-AIM101,"15385 TX-110, Whitehouse, TX 75791",Whitehouse,75791,aim roofing,Roofing,32.256107,-95.2369048,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AIR103,"104 Jones St, Chandler, TX 75758",Chandler,75758,air chandler heating cooling,HVAC,32.3065665,-95.4785594,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AIR104,"2903 Crestview Ave, Tyler, TX 75701",Tyler,75701,air comfort specialists,HVAC,32.3173579,-95.2965752,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AIR105,"12679 FM 3311, Tyler, TX 75708",Tyler,75708,air rover,HVAC,32.4073961,-95.2057909,Not Interested,11/20/2025,78,102,05/19/2026,Disqualified,0,21,Low,25,22.6
+CID-AIR106,"2221 W SW Loop 323 #103a, Tyler, TX 75701",Tyler,75701,aire serv of smith county,HVAC,32.3051393,-95.3293599,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AIR107,"4431 Cantina Dr, Tyler, TX 75708",Tyler,75708,airgas store,Welding,32.3844339,-95.2660617,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-AIR108,"3844 Lamb Dr, Tyler, TX 75709",Tyler,75709,airpro elite ac heating,HVAC,32.3156757,-95.3523568,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ALA101,"2206 Thompson Ln, Tyler, TX 75704",Tyler,75704,alan fielding electric,Electrical,32.3679646,-95.3596878,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-ALB101,"5918 Old Highway 80, Longview, TX 75604",Longview,75604,albert goettle plumbing,Plumbing,32.5144977,-94.8274701,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ALB102,"17968 Old Jacksonville Hwy, Flint, TX 75762",Flint,75762,albright steel buildings,Welding,32.2190364,-95.3507344,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-ALD101,"12309 I 20 S Service Rd W, Hallsville, TX 75650",Hallsville,75650,aldens air appliance repair,Plumbing,32.5475743,-95.7834881,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ALI103,"631 TX-323 S Loop, Tyler, TX 75702",Tyler,75702,alignment king,Automotive,32.3434907,-95.2676605,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ALL101,"3510 US-79 N, Henderson, TX 75654",Henderson,75654,all american appliance,Appliance,32.1194195,-94.8297014,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ALL102,"Tyler, TX 75701",#N/A,75701,allnone remodeling,Construction,32.3243856,-95.2997959,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ALL103,"12572 County Rd 2293, Tyler, TX 75707",Tyler,75707,allen steele plumbing,Plumbing,32.2967358,-95.2119666,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ALL104,"202 N Broad St, Chandler, TX 75758",Chandler,75758,allens appliance satellite sales service,Appliance,32.3067695,-95.4797843,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-AME102,"Bullard, TX 75757",#N/A,75757,american plastiplate,Metal Fabrication,32.1398804,-95.320229,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-AME103,"1620 N Parkdale Dr, Tyler, TX 75702",Tyler,75702,american plumbing,Plumbing,32.3668413,-95.3232906,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-AME104,"6200 Troup Hwy, Tyler, TX 75707",Tyler,75707,american standard,Construction,32.2902811,-95.2534269,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AME105,"13311 State Highway 64 E, Tyler, TX 75707",Tyler,75707,americo metal buildings,Metal Fabrication,32.310654,-95.1869834,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AND105,"2025 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,anderson automotive,Automotive,32.3276737,-95.2666432,Not Interested,11/14/2025,84,96,05/13/2026,Disqualified,0,21,Low,25,22.6
+CID-ANZ101,"2000 Broussard Street, Tyler, TX 75701",Tyler,75701,anzak,Electrical,32.3001799,-95.3254164,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-APR101,"3362 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,ap roofing,Roofing,32.3101235,-95.3389027,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-APP106,"1701 S High St, Longview, TX 75602",Longview,75602,appliance er,Appliance,32.4727688,-94.7425534,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-APP107,"136 Gilmer Rd, Longview, TX 75604",Longview,75604,appliance repair,Plumbing,32.50771,-94.768436,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ARC101,"1134 State Hwy 64, Ben Wheeler, TX 75754",Ben Wheeler,75754,arcadian place,Metal Fabrication,32.3761965,-95.4903163,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ARI101,"18520 Hw 69 N., Lindale, TX 75771",Lindale,75771,ariens lawn mower,Automotive,32.3355771,-95.3372809,Interested (Warm),11/21/2025,77,-63,12/05/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-ARR101,"4 Gum Valley Cir, Longview, TX 75602",Longview,75602,arrow plumbing,Plumbing,32.4856175,-94.6987368,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ART102,"724 Bellwood Golf Club Rd, Tyler, TX 75709",Tyler,75709,artmires urban forestry tree service,Other,32.3423023,-95.3592606,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ASA101,"13026 Kallan Ave, Tyler, TX 75703",Tyler,75703,asap roofing,Roofing,32.2913503,-95.3490933,Interested (Warm),11/11/2025,87,-73,11/25/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-ASH101,"1414 Gish Ln, Tyler, TX 75707",Tyler,75707,ashleys truck repair towing,Plumbing,32.3357341,-95.2556054,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ATH101,"900 NE Loop 7, Athens, TX 75752",Athens,75752,athens steel building,Metal Fabrication,32.2254166,-95.8421472,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ATL101,"5511 State Hwy 31 W, Tyler, TX 75709",Tyler,75709,atlas,Other,32.3432712,-95.3628787,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ATL102,"415 S Palace Ave, Tyler, TX 75702",Tyler,75702,atlas automotive,Automotive,32.3459578,-95.3107562,Disqualified,01/08/2026,29,-29,01/08/2026,Disqualified,0,70,Medium,65,102
+CID-ATL103,"23370 Frontage Rd, Wills Point, TX 75169",Wills Point,75169,atlas building systems,Metal Fabrication,32.60676956,-95.94610596,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ATS101,"14685 State Hwy 155 S, Tyler, TX 75703",Tyler,75703,ats outdoor,Automotive,32.2675535,-95.3760553,Initial Contact,12/30/2025,38,-8,01/29/2026,Interested (Warm),0.2,70,Low,25,102
+CID-ATW101,"105 East Centennial Boulevard, Lindale, Texas 75771",#N/A,75771,atwoods,Other,32.4964885,-95.4033449,Disqualified,11/17/2025,81,-81,11/17/2025,Disqualified,0,15,Low,25,69
+CID-AUT107,"1205 E 5th St, Tyler, TX 75701",Tyler,75701,autoglass express,Automotive,32.3320903,-95.2869157,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AUT108,"1600 S Boldt Ave, Tyler, TX 75701",Tyler,75701,automatic gates service repairs and maintenance,Automotive,32.3319583,-95.2702191,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-AUT109,"2031 W Gentry Pkwy, Tyler, TX 75702",Tyler,75702,autozone auto parts,Automotive,32.36553574,-95.32291412,Not Contacted,,,30,03/08/2026,Cold,0,45,High,85,38.4
+CID-AVC101,"2850 S Southwest Loop 323, Tyler, TX 75701",Tyler,75701,avco roofing,Roofing,32.3179653,-95.3412561,Initial Contact,01/06/2026,31,-1,02/05/2026,Interested (Warm),0.2,70,Low,25,102
+CID-AWW102,"424 Floy Lee Rd, Gilmer, TX 75645",Gilmer,75645,aw welding and fabrication,Welding,32.6987817,-94.9216497,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-BHC101,"Private Address in , Texas",Private,75701,b h custom buildings,Metal Fabrication,32.4971962,-95.41795349,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-BCS103,"742 Graham St, Mineola, TX 75773",Mineola,75773,bc seamless gutter systems,Gutter,32.6695738,-95.4822747,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-BAD101,"517 S Chilton Ave, Tyler, TX 75702",Tyler,75702,bad storm roofing and restoration,Roofing,32.3445125,-95.3049851,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BAI101,"Kilgore, TX 75663",#N/A,75663,bailey plumbing,Plumbing,32.3891032,-94.8728956,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BAK101,"351 W Tyler St, Longview, TX 75601",Longview,75601,baker bros plumbing,Plumbing,32.4986905,-94.7463755,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BAK102,"Private Address in Tyler, Texas",Private,75701,baker construction,Construction,32.3512601,-95.3010624,Disqualified,12/09/2025,59,-59,12/09/2025,Disqualified,0,70,Low,25,102
+CID-BAK103,"13225 Kallan Ave, Tyler, TX 75703",Tyler,75703,baker distributing,HVAC,32.2900776,-95.3505777,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BAL101,"46376 US Highway 69 N, Bullard, TX 75757",Bullard,75757,ballew plumbing,Plumbing,32.1484983,-95.3139814,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BAN102,"19616 County Rd 431, Lindale, TX 75771",Lindale,75771,bankston gutter,Gutter,32.553226,-95.4611741,Initial Contact,01/05/2026,32,-2,02/04/2026,Interested (Warm),0.2,60,Low,25,96
+CID-BAN103,"6618 S Broadway Ave, Tyler, TX 75703",Tyler,75703,bannister plumbing air,HVAC,32.2772543,-95.3060917,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BAR101,"1381 E I 20 Access Rd, Longview, TX 75603",Longview,75603,bar h welding,Welding,32.4347834,-94.7655441,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-BAR102,"4295 Kinsey Dr, Tyler, TX 75703",Tyler,75703,bar none roofing,Roofing,32.3565691,-95.343873,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-BAR103,"1902 Capital Dr, Tyler, TX 75701",Tyler,75701,barsco,Other,32.2966117,-95.3269302,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BBM101,"2121 Anthony Dr, Tyler, TX 75701",Tyler,75701,bbm industries,Other,32.3021072,-95.328673,Disqualified,11/10/2025,88,-88,11/10/2025,Disqualified,0,15,Low,25,69
+CID-BEN101,"16451 County Rd 196, Tyler, TX 75703",Tyler,75703,benco construction,Construction,32.2409219,-95.4065204,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BEN102,"15040 TX-110, Whitehouse, TX 75791",Whitehouse,75791,benjamin franklin plumbing whitehouse,Plumbing,32.260143,-95.2397384,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BEN103,"16024 TX-31, Tyler, TX 75709",Tyler,75709,benny swan electrical,Electrical,32.3235254,-95.4364725,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-BER102,"6618 Ann Campbell Rd, Tyler, TX 75706",Tyler,75706,berry bright exteriors and pressure washing,Gutter,32.4322725,-95.3130645,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-BES101,"5514 S Broadway Ave, Tyler, TX 75703",Tyler,75703,best buy,Other,32.2882236,-95.3010951,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BES102,"6290 Reynolds Rd, Tyler, TX 75708",Tyler,75708,bestway oilfield,Other,32.3860858,-95.2780479,Interested (Warm),12/10/2025,58,-44,12/24/2025,Interested (Warm),0.4,50,Low,25,90
+CID-BIG101,"1225 E 5th St, Tyler, TX 75701",Tyler,75701,big 5 tire auto service,Automotive,32.331999,-95.285874,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BIG102,"21333 State Highway 64, Canton, TX 75103",Canton,75103,big tex buildings,Metal Fabrication,32.51623917,-95.80324554,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-BIG103,"20975 US Highway 80, Wills Point, TX 75169",Wills Point,75169,big tex trailers,Automotive,32.6975441,-95.94155884,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BIL102,"11777 State Highway 64 W, Tyler, TX 75704",Tyler,75704,billys garage auto sales,Automotive,32.35731506,-95.36167145,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BIR101,"2206 Balsam St, Longview, TX 75605",Longview,75605,bird dog plumbing,Plumbing,32.5307498,-94.7785362,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BIS101,"11484 FM 2868, Flint, TX 75762",Flint,75762,bison construction pros,Construction,32.2028435,-95.3599436,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BIZ101,"111 W 5th St, Noonday, TX 75762",Noonday,75762,bizzy bees junk removal,Junk Removal,32.3307227,-95.30168,Interested (Warm),12/22/2025,46,-32,01/05/2026,Interested (Warm),0.4,65,Low,25,99
+CID-BLA101,"12190 I 20, Canton, TX 75103",Canton,75103,black river outdoors,Metal Fabrication,32.55171967,-95.77919006,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-BLU101,"1829 Norman Dr, Jacksonville, TX 75766",Jacksonville,75766,blue goose customs fabrication,Metal Fabrication,31.9388419,-95.2652455,No Answer,01/22/2026,15,-12,01/25/2026,Cold,0,90,Medium,65,114
+CID-BLU102,"15669 County Road 196, Tyler, TX 75703",Tyler,75703,blue line fence,Fence,32.252092,-95.4063963,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BLU103,"6723 Highlands Ct, Tyler, TX 75703",Tyler,75703,blue rose roofing,Roofing,32.274411,-95.3423202,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BLU104,"3708 Shiloh Rd, Tyler, TX 75707",Tyler,75707,blue star plumbers,Plumbing,32.2960375,-95.2504281,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BOD102,"1717 TX-323 W Loop, Tyler, TX 75701",Tyler,75701,body shop,Automotive,32.3306999,-95.2665254,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BOE101,"10979 County Road 41, Tyler, TX 75706",Tyler,75706,boeh plumbing,Plumbing,32.47729492,-95.34307861,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-BOY101,"8102 County Rd 313 E, Tyler, TX 75706",Tyler,75706,boyd metals,Metal Fabrication,32.4687072,-95.2469972,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-BRA101,"6013 FM 1404, Gilmer, TX 75645",Gilmer,75645,brantley welding fabrication,Welding,32.7287472,-94.9424379,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-BRA102,"11179 County Road 168, Tyler, TX 75703",Tyler,75703,braze tech,Welding,32.234248,-95.3514753,Account Won,01/09/2026,28,-27,01/10/2026,Active,1,50,Medium,65,102
+CID-BRA103,"22488 Interstate-20 Service Rd, Wills Point, TX 75169",Wills Point,75169,brazos trailers dealer,Metal Fabrication,32.60298538,-95.93634033,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-BRE101,"102 N College Ave Suite #610, Tyler, TX 75702",Tyler,75702,brexan,Construction,32.3509055,-95.301837,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BRO102,"2700 S Broadway Ave, Tyler, TX 75701",Tyler,75701,broadway automotive,Automotive,32.320322,-95.3003472,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BRO103,"12421 State Hwy 155, Tyler, TX 75703",Tyler,75703,broadway powersports,Automotive,32.2675535,-95.3760553,Initial Contact,12/30/2025,38,-8,01/29/2026,Interested (Warm),0.2,70,Low,25,102
+CID-BRO104,"3900 Troup Hwy, Tyler, TX 75703",Tyler,75703,browns automotive,Automotive,32.307277,-95.2691275,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BSH101,"5380 Old Bullard Rd #600, Tyler, TX 75703",Tyler,75703,bsh electrical,Electrical,32.2907632,-95.3054938,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-BUF101,"16255 County Road 178, Tyler, TX 75703",Tyler,75703,buford satellite systems lp,Other,32.2436595,-95.36252,Initial Contact,12/26/2025,42,-12,01/25/2026,Interested (Warm),0.2,50,Low,25,90
+CID-BUT102,"1011 W Front St, Tyler, TX 75702",Tyler,75702,butler alignment brake,Automotive,32.3472419,-95.3115059,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BWA101,"1130 E Northeast Loop 323, Tyler, TX 75708",Tyler,75708,bwa truck trailer,Automotive,32.3882015,-95.2764639,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-BXC101,"3074 Spur 124, Tyler, TX 75707",Tyler,75707,bxc roofing,Roofing,32.3376563,-95.2594941,Initial Contact,11/13/2025,85,-55,12/13/2025,Interested (Warm),0.2,21,Low,25,72.6
+CID-BYN101,"204 Shady Ln, Whitehouse, TX 75791",Whitehouse,75791,bynum plumbing,Plumbing,32.229558,-95.2086775,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CWG101,"7748 US-271 N, Tyler, TX 75708",Tyler,75708,c w g fence and decks,Fence,32.4004209,-95.2616245,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CMA101,"3291 VZ County Road 4912, Van, TX 75790",Van,75790,cmacs auto offroad detailing,Automotive,32.4873085,-95.59792328,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CDA101,"13951 TX-364 Spur, Tyler, TX 75709",Tyler,75709,c davis heating and air,HVAC,32.3249867,-95.3972682,Interested (Warm),01/14/2026,23,-9,01/28/2026,Interested (Warm),0.4,70,Medium,65,102
+CID-CWO102,"2320 E Erwin St STE B, Tyler, TX 75702",Tyler,75702,c woods,HVAC,32.3519669,-95.2717445,Initial Contact,12/23/2025,45,-15,01/22/2026,Interested (Warm),0.2,70,Low,25,102
+CID-CAR101,"2944 Old Henderson Hwy, Tyler, TX 75707",Tyler,75707,cars garage,Automotive,32.3394876,-95.2627624,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CHC101,"3593 TX-19 S, Emory, TX 75440",Emory,75440,ch carports,Metal Fabrication,32.82215881,-95.78484344,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-CRH101,"19747 TX-110, Whitehouse, TX 75791",Whitehouse,75791,cr heating and cooling,HVAC,32.1910978,-95.2011844,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CAB101,"13033 State Highway 155 S, Tyler, TX 75703",Tyler,75703,cables roofing,Roofing,32.2911893,-95.3498847,Not Interested,11/11/2025,87,93,05/10/2026,Disqualified,0,21,Low,25,22.6
+CID-CAL103,"N Poplar Ave, Tyler, TX 75702",Tyler,75702,caldwel welding supply,Welding,32.353629,-95.2951538,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-CAL104,"2951 State Highway 31 E, Tyler, TX 75702",Tyler,75702,callibur collision,Automotive,32.2911893,-95.3498847,Interested (Warm),12/01/2025,67,-53,12/15/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-CAL105,"7581 FM 14, Tyler, TX 75706",Tyler,75706,calvary plumbing,Plumbing,32.3943154,-95.2846725,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-CAL106,"3889 cr389, Tyler, TX 75705",Tyler,75705,calvins welder repair,Welding,32.3847296,-95.1543508,Disqualified,11/20/2025,78,-78,11/20/2025,Disqualified,0,15,Low,25,72.6
+CID-CAM101,"2606 Old Gladewater Hwy, Tyler, TX 75702",Tyler,75702,camilos remodeling,Construction,32.3764839,-95.2811711,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CAN105,"228 Tournament Rd, Tyler, TX 75702",Tyler,75702,cantleys tv service,Other,32.3488694,-95.3382793,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-CAN106,"719 W Front St, Tyler, TX 75702",Tyler,75702,cantrell roofing,Roofing,32.3471871,-95.3083824,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CAR103,"2415 E Erwin St, Tyler, TX 75702",Tyler,75702,carl owens truckrv collision,Automotive,32.3513042,-95.2712823,Initial Contact,01/02/2026,35,-5,02/01/2026,Interested (Warm),0.2,70,Low,25,102
+CID-CAR104,"3740 FM 2324, Emory, TX 75440",Emory,75440,carolina carports,Business to business,32.83852386,-95.84529877,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-CAR105,"18381 State Hwy 155, Flint, TX 75762",Flint,75762,carroll plumbing,Plumbing,32.2139127,-95.4164791,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-CAS101,"2720 W Erwin St, Tyler, TX 75702",Tyler,75702,casting repair service,Metal Fabrication,32.3502511,-95.330988,Disqualified,11/07/2025,91,-91,11/07/2025,Disqualified,0,27,Low,25,76.2
+CID-CAT104,"12198 State Hwy 64, Tyler, TX 75704",Tyler,75704,cates machine shop,Metal Fabrication,32.3592199,-95.3688191,Interested (Warm),11/14/2025,84,-70,11/28/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-CAT105,"12198 State Highway 64 W, Tyler, TX 75704",Tyler,75704,cates machinery,Manufacturing,32.3592199,-95.3688191,Initial Contact,12/22/2025,46,-16,01/21/2026,Interested (Warm),0.2,75,Low,25,105
+CID-CEC109,"2323 Broussard Street, Tyler, TX 75701",Tyler,75701,ce carrier enterprise,HVAC,32.296898,-95.3294553,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CEF101,"11812 State Hwy 64, Tyler, TX 75704",Tyler,75704,cefco convenience store,Other,32.3580762,-95.3619589,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-CIR101,"18842 FM 1804, Lindale, TX 75771",Lindale,75771,circle c trailers,Trailer Dealer,32.54101563,-95.40960693,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CLA101,"1717 W SW Loop 323, Tyler, TX 75701",Tyler,75701,classic toyota collision center,Automotive,32.3057789,-95.3208778,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CLE102,"19471 Ste. B, US-69, Lindale, TX 75771",Lindale,75771,clear grade excavation,Construction,32.4964885,-95.4033449,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CNC101,"11790 FM3270, Tyler, TX 75708",Tyler,75708,cnc fabrication,Metal Fabrication,32.4352525,-95.1940445,Interested (Warm),11/20/2025,78,-64,12/04/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-COB101,"600 E Houston St, Tyler, TX 75702",Tyler,75702,coburns of tyler,Plumbing,32.3442025,-95.2954035,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-COK101,"13906 Rex Pl, Tyler, TX 75703",Tyler,75703,coker enterprises trailer,Metal Fabrication,32.3322395,-95.25891,Interested (Warm),12/02/2025,66,-52,12/16/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-COL104,"12862 Frankston Hwy, Tyler, TX 75703",Tyler,75703,coleman roofing,Roofing,32.2953123,-95.3476006,Disqualified,11/11/2025,87,-87,11/11/2025,Disqualified,0,18,Low,25,70.8
+CID-COL105,"112 E Line St, Tyler, TX 75702",Tyler,75702,collin bryan construction roofing,Roofing,32.3541824,-95.2999184,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-COL106,"3120 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,collision center tyler,Automotive,32.3136279,-95.3392281,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-COM104,"1315 E Gentry Pkwy, Tyler, TX 75702",Tyler,75702,complete auto and diesel,Automotive,32.3629842,-95.2903689,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CON111,"729 N Fleishel Ave, Tyler, TX 75702",Tyler,75702,contract manufacturers,Metal Fabrication,32.3576834,-95.28798,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-COR101,"2424 Oak Ln, Tyler, TX 75701",Tyler,75701,core construction,Construction,32.323635,-95.3079349,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-COR102,"3468 W Erwin St, Tyler, TX 75702",Tyler,75702,core lumber,Other,32.3519149,-95.3393364,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-COV101,"8117 US Hwy 69 N, Tyler, TX 75706",Tyler,75706,cover 3 roofing construction,Roofing,32.2793672,-95.3587045,Interested (Warm),11/13/2025,85,-71,11/27/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-COY101,"3047 E 5th St, Tyler, TX 75701",Tyler,75701,coy dodd air conditioning,HVAC,32.3322395,-95.25891,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-COY102,"3900 S Cameron Ave, Tyler, TX 75701",Tyler,75701,coyote roofing,Roofing,32.3053275,-95.2863254,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-CRA101,"18199 County Rd 4108, Lindale, TX 75771",Lindale,75771,craigs dirt service,Metal Fabrication,32.531384,-95.400937,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-CRE101,"2616 McDonald Rd, Tyler, TX 75701",Tyler,75701,crest exteriors,Roofing,32.3229776,-95.2670064,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-CRE102,"2600 Robertson Rd, Tyler, TX 75701",Tyler,75701,crest process systems,Other,32.3324895,-95.3296944,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-CSC101,"5615 Troup Hwy, Tyler, TX 75707",Tyler,75707,csc seamless gutters,Gutter,32.2889696,-95.2552222,Account Won,01/15/2026,22,-21,01/16/2026,Active,1,60,Medium,65,96
+CID-CUS103,"12907 State Hwy 155 Suite B, Tyler, TX 75703",Tyler,75703,custom metal roofing,Roofing,32.293801,-95.3481028,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-CWS101,"896 Co Rd 2336, Mineola, TX 75773",Mineola,75773,cw seamless gutters roofs,Roofing,32.7246647,-95.5176695,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-DRW101,"308 N Gillespie Ave, Jacksonville, TX 75766",Jacksonville,75766,dr welding,Welding,31.9640315,-95.2870935,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-DSE101,"726 W Elm St, Tyler, TX 75702",Tyler,75702,ds electric,Electrical,32.3492845,-95.3086009,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-DAL101,"8856 Jennifer Dr, Tyler, TX 75703",Tyler,75703,daly electronics,Other,32.1998263,-95.2550691,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-DAM101,"14225 State Hwy 155, Tyler, TX 75703",Tyler,75703,damron ac heating,HVAC,32.2743346,-95.3697479,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DAN101,"630 E Gentry Pkwy, Tyler, TX 75702",Tyler,75702,daniels auto,Automotive,32.3605018,-95.2938055,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DAN102,"691 Sawmill Rd, Chandler, TX 75758",Chandler,75758,daniell welding fabrication,Welding,32.3049411,-95.4718563,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-DAN103,"16371 County Road 452, Lindale, TX 75771",Lindale,75771,daniels plumbing pro,Plumbing,32.568454,-95.436837,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-DAU101,"10392 TX-31, Tyler, TX 75705",Tyler,75705,dauphin plumbing,Plumbing,32.349195,-95.2353739,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-DAV102,"11247 US Highway 69 N, Tyler, TX 75706",Tyler,75706,davids auto center,Automotive,32.42831039,-95.3638916,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DBE101,"13745 County Rd 26, Tyler, TX 75707",Tyler,75707,db excavation,Construction,32.343935,-95.180379,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DEL102,"3456 Shiloh Rd, Tyler, TX 75707",Tyler,75707,de la torre,Metal Fabrication,32.295615,-95.2541017,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-DEA102,"316 S Palace Ave, Tyler, TX 75702",Tyler,75702,dealers electrical supply,Electrical,32.3477178,-95.309842,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-DEL103,"1117 W Erwin St, Tyler, TX 75702",Tyler,75702,delatrinidad auto body shop,Automotive,32.3508203,-95.3131442,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DEN102,"5263 American Legion Rd, Tyler, TX 75708",Tyler,75708,dent source,Other,32.3892541,-95.2647473,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-DEW101,502 S Front St,#N/A,75789,dew tool die,Manufacturing,32.3452,-95.4823,Not Contacted,,,30,03/08/2026,Cold,0,75,High,85,43.8
+CID-DIC101,"US-69, Tyler, TX 75703",Tyler,75703,dickson roofing,Roofing,32.2330195,-95.3116922,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DIX101,"18681 County Road 437, Lindale, TX 75771",Lindale,75771,dixie plumbing,Plumbing,32.47066879,-95.4809494,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-DNA101,"2702 TX-42, Kilgore, TX 75662",Kilgore,75662,dna fabrication,Metal Fabrication,32.4041094,-94.8685191,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-DOL101,"10839 County Rd 1223, Tyler, TX 75709",Tyler,75709,dollar concretellc,Construction,32.3247664,-95.4445632,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DON101,"6714 S Broadway Ave, Tyler, TX 75703",Tyler,75703,dons tv appliance,Appliance,32.2760325,-95.3058806,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,40.8
+CID-DOW101,"504 E Erwin St, Tyler, TX 75702",Tyler,75702,downtown garage,Automotive,32.350995,-95.2959168,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DUR101,"823 E Line St, Tyler, TX 75702",Tyler,75702,durans auto repair,Automotive,32.3539431,-95.2916252,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-DYN101,"719-745 TX-31 Suite 173, Tyler, TX 75702",Tyler,75702,dynamic electricians,Electrical,32.3470336,-95.3083724,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-ESM109,"2324 E 5th St, Tyler, TX 75701",Tyler,75701,e smooth professional hand car wash and detailing shop express,Other,32.3325527,-95.271709,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-EAR101,"11171 County Rd 2298, Tyler, TX 75707",Tyler,75707,ea roofing and restoration contractors,Roofing,32.316635,-95.1474171,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-EAG101,"1521 W Erwin St, Tyler, TX 75702",Tyler,75702,eagle electric,Electrical,32.35098,-95.3178271,Disqualified,11/07/2025,91,-91,11/07/2025,Disqualified,0,15,Low,25,72
+CID-EAG102,"17521 State Hwy 155, Flint, TX 75762",Flint,75762,eagle steel buildings,Metal Fabrication,32.2262171,-95.4109793,Not Interested,11/11/2025,87,93,05/10/2026,Disqualified,0,27,Low,25,26.2
+CID-EAR102,"2245 County Rd 316, Lindale, TX 75771",Lindale,75771,earthsteel construction fab,Welding,32.4941148,-95.2915412,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-EAS102,"315 S Vine Ave, Tyler, TX 75702",Tyler,75702,east texas alarm,Other,32.2998703,-95.2650156,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-EAS103,"3451 S Loop 323, Tyler, TX 75701",Tyler,75701,east texas automotive,Automotive,32.3629842,-95.2903689,Interested (Warm),11/14/2025,84,-70,11/28/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-EAS104,"14714 State Highway 64, Tyler, Texas 75704",#N/A,75704,east texas containers,Metal Fabrication,32.2998703,-95.2650156,Not Interested,11/17/2025,81,99,05/16/2026,Disqualified,0,27,Low,25,26.2
+CID-EAS105,"11125 County Road 168, Tyler, TX 75703",Tyler,75703,east texas elite exteriors,Construction,32.2341382,-95.3511884,Interested (Warm),01/09/2026,28,-14,01/23/2026,Interested (Warm),0.4,70,Medium,65,102
+CID-EAS106,"9200 FM2329, Athens, TX 75751",Athens,75751,east texas excavation,Metal Fabrication,32.252974,-95.9304625,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-EAS107,"29 FRJ Dr, Longview, TX 75602",Longview,75602,east texas fabrication,Metal Fabrication,32.4955782,-94.6928955,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-EAS108,"4616 DC Dr Unit D9, Tyler, TX 75701",Tyler,75701,east texas gutter systems,Gutter,32.2982802,-95.3251596,Interested (Warm),01/19/2026,18,-4,02/02/2026,Interested (Warm),0.4,60,Medium,65,96
+CID-EAS109,"4097 US-271 S, Tyler, TX 75708",Tyler,75708,east texas historical fencing,Fence,32.3839892,-95.279929,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-EAS110,"676 County Rd 37, Tyler, TX 75706",Tyler,75706,east texas metal buildings,Metal Fabrication,32.4144012,-95.2952687,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-EAS111,"4700 Old Troup Hwy, Tyler, TX 75707",Tyler,75707,east texas sheet metal,Metal Fabrication,32.30048,-95.2640653,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-EAS112,"107 Willingham Rd #3419, Whitehouse, TX 75791",Whitehouse,75791,east texas welder repair,Welding,32.2254679,-95.2285528,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-EAS113,"1529 E Travis St, Tyler, TX 75701",Tyler,75701,easy roofing,Roofing,32.3421418,-95.2817092,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-EDT102,"1012 Meadow Ln, Tyler, TX 75702",Tyler,75702,ed thompson construction,Construction,32.3605339,-95.3173778,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-EDW101,"802 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,edwards paint body,Other,32.3409145,-95.3391406,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ELS106,"12441 FM 2767, Tyler, TX 75708",Tyler,75708,el sol roofing,Roofing,32.3667922,-95.1987366,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ELD112,"12861 Candleridge Drive, Tyler, Texas 75709",#N/A,75709,eldridge hayter,Junk Removal,32.3635362,-95.4129799,Not Contacted,,,30,03/08/2026,Cold,0,65,High,85,42
+CID-ELE111,"119 Mockingbird Ln, Tyler, TX 75701",Tyler,75701,electrical contractors tyler,Electrical,32.3361298,-95.3016011,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-ELE112,"4520 Red Raider Rd, Tyler, TX 75703",Tyler,75703,electricians,Electrical,32.3015367,-95.298656,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-ELI105,"2221 TX-323 W Loop, Tyler, TX 75701",Tyler,75701,elite auto glass of tyler,Automotive,32.3041919,-95.3294347,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ELI106,"3404 N Northeast Loop 323, Tyler, TX 75708",Tyler,75708,elite collison center,Other,32.3852603,-95.2681581,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ELL106,"3706 Frankston Hwy, Tyler, TX 75701",Tyler,75701,elliott electric supply,Electrical,32.3088873,-95.3332653,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-EMM101,"1420 N Longview St, Kilgore, TX 75662",Kilgore,75662,emmetts plumbers,Plumbing,32.398368,-94.8663173,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-EMO104,"1634 Pinion Rd, Gilmer, TX 75645",Gilmer,75645,emory custom tooling,Metal Fabrication,32.625261,-94.995569,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ENG101,"1502 E Grande Blvd, Tyler, TX 75703",Tyler,75703,engines express,Automotive,32.2788734,-95.2833829,Initial Contact,01/05/2026,32,-2,02/04/2026,Interested (Warm),0.2,70,Low,25,102
+CID-ERI110,"2026 Republic Dr A, Tyler, TX 75701",Tyler,75701,eri consulting,Other,32.3048479,-95.3270662,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ESC101,"14674 State Hwy 155, Tyler, TX 75703",Tyler,75703,eschberger plumbing,Plumbing,32.2683731,-95.3776781,Initial Contact,12/30/2025,38,-8,01/29/2026,Interested (Warm),0.2,50,Low,25,90
+CID-ESP101,"1858 Young Pl, Tyler, TX 75708",Tyler,75708,espinozas paint body shop,Automotive,32.3797089,-95.2810936,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ETA109,"1450 Bromberg St, Mineola, TX 75773",Mineola,75773,etas,Metal Fabrication,32.65139008,-95.48266602,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ETX101,"14168 County Rd 365, Winona, TX 75792",Winona,75792,etx concrete works,Construction,32.4666348,-95.1213734,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ETX102,"15157 FM 848, Whitehouse, TX 75791",Whitehouse,75791,etx,Gutter,32.259047,-95.1967402,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-ETX103,"812 E Hubbard St, Lindale, TX 75771",Lindale,75771,etx steel,Metal Fabrication,32.5158698,-95.3986075,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ETX104,"10778 US Hwy 69 N, Tyler, TX 75706",Tyler,75706,etx steel tyler,Metal Fabrication,32.4213845,-95.35735,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ETX105,"226 Progress Blvd, Longview, TX 75604",Longview,75604,etx tree clearing dirt work,Construction,32.5049033,-94.8293295,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-EVA101,"3484 FM 2813, Flint, TX 75762",Flint,75762,evans air conditioning the original,HVAC,32.2397634,-95.3174604,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-EVE101,"121 S Broadway Ave Suite 618, Tyler, TX 75702",Tyler,75702,evergreen roofing solar,Roofing,32.3500725,-95.3010626,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-EXP104,"13970 State Hwy 64, Tyler, TX 75704",Tyler,75704,expert auto electric,Automotive,32.3637182,-95.3982592,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-EXX101,"1222 TX-323 W Loop, Tyler, TX 75701",Tyler,75701,exxon,Other,32.3031444,-95.3148654,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-FJA101,"1023 W Bow St, Tyler, TX 75702",Tyler,75702,f j auto service,Automotive,32.3585264,-95.3121424,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FAI101,"5380 Old Bullard Rd, Tyler, TX 75703",Tyler,75703,fairclaims roofing construction,Roofing,32.2908037,-95.3054722,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FAI102,"18601 US Highway 69 N, Lindale, TX 75771",Lindale,75771,faithco enterprises plumbing hvac electric,Electrical,32.5377681,-95.4159349,Interested (Warm),12/26/2025,42,-28,01/09/2026,Interested (Warm),0.4,50,Low,25,99
+CID-FAR101,"3312 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,farmers roofing and construction,Roofing,32.310586,-95.3399257,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FAS101,"2301 East Erwin St, Tyler, TX 75702",Tyler,75702,fast signs,Other,32.4104011,-95.3493162,Disqualified,12/01/2025,67,-67,12/01/2025,Disqualified,0,15,Low,25,69
+CID-FAS102,"600 TX-323 S Loop, Tyler, TX 75702",Tyler,75702,fastenal fulfillment center,Manufacturing,32.358716,-95.34373,Not Contacted,,,30,03/08/2026,Cold,0,75,High,85,43.8
+CID-FEM101,"520 E Broadway Ave, Gladewater, TX 75647",Gladewater,75647,femco,Metal Fabrication,32.5346045,-94.9381239,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-FEN104,"2308 Glenview Ave, Tyler, TX 75701",Tyler,75701,fenix electric etx,Electrical,32.3248024,-95.2510746,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-FER101,"3092 Old Henderson Hwy, Tyler, TX 75707",Tyler,75707,fernandez auto service,Automotive,32.3374944,-95.2589565,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FIF101,"3315 Old Troup Hwy, Tyler, TX 75701",Tyler,75701,fifties oil change and service center,Automotive,32.3136984,-95.272466,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FIN130,"3092 TX-323 Loop, Tyler, TX 75701",Tyler,75701,finch construction,Construction,32.3035015,-95.3083565,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FIR101,"2515 TX-323 W Loop, Tyler, TX 75701",Tyler,75701,firehouse roofing,Roofing,32.3127135,-95.2683979,Interested (Warm),11/10/2025,88,-74,11/24/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-FIR102,"1637 S Vine Ave, Tyler, TX 75701",Tyler,75701,firestation service center,Automotive,32.3309501,-95.3121943,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FIS101,"2104 Anthony Dr, Tyler, TX 75701",Tyler,75701,fissco supply hvac tyler,Metal Fabrication,32.3013572,-95.3273445,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-FIX101,"3708 Shiloh Rd Suite E1, Tyler, TX 75707",Tyler,75707,fix it,Plumbing,32.2960375,-95.2504281,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-FJR101,"10554 State Highway 64 E, Tyler, TX 75707",Tyler,75707,fjr paint body,Automotive,32.3273064,-95.2360482,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FOR105,"5597 N County Road 103, Henderson, TX 75652",Henderson,75652,fortis specialty henderson metal fabrication and welding,Metal Fabrication,32.2324176,-94.8629842,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-FOU101,"3314 County Rd 415, Tyler, TX 75704",Tyler,75704,fountain plumbing,Plumbing,32.3880122,-95.4679494,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-FPO101,"241 TX-31, Chandler, TX 75758",Chandler,75758,fpo plumbing and heating,HVAC,32.3085049,-95.477632,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FRE101,"Tyler, TX 75704",#N/A,75704,freedom automotive,Automotive,32.35695648,-95.35968781,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FRE102,"620 N Main St, Lindale, TX 75771",Lindale,75771,fresh start ac plumbing,Plumbing,32.52166367,-95.41134644,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-FRI101,"14394 FM 2868, Flint, TX 75762",Flint,75762,fritcher construction,Construction,32.2207319,-95.4077748,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FUL102,"11882 FM 3226, Arp, TX 75750",Arp,75750,full moon plumbing,Plumbing,32.305564,-95.1336728,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-FUS101,"105 Berry Ln, Jacksonville, TX 75766",Jacksonville,75766,fussell appliance,Appliance,31.9660347,-95.2492413,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-GAM101,"4007 S Broadway Ave, Tyler, TX 75701",Tyler,75701,game x change,Other,32.3071591,-95.3022562,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-GAM102,"224 Mike Ave, Tyler, TX 75702",Tyler,75702,gamez roofing more,Roofing,32.3483371,-95.3249425,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-GAS102,"1677 US-69 N, Mineola, TX 75773",Mineola,75773,gas and supply mineola,Other,32.6429024,-95.4885541,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-GAS103,"918 S SW Loop 323, Tyler, TX 75701",Tyler,75701,gas and supply tyler,Welding,32.339072,-95.339554,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-GAT102,"2514 E 5th St, Tyler, TX 75701",Tyler,75701,gateway fence,Fence,32.3326787,-95.2684695,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-GDC101,"5409 FM 2767, Tyler, TX 75708",Tyler,75708,gdc industrial,Construction,32.3564103,-95.2566715,Interested (Warm),11/13/2025,85,-71,11/27/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-GEN101,"1125 TX-110, Whitehouse, TX 75791",Whitehouse,75791,general roofing restoration,Roofing,32.245,-95.2336788,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-GIL101,"1645 W Broad St, Mineola, TX 75773",Mineola,75773,gilbreath welding,Welding,32.6697109,-95.5133009,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-GLE103,"3025 Old Henderson Hwy, Tyler, TX 75707",Tyler,75707,glenwood blind awning,Metal Fabrication,32.3386998,-95.2626079,Interested (Warm),02/02/2026,4,10,02/16/2026,Interested (Warm),0.4,90,High,85,84
+CID-GOL101,"1908 W Erwin St, Tyler, TX 75702",Tyler,75702,gold silver vintage treasures,Retail,32.3501122,-95.3221494,Not Contacted,,,30,03/08/2026,Cold,0,45,High,85,38.4
+CID-GOO102,"17320 Old Bullard Rd, Tyler, TX 75703",Tyler,75703,good choice roofing and renovations,Roofing,32.2277718,-95.3069424,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-GOO103,"14540 FM 2964, Whitehouse, TX 75791",Whitehouse,75791,goodfellas roofing construction,Roofing,32.2683165,-95.2583701,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-GOO104,"720 Oxford Cir, Tyler, TX 75703",Tyler,75703,goodson mechanical,Construction,32.2694447,-95.2973362,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-GOT101,"10598 US Highway 69 N, Tyler, TX 75706",Tyler,75706,gotcha covered metal and portable buildings,Metal Fabrication,32.4188551,-95.3555953,Account Won,11/17/2025,81,-80,11/18/2025,Active,1,21,Low,25,72.6
+CID-GRA102,"8310 FM 17, Grand Saline, TX 75140",Grand Saline,75140,grand fabrication,Metal Fabrication,32.66041946,-95.72898865,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-GRE102,"11654 State Highway 64 W, Tyler, TX 75704",Tyler,75704,greater tyler auto auction,Automotive,32.35906219,-95.35965729,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-GRE103,"14661 State Highway 155, Tyler, Texas 75703",#N/A,75703,green life technologies,Other,32.3386998,-95.2626079,Not Interested,11/10/2025,88,92,05/09/2026,Disqualified,0,15,Low,25,19
+CID-GRE104,"12907 State Hwy 155, Tyler, TX 75703",Tyler,75703,greenway gutter pros,Gutter,32.293801,-95.3481028,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-GUI101,"8966 S Broadway Ave, Tyler, TX 75703",Tyler,75703,guitar center,Other,32.2481178,-95.3046146,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-GUT108,"17555 Highway 155 South, Flint, Texas 75762",#N/A,75762,gutter gutter,Gutter,32.2678802,-95.3756122,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,15,Low,25,69
+CID-GUT109,"7868 Pearl St, Tyler, TX 75708",Tyler,75708,gutterworks gutter cleaning service,Gutter,32.3727574,-95.2519163,Interested (Warm),11/13/2025,85,-71,11/27/2025,Interested (Warm),0.4,18,Low,25,70.8
+CID-HAB101,"3001 University Boulevard, Tyler, Texas 75701",#N/A,75701,habitat for humanity,Other,32.3727574,-95.2519163,Interested (Warm),11/07/2025,91,-77,11/21/2025,Interested (Warm),0.4,15,Low,25,69
+CID-HAL101,"3211 Towne Way Dr, Tyler, TX 75701",Tyler,75701,hall collision center,Automotive,32.31587,-95.3394785,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HAM101,"701 W Elm St, Tyler, TX 75702",Tyler,75702,hamilton supply,Construction,32.3498799,-95.3078488,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HAM102,"16600 Hwy 155 S Suite 4012, Tyler, TX 75703",Tyler,75703,hammered out welding academy,Welding,32.2403346,-95.4030283,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-HAN106,"2801 S Main St, Lindale, TX 75771",Lindale,75771,hanks diesel auto repair,Automotive,32.47921371,-95.39414978,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HAN107,"611 VZ County Road 4907, Ben Wheeler, TX 75754",Ben Wheeler,75754,hannas custom welding,Welding,32.4754664,-95.6993078,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-HAR101,"5755 Eagles Nest Blvd, Tyler, TX 75703",Tyler,75703,hargrove roofing,Roofing,32.2864615,-95.2798875,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HAR102,"509 E Longview St, Arp, TX 75750",Arp,75750,harolds appliance repair,Plumbing,32.3498799,-95.3078488,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-HAU101,Address Not Found,#N/A,75701,hauling it off or on,Junk Removal,NA,NA,Account Won,12/22/2025,46,-45,12/23/2025,Active,1,65,Low,25,99
+CID-HEA107,"3130 Troup Hwy, Tyler, TX 75701",Tyler,75701,heating and air conditioning,HVAC,32.3154265,-95.275712,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HEA108,"219 S Glenwood Blvd, Tyler, TX 75702",Tyler,75702,heavy metal and welding,Metal Fabrication,32.2319094,-95.0502733,Interested (Warm),11/07/2025,91,-77,11/21/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-HER103,"303 S Glenwood Blvd, Tyler, TX 75702",Tyler,75702,hernandez roofing,Roofing,32.3480373,-95.3175484,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HER104,"FM 1803, Athens, TX 75752",Athens,75752,herrington welding,Welding,32.2858764,-95.714084,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-HIL102,"10226 TX-31, Tyler, TX 75705",Tyler,75705,hillard homes,Construction,32.3497177,-95.2407471,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HIL103,"115 S Fleishel Ave, Tyler, TX 75702",Tyler,75702,hillside auto service,Automotive,32.3506643,-95.2892684,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HIL104,"8713 FM-346, Whitehouse, TX 75791",Whitehouse,75791,hilltop concrete,Other,32.221562,-95.2562131,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-HIS102,"12480 Pioneer Dr, Tyler, TX 75704",Tyler,75704,histech automotive,Automotive,32.34132385,-95.37462616,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HOB101,"4566 S Broadway Ave, Tyler, TX 75703",Tyler,75703,hobbytown,Other,32.2999833,-95.2998572,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-HOL101,"19391 US Highway 69 N, Lindale, TX 75771",Lindale,75771,holey plumbing,Plumbing,32.54867554,-95.42248535,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-HOL102,"4301 Old Troup Hwy, Tyler, TX 75707",Tyler,75707,holliday sheet metal,Metal Fabrication,32.3041014,-95.2666812,Follow-Up,01/13/2026,24,-10,01/27/2026,Interested (Warm),0.2,90,Medium,65,114
+CID-HOL103,"5033 US-271, Tyler, TX 75708",Tyler,75708,holt,Automotive,32.389221,-95.2758859,Disqualified,01/08/2026,29,-29,01/08/2026,Disqualified,0,70,Medium,65,102
+CID-HON101,"2425 SW Loop 323, Tyler, TX 75701",Tyler,75701,honest1 auto care,Automotive,32.3049062,-95.3320402,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HOO101,"2410 N Lyndon Ave, Tyler, TX 75702",Tyler,75702,hood packaging,Metal Fabrication,32.3767923,-95.2775486,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-HVA104,"13889 County Road 426, Lindale, TX 75771",Lindale,75771,hvac systems of texas,HVAC,32.4719395,-95.5741796,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-HWY101,"17898 State Hwy 31 E, Brownsboro, TX 75756",Brownsboro,75756,hwy 31 utilities excavation,Metal Fabrication,32.2976024,-95.6454011,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-IMC101,"S Superior Rd, White Oak, TX 75693",White Oak,75693,imc metal building,Metal Fabrication,32.5098929,-94.8741665,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-IND104,"1800 Shiloh Rd, Tyler, TX 75703",Tyler,75703,indemnity roofing,Roofing,32.2955329,-95.2806931,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-IND105,"11839 County Rd 497, Lindale, TX 75771",Lindale,75771,indoor comfort heating and air,HVAC,32.4943115,-95.3604873,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-INF102,"2228 US-80 W, Mineola, TX 75773",Mineola,75773,infinity building supply,Metal Fabrication,32.67346954,-95.52090454,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-INF103,"7977 TX-19, Edgewood, TX 75117",Edgewood,75117,infinity carports,Metal Fabrication,32.6720047,-95.8379364,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-INS103,"300 Stanford St, Tyler, TX 75701",Tyler,75701,insco distributing,Other,32.3156729,-95.2983833,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-INT106,"11490 FM 2868, Flint, TX 75762",Flint,75762,integrity electric solar,Electrical,32.2031757,-95.3600314,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-INT107,"6725 US-271, Tyler, TX 75708",Tyler,75708,intol manufacturing,Metal Fabrication,32.3980575,-95.2676479,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-IRO101,"15327 County Road 2123, Whitehouse, TX 75791",Whitehouse,75791,iron hill,Welding,32.2550258,-95.2257167,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-JRW102,"16164 Knob Hill Dr, Tyler, TX 75703",Tyler,75703,j r welding,Welding,32.3003429,-95.4383525,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-JWM101,"10764 US-271, Gladewater, TX 75647",Gladewater,75647,jw machine shop,Metal Fabrication,32.5715819,-94.9201883,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-JAC101,"3813 SW Loop 323, Tyler, TX 75701",Tyler,75701,jacks stereo,Other,32.3081822,-95.339781,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-JAC102,"434 E Loop 281 Suite 200 G, Longview, TX 75605",Longview,75605,jacksonville custom gutters,Gutter,32.5405932,-94.733977,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-JAC103,"1700 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,jacobe brothers,Construction,32.3308695,-95.26511,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JAC104,"700 TX-323 S Loop, Tyler, TX 75702",Tyler,75702,jacobe brothers construction,Construction,32.3594052,-95.3437877,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JAM102,"23495 County Road 452, Mineola, TX 75773",Mineola,75773,jamestown automotive formerly johnnys auto service,Automotive,32.58235168,-95.56108093,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JAS101,"209 US-79 N, Henderson, TX 75654",Henderson,75654,jasons plumbing specialty,Plumbing,32.1531365,-94.7846128,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-JBC101,"10297 County Rd 2188, Whitehouse, TX 75791",Whitehouse,75791,jb construction welding,Welding,32.2408314,-95.2409237,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-JET101,"671 VZ County Road 1225, Grand Saline, TX 75140",Grand Saline,75140,jet shade systems,Metal Fabrication,32.63829422,-95.75936127,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-JLB101,"4240 N White Oak Rd, Gladewater, TX 75647",Gladewater,75647,jlb plumbing,Plumbing,32.5731315,-94.9019348,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-JLS101,"11002 FM2661, Tyler, TX 75704",Tyler,75704,jls enterprises electrical,Electrical,32.3235083,-95.4401416,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-JMC101,"3127 Andy Ln, Tyler, TX 75701",Tyler,75701,jm classic roofing,Roofing,32.3139408,-95.2641686,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JNO101,"16321 FM 344 Suite 7, Bullard, TX 75757",Bullard,75757,jnovco,Construction,32.1620873,-95.4269717,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JOE101,"5005 Old Jacksonville Hwy, Tyler, TX 75703",Tyler,75703,joe hudson,Automotive,32.3386998,-95.2626079,Interested (Warm),12/01/2025,67,-53,12/15/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-JOE102,"316 S Glenwood Blvd, Tyler, TX 75702",Tyler,75702,joe w fly,HVAC,32.3478771,-95.3154338,Initial Contact,01/05/2026,32,-2,02/04/2026,Interested (Warm),0.2,70,Low,25,102
+CID-JOE103,"801 W Erwin St, Tyler, TX 75702",Tyler,75702,joes autoworks,Automotive,32.2944952,-95.3270221,Interested (Warm),11/13/2025,85,-71,11/27/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-JOH102,"114 N Gaston Ave, Tyler, TX 75702",Tyler,75702,john deer,Other,32.3511236,-95.3171836,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-JOH103,"14630 State Hwy 155, Tyler, TX 75703",Tyler,75703,john deere,Agriculture,32.3635362,-95.4129799,Interested (Warm),12/30/2025,38,-24,01/13/2026,Interested (Warm),0.4,60,Low,25,96
+CID-JOH104,"1074 Evergreen Rd, Gilmer, TX 75645",Gilmer,75645,john johnson welding,Welding,32.6618488,-94.9565081,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-JOH105,"3230 G E Dr, Tyler, TX 75701",Tyler,75701,john spiller heating air conditioning,HVAC,32.3119853,-95.2678866,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JOH106,"2131 S Green St, Longview, TX 75602",Longview,75602,johnson service center,Other,32.4661161,-94.7338879,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-JOH107,"11945 CR 182, bullard, texas 75757",#N/A,75757,johnston gutter,Gutter,32.3635362,-95.4129799,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-JON101,"1614 W Erwin St, Tyler, TX 75702",Tyler,75702,jones auto,Automotive,32.3502727,-95.3186773,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JON102,"3235 SW Loop 323, Tyler, TX 75701",Tyler,75701,jones paint body shop,Automotive,32.3104354,-95.3427191,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-JON103,"18949 State Highway 155 S, Flint, TX 75762",Flint,75762,jonny bs ac mini splits,HVAC,32.2051593,-95.4223715,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JRC102,"2523 E Commerce St, Tyler, TX 75702",Tyler,75702,jr custom paint collision repair,Automotive,32.3555056,-95.2692335,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JRO101,"319 W Harrison Rd, Longview, TX 75604",Longview,75604,jrowe plumbing,Plumbing,32.4974558,-94.7991001,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-JTE101,"That Rd, Flint, TX 75762",Flint,75762,jt electronics,Automotive,32.2211573,-95.3471007,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-JVM101,"430 RS County Road 2400, Emory, TX 75440",Emory,75440,jv metal buildings,Metal Fabrication,32.79162598,-95.78542328,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-KGP101,"581 Elm Rd, Gilmer, TX 75645",Gilmer,75645,k g plumbing,Plumbing,32.6829491,-94.9766836,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-KLR101,"4134 Chandler Hwy, Tyler, TX 75702",Tyler,75702,k l recycling,Construction,32.3435648,-95.3461935,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-K5W101,"5119 State Highway 64, Ben Wheeler, TX 75754",Ben Wheeler,75754,k5 welding fabrication,Welding,32.395079,-95.5627,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-KAR101,"1630 N Northwest Loop 323, Tyler, TX 75704",Tyler,75704,kars auto sales and service,Automotive,32.36923981,-95.34393311,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-KAS101,"409 N Glenwood Blvd, Tyler, TX 75702",Tyler,75702,kasco paint and body,Automotive,32.3536891,-95.3188448,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-KBR101,"323 E Mims St, Tyler, TX 75702",Tyler,75702,kbr,Construction,32.3718503,-95.2973278,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-KEA101,"2913 Plymouth Cir, Tyler, TX 75707",Tyler,75707,kea construction,Construction,32.3510995,-95.3087984,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-KEE101,"217 TX-110 S, Whitehouse, TX 75791",Whitehouse,75791,kee electric,Electrical,32.2239534,-95.2252772,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-KIL101,"9715 State Hwy 64, Selman City, TX 75689",Selman City,75689,kiltex machine shop,Metal Fabrication,32.1875154,-94.9453857,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-LAN106,"16720 State Hwy 155 Suite. 1008, Tyler, TX 75703",Tyler,75703,l and n excavating,Construction,32.2383804,-95.4043464,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-LAK101,"1251 Bromberg St, Mineola, TX 75773",Mineola,75773,lake country machine,Metal Fabrication,32.6517347,-95.4874929,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-LAN103,"750 Van Zandt, Co Rd 4905, Ben Wheeler, TX 75754",Ben Wheeler,75754,landaverdes welding,Welding,32.433429,-95.5956638,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-LAP101,No address,#N/A,75789,lapeyre custom welding,Metal Fabrication,,,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-LAP102,"107 TX-110, Whitehouse, TX 75791",Whitehouse,75791,laptops for less,Other,32.2278017,-95.2267083,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-LED101,"1526 W Marshall Ave, Longview, TX 75604",Longview,75604,ledbetter plumbing,Plumbing,32.5049016,-94.7759356,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-LEE101,"11851 TX-248 Spur, Tyler, TX 75707",Tyler,75707,lees plumbing,Plumbing,32.3162595,-95.2131611,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-LEG101,"160 FM 1256, Eustace, TX 75124",Eustace,75124,legend trailers,Metal Fabrication,32.39833069,-95.85174561,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-LEN104,"1818 Capital Drive, Tyler, TX 75701",Tyler,75701,lennox stores parts plus,HVAC,32.2964769,-95.3263353,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-LEV101,"13365 County Rd 2299, Arp, TX 75750",Arp,75750,levelup excavation land management,Construction,32.2812596,-95.0380984,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-LEW102,"1716 E Erwin St, Tyler, TX 75702",Tyler,75702,lews welding,Welding,32.2888475,-95.2640359,Account Won,11/13/2025,85,-84,11/14/2025,Active,1,15,Low,25,72.6
+CID-LEX101,"2105 Anthony Dr, Tyler, TX 75701",Tyler,75701,lex etx,HVAC,32.3020427,-95.327706,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-LIF102,"2107 Broussard St, Tyler, TX 75701",Tyler,75701,lifegas,Other,32.3007815,-95.3276022,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-LIK101,"2459 Mosaic Way Suite A, Tyler, TX 75701",Tyler,75701,likewise coffee,Retail,32.3288971,-95.32992,Not Contacted,,,30,03/08/2026,Cold,0,45,High,85,38.4
+CID-LIL101,"10259 County Rd 2213, Tyler, TX 75707",Tyler,75707,lilly machinery,Metal Fabrication,32.291082,-95.2414513,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-LIN116,"205 S Main St, Lindale, TX 75771",Lindale,75771,lindale area chamber of commerce,Other,32.514157,-95.4097656,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-LIN117,"7064 TX-42, Kilgore, TX 75662",Kilgore,75662,linde welding gas equipment center,Welding,32.4360192,-94.8626392,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-LMC101,"827 Fisher Rd, Longview, TX 75604",Longview,75604,lmc fab,Metal Fabrication,32.5023235,-94.819502,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-LON101,"10487 County Road 210, Tyler, TX 75707",Tyler,75707,lons cylinder head repair,Automotive,32.3276318,-95.2102653,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-LON102,"Private Address in Flint, Texas",Private,75777,lone star building systems,Construction,32.2040437,-95.3485635,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-LON103,"6003 Old Bullard Rd # 224, Tyler, TX 75703",Tyler,75703,lone star electricians,Electrical,32.2834955,-95.3081144,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-LON104,"2724 E Commerce St, Tyler, TX 75708",Tyler,75708,lone star exteriors,Construction,32.3569258,-95.2667946,Initial Contact,01/19/2026,18,12,02/18/2026,Interested (Warm),0.2,70,Medium,65,72
+CID-LON105,"1913 Brandon Dr, Tyler, TX 75703",Tyler,75703,lone star sheet metal works,Metal Fabrication,32.2662131,-95.2786885,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-LON106,"5140 US-69 N, Alba, TX 75410",Alba,75410,lonestar sheds,Metal Fabrication,32.82572556,-95.68592072,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-LON107,"17867 County Rd 498, Lindale, TX 75771",Lindale,75771,longhorn electrical tx,Electrical,32.5280121,-95.3694526,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-LON108,"303 TX-281 W Loop, Longview, TX 75605",Longview,75605,longview appliance repair,Plumbing,32.5353782,-94.7170268,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-LOV101,"3128 TX-124 Loop, Tyler, TX 75707",Tyler,75707,love electric,Electrical,32.3359057,-95.2570329,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-LOW101,"5720 S Broadway Ave, Tyler, TX 75703",Tyler,75703,lowes home improvement,Retail,32.2858051,-95.3014293,Not Contacted,,,30,03/08/2026,Cold,0,45,High,85,38.4
+CID-FAB113,"9464 FM 2767, Tyler, TX 75705",Tyler,75705,fabrication,Metal Fabrication,32.3611709,-95.2465645,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MAB101,"1430 John Carney Dr, Tyler, TX 75701",Tyler,75701,mabbco motors,Metal Fabrication,32.3325722,-95.3277334,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MAD101,"125 S Bonner Ave, Tyler, TX 75702",Tyler,75702,maddox residential commercial,Electrical,32.3499554,-95.3059643,Interested (Warm),11/07/2025,91,-77,11/21/2025,Interested (Warm),0.4,15,Low,25,72
+CID-MAG101,"3891 County Road 389, Tyler, TX 75705",Tyler,75705,magneto service supply,Other,32.3499554,-95.3059643,Interested (Warm),11/13/2025,85,-71,11/27/2025,Interested (Warm),0.4,15,Low,25,69
+CID-MAJ101,"304 Enterprise St, Longview, TX 75604",Longview,75604,major appliance service,Appliance,32.5016968,-94.785976,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MAS101,"5855 Old Jacksonville Hwy, Tyler, TX 75703",Tyler,75703,mas tec,Other,32.2857726,-95.3310084,Initial Contact,01/02/2026,35,-5,02/01/2026,Interested (Warm),0.2,50,Low,25,90
+CID-MAS102,"5004 FM 2767, Tyler, TX 75708",Tyler,75708,master halco,Other,32.3546536,-95.257678,Initial Contact,01/16/2026,21,9,02/15/2026,Interested (Warm),0.2,50,Medium,65,60
+CID-MAS103,"6256 Reynolds Rd, Tyler, TX 75708",Tyler,75708,master metallizing machining,Metal Fabrication,32.3860459,-95.277801,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MAT103,"420 N Beckham Ave, Tyler, TX 75702",Tyler,75702,matheson,Welding,32.3543482,-95.2954451,Disqualified,11/07/2025,91,-91,11/07/2025,Disqualified,0,15,Low,25,72.6
+CID-MAU101,"7434 Waterview Sq, Tyler, TX 75703",Tyler,75703,mauch plumbing,Plumbing,32.2704259,-95.3472445,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MAX101,"436 Southgate Ave, Tyler, TX 75702",Tyler,75702,max handyman,Roofing,32.3451648,-95.3325454,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-MAY101,"7525 US Highway 271 S, Gilmer, TX 75645",Gilmer,75645,mayhan fabricators,Metal Fabrication,32.6251743,-94.9216905,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MAY102,"Jim Hogg Rd, Lindale, TX 75771",Lindale,75771,mayne welding,Welding,32.5037165,-95.3937048,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-MBG101,"2611 US Highway 271, Tyler, TX 75708",Tyler,75708,mb g fabrication,Manufacturing,32.3776412,-95.2858924,Not Contacted,,,30,03/08/2026,Cold,0,75,High,85,43.8
+CID-MCC103,"11152 County Road 1113, Tyler, TX 75709",Tyler,75709,mc cown engineering,Other,32.2926054,-95.3513125,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MCK104,"13240 County Road 434, Lindale, TX 75771",Lindale,75771,mc kinney sons plumbing,Plumbing,32.4597168,-95.46199799,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MCC101,"1000 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,mccoys building supply,Other,32.30328,-95.2896464,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MCC102,"13085 County Rd 192, Tyler, TX 75703",Tyler,75703,mccoys plumbing,Plumbing,32.2897317,-95.3411388,Interested (Warm),12/12/2025,56,-42,12/26/2025,Interested (Warm),0.4,50,Low,25,90
+CID-MCD101,"2705 E 5th St, Tyler, TX 75701",Tyler,75701,mcdonalds,Other,32.3319886,-95.2650639,Initial Contact,12/12/2025,56,-26,01/11/2026,Interested (Warm),0.2,50,Low,25,90
+CID-MCE101,"725 Arp Dr, Troup, TX 75789",Troup,75789,mcelroy plastics,Metal Fabrication,32.1506029,-95.1170691,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MCE102,8189 FM 2064 N,#N/A,75789,mcever machine works,Metal Fabrication,32.3584,-95.4891,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MCM101,"11719 Laney Rd, Tyler, TX 75708",Tyler,75708,mcm metal buildings,Metal Fabrication,32.4334892,-95.1899072,Not Interested,11/20/2025,78,102,05/19/2026,Disqualified,0,27,Low,25,26.2
+CID-MEL101,"2505 W NW Loop 323, Tyler, TX 75702",Tyler,75702,melvin lewis welding,Welding,32.3826538,-95.328587,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-MER113,"703 Gladewater St, Kilgore, TX 75662",Kilgore,75662,merritt preferred components,Metal Fabrication,32.385929,-94.8864938,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MET117,"705 W Bradford St, Troup, TX 75789",Troup,75789,metal building supplies of america,Metal Fabrication,32.1460137,-95.1277345,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MET118,"17536 State Hwy 155, Flint, TX 75762",Flint,75762,metal buildings etx,Metal Fabrication,32.2263535,-95.4121794,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MET119,"18666 US Highway 69 N, Lindale, TX 75771",Lindale,75771,metal works,Metal Fabrication,32.5378861,-95.4149591,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MET120,"13437 TX-110 S, Tyler, TX 75707",Tyler,75707,metalsmiths,Metal Fabrication,32.2844862,-95.2493654,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MID101,"4707 Chad Dr, Tyler, TX 75703",Tyler,75703,midsouth distributing,Other,32.2979232,-95.2860931,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MID102,"14661 State Hwy 155 S, Tyler, TX 75703",Tyler,75703,midtown appliance,Appliance,32.3475156,-95.3062481,Initial Contact,12/29/2025,39,-9,01/28/2026,Interested (Warm),0.2,50,Low,25,90
+CID-MIK101,"3014 TX-323 Loop, Tyler, TX 75701",Tyler,75701,mikasa construction,Construction,32.3035015,-95.3083565,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-MIL103,"6715 Rhones Quarter Rd, Tyler, TX 75707",Tyler,75707,millers automotive repair,Automotive,32.2753267,-95.2611294,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-MIT103,"30855 State Highway 64, Wills Point, TX 75169",Wills Point,75169,mitchell steel,Metal Fabrication,32.60722351,-95.93074799,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-MIT104,"3539 US-271, Tyler, TX 75708",Tyler,75708,mitchell welding supply,Welding,32.3800687,-95.2807402,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-MOB102,"2121 Old Henderson Hwy, Tyler, TX 75702",Tyler,75702,mobile communications america,Other,32.3474582,-95.275549,Disqualified,11/10/2025,88,-88,11/10/2025,Disqualified,0,15,Low,25,69
+CID-MOD103,"16075 Old Jacksonville Hwy, Tyler, TX 75703",Tyler,75703,modern roofing restoration,Roofing,32.2464477,-95.3480147,Interested (Warm),01/15/2026,22,-8,01/29/2026,Interested (Warm),0.4,70,Medium,65,102
+CID-MOD104,"3616 River Rd, Kilgore, TX 75662",Kilgore,75662,modisette welding supply,Welding,32.4409454,-94.8761139,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-MON101,"13917 Hwy 155 South, Tyler, TX 75703",Tyler,75703,montrose concrete,Construction,32.2736243,-95.3715259,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-MOO103,"1205 S Bennett Ave, Tyler, TX 75701",Tyler,75701,moody phillips electric,Electrical,32.3355771,-95.3372809,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-MOO104,"3226 Shiloh Rd, Tyler, TX 75707",Tyler,75707,moore supply,Other,32.2959549,-95.2579096,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MOO105,"20288 County Road 450, Lindale, TX 75771",Lindale,75771,moores mobile mechanic and road side assistance,Automotive,32.56407547,-95.53624725,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-MOO106,"4220 Timms St, Tyler, TX 75701",Tyler,75701,moose auto glass,Automotive,32.3049894,-95.3300961,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-MOR103,"2006 W Erwin St, Tyler, TX 75702",Tyler,75702,morales paint body shop,Automotive,32.3498489,-95.3231987,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-MOR104,"102 N College Ave, Tyler, TX 75702",Tyler,75702,morris roofing and construction,Roofing,32.3509217,-95.3018785,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-MRA101,"3412 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,mr appliance of east texas,Appliance,32.3093757,-95.3382234,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,40.8
+CID-MUR101,"513 N Poplar Ave, Tyler, TX 75702",Tyler,75702,murpheys welding,Welding,32.3474582,-95.275549,Account Won,11/26/2025,72,-71,11/27/2025,Active,1,15,Low,25,72.6
+CID-MZA101,"3224 S Main St, Lindale, TX 75771",Lindale,75771,mza plumbing heating air conditioning,Plumbing,32.47445297,-95.39033508,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-NAP101,"1003 W Cotton St, Longview, TX 75604",Longview,75604,napps cooling heating plumbing,Plumbing,32.4981981,-94.7608736,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-NAT101,"13240 TX-110, Tyler, TX 75707",Tyler,75707,national wholesale,Other,32.2865486,-95.252715,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-NEW101,"5881 FM 2767, Tyler, TX 75708",Tyler,75708,new hope energy fabrication,Metal Fabrication,32.3580967,-95.2561494,Interested (Warm),11/13/2025,85,-71,11/27/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-NEW102,"23402 County Road 121, Bullard, TX 75757",Bullard,75757,newburn appliance,Appliance,32.1354331,-95.2801579,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-NEX101,"911 W Loop 281, Longview, TX 75604",Longview,75604,next plumbing heating,Plumbing,32.5388746,-94.7652023,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-NIC106,"Fm 14, Tyler, TX 75708",Tyler,75708,nicks trailer hitch shop,Other,32.4122894,-95.2787594,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-NIP101,"14969 TX-110, Whitehouse, TX 75791",Whitehouse,75791,nippers quality auto works,Automotive,32.2614545,-95.23864,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-NOJ101,"420 E Seagle St Suite B, Tyler, TX 75701",Tyler,75701,no junk,Junk Removal,32.3250314,-95.2965838,Account Won,12/23/2025,45,-44,12/24/2025,Active,1,65,Low,25,99
+CID-NOR101,"12326 State Highway 31 W, Tyler, TX 75709",Tyler,75709,northwest collision center,Automotive,32.3386108,-95.3725507,Interested (Warm),01/14/2026,23,-9,01/28/2026,Interested (Warm),0.4,70,Medium,65,102
+CID-ORE110,"861 S Oak St, Van, TX 75790",Van,75790,oreilly auto parts,Automotive,32.51333237,-95.64269257,Not Contacted,,,30,03/08/2026,Cold,0,45,High,85,38.4
+CID-OFF104,"4329 Old Bullard Rd, Tyler, TX 75703",Tyler,75703,office depot,Other,32.3020919,-95.3060117,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-OLD103,"218 S Spring Ave, Tyler, TX 75702",Tyler,75702,old geezers vintage auto,Automotive,32.3488278,-95.2982359,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-OMA102,"2517 E Commerce St, Tyler, TX 75702",Tyler,75702,omar colision repaircenter,Plumbing,32.3557206,-95.2700355,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-OME104,"1602 W Houston St, Tyler, TX 75702",Tyler,75702,omega custom fabrication,Metal Fabrication,32.3433114,-95.318199,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ONS129,"830 TX-323 S Loop, Tyler, TX 75702",Tyler,75702,onsight auto body,Automotive,32.3863263,-95.3194216,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ONE113,"1602 W Front St, Tyler, TX 75702",Tyler,75702,one stop auto center,Automotive,32.3462484,-95.3185419,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ONE114,"14762 TX-110, Whitehouse, TX 75791",Whitehouse,75791,oneten welding,Metal Fabrication,32.2639775,-95.2405148,Interested (Warm),12/22/2025,46,-32,01/05/2026,Interested (Warm),0.4,90,Low,25,114
+CID-PAC102,"10551 Pac Rd, Tyler, TX 75707",Tyler,75707,pacclad petersen,Metal Fabrication,32.2904588,-95.2357853,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-PAL101,"206 Broad St, Chandler, TX 75758",Chandler,75758,palady air,Plumbing,32.3069019,-95.4798737,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-PAT101,"24428 FM 1995, Lindale, TX 75771",Lindale,75771,patriot diesel auto truck and diesel repair,Automotive,32.49688721,-95.57865906,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-PAT102,"6352 Old Noonday Rd, Tyler, TX 75703",Tyler,75703,patriot electric,Electrical,32.2797894,-95.3444904,Initial Contact,12/26/2025,42,-12,01/25/2026,Interested (Warm),0.2,50,Low,25,99
+CID-PAY101,"2000 S Eastman Rd, Longview, TX 75602",Longview,75602,payne mechanical,Other,32.470966,-94.7068064,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-PED101,"2022 E Gentry Pkwy, Tyler, TX 75702",Tyler,75702,pedros paint and body,Automotive,32.3202746,-95.4438999,Interested (Warm),11/26/2025,72,-58,12/10/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-PEP101,"3616 S Broadway Ave, Tyler, TX 75701",Tyler,75701,pep boys auto service tires,Automotive,32.3090048,-95.2997898,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-PET102,"1902 US-80 E, White Oak, TX 75693",White Oak,75693,peter pauls plumbing,Plumbing,32.5255948,-94.8773352,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-PET103,"12872 State Hwy 155 Suite 18, Tyler, TX 75703",Tyler,75703,petroleum,Other,32.3724976,-95.2879909,Interested (Warm),11/21/2025,77,-63,12/05/2025,Interested (Warm),0.4,15,Low,25,69
+CID-PHI103,"18690 US Highway 69 N, Lindale, TX 75771",Lindale,75771,phillips steel buildings,Metal Fabrication,32.53929901,-95.4156723,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-PLU145,"14630 State Hwy 155 S, Tyler, TX 75703",Tyler,75703,plumbings at the home depot,Plumbing,32.2950183,-95.3480354,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-PON102,"Birchwood Path, Holly Lake Ranch, TX 75765",Holly Lake Ranch,75765,ponder appliance repair,Plumbing,32.7185089,-95.1721715,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-POO101,"1111 E Olive St, Tyler, TX 75702",Tyler,75702,poole construction,Construction,32.3629384,-95.288542,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-POS101,"1950 Stonegate Circle, Tyler, TX 75703",Tyler,75703,post oak roofing,Roofing,32.2884137,-95.2723624,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-POW102,"19248 Hillside Dr, Tyler, TX 75703",Tyler,75703,power clean,Electrical,32.1985752,-95.2540359,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-PRE106,"12551 County Road 282, Whitehouse, TX 75791",Whitehouse,75791,precision custom cuts,Metal Fabrication,32.2692208,-95.2027048,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-PRE107,"1608 E Richards St, Tyler, TX 75702",Tyler,75702,precision junk removal,Junk Removal,32.3493703,-95.2813846,Initial Contact,01/06/2026,31,-1,02/05/2026,Interested (Warm),0.2,50,Low,25,90
+CID-PRE108,"13382 TX-110, Tyler, TX 75707",Tyler,75707,premier auto repair,Automotive,32.2844451,-95.2506662,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-PRE109,"3810 Timms St, Tyler, TX 75701",Tyler,75701,preventative,Other,32.3062003,-95.3300386,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-PRI105,"Private Address in Bullard, Texas",Private,75710,primetime plumbing,Plumbing,32.1398804,-95.320229,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-PRO109,"15196 Cr 1134, Tyler, TX 75709",Tyler,75709,pro star rental,Other,32.3155071,-95.421227,Disqualified,11/11/2025,87,-87,11/11/2025,Disqualified,0,15,Low,25,69
+CID-PRO110,"5454 Oakridge Dr, Tyler, TX 75706",Tyler,75706,pro tone collision,Automotive,32.3790428,-95.2938957,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-PRO111,"527 E Erwin St, Tyler, TX 75702",Tyler,75702,protech air conditioning and heating,HVAC,32.3507014,-95.295181,Interested (Warm),11/07/2025,91,-77,11/21/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-PRO112,"15230 TX-110, Whitehouse, TX 75791",Whitehouse,75791,project one roofing,Roofing,32.2579979,-95.2392711,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-PRO113,"16678 State Hwy 155, Tyler, TX 75703",Tyler,75703,prolific welding,Welding,32.2393567,-95.4046703,Interested (Warm),11/11/2025,87,-73,11/25/2025,Interested (Warm),0.4,15,Low,25,72.6
+CID-PRO114,"719 W Front St #69, Tyler, TX 75702",Tyler,75702,proton electric,Electrical,32.3470812,-95.3083903,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-PUM101,"6461 Reynolds Rd, Tyler, TX 75708",Tyler,75708,pump works,Manufacturing,32.3854242,-95.2800426,Interested (Warm),12/10/2025,58,-44,12/24/2025,Interested (Warm),0.4,75,Low,25,105
+CID-PUR101,"605 Chase Dr, Tyler, TX 75701",Tyler,75701,pure excellence training academy,Other,32.3074044,-95.3073424,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-PUR102,"2565 W Northwest Loop 323, Tyler, TX 75702",Tyler,75702,purvis industries,Other,32.3821704,-95.3293381,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-PYR101,"101 County Road 1215, Flint, TX 75762",Flint,75762,pyramid homes home builders tyler tx,Construction,32.1978798,-95.3210866,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-QUA103,"3227 US-271, Tyler, TX 75708",Tyler,75708,quality burningtg welding,Welding,32.3782868,-95.2837922,Interested (Warm),11/13/2025,85,-71,11/27/2025,Interested (Warm),0.4,15,Low,25,72.6
+CID-QUA104,"9335 Chisholm Trail, Tyler, TX 75703",Tyler,75703,quality seamless gutters,Gutter,32.2495433,-95.2913799,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-QUA105,"205 W Locust St, Tyler, TX 75702",Tyler,75702,quantum photonics,Other,32.3530105,-95.3020182,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RDT104,"11681 US Highway 69 N, Tyler, TX 75706",Tyler,75706,rd tires welding,Automotive,32.4342206,-95.3674778,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RAC105,"2318 TX-323 E Loop, Tyler, TX 75701",Tyler,75701,rac rent a center,HVAC,32.3122274,-95.2721374,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RAI110,"910 Peggy Dr, Whitehouse, TX 75791",Whitehouse,75791,rains plumbing,Plumbing,32.2143457,-95.2164882,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RAM102,"2306 W Shaw St, Tyler, TX 75701",Tyler,75701,ramos roofing remodeling,Roofing,32.3365088,-95.3272981,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-RAM103,"10760 FM 850, Tyler, TX 75705",Tyler,75705,ramos roofing and remodling,Roofing,32.3548609,-95.2325722,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RAN105,"13221 TX-364 Spur, Tyler, TX 75709",Tyler,75709,raney appliance service,Appliance,32.3180656,-95.3873152,Disqualified,01/14/2026,23,-23,01/14/2026,Disqualified,0,90,Medium,65,114
+CID-RAY101,"626 Negem Dr, Tyler, TX 75702",Tyler,75702,ray engine,Automotive,32.3568255,-95.320968,Account Won,11/07/2025,91,-90,11/08/2025,Active,1,21,Low,25,72.6
+CID-RAY102,"1015 E Nutbush St, Tyler, TX 75702",Tyler,75702,rays automotive,Automotive,32.3682747,-95.2897039,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RAY103,"1326 W Gentry Pkwy, Tyler, TX 75702",Tyler,75702,rayson autobody,Automotive,32.3595696,-95.3156418,Account Won,11/18/2025,80,-79,11/19/2025,Active,1,21,Low,25,72.6
+CID-RBR101,"12927 Yancy Ln, Tyler, TX 75707",Tyler,75707,rb roofing,Roofing,32.2899613,-95.1479277,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RDR105,"11258 County Rd 492, Tyler, TX 75706",Tyler,75706,rd roofing gutters tree,Roofing,32.4348317,-95.3515162,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-REA105,"4306 Bob O Link Rd, Gilmer, TX 75645",Gilmer,75645,reardon plumbing,Plumbing,32.6713016,-94.9243779,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RED104,"285 Private Road 8612, Ben Wheeler, TX 75754",Ben Wheeler,75754,red kingdom plumbing,Plumbing,32.4280098,-95.6096205,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RED105,"2301 S Broadway Ave, Tyler, TX 75701",Tyler,75701,redline roofing,Roofing,32.3239638,-95.3014293,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RED106,"3101 State Highway 31 E, Tyler, TX 75702",Tyler,75702,redwood constructionremodeling,Construction,32.3447571,-95.2602819,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-REE108,"1001 W Elm St, Tyler, TX 75702",Tyler,75702,reece plumbing,Metal Fabrication,32.3498366,-95.3118232,Not Interested,11/20/2025,78,102,05/19/2026,Disqualified,0,27,Low,25,26.2
+CID-REF102,"240 S SW Loop 323 Suite B, Tyler, TX 75701",Tyler,75701,referred roofing and construction,Roofing,32.3497285,-95.3427534,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-REG101,"10893 US-271, Tyler, TX 75708",Tyler,75708,regal machine,Metal Fabrication,32.4172587,-95.2272846,Not Interested,01/15/2026,22,158,07/14/2026,Disqualified,0,90,Medium,65,64
+CID-REG102,"3318 Timberlane Dr, Tyler, TX 75701",Tyler,75701,regal roofing,Roofing,32.3237855,-95.2544886,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-REG103,"19630 Interstate 20 North Access Rd, Wills Point, TX 75169",Wills Point,75169,regal trailer sales,Metal Fabrication,32.59382629,-95.8911972,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-REN104,"4097 US-271, Tyler, TX 75708",Tyler,75708,renegade custom welding,Welding,32.3839892,-95.279929,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-REP120,"12920 FM 2767, Tyler, TX 75708",Tyler,75708,republic greenwood farms landfill,Other,32.3724491,-95.1883372,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RIC147,"215 Quail St, Van, TX 75790",Van,75790,ricky gs auto repair,Automotive,32.52324295,-95.63428497,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RIC148,"4801 Troup Hwy, Tyler, TX 75703",Tyler,75703,ricoh usa,Other,32.2990821,-95.2669745,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RIL101,"720 Vz County Rd 1311, Canton, TX 75103",Canton,75103,riley dirt service,Construction,32.5384241,-95.7000912,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RIL102,"12245 County Rd 289, Tyler, TX 75707",Tyler,75707,riley harris construction,Construction,32.2998185,-95.1720456,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RIP101,"W 2nd St, Chandler, TX 75758",Chandler,75758,riprock appliance repair,Plumbing,32.2319094,-95.0502733,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RLM101,"1419 Lamar St, Tyler, TX 75701",Tyler,75701,rlm general contractors tyler,Construction,32.3232514,-95.2845941,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ROB101,"12604 State Highway 155 S, Tyler, TX 75703",Tyler,75703,robertson automotive,Automotive,32.2994348,-95.3433588,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-RON106,"924 W Houston St, Tyler, TX 75702",Tyler,75702,ronin gutter,Gutter,32.3435239,-95.3114145,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-ROO151,"2100 W Shaw St, Tyler, TX 75701",Tyler,75701,roofing contractors tyler,Roofing,32.3367083,-95.3240476,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ROO152,"4028 Stonebridge Dr, Tyler, TX 75707",Tyler,75707,roofing tyler tx,Roofing,32.3039801,-95.2355541,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ROO153,"12654 Old Noonday Rd, Tyler, TX 75703",Tyler,75703,roofmaster maintenance roofing,Roofing,32.29798,-95.3388137,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ROS107,"802 S SW Loop 323, Tyler, TX 75701",Tyler,75701,rose city air,HVAC,32.3408348,-95.339092,Interested (Warm),11/26/2025,72,-58,12/10/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-ROS108,"13652 State Hwy 31 W, Tyler, TX 75709",Tyler,75709,rose city fab,Manufacturing,32.3325517,-95.3958775,Initial Contact,12/22/2025,46,-16,01/21/2026,Interested (Warm),0.2,75,Low,25,105
+CID-ROS109,"625 W Dobbs St, Tyler, TX 75701",Tyler,75701,rosley homes,Construction,32.3394841,-95.307606,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ROS110,"1074 Merrill Lake Rd, Longview, TX 75604",Longview,75604,ross plumbinng,Plumbing,32.4919712,-94.8772101,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ROT105,"12319 County Road 1114, Tyler, TX 75709",Tyler,75709,rotorooter plumbing drain,Plumbing,32.3027282,-95.3453352,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ROY102,"3300 TX-281 W Loop, Longview, TX 75604",Longview,75604,royal plumbing and construction,Plumbing,32.4983892,-94.7803884,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ROY103,"906 E Locust St, Tyler, TX 75702",Tyler,75702,roys metal recycling,Metal Fabrication,32.3526787,-95.2913314,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-ROZ101,"14264 Hwy 64 W, Tyler, TX 75704",Tyler,75704,rozells,Other,32.320161,-95.2155351,Interested (Warm),12/22/2025,46,-32,01/05/2026,Interested (Warm),0.4,50,Low,25,90
+CID-RUB101,"13213 State Hwy 155 Ste A, Tyler, TX 75703",Tyler,75703,rubadub plumbing tyler,Plumbing,32.2891514,-95.3521922,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RUD101,"11014 FM 3226, Arp, TX 75750",Arp,75750,rudd manufacturing and custom welding,Welding,32.3185722,-95.1372965,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-RUD102,"1502 E Erwin St, Tyler, TX 75702",Tyler,75702,rudd plumbing,Plumbing,32.351506,-95.2825533,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-RUG101,"170 County Road 2768, Mineola, TX 75773",Mineola,75773,rugged cross welding,Welding,32.6262093,-95.4181974,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-RUS101,"3505 W Way St, Tyler, TX 75703",Tyler,75703,rustys weigh scales service,Other,32.2993695,-95.339285,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SJA102,"3055 E 5th St, Tyler, TX 75701",Tyler,75701,s j automotive,Automotive,32.3322643,-95.2586293,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SKE101,"933 Whipporwill Dr, Murchison, TX 75778",Murchison,75778,s k electronics,Electrical,32.3734675,-95.6901106,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-SAN128,"4529 County Rd 149, Flint, TX 75762",Flint,75762,s and s gutter,Gutter,32.1872096,-95.3262014,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-SAC101,"10730 TX-149, Longview, TX 75603",Longview,75603,sac manufacturing,Metal Fabrication,32.3836039,-94.6511092,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-SAF101,"I-20 W & Frontage Rd, Van, TX 75790",Van,75790,safeguard metal buildings van division,Manufacturing,32.49971771,-95.59081268,Not Contacted,,,30,03/08/2026,Cold,0,75,High,85,43.8
+CID-SAN102,"2515 E Commerce St, Tyler, TX 75702",Tyler,75702,santiago paint and body,Automotive,32.3556204,-95.2694287,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SAW101,"12562 State Hwy 64, Tyler, TX 75704",Tyler,75704,sawyer metal,Metal Fabrication,32.361276,-95.3754708,Interested (Warm),11/14/2025,84,-70,11/28/2025,Interested (Warm),0.4,21,Low,25,72.6
+CID-SAW102,"12562 Hwy 64 W, Tyler, TX 75704",Tyler,75704,sawyer metals,Metal Fabrication,32.320161,-95.2155351,Initial Contact,12/22/2025,46,-16,01/21/2026,Interested (Warm),0.2,90,Low,25,114
+CID-SCA102,"9395 FM 2767, Tyler, TX 75708",Tyler,75708,scandrill,Construction,32.3619622,-95.2467269,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SEA106,"3510 McCann Rd, Longview, TX 75605",Longview,75605,sears appliance repair,Plumbing,32.5392701,-94.7519256,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SEC101,"10504 County Rd 490, Tyler, TX 75706",Tyler,75706,second generation arc n spark welding,Welding,32.4108115,-95.3394002,Interested (Warm),11/17/2025,81,-67,12/01/2025,Interested (Warm),0.4,15,Low,25,69
+CID-SER125,"4827 Troup Hwy, Tyler, TX 75703",Tyler,75703,service department fairway auto center,Automotive,32.2979231,-95.2652471,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SGS101,"Private Address in Berryville, Texas",Private,75762,sgs gutters,Gutter,32.0884931,-95.4719003,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-SHA102,"5575 Old Jacksonville Hwy, Tyler, TX 75703",Tyler,75703,shaw projects modules tyler,Other,32.2877895,-95.3302383,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SHE105,"2020 Capital Drive, Tyler, TX 75701",Tyler,75701,shearer supply tyler,HVAC,32.2968366,-95.3284383,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SHE106,"20907 I 20, Canton, TX 75103",Canton,75103,shedwright,Metal Fabrication,32.59802246,-95.91225433,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-SHS101,"1607 N Longview St, Kilgore, TX 75662",Kilgore,75662,shs welding,Welding,32.4003062,-94.865515,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-SHU101,"1503 S Jackson St, Jacksonville, TX 75766",Jacksonville,75766,shugs appliance parts and,Appliance,31.9500388,-95.2628663,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SID105,"120 W 5th St, Tyler, TX 75701",Tyler,75701,sidar builders,Construction,32.3303656,-95.3019164,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SMA101,"3841 State Highway 64 W, Tyler, TX 75704",Tyler,75704,smartphone er repair phones tablets game consoles and laptop repair 64,Plumbing,32.354855,-95.3463046,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SMA102,"1801 TX-323 E Loop, Tyler, TX 75701",Tyler,75701,smartphone er repair phones tablets game consoles and laptop repairs,Plumbing,32.308552,-95.278554,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SMA103,"5111 Troup Hwy, Tyler, TX 75707",Tyler,75707,smartphone er repair troup phones tablets game consoles and laptop repair,Plumbing,32.2939136,-95.2612257,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SMI103,"17919 I 20, Canton, TX 75103",Canton,75103,smi buildings,Construction,32.58229446,-95.86665344,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SMI104,"831 W Erwin St, Tyler, TX 75702",Tyler,75702,smith offroad,Other,32.3509549,-95.3100258,Interested (Warm),01/08/2026,29,-15,01/22/2026,Interested (Warm),0.4,50,Medium,65,90
+CID-SMI105,"606 S Commerce St, Kilgore, TX 75662",Kilgore,75662,smith plumbing,Plumbing,32.3827335,-94.8802843,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SMI106,"17794 FM3079, Chandler, TX 75758",Chandler,75758,smithfab custom steel buildings,Metal Fabrication,32.258658,-95.5624666,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-SMO102,"1800 Cherokee Trace, White Oak, TX 75693",White Oak,75693,smooth fabrication,Metal Fabrication,32.509776,-94.867609,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-SOM101,"408 Lyles St, Big Sandy, TX 75755",Big Sandy,75755,sommers welding,Welding,32.5800755,-95.1160314,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-SOU103,"12547 State Highway 31 W Bldg B, Tyler, TX 75709",Tyler,75709,southern comfort heating and air,Plumbing,32.3359887,-95.3753896,Not Contacted,01/08/2026,29,-15,01/22/2026,Cold,0,50,Medium,65,90
+CID-SOU104,"485 NE Loop 564, Mineola, TX 75773",Mineola,75773,southwest steel buildings,Metal Fabrication,32.68857574,-95.47248077,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-SPE104,"2609 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,spea america,Other,32.3217658,-95.3426329,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SPE105,"9186 Hwy 64, Tyler, TX 75707",Tyler,75707,specialty auto body,Automotive,32.320161,-95.2155351,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SPE106,"1820 Shiloh Rd Ste 1403, Tyler, TX 75703",Tyler,75703,speedy dumpster solutions tyler,Other,32.2956835,-95.2806887,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SPU101,"3182 TX-124 Loop, Tyler, TX 75707",Tyler,75707,spur machine works,Metal Fabrication,32.3360584,-95.2570276,Follow-Up,,,30,03/08/2026,Interested (Warm),0.2,90,High,85,46.2
+CID-SQU101,"16421 FM 756, Tyler, TX 75703",Tyler,75703,squiers metal fabrication,Metal Fabrication,32.2413257,-95.2718047,Not Interested,01/09/2026,28,152,07/08/2026,Disqualified,0,90,Medium,65,64
+CID-SRS101,"10145 State Highway 64 E, Tyler, TX 75707",Tyler,75707,srs building products,Other,32.3319103,-95.2421669,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-STF123,"6357 Reynolds Rd, Tyler, TX 75708",Tyler,75708,st fastener,Other,32.3851265,-95.2784344,Interested (Warm),12/10/2025,58,-44,12/24/2025,Interested (Warm),0.4,50,Low,25,90
+CID-STA112,"11967 State Hwy 64, Tyler, TX 75704",Tyler,75704,stainless steel fabricators,Metal Fabrication,32.3575579,-95.364907,Initial Contact,12/22/2025,46,-16,01/21/2026,Interested (Warm),0.2,90,Low,25,114
+CID-STE130,"4555 N Jackson St, Jacksonville, TX 75766",Jacksonville,75766,stencor,Metal Fabrication,32.0140333,-95.2815794,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-STE131,"5711 S Broadway Ave, Tyler, TX 75703",Tyler,75703,stereo video center,Other,32.2866569,-95.304565,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-STE132,"401 Troup Hwy, Tyler, TX 75701",Tyler,75701,stewarts donnybrook automotive,Electrical,32.3255605,-95.2971055,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-STO126,"2320 E Erwin St STE C, Tyler, TX 75702",Tyler,75702,stonebridge heating air conditioning,HVAC,32.3519019,-95.2717403,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SUN101,"3240 Birdwell Dr, Tyler, TX 75701",Tyler,75701,sunsource,Metal Fabrication,32.313046,-95.2824844,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-SUP116,"13087 TX-110 N, Tyler, TX 75704",Tyler,75704,super duty more auto repair,Automotive,32.4568634,-95.46714783,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-SUP117,"4588 Old Troup Hwy #20, Tyler, TX 75707",Tyler,75707,super plumbers,Plumbing,32.3014376,-95.2638116,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SUP118,"9040 FM-726, Gilmer, TX 75645",Gilmer,75645,superior appliance of east texas,Appliance,32.6266682,-94.872708,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-SUP119,"8549 US Highway 69 N, Tyler, TX 75706",Tyler,75706,superior fence rail of east texas,Fence,32.4025669,-95.3437027,Disqualified,01/07/2026,30,-30,01/07/2026,Disqualified,0,70,Medium,65,102
+CID-TGW102,"3227 US Highway 271, Tyler, TX 75708",Tyler,75708,tg welding,Metal Fabrication,32.3782868,-95.2837922,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TAY101,"10801 County Rd 1268, Flint, TX 75762",Flint,75762,taylor buildings,Metal Fabrication,32.2302649,-95.3473579,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TDI101,"2600 E 5th St, Tyler, TX 75701",Tyler,75701,tdi air conditioning,HVAC,32.3327249,-95.2678614,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TEN107,"3160 TX-323 Loop, Tyler, TX 75701",Tyler,75701,tennison automotive,Automotive,32.3035015,-95.3083565,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TEX120,"3815 Timms St # 106, Tyler, TX 75701",Tyler,75701,texas electric,Electrical,32.3064312,-95.3310239,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-TEX121,"13053 County Rd 411, Tyler, TX 75706",Tyler,75706,texas electrical and construction solutions,Electrical,32.4566307,-95.4340418,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-TEX122,"10276 Robinson Dr, Tyler, TX 75703",Tyler,75703,texas filter service,HVAC,32.2993117,-95.336922,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TEX123,"180 Lake Harris Cir, White Oak, TX 75693",White Oak,75693,texas gutter pros,Gutter,32.5139389,-94.8350021,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-TEX124,"1510 FM-3053, Overton, TX 75684",Overton,75684,texas hh equipment and custom welding,Welding,32.2918915,-94.976361,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-TEX125,"19267 County Rd 478, Lindale, TX 75771",Lindale,75771,texas metal building,Metal Fabrication,32.5475889,-95.4792727,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TEX126,"10544 FM2908, Tyler, TX 75708",Tyler,75708,texas metal carports,Metal Fabrication,32.4124222,-95.1677719,Account Won,11/20/2025,78,-77,11/21/2025,Active,1,27,Low,25,76.2
+CID-TEX127,"16720 State Hwy 155 unit 304, Tyler, TX 75703",Tyler,75703,texas native metalworks,Welding,32.2383804,-95.4043464,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-TEX128,"11959 County Rd 219 #13, Tyler, TX 75707",Tyler,75707,texas plumbing pros,Plumbing,32.3181257,-95.2104423,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-TEX129,"8089 TX-31, Tyler, TX 75705",Tyler,75705,texas rain pros,Gutter,32.3496968,-95.2552757,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-TEX130,"13229 County Rd 285, Tyler, TX 75707",Tyler,75707,texas sheet metal,Metal Fabrication,32.287545,-95.1810425,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TEX131,"17460 Farm-to-Market 17, Canton, TX 75103",Canton,75103,texas specialty steel east,Metal Fabrication,32.56876755,-95.83649445,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TEX132,"11865 County Road 46, Tyler, TX 75704",Tyler,75704,texas steel carports,Metal Fabrication,32.3733355,-95.3626175,Not Interested,11/14/2025,84,96,05/13/2026,Disqualified,0,21,Low,25,22.6
+CID-TEX133,"1991 US Highway 175 W, Jacksonville, TX 75766",Jacksonville,75766,texas vessels fabrication,Manufacturing,31.9848039,-95.3056685,Not Contacted,,,30,03/08/2026,Cold,0,75,High,85,43.8
+CID-TEX134,"Interstate 20 North Access Rd, Canton, TX 75103",Canton,75103,texwin canton,Construction,32.5995636,-95.91153717,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TEX135,"Private Address in Edgewood, Texas",Private,75103,texwin metal roofing,Metal Fabrication,32.69192505,-95.8836441,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TEX136,"1501 Goodnight Blvd, Wills Point, TX 75169",Wills Point,75169,texwin wills point,Construction,32.70165253,-95.99171448,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-THA101,"3901 Old Jacksonville Hwy, Tyler, TX 75701",Tyler,75701,that window guy,Other,32.3077205,-95.3234744,Initial Contact,01/05/2026,32,-2,02/04/2026,Interested (Warm),0.2,50,Low,25,90
+CID-THE109,"2850 TX-323 S Loop, Tyler, TX 75701",Tyler,75701,the catchall,Other,32.3177697,-95.3414825,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-THE110,"624 Leach St, Kilgore, TX 75662",Kilgore,75662,the gutter guy,Metal Fabrication,32.3614089,-94.8743118,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-THE111,"5573 County Rd 219, Tyler, TX 75707",Tyler,75707,the mink plumbing,Plumbing,32.3270709,-95.2433295,Interested (Warm),01/21/2026,16,-2,02/04/2026,Interested (Warm),0.4,50,Medium,65,90
+CID-THE112,"1417 E Erwin St, Tyler, TX 75702",Tyler,75702,the mouse head lube center auto repair,Plumbing,32.3508147,-95.2833408,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-THE113,"15388 State Highway 31 W, Tyler, TX 75709",Tyler,75709,the on site mobile auto repair,Automotive,32.32786179,-95.42573547,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-THE114,"12648 County Road 499, Lindale, TX 75771",Lindale,75771,the phunny farm metal buildings and more,Plumbing,32.50195694,-95.37471008,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-THE115,"3565 N Northeast Loop 323, Tyler, TX 75708",Tyler,75708,the reynolds tyler,Other,32.3843546,-95.2671296,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-THE116,"1209 S Main St, Lindale, TX 75771",Lindale,75771,the steel building guy,Metal Fabrication,32.5042331,-95.40789,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-THE117,"1700 SE Loop 323, Tyler, TX 75701",Tyler,75701,the storm guys auto hail repair tyler tx,Automotive,32.3084959,-95.280707,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-THE118,"5117 Steel Rd, Tyler, TX 75703",Tyler,75703,thedford construction,Construction,32.2926233,-95.328387,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-THO102,"I 20 Frontage Rd, Lindale, TX 75706",Lindale,75706,thomsons plumbing,Plumbing,32.6977594,-96.4646036,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-THR101,"1095 E Commerce Ave, Gladewater, TX 75647",Gladewater,75647,three d plastics,Metal Fabrication,32.5275779,-94.9324007,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TIP102,"2297 VZ CR 1519, Grand Saline, TX 75140",Grand Saline,75140,tip top metal shop,Metal Fabrication,32.61829376,-95.65673828,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TIS102,"3013 Earl Campbell Pkwy, Tyler, TX 75701",Tyler,75701,tisd career training center,Other,32.3289202,-95.3347607,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-TIT101,"14108 County Road 227, Arp, TX 75750",Arp,75750,titan diesel fabrication,Manufacturing,32.2713982,-95.0226587,Not Contacted,,,30,03/08/2026,Cold,0,75,High,85,43.8
+CID-TIT102,"Private Address in Whitehouse, Texas",Private,75710,titan fence,Fence,32.2268212,-95.2255041,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TNT101,"20057 TX-31 E, Brownsboro, TX 75756",Brownsboro,75756,tnt custom welding,Welding,32.2981932,-95.5194437,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-TNT102,"11682 State Highway 64 E, Tyler, TX 75707",Tyler,75707,tnt muffler,Automotive,32.320161,-95.2155351,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TOO103,"3621 FM 2767, Tyler, TX 75708",Tyler,75708,toole tire,Automotive,32.3537199,-95.2616885,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TOP108,"603 Whiteside Rd, Tyler, TX 75702",Tyler,75702,topline,Welding,32.3435296,-95.3441676,Interested (Warm),01/08/2026,29,-15,01/22/2026,Interested (Warm),0.4,50,Medium,65,102
+CID-TOR119,"510 E Valentine St, Tyler, TX 75702",Tyler,75702,torreon auto electric repair,Electrical,32.3593673,-95.2957309,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-TRA117,"536 S Glenwood Blvd, Tyler, TX 75702",Tyler,75702,trac ornamental iron,Metal Fabrication,32.3440245,-95.3121088,Interested (Warm),11/07/2025,91,-77,11/21/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-TRA118,"22590 I 20, Wills Point, TX 75169",Wills Point,75169,trailer professionals,Metal Fabrication,32.60354233,-95.93842316,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TRE106,"13414 FM 206, Tyler, TX 75709",Tyler,75709,trendsetter recycling,Other,32.3270221,-95.3935408,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-TRI135,"11836 County Rd 331, Tyler, TX 75708",Tyler,75708,tristar machine,Metal Fabrication,32.4359118,-95.2695157,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TRI136,"22300 I 20, Wills Point, TX 75169",Wills Point,75169,triple m trailers,Metal Fabrication,32.60243225,-95.93409729,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TRU133,"604 Quail Ln, Whitehouse, TX 75791",Whitehouse,75791,true line fencing construction,Fence,32.2177323,-95.2481066,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TSI101,"322 S Longview St, Kilgore, TX 75662",Kilgore,75662,tsi fabrication,Metal Fabrication,32.3859869,-94.8789557,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-TUR105,"20189 County Rd 4106, Lindale, TX 75771",Lindale,75771,turner steel buildings,Metal Fabrication,32.5604932,-95.3554625,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TUT101,"3338 Martha St, Tyler, TX 75702",Tyler,75702,tutor fuller plumbing,Plumbing,32.3745939,-95.341319,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-TYL119,"2008 Broussard St, Tyler, TX 75701",Tyler,75701,tyler auto,Automotive,32.3001324,-95.3264768,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TYL120,"11959 County Road 219, Tyler, TX 75707",Tyler,75707,tyler auto repair,Automotive,32.3181167,-95.2103899,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TYL121,"3535 Shiloh Rd, Tyler, TX 75707",Tyler,75707,tyler building systems lp,Metal Fabrication,32.2949157,-95.2524477,Interested (Warm),11/12/2025,86,-72,11/26/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-TYL122,"1505 E Erwin St, Tyler, TX 75702",Tyler,75702,tyler car care,Automotive,32.3509349,-95.2825832,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TYL123,"829 Barclay Dr, Tyler, TX 75703",Tyler,75703,tyler deck and fence,Fence,32.2997918,-95.311385,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-TYL124,"2626 S Southwest Loop 323, Tyler, TX 75701",Tyler,75701,tyler ford,Automotive,32.3200218,-95.3404903,Initial Contact,01/06/2026,31,-1,02/05/2026,Interested (Warm),0.2,70,Low,25,102
+CID-TYL125,"1429 S Beckham Ave, Tyler, TX 75701",Tyler,75701,tyler heating and air conditioning,HVAC,32.3321478,-95.2917844,Initial Contact,12/26/2025,42,-12,01/25/2026,Interested (Warm),0.2,70,Low,25,102
+CID-TYL126,"5043 Shirley Dr, Tyler, TX 75708",Tyler,75708,tyler industrial supply,Other,32.3829279,-95.2647896,Interested (Warm),11/26/2025,72,-58,12/10/2025,Interested (Warm),0.4,15,Low,25,69
+CID-TYL127,"910 W Erwin St, Tyler, TX 75702",Tyler,75702,tyler mobile mechanic,Automotive,32.3501584,-95.3109051,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TYL128,"11910 County Road 492, Tyler, TX 75706",Tyler,75706,tyler pipe coupling,Plumbing,32.43596268,-95.36261749,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-TYL129,"985 E Northeast Loop 323, Tyler, TX 75708",Tyler,75708,tyler rv,Other,32.3876777,-95.2801634,Account Won,12/10/2025,58,-57,12/11/2025,Active,1,50,Low,25,90
+CID-TYL130,"108 S Palace Ave, Tyler, TX 75702",Tyler,75702,tyler radiator shop,Automotive,32.350136,-95.3100462,Interested (Warm),01/08/2026,29,-15,01/22/2026,Interested (Warm),0.4,50,Medium,65,90
+CID-TYL131,"414 N Bois d'Arc Ave, Tyler, TX 75702",Tyler,75702,tyler recycling collection center,Other,32.3541141,-95.303124,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-TYL132,"7922 S Broadway Ave, Tyler, TX 75703",Tyler,75703,tyler roofing,Roofing,32.2601666,-95.3060031,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-TYL133,"1111 E E Olive St, Tyler, TX 75702",Tyler,75702,tyler steel,Metal Fabrication,32.3629384,-95.288542,Interested (Warm),01/16/2026,21,-7,01/30/2026,Interested (Warm),0.4,90,Medium,65,114
+CID-TYL134,"11721 US Hwy 69 N, Tyler, TX 75706",Tyler,75706,tyler tool fastener,Metal Fabrication,32.4301269,-95.3605168,Interested (Warm),11/10/2025,88,-74,11/24/2025,Interested (Warm),0.4,27,Low,25,76.2
+CID-TYL135,"2503 E Erwin St, Tyler, TX 75702",Tyler,75702,tyler weathermakers,HVAC,32.3514175,-95.2704547,Initial Contact,01/02/2026,35,-5,02/01/2026,Interested (Warm),0.2,70,Low,25,102
+CID-TYR101,"18687 CR 4116, Lindale, Texas 75771",#N/A,75771,tyrone townsend,Construction,32.3635362,-95.4129799,Account Won,01/12/2026,25,-24,01/13/2026,Active,1,70,Medium,65,102
+CID-UNI102,"1937 Brandon Dr, Tyler, TX 75703",Tyler,75703,universal air conditioning experts,HVAC,32.2661558,-95.2780586,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-UPR103,"10263 US Hwy 69 N, Tyler, TX 75706",Tyler,75706,up risen steel building,Metal Fabrication,32.4141287,-95.353138,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-UPT101,"227 Tournament Rd, Tyler, TX 75702",Tyler,75702,uptown refrigerationappliance rpr,Appliance,32.3487721,-95.3387855,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-USA102,"5636 Shirley Dr, Tyler, TX 75708",Tyler,75708,usa fabrication of e texas,Metal Fabrication,32.3859914,-95.2643932,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-VAL103,"13206 FM 3271, Tyler, TX 75704",Tyler,75704,valdez building systems,Construction,32.4148556,-95.3856811,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-VEL102,"4202 Republic Dr, Tyler, TX 75701",Tyler,75701,velocity mechanical,Construction,32.3050025,-95.3277647,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-VER110,"101 Glenda St, Whitehouse, TX 75791",Whitehouse,75791,veritas gas processing,Other,32.2300727,-95.224246,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-VIC126,"1910 SE Loop 323, Tyler, TX 75701",Tyler,75701,victory appliance service,Appliance,32.3110004,-95.2782599,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-VME101,"3300 S Broadway Ave # 205, Tyler, TX 75701",Tyler,75701,vme,Metal Fabrication,32.3128009,-95.3000581,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-VUP101,"482 S Doctor M Roper Pkwy, Bullard, TX 75757",Bullard,75757,vu plastics,Other,32.1311919,-95.3079095,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-WWC102,"9388 County Road 3407, Chandler, TX 75758",Chandler,75758,w w custom welding,Welding,32.272337,-95.53586,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-W5P101,"353 W Greenville St, Alba, TX 75410",Alba,75410,w5 portable buildings,Construction,32.79350281,-95.64053345,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-WAG101,"Tyler, TX 75703",#N/A,75703,wagner welding,Welding,32.2556612,-95.3207069,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-WAL101,"534 FM3053, Kilgore, TX 75662",Kilgore,75662,walden machine,Metal Fabrication,32.425538,-94.945059,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-WAL102,"15463 State Hwy 64, Tyler, TX 75704",Tyler,75704,walker heating cooling,HVAC,32.3642441,-95.4252922,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-WAL103,"5050 Troup Hwy, Tyler, TX 75707",Tyler,75707,walmart auto care centers,Automotive,32.2980672,-95.2600891,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-WAT101,"443B DC Dr, Tyler, TX 75701",Tyler,75701,waterman electric,Electrical,32.3005528,-95.3247707,Disqualified,11/10/2025,88,-88,11/10/2025,Disqualified,0,15,Low,25,72
+CID-WAT102,"13097 State Hwy 31 W, Tyler, TX 75709",Tyler,75709,watson plumbing,Plumbing,32.3311187,-95.3849873,Interested (Warm),11/11/2025,87,-73,11/25/2025,Interested (Warm),0.4,15,Low,25,69
+CID-WCB101,"105 Blackberry Blvd, Lindale, TX 75771",Lindale,75771,wc brakes and service parts,Automotive,32.2678802,-95.3756122,Initial Contact,12/29/2025,39,-9,01/28/2026,Interested (Warm),0.2,50,Low,25,90
+CID-WCS102,"329 S Bonner Ave, Tyler, TX 75702",Tyler,75702,wc supply store,Automotive,32.30151,-95.3406074,Initial Contact,12/29/2025,39,-9,01/28/2026,Interested (Warm),0.2,70,Low,25,102
+CID-WEA102,"9464 FM 2767, Tyler, TX 75708",Tyler,75708,weatherford,Construction,32.3611709,-95.2465645,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-WEL145,"17190 I-20, Winona, TX 75792",Winona,75792,welch excavation utility,Construction,32.4369502,-95.1182815,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-WEL146,"3220 FM 2767, Tyler, TX 75708",Tyler,75708,weld worx,Metal Fabrication,32.3520196,-95.2645802,Interested (Warm),01/30/2026,7,7,02/13/2026,Interested (Warm),0.4,90,High,85,100
+CID-WHO102,"3401 W Shaw St, Tyler, TX 75701",Tyler,75701,wholesale electric supply,Electrical,32.3366833,-95.3378853,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42
+CID-WIL102,"2700 Meadowlark Ln, Tyler, TX 75701",Tyler,75701,wilders seamless gutters,Gutter,32.323733,-95.2655872,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-WIL103,"13501 County Road 3300, Brownsboro, TX 75756",Brownsboro,75756,wilson steel,Metal Fabrication,32.33448029,-95.58804321,Not Contacted,,,30,03/08/2026,Cold,0,90,High,85,46.2
+CID-WIN106,"2010 S Main St, Lindale, TX 75771",Lindale,75771,winslows custom buildings,Construction,32.48942566,-95.39876556,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-WIN107,"State Highway 110, Whitehouse, TX 75791",Whitehouse,75791,winston water cooler,Other,32.2370944,-95.2284676,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-WRE101,"13250 FM3039, Crandall, TX 75114",Crandall,75114,wreckhouse demolition,Construction,32.6198998,-96.4615386,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-WRI102,"10633 FM 2710, Lindale, TX 75771",Lindale,75771,wrights gutter,Gutter,32.5535023,-95.3385218,Not Contacted,,,30,03/08/2026,Cold,0,60,High,85,40.8
+CID-XPR104,"216 E Front St, Tyler, TX 75702",Tyler,75702,xpress auto diesel,Automotive,32.3469249,-95.2987547,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-YEL101,"292 County Road 2900, Mineola, TX 75773",Mineola,75773,yellow jacket welding metal works,Welding,32.6817544,-95.5602052,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-YOR101,"4368 US-271, Tyler, TX 75708",Tyler,75708,york welding and fab,Welding,32.3850486,-95.2760052,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,42.6
+CID-YOS101,"13739 State Hwy 155, Tyler, TX 75703",Tyler,75703,yosemite roofing tyler tx,Roofing,32.2814316,-95.3588719,Disqualified,11/11/2025,87,-87,11/11/2025,Disqualified,0,18,Low,25,70.8
+CID-YOU101,"1818 Capital Dr, Tyler, TX 75701",Tyler,75701,your home by harrys,Other,32.2964769,-95.3263353,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-ZAV101,"1507 E Front St, Tyler, TX 75702",Tyler,75702,zavalas auto detail,Automotive,32.3460938,-95.2827501,Not Contacted,,,30,03/08/2026,Cold,0,70,High,85,42.6
+CID-ZMA101,"5687 FM 858, Ben Wheeler, TX 75754",Ben Wheeler,75754,zman carports,Business to business,32.44451523,-95.71128082,Not Contacted,,,30,03/08/2026,Cold,0,50,High,85,39
+CID-QUA106,"1914 E Southeast Loop 323, Tyler",Tyler,75701,quality air conditioning,HVAC,,,Not Contacted,11/11/2025,90,90,05/10/2026,Disqualified,0,21,High,25,22.6
+CID-NIK101,"3108 W Gentry Pkwy, Tyler",Tyler,75702,nikobi auto sales,Automotive,,,Not Contacted,11/07/2025,94,-94,11/07/2025,Disqualified,0,21,Overdue,150,72.6
+CID-AME116,"635 E Northeast Loop 323, Tyler",Tyler,75708,ameco,Manufacturing,,,Not Contacted,11/17/2025,84,-70,12/01/2025,Interested (Warm),0.4,23,Overdue,150,73.8
+CID-CHA112,"1582 E Grande Blvd, Tyler",Tyler,75703,champion fence,Fence,,,Not Contacted,11/13/2025,88,92,05/12/2026,Disqualified,0,21,High,25,22.6
+CID-RIL104,"10860 US-271, Tyler",Tyler,75708,riley powers,Electrical,,,Not Contacted,11/17/2025,84,-54,12/17/2025,Interested (Warm),0.2,20,Overdue,150,72
+CID-RUB102,"16709 US-69, Tyler",Tyler,75703,rubadub plumbing,Plumbing,,,Not Contacted,11/17/2025,84,-70,12/01/2025,Interested (Warm),0.2,15,Overdue,150,69
+CID-NAP103,"2210 S Broadway Ave, Tyler",Tyler,75701,napa auto parts,Automotive,,,Not Contacted,11/07/2025,94,-94,11/07/2025,Disqualified,0,21,Overdue,150,72.6
+CID-JAM103,"114 E 4th St, Tyler",Tyler,75701,james awning and canvas,Metal Fabrication,,,Not Contacted,11/12/2025,89,-75,11/26/2025,Interested (Warm),0.4,27,Overdue,150,76.2
+CID-MIK102,"14583 CR 192, Tyler",Tyler,75703,mikala construction,Construction,,,Not Contacted,11/13/2025,88,-88,11/13/2025,Disqualified,0,21,Overdue,150,72.6
+CID-WEI102,"14814 TX-110, Tyler",Tyler,75704,wei cooling heating,HVAC,,,Not Contacted,11/11/2025,90,90,05/10/2026,Disqualified,0,21,High,25,22.6
+CID-ALL110,"4425 DC Dr #A, Tyler",Tyler,75701,allstar fabrication,Metal Fabrication,,,Not Contacted,11/10/2025,91,-77,11/24/2025,Interested (Warm),0.4,27,Overdue,150,76.2
+CID-WEL149,"11520 TX-64, Tyler",Tyler,75704,weld works,Metal Fabrication,,,Not Contacted,11/13/2025,88,-74,11/27/2025,Interested (Warm),0.4,21,Overdue,150,72.6
+CID-NOB101,"3326 E 5th St, Tyler",Tyler,75701,nobles transmission,Automotive,,,Not Contacted,11/11/2025,90,-89,11/12/2025,Active,1,21,Overdue,150,72.6
+CID-ROT106,"1920 Troup Hwy, Tyler",Tyler,75701,rotorooters,Plumbing,,,Not Contacted,11/12/2025,89,91,05/11/2026,Disqualified,0,15,High,25,19
+CID-HOL107,"4301 Old Troup Hwy, Tyler",Tyler,75707,holiday sheet metal,Metal Fabrication,,,Not Contacted,11/12/2025,89,-75,11/26/2025,Interested (Warm),0.4,27,Overdue,150,76.2
+CID-EAS119,"14697 Rock Rd, Tyler",Tyler,75707,east texas roof works sheet metal,Roofing,,,Not Contacted,11/13/2025,88,-74,11/27/2025,Interested (Warm),0.4,18,Overdue,150,70.8
+CID-HIG101,"4420 DC Dr, Tyler",Tyler,75701,highway towing,Automotive,,,Not Contacted,11/10/2025,91,-91,11/10/2025,Disqualified,0,21,Overdue,150,72.6
+CID-EAS120,"1910 Capital Dr, Tyler",Tyler,75701,east texas door,Manufacturing,,,Not Contacted,11/10/2025,91,-91,11/10/2025,Disqualified,0,23,Overdue,150,73.8
+CID-REX102,"3219 Earl Campbell Pkwy, Tyler",Tyler,75701,rexel electric supply,Electrical,,,Not Contacted,11/10/2025,91,-91,11/10/2025,Disqualified,0,20,Overdue,150,72
+CID-TYL137,"4301 Old Troup Hwy, Tyler",Tyler,75707,tyler sheet metal,Metal Fabrication,,,Not Contacted,11/17/2025,84,-83,11/18/2025,Active,1,27,High,150,76.2
+CID-TDI102,"2601 E Erwin St, Tyler",Tyler,75708,tdi air condition,HVAC,,,Not Contacted,11/11/2025,90,-76,11/25/2025,Interested (Warm),0.4,21,Overdue,150,72.6
+CID-TYL138,"11116 TX-64, Tyler",Tyler,75704,tyler tool fasteners,HVAC,,,Not Contacted,11/17/2025,84,-70,12/01/2025,Interested (Warm),0.4,21,Overdue,150,72.6
+CID-COD101,"3047 E 5th St, Tyler",Tyler,75701,cody dodd air conditioning,HVAC,,,Not Contacted,11/13/2025,88,92,05/12/2026,Disqualified,0,21,High,25,22.6
+CID-CAV108,"2025 W SW Loop 323, Tyler",Tyler,75701,cavendars,Plumbing,,,Not Contacted,11/10/2025,91,-91,11/10/2025,Disqualified,0,15,Overdue,150,69
+CID-BAR104,"1814 E Erwin St, Tyler",Tyler,75702,barbin fence,Fence,,,Not Contacted,11/12/2025,89,-89,11/12/2025,Disqualified,0,21,Overdue,150,72.6
+CID-GLE104,"2514 E 5th St, Tyler",Tyler,75701,glenwood blinds and awnings,Metal Fabrication,,,Not Contacted,11/13/2025,88,92,05/12/2026,Disqualified,0,27,High,25,26.2
+CID-DGI101,"3025 Old Henderson Hwy, Tyler",Tyler,75707,dgi precision metal,Metal Fabrication,,,Not Contacted,11/12/2025,89,-75,11/26/2025,Interested (Warm),0.4,27,Overdue,150,76.2
+CID-HOL108,"1414 E Erwin St, Tyler",Tyler,75702,hollywood doors,Manufacturing,,,Not Contacted,11/13/2025,88,92,05/12/2026,Disqualified,0,23,High,25,23.8
+CID-AWT104,"3041 CR 2347, Tyler",Tyler,75708,aw trailer sales service,Trailer Dealer,,,Not Contacted,,,14,02/23/2026,Prospect,0,21,High,75,42.6
+CID-LUM163,"10397 HWY 69 N, Tyler",Tyler,75706,lumley roofing,Roofing,,,Not Contacted,11/19/2025,82,98,05/18/2026,Disqualified,0,18,High,25,20.8
+CID-DGI102,"12658 TX-155, Tyler",Tyler,75708,dgi,Metal Fabrication,,,Not Contacted,11/21/2025,80,-66,12/05/2025,Interested (Warm),0.2,27,Overdue,150,76.2
+CID-TYL139,"15559 US-69, Tyler",Tyler,75703,tyler building systems,Metal Fabrication,,,Not Contacted,02/03/2026,6,8,02/17/2026,Interested (Warm),0.2,90,High,75,84
+CID-AUT166,"14090 TX-110, Whitehouse",Whitehouse,75791,auto express,Automotive,,,Not Contacted,11/24/2025,77,103,05/23/2026,Disqualified,0,21,High,25,22.6
+CID-AUT167,"10087 CR 1125, Tyler",Tyler,75709,auto parts warehouse,Automotive,,,Not Contacted,11/25/2025,76,-62,12/09/2025,Interested (Warm),0.2,21,Overdue,150,72.6
+CID-DAI101,"8146 HWY 69 N, Tyler",Tyler,75706,daiken comfort,HVAC,,,Not Contacted,11/27/2025,74,106,05/26/2026,Disqualified,0,21,High,25,22.6
+CID-TIT103,"Private Address in , Texas",Private,9034070002,titan junk removal,Junk Removal,32.6642,-94.8481,Not Contacted,11/28/2025,,,,Prospect,,,,,
+CID-EAS121,"1403 McCann Rd, Longview, TX 75601",Longview,9036461050,east texas junk removal,Junk Removal,32.51222,-94.7499,Not Contacted,11/29/2025,,,,Prospect,,,,,
+CID-TWO102,"3122 Nealy Wy, Longview, TX 75605",Longview,9034810850,two men and a junk truck,Junk Removal,32.53868,-94.7195,Not Contacted,11/30/2025,,,,Prospect,,,,,
+CID-HOL109,"Private Address in Longview, Texas",Private,4308884141,holy junk junk removal east texas,Junk Removal,32.51057,-94.7539,Not Contacted,12/01/2025,,,,Prospect,,,,,
+CID-ATJ101,"Private Address in , Texas",Private,9039326300,atj enterprises,Junk Removal,32.49318,-94.8481,Not Contacted,12/02/2025,,,,Prospect,,,,,
+CID-TWJ101,"Private Address in , Texas",Private,9039417521,tw junk removal specialist,Junk Removal,32.44426,-94.7432,Not Contacted,12/03/2025,,,,Prospect,,,,,
+CID-BRO108,"Private Address in , Texas",Private,3373533784,broxson junk removal demolition,Junk Removal,32.32347,-95.0411,Not Contacted,12/04/2025,,,,Prospect,,,,,
+CID-JUN110,"1802 E Gentry Pkwy, Tyler, TX 75702",Tyler,9035906922,junk squad junk removal dumpster rental,Junk Removal,32.36881,-95.2893,Not Contacted,12/05/2025,,,,Prospect,,,,,
+CID-JIF101,"Private Address in , Texas",Private,9032391067,jiffy junk haul recycle,Junk Removal,32.35549,-95.0411,Not Contacted,12/06/2025,,,,Prospect,,,,,
+CID-BIZ102,"Private Address in , Texas",Private,9035909763,bizzy bee junk removal,Junk Removal,32.41122,-95.2899,Not Contacted,12/09/2025,,,,Prospect,,,,,
+CID-DEM106,"2827 S FM 2869, Hawkins, TX 75765",Hawkins,2144067389,demo guys,Junk Removal,32.68312,-95.214,Not Contacted,12/10/2025,,,,Prospect,,,,,
+CID-PRE113,"Private Address in , Texas",Private,9032661898,precision junk removal hauling,Junk Removal,32.21235,-95.3343,Not Contacted,12/11/2025,,,,Prospect,,,,,
+CID-GSJ109,"Private Address in , Texas",Private,9035269840,gs junk removal,Junk Removal,32.32646,-95.1454,Not Contacted,12/13/2025,,,,Prospect,,,,,
+CID-DAV104,"Private Address in , Texas",Private,9037525483,davis sons haul off service,Junk Removal,32.21955,-95.2586,Not Contacted,12/14/2025,,,,Prospect,,,,,
+CID-ILL119,"Private Address in Tyler, Texas",Private,9033126224,ill haul it off or on,Junk Removal,32.34951,-95.3059,Not Contacted,12/15/2025,,,,Prospect,,,,,
+CID-SWA102,"Private Address in , Texas",Private,(903) 539-5454,swat junk removal,Junk Removal,32.11433,-95.5522,Not Contacted,12/16/2025,,,,Prospect,,,,,
+CID-HEA123,"219 S Glenwood Blvd, Tyler, TX 75702",Tyler,(903) 944-7986,heavy metal welding custom fabrication,Welding,32.34859467,-95.31789398,Not Contacted,12/17/2025,,,,Prospect,,,,,
+CID-KHF101,"17968 FM 2493, Flint, TX 75762",Flint,(903) 987-2816,kh fabrication restoration,Automotive,32.22090149,-95.35128021,Not Contacted,12/18/2025,,,,Prospect,,,,,
+CID-DRA102,"2515 FM-315, Chandler, TX 75758",Chandler,(661) 345-1585,dragonslayer industries,Metal Fabrication,32.21475601,-95.50760651,Not Contacted,12/19/2025,,,,Prospect,,,,,
+CID-JMM102,"660 VZ County Road 4813, Ben Wheeler, TX 75754",Ben Wheeler,(903) 676-9084,jm machine builders,Metal Fabrication,32.38627243,-95.56118774,Not Contacted,12/21/2025,,,,Prospect,,,,,
+CID-KEN102,"21204 State Highway 155 S, Flint, TX 75762",Flint,(903) 825-2626,kennys machine shop auto,Metal Fabrication,32.1727829,-95.45283508,Not Contacted,12/22/2025,,,,Prospect,,,,,
+CID-PDJ101,"Private Address in Tyler, Texas",Private,(214) 875-3369,pdjr,Metal Fabrication,32.34948349,-95.30583954,Not Contacted,12/23/2025,,,,Prospect,,,,,
+CID-RUB103,"Private Address in Tyler, Texas",Private,(903) 445-1844,ruben arroyo welding fabrication,Welding,32.34950256,-95.30587769,Not Contacted,12/24/2025,,,,Prospect,,,,,
+CID-IRO105,"Private Address in , Texas",Private,(903) 945-6911,iron king constructionbarndominiums buildings,Metal Fabrication,32.1930542,-95.29521942,Not Contacted,01/02/2026,,,,Prospect,,,,,
+CID-SBI101,"Private Address in , Texas",Private,75701,sbi international,Metal Fabrication,,,Follow-Up,02/09/2026,,,02/22/2026,Interested (Warm),0,13,,,
+CID-NAT104,"Private Address in , Texas",Private,75701,national metal buildings,Metal Fabrication,,,Follow-Up,02/09/2026,,,02/22/2026,Interested (Warm),0,13,,,
+CID-GET101,"Private Address in , Texas",Private,75701,get it gone,Junk Removal,,,Not Interested,02/09/2026,,,08/07/2026,Disqualified,0,179,,,
+CID-JIF102,"Private Address in , Texas",Private,75701,jiffy junk haul and recycle,Junk Removal,,,No Answer,02/09/2026,,,02/11/2026,Cold,0,2,,,
+CID-EAS124,"Private Address in , Texas",Private,75701,east texas junk removal service,Junk Removal,,,Not Interested,02/09/2026,,,08/07/2026,Disqualified,0,179,,,
+CID-JUN121,"Private Address in , Texas",Private,75701,junk squad junk removal,Junk Removal,,,Not Interested,02/09/2026,,,08/07/2026,Disqualified,0,179,,,
+CID-DAV105,"Private Address in , Texas",Private,75701,davis and sons haul off service,Junk Removal,,,Not Interested,02/09/2026,,,08/07/2026,Disqualified,0,179,,,
+CID-ZMA102,"Private Address in , Texas",Private,75701,zman,Metal Fabrication,,,Interested (Warm),02/06/2026,,,02/20/2026,Interested (Warm),0,14,,,
+CID-AME120,"Private Address in , Texas",Private,75701,ameritech building,,,,Disqualified,02/06/2026,,,08/05/2026,Disqualified,0,180,,,
+CID-ICE134,"Private Address in , Texas",Private,75701,ice blinds,,,,Disqualified,02/06/2026,,,08/05/2026,Disqualified,0,180,,,
+CID-SHE112,"Private Address in , Texas",Private,75701,shed it,,,,Disqualified,02/06/2026,,,08/05/2026,Disqualified,0,180,,,
+CID-SAP102,"Private Address in , Texas",Private,75701,sapp brothers,,,,Interested (Hot),02/06/2026,,,02/13/2026,Interested (Hot),0,7,,,
+CID-BBC101,"Private Address in , Texas",Private,75701,bb custom fabrication,Metal Fabrication,,,No Answer,02/06/2026,,,02/09/2026,Cold,0,3,,,
+CID-MIK103,"Private Address in , Texas",Private,75701,mike and sons septic,Plumbing,,,Follow-Up,02/06/2026,,,05/07/2026,Interested (Warm),0,90,,,
+CID-WIN109,"Private Address in , Texas",Private,75701,winslows canton custom buildings,Metal Fabrication,,,Follow-Up,02/06/2026,,,02/20/2026,Interested (Warm),0,14,,,
+CID-BIG104,"Private Address in , Texas",Private,75701,big tex metal buildings,Metal Fabrication,,,Follow-Up,02/05/2026,,,02/19/2026,Interested (Warm),4,10,,,
+CID-360102,"Private Address in , Texas",Private,75701,360 metals,Metal Fabrication,,,Disqualified,02/05/2026,,,02/05/2026,Disqualified,4,-4,,,
+CID-C2101,"Private Address in , Texas",Private,75701,c2,,,,Interested (Warm),02/05/2026,,,02/19/2026,Interested (Warm),4,10,,,
+CID-KAW101,"Private Address in , Texas",Private,75701,kawasaki,Retail,,,Initial Contact,02/05/2026,,,03/07/2026,Interested (Warm),4,26,,,
+CID-CRI101,"Private Address in , Texas",Private,75701,cri supply,,,,Interested (Warm),02/05/2026,,,02/19/2026,Interested (Warm),4,10,,,
+CID-TYL140,"Private Address in , Texas",Private,75701,tyler hvac systems,HVAC,,,Account Won,02/05/2026,,,02/06/2026,Active,4,-3,,,
+CID-CAL117,"Private Address in , Texas",Private,75701,calibur collision,Automotive,,,Not Interested,02/04/2026,,,08/03/2026,Disqualified,5,175,,,
+CID-COX101,"Private Address in , Texas",Private,75701,cox construction,Construction,,,Account Won,02/04/2026,,,02/05/2026,Active,5,-4,,,
+CID-DEA103,"Private Address in , Texas",Private,75701,dealers collision,Automotive,,,Follow-Up,02/04/2026,,,02/18/2026,Interested (Warm),5,9,,,
+CID-STR145,"Private Address in , Texas",Private,75701,striping technology,Other,,,Follow-Up,02/02/2026,,,02/16/2026,Interested (Warm),7,7,,,
+CID-DSS101,"Private Address in , Texas",Private,75701,dss cat,Manufacturing,,,Follow-Up,02/02/2026,,,02/16/2026,Interested (Warm),7,7,,,
+CID-STA115,"Private Address in , Texas",Private,75701,stainless steel fabrication,Metal Fabrication,,,Follow-Up,02/02/2026,,,02/16/2026,Interested (Warm),7,7,,,
+CID-ROQ101,"Private Address in , Texas",Private,75701,roquemores,Retail,,,Disqualified,01/30/2026,,,01/30/2026,Disqualified,10,-10,,,
+CID-COD102,"Private Address in , Texas",Private,75701,cody dodd heating and air,HVAC,,,Not Interested,01/30/2026,,,07/29/2026,Disqualified,10,170,,,
+CID-GLE105,"Private Address in , Texas",Private,75701,glenwood blind and awning,Metal Fabrication,,,Follow-Up,01/30/2026,,,02/13/2026,Interested (Warm),10,4,,,
+CID-PRE114,"Private Address in , Texas",Private,75701,premier auto,Automotive,,,Interested (Warm),01/30/2026,,,02/13/2026,Interested (Warm),10,4,,,
+CID-RUS102,"Private Address in , Texas",Private,75701,rusk county op,Electrical,,,Follow-Up,01/29/2026,,,02/12/2026,Interested (Warm),11,3,,,
+CID-JOE104,"Private Address in , Texas",Private,75701,joe hudson collision center,Automotive,,,Follow-Up,01/29/2026,,,02/12/2026,Interested (Warm),11,3,,,
+CID-SHE113,"Private Address in , Texas",Private,75701,sherril construction,Construction,,,Disqualified,01/29/2026,,,01/29/2026,Disqualified,11,-11,,,
+CID-LON109,"Private Address in , Texas",Private,75701,lonestar electric supply,Electrical,,,Disqualified,01/29/2026,,,01/29/2026,Disqualified,11,-11,,,
+CID-HUG102,"Private Address in , Texas",Private,75701,hughes automotive,Automotive,,,Interested (Warm),01/28/2026,,,02/11/2026,Interested (Warm),12,2,,,
+CID-TDI103,"Private Address in , Texas",Private,75701,tdi heating and air,HVAC,,,Follow-Up,01/28/2026,,,02/11/2026,Interested (Warm),12,2,,,
+CID-RYA102,"Private Address in , Texas",Private,75701,ryan heimer,Electrical,,,Initial Contact,01/28/2026,,,02/27/2026,Interested (Warm),12,18,,,
+CID-SOU106,"Private Address in , Texas",Private,75701,southern comfort ac,HVAC,,,Not Interested,01/23/2026,,,07/22/2026,Disqualified,17,163,,,
+CID-TOP109,"Private Address in , Texas",Private,75701,topline trailers,Trailer Dealer,,,Follow-Up,01/23/2026,,,02/06/2026,Interested (Warm),17,-3,,,
+CID-AUT172,"Private Address in , Texas",Private,75701,auto electrical service,Automotive,,,No Answer,01/23/2026,,,01/26/2026,Cold,17,-14,,,
+CID-SAW103,"Private Address in , Texas",Private,75701,sawyers metals,Metal Fabrication,,,Follow-Up,01/23/2026,,,02/06/2026,Interested (Warm),17,-3,,,
+CID-ALL111,"Private Address in , Texas",Private,75701,all star fabrication,Metal Fabrication,,,Not Interested,01/22/2026,,,07/21/2026,Disqualified,18,162,,,
+CID-RED108,"Private Address in , Texas",Private,75701,reds auto parts,Automotive,,,No Answer,01/22/2026,,,01/25/2026,Cold,18,-15,,,
+CID-SRT101,"Private Address in , Texas",Private,75701,srt auto center,Automotive,,,Interested (Warm),01/22/2026,,,02/05/2026,Interested (Warm),18,-4,,,
+CID-CR105,"Private Address in , Texas",Private,75701,c r,,,,Interested (Warm),01/21/2026,,,02/04/2026,Interested (Warm),19,-5,,,
+CID-NEC101,"Private Address in , Texas",Private,75701,neckover trailers,Trailer Dealer,,,Interested (Warm),01/21/2026,,,02/04/2026,Interested (Warm),19,-5,,,
+CID-CIT104,"Private Address in , Texas",Private,75701,city of troup pulic works,Other,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-TRO108,"Private Address in , Texas",Private,75701,troup isd transportation,Automotive,,,No Answer,01/21/2026,,,01/24/2026,Cold,19,-16,,,
+CID-WAG102,"Private Address in , Texas",Private,75701,waggener electric,Electrical,,,Initial Contact,01/21/2026,,,02/20/2026,Interested (Warm),19,11,,,
+CID-FAL101,"Private Address in , Texas",Private,75701,falcon trailers,Trailer Dealer,,,Account Won,01/21/2026,,,01/22/2026,Active,19,-18,,,
+CID-TRO109,"Private Address in , Texas",Private,75701,troup auto service and towing,Automotive,,,Follow-Up,01/21/2026,,,02/04/2026,Interested (Warm),19,-5,,,
+CID-JAM104,"Private Address in , Texas",Private,75701,james awning and canopy,Metal Fabrication,,,No Answer,01/21/2026,,,01/24/2026,Cold,19,-16,,,
+CID-JAC106,"Private Address in , Texas",Private,75701,jacksonville awning,Metal Fabrication,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-SAN103,"Private Address in , Texas",Private,75701,sanders welding service,Welding,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-BOZ101,"Private Address in , Texas",Private,75701,bozard fabrication,Metal Fabrication,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-MRR102,"Private Address in , Texas",Private,75701,mr roachie welding,Welding,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-CLE108,"Private Address in , Texas",Private,75701,clear path service,Construction,,,No Answer,01/21/2026,,,01/24/2026,Cold,19,-16,,,
+CID-HBB101,"Private Address in , Texas",Private,75701,hb building supplies,Construction,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-LAR106,"Private Address in , Texas",Private,75701,larios remodeling painting,Construction,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-STE149,"Private Address in , Texas",Private,75701,steele feed and seed,Metal Fabrication,,,Disqualified,01/21/2026,,,01/21/2026,Disqualified,19,-19,,,
+CID-ADE106,"Private Address in , Texas",Private,75701,adept gutters,Gutter,,,No Answer,01/19/2026,,,01/22/2026,Cold,21,-18,,,
+CID-HUN102,"Private Address in , Texas",Private,75701,hung right seamless gutters,Gutter,,,Initial Contact,01/19/2026,,,02/18/2026,Interested (Warm),21,9,,,
+CID-CYC107,"Private Address in , Texas",Private,75701,cyclops gutter service,Gutter,,,Interested (Warm),01/19/2026,,,02/02/2026,Interested (Warm),21,-7,,,
+CID-PRE115,"Private Address in , Texas",Private,75701,premier seamless gutters,Gutter,,,Interested (Warm),01/19/2026,,,02/02/2026,Interested (Warm),21,-7,,,
+CID-ADO101,"Private Address in , Texas",Private,75701,adonis gutter solutions,Gutter,,,Interested (Warm),01/19/2026,,,02/02/2026,Interested (Warm),21,-7,,,
+CID-WRI103,"Private Address in , Texas",Private,75701,wright gutter,Gutter,,,Interested (Warm),01/19/2026,,,02/02/2026,Interested (Warm),21,-7,,,
+CID-ALL112,"Private Address in , Texas",Private,75701,all gutter companies,Gutter,,,Interested (Warm),01/19/2026,,,02/02/2026,Interested (Warm),21,-7,,,
+CID-SRT102,"Private Address in , Texas",Private,75701,srt autoworks,Automotive,,,Interested (Warm),01/15/2026,,,01/29/2026,Interested (Warm),25,-11,,,
+CID-GUT129,"Private Address in , Texas",Private,75701,gutter time,Gutter,,,Disqualified,01/15/2026,,,01/15/2026,Disqualified,25,-25,,,
+CID-GUT130,"Private Address in , Texas",Private,75701,gutter works,Gutter,,,No Answer,01/15/2026,,,01/18/2026,Cold,25,-22,,,
+CID-JOH108,"Private Address in , Texas",Private,75701,johnston gutters,Gutter,,,Account Won,01/15/2026,,,01/16/2026,Active,25,-24,,,
+CID-GEN107,"Private Address in , Texas",Private,75701,generac,Retail,,,Disqualified,01/14/2026,,,01/14/2026,Disqualified,26,-26,,,
+CID-PRO123,"Private Address in , Texas",Private,75701,pro custom auto works,Automotive,,,Interested (Warm),01/14/2026,,,01/28/2026,Interested (Warm),26,-12,,,
+CID-LAR107,"Private Address in , Texas",Private,75701,larry cathy,Trailer Dealer,,,Initial Contact,01/14/2026,,,02/13/2026,Interested (Warm),26,4,,,
+CID-GOO105,"Private Address in , Texas",Private,75701,goodyear,Automotive,,,Disqualified,01/14/2026,,,01/14/2026,Disqualified,26,-26,,,
+CID-FAI104,"Private Address in , Texas",Private,75701,faith,Construction,,,Initial Contact,01/14/2026,,,02/13/2026,Interested (Warm),26,4,,,
+CID-LIN138,"Private Address in , Texas",Private,75701,linear roofing,Roofing,,,Not Interested,01/13/2026,,,07/12/2026,Disqualified,27,153,,,
+CID-HAR105,"Private Address in , Texas",Private,75701,harbor freight,Construction,,,Follow-Up,01/13/2026,,,01/27/2026,Interested (Warm),27,-13,,,
+CID-IRO106,"Private Address in , Texas",Private,75701,iron king construction,Metal Fabrication,,,Disqualified,01/12/2026,,,01/12/2026,Disqualified,28,-28,,,
+CID-SCR101,"Private Address in , Texas",Private,75701,scrap solutions,Construction,,,Not Interested,01/12/2026,,,07/11/2026,Disqualified,28,152,,,
+CID-ALF101,"Private Address in , Texas",Private,75701,alfords tire service,Automotive,,,Interested (Warm),01/12/2026,,,01/26/2026,Interested (Warm),28,-14,,,
+CID-EAS125,"Private Address in , Texas",Private,75701,east texas metal works,Metal Fabrication,,,No Answer,01/12/2026,,,01/15/2026,Cold,28,-25,,,
+CID-DAN104,"Private Address in , Texas",Private,75701,danny erwin,Construction,,,Interested (Warm),01/12/2026,,,01/26/2026,Interested (Warm),28,-14,,,
+CID-MET149,"Private Address in , Texas",Private,75701,metal steel doors,Metal Fabrication,,,Interested (Warm),01/09/2026,,,01/23/2026,Interested (Warm),31,-17,,,
+CID-ELI110,"Private Address in , Texas",Private,75701,elite exteriors,Roofing,,,Interested (Warm),01/09/2026,,,01/23/2026,Interested (Warm),31,-17,,,
+CID-EVA102,"Private Address in , Texas",Private,75701,evans heating and air,HVAC,,,Initial Contact,01/09/2026,,,02/08/2026,Interested (Warm),31,-1,,,
+CID-DSE111,"Private Address in , Texas",Private,75701,ds electrical,Electrical,,,Interested (Warm),01/08/2026,,,01/22/2026,Interested (Warm),32,-18,,,
+CID-WES105,"Private Address in , Texas",Private,75701,west erwin auto repair,Automotive,,,Disqualified,01/08/2026,,,01/08/2026,Disqualified,32,-32,,,
+CID-MAD102,"Private Address in , Texas",Private,75701,maddox,HVAC,,,Not Interested,01/08/2026,,,07/07/2026,Disqualified,32,148,,,
+CID-SEC103,"Private Address in , Texas",Private,75701,second generation arc n spark,Welding,,,Interested (Warm),01/07/2026,,,01/21/2026,Interested (Warm),33,-19,,,
+CID-KEA102,"Private Address in , Texas",Private,75701,kearney trailers,Trailer Dealer,,,Disqualified,01/07/2026,,,01/07/2026,Disqualified,33,-33,,,
+CID-WIT101,"Private Address in , Texas",Private,75701,witch equipment,Retail,,,Disqualified,01/07/2026,,,01/07/2026,Disqualified,33,-33,,,
+CID-PRO124,"Private Address in , Texas",Private,75701,protech,Retail,,,Initial Contact,01/06/2026,,,02/05/2026,Interested (Warm),34,-4,,,
+CID-OVE109,"Private Address in , Texas",Private,75701,overhead door,Retail,,,Interested (Warm),01/06/2026,,,01/20/2026,Interested (Warm),34,-20,,,
+CID-COM114,"Private Address in , Texas",Private,75701,commercial door and hardware,Construction,,,Initial Contact,01/05/2026,,,02/04/2026,Interested (Warm),35,-5,,,
+CID-JOE105,"Private Address in , Texas",Private,75701,joe hudsons collision center,Automotive,,,Initial Contact,12/30/2025,,,01/29/2026,Interested (Warm),41,-11,,,
+CID-GRO102,"Private Address in , Texas",Private,75701,groome industrial service,Manufacturing,,,Initial Contact,12/30/2025,,,01/29/2026,Interested (Warm),41,-11,,,
+CID-MIL105,"Private Address in , Texas",Private,75701,miller electric,Electrical,,,Initial Contact,12/26/2025,,,01/25/2026,Interested (Warm),45,-15,,,
+CID-ONE124,"Private Address in , Texas",Private,75701,one ten welding,Welding,,,Interested (Warm),12/22/2025,,,01/05/2026,Interested (Warm),49,-35,,,
+CID-CAL120,"Private Address in , Texas",Private,75701,caliber collision,Automotive,,,Interested (Warm),12/12/2025,,,12/26/2025,Interested (Warm),59,-45,,,
+CID-EXP107,"Private Address in , Texas",Private,75701,express engines,Automotive,,,Initial Contact,12/12/2025,,,01/11/2026,Interested (Warm),59,-29,,,
+CID-HYD101,"Private Address in , Texas",Private,75701,hydro chem,Manufacturing,,,Disqualified,12/11/2025,,,12/11/2025,Disqualified,60,-60,,,
+CID-TYL141,"Private Address in , Texas",Private,75701,tyler rv center,Automotive,,,Account Won,12/10/2025,,,12/11/2025,Active,61,-60,,,
+CID-EAS126,"Private Address in , Texas",Private,75701,east texas collision repair,Automotive,,,Initial Contact,12/09/2025,,,01/08/2026,Interested (Warm),62,-32,,,
+CID-CUS123,"Private Address in , Texas",Private,75701,customer at coker,Other,,,Interested (Warm),12/02/2025,,,12/16/2025,Interested (Warm),69,-55,,,
+CID-BAN104,"Private Address in , Texas",Private,75701,banggood auto parts,Automotive,,,Not Interested,12/01/2025,,,05/30/2026,Disqualified,70,110,,,
+CID-ESP102,"Private Address in , Texas",Private,75701,espinozas paint and body,Automotive,,,Not Interested,11/26/2025,,,05/25/2026,Disqualified,75,105,,,
+CID-RAY104,"Private Address in , Texas",Private,75701,rays autobody,Automotive,,,Disqualified,11/26/2025,,,11/26/2025,Disqualified,75,-75,,,
+CID-TGW103,"Private Address in , Texas",Private,75701,tg welding supply,Welding,,,Disqualified,11/26/2025,,,11/26/2025,Disqualified,75,-75,,,
+CID-DUN101,"Private Address in , Texas",Private,75701,dunn transmissions,Automotive,,,Initial Contact,11/25/2025,,,12/25/2025,Interested (Warm),76,-46,,,
+CID-TYL142,"Private Address in , Texas",Private,75701,tyler muffler shop,Automotive,,,Disqualified,11/25/2025,,,11/25/2025,Disqualified,76,-76,,,
+CID-WES106,"Private Address in , Texas",Private,75701,west erwin auto repiar,Automotive,,,Interested (Warm),11/25/2025,,,12/09/2025,Interested (Warm),76,-62,,,
+CID-WON101,"Private Address in , Texas",Private,75701,won motors,Automotive,,,Initial Contact,11/25/2025,,,12/25/2025,Interested (Warm),76,-46,,,
+CID-3HB101,"Private Address in , Texas",Private,75701,3h building and construction,Construction,,,Disqualified,11/21/2025,,,11/21/2025,Disqualified,80,-80,,,
+CID-BOA101,"Private Address in , Texas",Private,75701,boat,Automotive,,,Disqualified,11/21/2025,,,11/21/2025,Disqualified,80,-80,,,
+CID-NAU101,"Private Address in , Texas",Private,75701,nautica marine parts and service,Automotive,,,Interested (Warm),11/21/2025,,,12/05/2025,Interested (Warm),80,-66,,,
+CID-TEX147,"Private Address in , Texas",Private,75701,texwin metal buildings,Metal Fabrication,,,Disqualified,11/21/2025,,,11/21/2025,Disqualified,80,-80,,,
+CID-ETH101,"Private Address in , Texas",Private,75701,etheridge industrial,Metal Fabrication,,,Not Interested,11/20/2025,,,05/19/2026,Disqualified,81,99,,,
+CID-GUT132,"Private Address in , Texas",Private,75701,gutterworks,Gutter,,,Interested (Warm),11/13/2025,,,11/27/2025,Interested (Warm),88,-74,,,
+CID-NEW103,"Private Address in , Texas",Private,75701,new hope energy,Electrical,,,Interested (Warm),11/13/2025,,,11/27/2025,Interested (Warm),88,-74,,,
+CID-SPU102,"Private Address in , Texas",Private,75701,spur machine work,Metal Fabrication,,,Interested (Warm),11/13/2025,,,11/27/2025,Interested (Warm),88,-74,,,
+CID-BLC101,"Private Address in , Texas",Private,75701,b l casing,Metal Fabrication,,,Interested (Warm),11/11/2025,,,11/25/2025,Interested (Warm),90,-76,,,
+CID-RUB105,"Private Address in , Texas",Private,75701,rub a dub plumbing,Plumbing,,,Interested (Warm),11/11/2025,,,11/25/2025,Interested (Warm),90,-76,,,
+CID-YOS102,"Private Address in , Texas",Private,75701,yosemite roofing,Roofing,,,Disqualified,11/11/2025,,,11/11/2025,Disqualified,90,-90,,,
+CID-MOB106,"Private Address in , Texas",Private,75701,mobile communications,Retail,,,Disqualified,11/10/2025,,,11/10/2025,Disqualified,91,-91,,,
+CID-TYL143,"Private Address in , Texas",Private,75701,tyler tool,Metal Fabrication,,,Interested (Warm),11/10/2025,,,11/24/2025,Interested (Warm),91,-77,,,

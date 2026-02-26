@@ -1,0 +1,27 @@
+Reading: Untitled document.pdf
+Total pages: 95
+  Processed page 10/95 ù running total: 120 rows
+  Processed page 20/95 ù running total: 226 rows
+  Processed page 30/95 ù running total: 347 rows
+  Processed page 40/95 ù running total: 445 rows
+  Processed page 50/95 ù running total: 538 rows
+  Processed page 60/95 ù running total: 660 rows
+  Processed page 70/95 ù running total: 771 rows
+  Processed page 80/95 ù running total: 878 rows
+  Processed page 90/95 ù running total: 991 rows
+  Processed page 95/95 ù running total: 1042 rows
+
+Success! 1042 transactions written to: converted_transactions.csv
+
+Row breakdown by category:
+  Ferrous                               557 rows
+  Non-Ferro                               1 rows
+  Non-Ferro us                          231 rows
+  Other                                 253 rows
+
+First 5 rows:
+   11290  08/22/2025  Townley Manufactur ing          Ferrous       Net=  18,740  Price=5.50
+   11489  08/29/2025  Abel Flores                     Ferrous       Net=  30,580  Price=5.00
+   11679  09/05/2025  Abel Flores                     Ferrous       Net=  30,220  Price=5.00
+   12077  09/18/2025  Abel Flores                     Ferrous       Net=  25,980  Price=5.00
+   14307  11/21/2025  Abel Flores                     Ferrous       Net=  19,100  Price=4.50

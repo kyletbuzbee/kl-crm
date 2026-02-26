@@ -1,0 +1,172 @@
+{
+  "version": "1.4",
+  "created": "2026-02-25",
+  "description": "K&L Recycling CRM System Schema - Complete Aligned Version with Sales and Active Containers",
+  "tables": [
+    {
+      "name": "Prospects",
+      "label": "Prospects",
+      "description": "Master Lead List. Primary Key: Company ID",
+      "fields": [
+        {"apiName": "companyID", "label": "Company ID", "type": "Text", "required": false},
+        {"apiName": "companyName", "label": "Company Name", "type": "Text", "required": false},
+        {"apiName": "address", "label": "Address", "type": "Text", "required": false},
+        {"apiName": "zipCode", "label": "Zip Code", "type": "Text", "required": false},
+        {"apiName": "industry", "label": "Industry", "type": "Dropdown", "options": ["Agriculture", "Appliance", "Automotive", "Business to business", "Construction", "Electrical", "Fabrication", "Fence", "Gutter", "HVAC", "Junk Removal", "Manufacturing", "Metal Fabrication", "Other", "Plumbing", "Retail", "Roofing", "Trailer Dealer", "Warehouses", "Welding"], "required": false},
+        {"apiName": "latitude", "label": "Latitude", "type": "Number", "required": false},
+        {"apiName": "longitude", "label": "Longitude", "type": "Text", "required": false},
+        {"apiName": "lastOutcome", "label": "Last Outcome", "type": "Text", "required": false},
+        {"apiName": "lastOutreachDate", "label": "Last Outreach Date", "type": "Date", "required": false},
+        {"apiName": "daysSinceLastContact", "label": "Days Since Last Contact", "type": "Text", "required": false},
+        {"apiName": "nextStepDueCountdown", "label": "Next Step Due Countdown", "type": "Number", "required": false},
+        {"apiName": "nextStepsDueDate", "label": "Next Steps Due Date", "type": "Date", "required": false},
+        {"apiName": "contactStatus", "label": "Contact Status", "type": "Dropdown", "options": ["Active", "Cold", "Disqualified", "Interested (Hot)", "Interested (Warm)", "Lost", "Nurture", "Outreach", "Prospect", "Won"], "required": false},
+        {"apiName": "closeProbability", "label": "Close Probability", "type": "Text", "required": false},
+        {"apiName": "priorityScore", "label": "Priority Score", "type": "Number", "default": 60, "required": false},
+        {"apiName": "urgencyBand", "label": "UrgencyBand", "type": "Dropdown", "options": ["Overdue", "High", "Medium", "Low"], "required": false},
+        {"apiName": "urgencyScore", "label": "Urgency Score", "type": "Number", "required": false},
+        {"apiName": "totals", "label": "Totals", "type": "Text", "required": false}
+      ]
+    },
+    {
+      "name": "Outreach",
+      "label": "Outreach",
+      "description": "Activity Log. Primary Key: Outreach ID. Foreign Key: Company ID",
+      "fields": [
+        {"apiName": "outreachID", "label": "Outreach ID", "type": "Text", "required": false},
+        {"apiName": "companyID", "label": "Company ID", "type": "Text", "required": false},
+        {"apiName": "company", "label": "Company", "type": "Text", "required": false},
+        {"apiName": "visitDate", "label": "Visit Date", "type": "Date", "required": false},
+        {"apiName": "notes", "label": "Notes", "type": "Text", "required": false},
+        {"apiName": "outcome", "label": "Outcome", "type": "Dropdown", "options": ["Account Won", "Disqualified", "Follow-Up", "Initial Contact", "Interested", "Interested (Hot)", "Interested (Warm)", "No Answer", "Not Interested"], "required": false},
+        {"apiName": "stage", "label": "Stage", "type": "Dropdown", "options": ["Disqualified", "Lost", "Nurture", "Outreach", "Prospect", "Won"], "required": false},
+        {"apiName": "status", "label": "Status", "type": "Dropdown", "options": ["Active", "Cold", "Disqualified", "Hot", "Interested (Hot)", "Interested (Warm)", "Lost", "Warm", "Won"], "required": false},
+        {"apiName": "nextVisitDate", "label": "Next Visit Date", "type": "Date", "required": false},
+        {"apiName": "daysSinceLastVisit", "label": "Days Since Last Visit", "type": "Text", "required": false},
+        {"apiName": "nextVisitCountdown", "label": "Next Visit Countdown", "type": "Number", "required": false},
+        {"apiName": "outcomeCategory", "label": "Outcome Category", "type": "Text", "required": false},
+        {"apiName": "followUpAction", "label": "Follow Up Action", "type": "Dropdown", "options": ["Check periodic", "General follow", "Onboard Account", "See Notes", "Send pricing", "Try again"], "required": false},
+        {"apiName": "owner", "label": "Owner", "type": "Text", "default": "Kyle Buzbee", "required": false},
+        {"apiName": "prospectsMatch", "label": "Prospects Match", "type": "Text", "required": false},
+        {"apiName": "contactType", "label": "Contact Type", "type": "Dropdown", "options": ["Email", "Phone", "Visit"], "default": "Visit", "required": false},
+        {"apiName": "emailSent", "label": "Email Sent", "type": "Text", "default": "FALSE", "required": false},
+        {"apiName": "competitor", "label": "Competitor", "type": "Dropdown", "options": ["AIM", "Tyler Iron", "Huntwell", "Other", "None"], "required": false}
+      ]
+    },
+    {
+      "name": "Accounts",
+      "label": "Accounts",
+      "description": "Customer Accounts",
+      "fields": [
+        {"apiName": "deployed", "label": "Deployed", "type": "Text", "required": false},
+        {"apiName": "timestamp", "label": "Timestamp", "type": "Text", "isSystem": true, "required": false},
+        {"apiName": "companyName", "label": "Company Name", "type": "Text", "required": false},
+        {"apiName": "contactName", "label": "Contact Name", "type": "Text", "required": false},
+        {"apiName": "contactPhone", "label": "Contact Phone", "type": "Text", "required": false},
+        {"apiName": "contactRole", "label": "Contact Role", "type": "Text", "required": false},
+        {"apiName": "siteLocation", "label": "Site Location", "type": "Text", "required": false},
+        {"apiName": "mailingLocation", "label": "Mailing Location", "type": "Text", "required": false},
+        {"apiName": "rollOffFee", "label": "Roll-Off Fee", "type": "Dropdown", "options": ["Yes", "No"], "default": "Yes", "required": false},
+        {"apiName": "handlingOfMetal", "label": "Handling of Metal", "type": "Dropdown", "options": ["All together", "Separate", "Employees take", "Scrap guy picks up", "Haul themselves", "Roll-off vendor", "Unknown"], "required": false},
+        {"apiName": "rolloffContainerSize", "label": "Roll Off Container Size", "type": "Dropdown", "options": ["10 yd", "20 yd", "30 yd", "40 yd", "Lugger"], "default": "30 yd", "required": false},
+        {"apiName": "notes", "label": "Notes", "type": "Text", "required": false},
+        {"apiName": "payoutPrice", "label": "Payout Price", "type": "Text", "required": false}
+      ]
+    },
+    {
+      "name": "Contacts",
+      "label": "Contacts",
+      "description": "Contact Directory - Linked to Companies",
+      "fields": [
+        {"apiName": "name", "label": "Name", "type": "Text", "required": false},
+        {"apiName": "company", "label": "Company", "type": "Text", "required": false},
+        {"apiName": "accountType", "label": "Account", "type": "Dropdown", "options": ["Lost Accounts", "Prospects", "Team"], "required": false},
+        {"apiName": "role", "label": "Role", "type": "Text", "required": false},
+        {"apiName": "department", "label": "Department", "type": "Text", "required": false},
+        {"apiName": "phone", "label": "Phone Number", "type": "Text", "required": false},
+        {"apiName": "email", "label": "Email", "type": "Text", "required": false},
+        {"apiName": "address", "label": "Address", "type": "Text", "required": false}
+      ]
+    },
+    {
+      "name": "Sales",
+      "label": "Sales",
+      "description": "Sales/Purchase Transactions. Primary Key: Sales ID. Foreign Key: Company ID",
+      "fields": [
+        {"apiName": "salesId", "label": "Sales ID", "type": "Text", "required": true},
+        {"apiName": "date", "label": "Date", "type": "Date", "required": true},
+        {"apiName": "company", "label": "Company", "type": "Text", "required": true},
+        {"apiName": "companyId", "label": "Company ID", "type": "Text", "required": false},
+        {"apiName": "material", "label": "Material", "type": "Text", "required": true},
+        {"apiName": "weight", "label": "Weight", "type": "Number", "required": true},
+        {"apiName": "price", "label": "Price", "type": "Number", "required": true},
+        {"apiName": "dateRange", "label": "Date Range", "type": "Text", "required": false},
+        {"apiName": "supplierName", "label": "Supplier Name", "type": "Text", "required": false},
+        {"apiName": "materialType", "label": "Material Type", "type": "Text", "required": false},
+        {"apiName": "weightAdjusted", "label": "Weight Adjusted", "type": "Number", "required": false},
+        {"apiName": "paymentAmount", "label": "Payment Amount", "type": "Number", "required": false}
+      ]
+    },
+    {
+      "name": "Active",
+      "label": "Active Containers",
+      "description": "Active Deployed Containers/Assets. Primary Key: Company ID",
+      "fields": [
+        {"apiName": "companyId", "label": "Company ID", "type": "Text", "required": true},
+        {"apiName": "companyName", "label": "Company Name", "type": "Text", "required": true},
+        {"apiName": "locationName", "label": "Location Name", "type": "Text", "required": false},
+        {"apiName": "locationAddress", "label": "Location Address", "type": "Text", "required": false},
+        {"apiName": "locationCity", "label": "Location City", "type": "Text", "required": false},
+        {"apiName": "zipCode", "label": "Zip Code", "type": "Text", "required": false},
+        {"apiName": "deployedAssets", "label": "Current Deployed Assets", "type": "Text", "required": false},
+        {"apiName": "containerSize", "label": "Container Size", "type": "Text", "required": false}
+      ]
+    }
+  ],
+  "settings": {
+    "workflowRules": {
+      "Account Won": {"stage": "Won", "status": "Active", "daysOffset": 1, "priority": "High"},
+      "Interested (Hot)": {"stage": "Nurture", "status": "Interested (Hot)", "daysOffset": 7, "priority": "High"},
+      "Interested (Warm)": {"stage": "Nurture", "status": "Interested (Warm)", "daysOffset": 14, "priority": "Medium"},
+      "Interested": {"stage": "Nurture", "status": "Interested (Warm)", "daysOffset": 14, "priority": "Medium"},
+      "Initial Contact": {"stage": "Outreach", "status": "Interested (Warm)", "daysOffset": 30, "priority": "Medium"},
+      "Follow-Up": {"stage": "Nurture", "status": "Interested (Warm)", "daysOffset": 14, "priority": "Medium"},
+      "No Answer": {"stage": "Outreach", "status": "Cold", "daysOffset": 3, "priority": "High"},
+      "Not Interested": {"stage": "Lost", "status": "Disqualified", "daysOffset": 180, "priority": "Low"},
+      "Disqualified": {"stage": "Lost", "status": "Disqualified", "daysOffset": 0, "priority": "None"}
+    },
+    "urgencyBands": {
+      "Overdue": {"minDays": -9999, "maxDays": -1, "color": "Red", "score": 150},
+      "High": {"minDays": 0, "maxDays": 7, "color": "Orange", "score": 115},
+      "Medium": {"minDays": 8, "maxDays": 30, "color": "Yellow", "score": 75},
+      "Low": {"minDays": 31, "maxDays": 9999, "color": "Green", "score": 25}
+    },
+    "industryScores": {
+      "Metal Fabrication": 90,
+      "Automotive": 70,
+      "Welding": 70,
+      "HVAC": 70,
+      "Construction": 70,
+      "Fence": 70,
+      "Trailer Dealer": 70,
+      "Manufacturing": 75,
+      "Electrical": 65,
+      "Junk Removal": 65,
+      "Roofing": 60,
+      "Gutter": 60,
+      "Appliance": 60,
+      "Agriculture": 60,
+      "Warehouses": 55,
+      "Plumbing": 50,
+      "Retail": 45,
+      "Other": 50,
+      "Business to business": 50
+    },
+    "globalConstants": {
+      "Stale_Prospect_Days": 60,
+      "Max_Batch_Size": 50,
+      "Default_Next_Step_Days": 14,
+      "Timezone": "America/Chicago"
+    }
+  }
+}

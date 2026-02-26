@@ -1,0 +1,347 @@
+<script>
+  // ========================================
+  // K&L CRM Shared Scripts
+  // Use: <?!= include('CRM_Scripts'); ?>
+  // ========================================
+
+  // ============================================================================
+  // HTML SAFE RENDERER - Unified Version
+  // Prevents XSS vulnerabilities across all CRM interfaces
+  // ============================================================================
+  var HtmlSafeRenderer = (function() {
+    // ============================================================================
+    // ESCAPE FUNCTIONS
+    // ============================================================================
+    
+    /**
+     * Escape HTML special characters to prevent XSS
+     * @param {string} str - String to escape
+     * @return {string} Escaped string
+     */
+    function escapeHtml(str) {
+      if (str === null || str === undefined) return '';
+      var div = document.createElement('div');
+      div.textContent = String(str);
+      return div.innerHTML;
+    }
+    
+    /**
+     * Escape HTML attributes (more restrictive than escapeHtml)
+     * @param {string} str - String to escape
+     * @return {string} Escaped string for attributes
+     */
+    function escapeAttribute(str) {
+      if (str === null || str === undefined) return '';
+      return String(str)
+        .replace(/&/g, '&')
+        .replace(/"/g, '"')
+        .replace(/'/g, '&#39;')
+        .replace(/</g, '<')
+        .replace(/>/g, '>');
+    }
+    
+    /**
+     * Sanitize HTML by removing dangerous tags and attributes
+     * @param {string} html - HTML string to sanitize
+     * @return {string} Sanitized HTML
+     */
+    function sanitizeHtml(html) {
+      if (!html || typeof html !== 'string') return '';
+      
+      // Remove script tags and their contents
+      html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+      
+      // Remove event handlers
+      html = html.replace(/\s+on\w+\s*=\s*(['"])[^'"]*\1/gi, '');
+      html = html.replace(/\s+on\w+\s*=\s*[^\s>]*/gi, '');
+      
+      // Remove javascript: URLs
+      html = html.replace(/href\s*=\s*(['"])\s*javascript:[^'"]*\1/gi, 'href="#"');
+      html = html.replace(/href\s*=\s*javascript:[^\s>]+/gi, 'href="#"');
+      
+      // Remove data: URLs (can contain JavaScript)
+      html = html.replace(/src\s*=\s*(['"])\s*data:[^'"]*\1/gi, 'src=""');
+      
+      return html;
+    }
+    
+    // ============================================================================
+    // DOM MANIPULATION FUNCTIONS
+    // ============================================================================
+    
+    /**
+     * Safely set text content of an element
+     * @param {string} elementId - ID of the element
+     * @param {string} text - Text to set
+     */
+    function setText(elementId, text) {
+      var el = document.getElementById(elementId);
+      if (el) {
+        el.textContent = text || '';
+      }
+    }
+    
+    /**
+     * Safely set innerHTML with sanitization
+     * @param {string} elementId - ID of the element
+     * @param {string} html - HTML string (will be sanitized)
+     */
+    function setInnerHtml(elementId, html) {
+      var el = document.getElementById(elementId);
+      if (el) {
+        el.innerHTML = sanitizeHtml(html);
+      }
+    }
+    
+    /**
+     * Safely append innerHTML with sanitization
+     * @param {string} elementId - ID of the element
+     * @param {string} html - HTML string to append (will be sanitized)
+     */
+    function appendInnerHtml(elementId, html) {
+      var el = document.getElementById(elementId);
+      if (el) {
+        el.innerHTML += sanitizeHtml(html);
+      }
+    }
+    
+    /**
+     * Safely build a list item
+     * @param {string} primary - Primary text (company name)
+     * @param {string} secondary - Secondary text (badge/status)
+     * @param {Object} options - Options for the list item
+     * @return {string} HTML string for list item
+     */
+    function buildListItem(primary, secondary, options) {
+      options = options || {};
+      var primaryEscaped = escapeHtml(primary || 'Unknown');
+      var secondaryEscaped = escapeHtml(secondary || '');
+      var badgeClass = escapeAttribute((options.badgeClass || secondary || '').toLowerCase());
+      
+      return '<div class="list-item" ' + (options.onclick ? 'onclick="' + escapeAttribute(options.onclick) + '"' : '') + '>' +
+               '<span><strong>' + primaryEscaped + '</strong></span>' +
+               (secondary ? '<span class="badge ' + badgeClass + '">' + secondaryEscaped + '</span>' : '') +
+             '</div>';
+    }
+    
+    /**
+     * Safely build a table row
+     * @param {Array} cells - Array of cell data objects
+     * @return {string} HTML string for table row
+     */
+    function buildTableRow(cells) {
+      if (!Array.isArray(cells)) return '';
+      
+      var html = '<tr>';
+      cells.forEach(function(cell) {
+        var text = escapeHtml(cell.text || cell || 'N/A');
+        var colspan = cell.colspan ? ' colspan="' + escapeAttribute(String(cell.colspan)) + '"' : '';
+        var className = cell.className ? ' class="' + escapeAttribute(cell.className) + '"' : '';
+        html += '<td' + colspan + className + '>' + text + '</td>';
+      });
+      html += '</tr>';
+      
+      return html;
+    }
+    
+    /**
+     * Safely build a pipeline deal card
+     * @param {Object} deal - Deal data object
+     * @param {Array} fields - Fields to display
+     * @return {string} HTML string for deal card
+     */
+    function buildPipelineDeal(deal, fields) {
+      fields = fields || ['companyName', 'urgencyBand'];
+      
+      var html = '<div class="pipeline-deal">';
+      fields.forEach(function(field) {
+        // FIX: Check multiple possible field name formats for BOTH company and urgency fields
+        var normalizedField = field.toLowerCase().replace(/\s+/g, '');
+        var value = '';
+        
+        // Try multiple field name variations
+        if (deal[field] !== undefined && deal[field] !== null && deal[field] !== '') {
+          value = deal[field];
+        } else if (deal[normalizedField] !== undefined && deal[normalizedField] !== null && deal[normalizedField] !== '') {
+          value = deal[normalizedField];
+        } else if (deal[field.replace(/([A-Z])/g, ' $1').toLowerCase()] !== undefined) {
+          // Handle camelCase to space-separated conversion
+          value = deal[field.replace(/([A-Z])/g, ' $1').toLowerCase()];
+        } else if (deal[field.replace(/\s+/g, '').toLowerCase()] !== undefined) {
+          // Handle space-separated to no-space conversion  
+          value = deal[field.replace(/\s+/g, '').toLowerCase()];
+        }
+        
+        var escaped = escapeHtml(value);
+        if (normalizedField.includes('company')) {
+          html += '<strong>' + escaped + '</strong>';
+        } else {
+          html += '<small>' + escaped + '</small>';
+        }
+      });
+      html += '</div>';
+      
+      return html;
+    }
+    
+    /**
+     * Safely build stat card HTML
+     * @param {string} title - Card title
+     * @param {string|number} value - Card value
+     * @param {Object} options - Card options
+     * @return {string} HTML string for stat card
+     */
+    function buildStatCard(title, value, options) {
+      options = options || {};
+      var titleEscaped = escapeHtml(title || '');
+      var valueEscaped = escapeHtml(String(value || 0));
+      var className = 'stat-card' + (options.accent ? ' ' + options.accent : '') + (options.win ? ' win' : '');
+      
+      return '<div class="' + escapeAttribute(className) + '">' +
+               '<h4>' + titleEscaped + '</h4>' +
+               '<h2>' + valueEscaped + '</h2>' +
+             '</div>';
+    }
+    
+    // ============================================================================
+    // PUBLIC API
+    // ============================================================================
+    
+    return {
+      escapeHtml: escapeHtml,
+      escapeAttribute: escapeAttribute,
+      sanitizeHtml: sanitizeHtml,
+      setText: setText,
+      setInnerHtml: setInnerHtml,
+      appendInnerHtml: appendInnerHtml,
+      buildListItem: buildListItem,
+      buildTableRow: buildTableRow,
+      buildPipelineDeal: buildPipelineDeal,
+      buildStatCard: buildStatCard
+    };
+  })();
+
+  // ============================================================================
+  // UTILITY FUNCTIONS
+  // ============================================================================
+  
+  /**
+   * Show or hide loading overlay
+   * @param {boolean} show - Whether to show or hide
+   */
+  function showLoading(show) {
+    var loading = document.getElementById('loading');
+    if (loading) {
+      loading.classList.toggle('active', show);
+    }
+  }
+  
+  /**
+   * Display toast notification
+   * @param {string} message - Message to display
+   * @param {string} type - Type: '', 'success', 'error', 'warning'
+   */
+  function showToast(message, type) {
+    type = type || '';
+    var toast = document.getElementById('toast');
+    if (!toast) {
+      // Create toast if it doesn't exist
+      toast = document.createElement('div');
+      toast.id = 'toast';
+      toast.className = 'toast';
+      document.body.appendChild(toast);
+    }
+    
+    // Escape the message for safety
+    toast.textContent = message;
+    toast.className = 'toast ' + type;
+    toast.classList.add('show');
+    
+    setTimeout(function() {
+      toast.classList.remove('show');
+    }, 3000);
+  }
+  
+  /**
+   * Format date to MM/dd/yyyy (matches Config.js DATE_FORMAT)
+   * @param {Date} date - Date to format
+   * @return {string} Formatted date string
+   */
+  function formatDate(date) {
+    if (!(date instanceof Date)) {
+      date = new Date(date);
+    }
+    var month = (date.getMonth() + 1).toString().padStart(2, '0');
+    var day = date.getDate().toString().padStart(2, '0');
+    var year = date.getFullYear();
+    return month + '/' + day + '/' + year;
+  }
+  
+  /**
+   * Escape HTML special characters (standalone function)
+   * @param {string} text - Text to escape
+   * @return {string} Escaped text
+   */
+  function escapeHtml(text) {
+    if (text === null || text === undefined) return '';
+    var div = document.createElement('div');
+    div.textContent = String(text);
+    return div.innerHTML;
+  }
+  
+  // ============================================================================
+  // API WRAPPER
+  // ============================================================================
+  
+  /**
+   * Call backend API with standardized error handling
+   * @param {string} action - API action name
+   * @param {Object} payload - Request payload
+   * @return {Promise} Promise resolving to API response
+   */
+  function callAPI(action, payload) {
+    return new Promise(function(resolve, reject) {
+      google.script.run
+        .withSuccessHandler(function(res) {
+          // Defensive: Ensure response is always an object
+          if (res === null || res === undefined) {
+            console.warn('API returned null/undefined for action:', action);
+            resolve({ success: false, error: 'No data returned', data: null });
+            return;
+          }
+          // Defensive: Check if response has success property
+          if (typeof res.success === 'undefined') {
+            console.warn('API returned object without success property:', action, res);
+            resolve({ success: true, data: res, error: null });
+            return;
+          }
+          resolve(res);
+        })
+        .withFailureHandler(function(error) {
+          console.error('API call failed for action:', action, error);
+          reject({ success: false, error: error.message || 'Unknown error', data: null });
+        })
+        .crmGateway({ action: action, payload: payload || {} });
+    });
+  }
+  
+  // ============================================================================
+  // STATE MANAGEMENT
+  // ============================================================================
+  
+  /**
+   * Global state object (use namespaced to avoid conflicts)
+   * Access via: window.CRMState
+   */
+  window.CRMState = {
+    selectedStatus: '',
+    isRecording: false,
+    recognition: null,
+    searchTimeout: null,
+    selectedCompanyData: null,
+    validationLists: null,
+    dashboard: null,
+    pipeline: null,
+    prospects: null
+  };
+</script>

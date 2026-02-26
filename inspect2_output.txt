@@ -1,0 +1,185 @@
+Table columns: 7
+Table rows: 1047
+
+=== FIRST 15 ROWS (raw) ===
+
+--- Row 0 ---
+  col[0]: 'Ticket #'
+  col[1]: 'Date'
+  col[2]: 'Supplier'
+  col[3]: 'Group'
+  col[4]: 'Material'
+  col[5]: 'Net'
+  col[6]: 'Price'
+
+--- Row 1 ---
+  col[0]: ''
+  col[1]: '08/22/2025'
+  col[2]: 'Townley Manufacturing'
+  col[3]: 'Ferrous'
+  col[4]: 'LONG IRON/UNPREPARED #1&2 MIX'
+  col[5]: ''
+  col[6]: '5.50'
+
+--- Row 2 ---
+  col[0]: ''
+  col[1]: '08/29/2025'
+  col[2]: 'Abel Flores'
+  col[3]: 'Ferrous'
+  col[4]: 'LONG IRON/UNPREPARED #1&2 MIX'
+  col[5]: ''
+  col[6]: '5.00'
+
+--- Row 3 ---
+  col[0]: ''
+  col[1]: '09/05/2025'
+  col[2]: 'Abel Flores'
+  col[3]: 'Ferrous'
+  col[4]: 'LONG IRON/UNPREPARED #1&2 MIX'
+  col[5]: ''
+  col[6]: '5.00'
+
+--- Row 4 ---
+  col[0]: ''
+  col[1]: '09/18/2025'
+  col[2]: 'Abel Flores'
+  col[3]: 'Ferrous'
+  col[4]: 'LONG IRON/UNPREPARED #1&2 MIX'
+  col[5]: ''
+  col[6]: '5.00'
+
+--- Row 5 ---
+  col[0]: ''
+  col[1]: '11/21/2025'
+  col[2]: 'Abel Flores'
+  col[3]: 'Ferrous'
+  col[4]: 'LONG IRON/UNPREPARED #1&2 MIX'
+  col[5]: ''
+  col[6]: '4.50'
+
+--- Row 6 ---
+  col[0]: ''
+  col[1]: '12/19/2025'
+  col[2]: 'Arrington Lumber'
+  col[3]: 'Ferrous'
+  col[4]: 'LONG IRON/UNPREPARED #1&2 MIX'
+  col[5]: ''
+  col[6]: '4.50'
+
+--- Row 7 ---
+  col[0]: ''
+  col[1]: '01/02/2026'
+  col[2]: 'Abel Flores'
+  col[3]: 'Ferrous'
+  col[4]: 'LONG IRON/UNPREPARED #1&2 MIX'
+  col[5]: ''
+  col[6]: '4.2271'
+
+--- Row 8 ---
+  col[0]: ''
+  col[1]: '08/20/2025'
+  col[2]: 'Townley Manufacturing'
+  col[3]: 'Ferrous'
+  col[4]: 'SHORT IRON/#1 HEAVY MELT'
+  col[5]: ''
+  col[6]: '7.00'
+
+--- Row 9 ---
+  col[0]: ''
+  col[1]: '07/01/2025'
+  col[2]: 'STS Electronic Recycling'
+  col[3]: 'Ferrous'
+  col[4]: 'TIN/#2 LIGHT'
+  col[5]: ''
+  col[6]: '6.00'
+
+--- Row 10 ---
+  col[0]: ''
+  col[1]: '07/01/2025'
+  col[2]: 'Bannister Plumbing'
+  col[3]: 'Ferrous'
+  col[4]: 'TIN/#2 LIGHT'
+  col[5]: ''
+  col[6]: '5.00'
+
+--- Row 11 ---
+  col[0]: ''
+  col[1]: '07/07/2025'
+  col[2]: 'STS Electronic Recycling'
+  col[3]: 'Ferrous'
+  col[4]: 'TIN/#2 LIGHT'
+  col[5]: ''
+  col[6]: '6.00'
+
+--- Row 12 ---
+  col[0]: ''
+  col[1]: '07/11/2025'
+  col[2]: 'STS Electronic Recycling'
+  col[3]: 'Ferrous'
+  col[4]: 'TIN/#2 LIGHT'
+  col[5]: ''
+  col[6]: '6.00'
+
+--- Row 13 ---
+  col[0]: ''
+  col[1]: '07/14/2025'
+  col[2]: 'Gourmet Gardens'
+  col[3]: 'Ferrous'
+  col[4]: 'TIN/#2 LIGHT'
+  col[5]: ''
+  col[6]: '5.00'
+
+--- Row 14 ---
+  col[0]: ''
+  col[1]: '07/15/2025'
+  col[2]: 'Robbins & Morton'
+  col[3]: 'Ferrous'
+  col[4]: 'TIN/#2 LIGHT'
+  col[5]: ''
+  col[6]: '5.00'
+
+
+=== ROWS WHERE COL[5] IS NOT EMPTY (first 20) ===
+  Row 0: col[5]="'Net'"  full=["'Ticket #'", "'Date'", "'Supplier'", "'Group'", "'Material'", "'Net'", "'Price'"]
+
+
+=== ROWS WHERE ANY CELL CONTAINS \n (newline in cell) ===
+  (no multiline cells found in first 50 rows)
+
+
+=== PARAGRAPH BREAKDOWN FOR ROWS 1-5 ===
+
+  Row 1:
+    col[1] paragraphs: ["'08/22/2025'"]
+    col[2] paragraphs: ["'Townley Manufacturing'"]
+    col[3] paragraphs: ["'Ferrous'"]
+    col[4] paragraphs: ["'LONG IRON/UNPREPARED #1&2 MIX'"]
+    col[6] paragraphs: ["'5.50'"]
+
+  Row 2:
+    col[1] paragraphs: ["'08/29/2025'"]
+    col[2] paragraphs: ["'Abel Flores'"]
+    col[3] paragraphs: ["'Ferrous'"]
+    col[4] paragraphs: ["'LONG IRON/UNPREPARED #1&2 MIX'"]
+    col[6] paragraphs: ["'5.00'"]
+
+  Row 3:
+    col[1] paragraphs: ["'09/05/2025'"]
+    col[2] paragraphs: ["'Abel Flores'"]
+    col[3] paragraphs: ["'Ferrous'"]
+    col[4] paragraphs: ["'LONG IRON/UNPREPARED #1&2 MIX'"]
+    col[6] paragraphs: ["'5.00'"]
+
+  Row 4:
+    col[1] paragraphs: ["'09/18/2025'"]
+    col[2] paragraphs: ["'Abel Flores'"]
+    col[3] paragraphs: ["'Ferrous'"]
+    col[4] paragraphs: ["'LONG IRON/UNPREPARED #1&2 MIX'"]
+    col[6] paragraphs: ["'5.00'"]
+
+  Row 5:
+    col[1] paragraphs: ["'11/21/2025'"]
+    col[2] paragraphs: ["'Abel Flores'"]
+    col[3] paragraphs: ["'Ferrous'"]
+    col[4] paragraphs: ["'LONG IRON/UNPREPARED #1&2 MIX'"]
+    col[6] paragraphs: ["'4.50'"]

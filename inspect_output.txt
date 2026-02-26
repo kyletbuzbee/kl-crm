@@ -1,0 +1,1407 @@
+=== PARAGRAPHS (non-empty) ===
+[2] 'Ticket #,Date,Supplier,Group,Material,Net,Price'
+[3] '11290,08/22/2025,Townley Manufacturing,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,18740,5.50'
+[4] '11489,08/29/2025,Abel Flores,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,30580,5.00'
+[5] '11679,09/05/2025,Abel Flores,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,30220,5.00'
+[6] '12077,09/18/2025,Abel Flores,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,25980,5.00'
+[7] '14307,11/21/2025,Abel Flores,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,19100,4.50'
+[8] '15197,12/19/2025,Arrington Lumber,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,13260,4.50'
+[9] '15655,01/02/2026,Abel Flores,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,18320,4.2271'
+[10] '11168,08/20/2025,Townley Manufacturing,Ferrous,SHORT IRON/#1 HEAVY MELT,21000,7.00'
+[11] '9545,07/01/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,26660,6.00'
+[12] '9547,07/01/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,4140,5.00'
+[13] '9653,07/07/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,17120,6.00'
+[14] '9844,07/11/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,22300,6.00'
+[15] '9914,07/14/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,9580,5.00'
+[16] '9959,07/15/2025,Robbins & Morton,Ferrous,TIN/#2 LIGHT,2380,5.00'
+[17] '10000,07/16/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,23960,6.00'
+[18] '10189,07/21/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,18520,6.00'
+[19] '10396,07/25/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,12200,5.00'
+[20] '10397,07/25/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,5340,5.00'
+[21] '10477,07/29/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,7720,5.00'
+[22] '10484,07/29/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,27240,6.00'
+[23] '10617,08/01/2025,Keith Isaac,Ferrous,TIN/#2 LIGHT,16980,6.50'
+[24] '10642,08/04/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,16120,6.00'
+[25] '10711,08/06/2025,Hydro Con LLC,Ferrous,TIN/#2 LIGHT,16000,5.00'
+[26] '10749,08/07/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,27500,6.00'
+[27] '10902,08/12/2025,Dowling Heating & Air Conditioning,Ferrous,TIN/#2 LIGHT,5160,5.00'
+[28] '10904,08/12/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,18960,6.00'
+[29] '10932,08/13/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,5520,5.00'
+[30] '10953,08/14/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,7760,5.00'
+[31] '10979,08/15/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,15880,6.00'
+[32] '11164,08/19/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,19860,6.00'
+[33] '11168,08/20/2025,Townley Manufacturing,Ferrous,TIN/#2 LIGHT,15500,5.00'
+[34] '11224,08/22/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,12420,5.00'
+[35] '11348,08/25/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,27240,6.00'
+[36] '11422,08/27/2025,Arrington Lumber,Ferrous,TIN/#2 LIGHT,16200,5.00'
+[37] '11474,08/29/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,43460,6.00'
+[38] '11624,09/04/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,12180,5.00'
+[39] '11636,09/04/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,28520,6.00'
+[40] '11824,09/10/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,26160,6.00'
+[41] '11852,09/11/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,8740,5.00'
+[42] '11867,09/11/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,4800,5.00'
+[43] '11997,09/16/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,34120,6.00'
+[44] '12076,09/18/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,14320,6.00'
+[45] '12203,09/22/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,8000,5.00'
+[46] '12249,09/23/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,33040,6.00'
+[47] '12378,09/26/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,7480,5.00'
+[48] '12412,09/29/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,26760,6.00'
+[49] '12492,10/01/2025,Dowling Heating & Air Conditioning,Ferrous,TIN/#2 LIGHT,5020,5.00'
+[50] '12541,10/02/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,14440,6.00'
+[51] '12543,10/02/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,4580,5.00'
+[52] '12729,10/08/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,26320,6.00'
+[53] '12842,10/09/2025,Aarons Rent to Own,Ferrous,TIN/#2 LIGHT,320,5.00'
+[54] '12945,10/14/2025,T&O Fence,Ferrous,TIN/#2 LIGHT,12280,5.00'
+[55] '12957,10/14/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,28820,6.00'
+[56] '13046,10/16/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,11060,5.50'
+[57] '13047,10/16/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,7100,4.50'
+[58] '13057,10/17/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,19460,5.50'
+[59] '13074,10/17/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,7420,4.50'
+[60] '13242,10/24/2025,Classic Collision North Jackson,Ferrous,TIN/#2 LIGHT,2060,4.50'
+[61] '13285,10/23/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,26380,6.00'
+[62] '13434,10/28/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,33380,6.00'
+[63] '13504,10/30/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,15020,6.00'
+[64] '13514,10/30/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,5400,4.50'
+[65] '13515,10/30/2025,Arrington Lumber,Ferrous,TIN/#2 LIGHT,15000,4.50'
+[66] '13558,10/31/2025,Arrington Lumber,Ferrous,TIN/#2 LIGHT,8400,4.50'
+[67] '13602,11/03/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,29120,6.00'
+[68] '13616,11/03/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,9320,4.50'
+[69] '13639,11/04/2025,T&O Fence,Ferrous,TIN/#2 LIGHT,11610,4.50'
+[70] '13661,11/05/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,6460,4.50'
+[71] '13768,11/07/2025,Arrington Lumber,Ferrous,TIN/#2 LIGHT,10780,4.50'
+[72] '13886,11/10/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,27000,6.00'
+[73] '13940,11/12/2025,Arrington Lumber,Ferrous,TIN/#2 LIGHT,9220,4.50'
+[74] '14006,11/13/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,18980,6.00'
+[75] '14012,11/13/2025,Dowling Heating & Air Conditioning,Ferrous,TIN/#2 LIGHT,5240,4.50'
+[76] '14053,11/14/2025,Arrington Lumber,Ferrous,TIN/#2 LIGHT,11200,4.50'
+[77] '14055,11/14/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,6080,4.50'
+[78] '14202,11/18/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,24980,6.00'
+[79] '14278,11/20/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,8080,4.50'
+[80] '14279,11/24/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,9300,4.50'
+[81] '14362,11/24/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,24700,6.00'
+[82] '14409,11/25/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,5120,4.50'
+[83] '14548,12/01/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,19780,5.50'
+[84] '14728,12/08/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,22080,5.50'
+[85] '14729,12/08/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,7220,4.50'
+[86] '14741,12/08/2025,Arrington Lumber,Ferrous,TIN/#2 LIGHT,10000,4.50'
+[87] '14883,12/12/2025,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,9240,4.50'
+[88] '14894,12/12/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,18120,5.50'
+[89] '14966,12/15/2025,Dowling Heating & Air Conditioning,Ferrous,TIN/#2 LIGHT,3940,4.50'
+[90] '15125,12/18/2025,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,8380,4.50'
+[91] '15126,12/18/2025,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,5300,4.50'
+[92] '15131,12/18/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,17920,5.50'
+[93] '15324,12/23/2025,Carla Begley,Ferrous,TIN/#2 LIGHT,3500,4.50'
+[94] '15396,12/26/2025,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,20680,5.50'
+[95] '15876,01/08/2026,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,30560,5.50'
+[96] '15882,01/08/2026,Classic Collision North Jackson,Ferrous,TIN/#2 LIGHT,2540,2.5315'
+[97] '15884,01/08/2026,Cherokee County Solid Waste,Ferrous,TIN/#2 LIGHT,9820,4.50'
+[98] '16047,01/13/2026,Arrington Lumber,Ferrous,TIN/#2 LIGHT,10520,4.0247'
+[99] '16051,01/13/2026,Bannister Plumbing,Ferrous,TIN/#2 LIGHT,5900,3.6525'
+[100] '16129,01/15/2026,Gourmet Gardens,Ferrous,TIN/#2 LIGHT,9040,3.3938'
+[101] '16158,01/16/2026,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,24900,5.50'
+[102] '16251,01/19/2026,Dowling Heating & Air Conditioning,Ferrous,TIN/#2 LIGHT,5560,3.6007'
+[103] '16444,01/23/2026,Xtreme Metals,Ferrous,TIN/#2 LIGHT,10660,5.531'
+[104] '16456,01/23/2026,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,28400,5.50'
+[105] '16595,01/30/2026,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,34060,5.50'
+[106] '16694,02/04/2026,Carla Begley,Ferrous,TIN/#2 LIGHT,4020,3.2562'
+[107] '16767,02/05/2026,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,24160,5.50'
+[108] '17017,02/11/2026,STS Electronic Recycling,Ferrous,TIN/#2 LIGHT,31260,5.50'
+[109] '9958,07/15/2025,T&O Fence,Ferrous,WIRE/FENCING,17460,0.50'
+[110] '11291,08/22/2025,T&O Fence,Ferrous,WIRE/FENCING,9480,0.50'
+[111] '11995,09/16/2025,T&O Fence,Ferrous,WIRE/FENCING,9980,0.50'
+[112] '12945,10/14/2025,T&O Fence,Ferrous,WIRE/FENCING,3000,0.50'
+[113] '13639,11/04/2025,T&O Fence,Ferrous,WIRE/FENCING,3270,0.50'
+[114] '16622,02/02/2026,T&O Fence,Ferrous,WIRE/FENCING,7380,0'
+[115] '9547,07/01/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[116] '9914,07/14/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[117] '9958,07/15/2025,T&O Fence,Other,DISPATCH FEE,-50.00,-'
+[118] '9959,07/15/2025,Robbins & Morton,Other,DISPATCH FEE,-50.00,-'
+[119] '10397,07/25/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[120] '10477,07/29/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[121] '10711,08/06/2025,Hydro Con LLC,Other,DISPATCH FEE,-50.00,-'
+[122] '10902,08/12/2025,Dowling Heating & Air Conditioning,Other,DISPATCH FEE,-50.00,-'
+[123] '10932,08/13/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[124] '10953,08/14/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[125] '11168,08/20/2025,Townley Manufacturing,Other,DISPATCH FEE,-50.00,-'
+[126] '11290,08/22/2025,Townley Manufacturing,Other,DISPATCH FEE,-50.00,-'
+[127] '11291,08/22/2025,T&O Fence,Other,DISPATCH FEE,-47.40,-'
+[128] '11422,08/27/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[129] '11489,08/29/2025,Abel Flores,Other,DISPATCH FEE,-50.00,-'
+[130] '11624,09/04/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[131] '11679,09/05/2025,Abel Flores,Other,DISPATCH FEE,-50.00,-'
+[132] '11867,09/11/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[133] '11995,09/16/2025,T&O Fence,Other,DISPATCH FEE,-49.90,-'
+[134] '12077,09/18/2025,Abel Flores,Other,DISPATCH FEE,-50.00,-'
+[135] '12203,09/22/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[136] '12492,10/01/2025,Dowling Heating & Air Conditioning,Other,DISPATCH FEE,-50.00,-'
+[137] '12543,10/02/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[138] '12842,10/09/2025,Aarons Rent to Own,Other,DISPATCH FEE,-16.00,-'
+[139] '12945,10/14/2025,T&O Fence,Other,DISPATCH FEE,-50.00,-'
+[140] '13047,10/16/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[141] '13074,10/17/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[142] '13242,10/24/2025,Classic Collision North Jackson,Other,DISPATCH FEE,-50.00,-'
+[143] '13515,10/30/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[144] '13558,10/31/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[145] '13616,11/03/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[146] '13639,11/04/2025,T&O Fence,Other,DISPATCH FEE,-50.00,-'
+[147] '13661,11/05/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[148] '13768,11/07/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[149] '13940,11/12/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[150] '14012,11/13/2025,Dowling Heating & Air Conditioning,Other,DISPATCH FEE,-50.00,-'
+[151] '14053,11/14/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[152] '14055,11/14/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[153] '14278,11/20/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[154] '14307,11/21/2025,Abel Flores,Other,DISPATCH FEE,-50.00,-'
+[155] '14409,11/25/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[156] '14729,12/08/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[157] '14741,12/08/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[158] '14883,12/12/2025,Gourmet Gardens,Other,DISPATCH FEE,-50.00,-'
+[159] '14966,12/15/2025,Dowling Heating & Air Conditioning,Other,DISPATCH FEE,-50.00,-'
+[160] '15126,12/18/2025,Bannister Plumbing,Other,DISPATCH FEE,-50.00,-'
+[161] '15197,12/19/2025,Arrington Lumber,Other,DISPATCH FEE,-50.00,-'
+[162] '15324,12/23/2025,Carla Begley,Other,DISPATCH FEE,-50.00,-'
+[163] 'Total,,,,,1710820,'
+[164] '10529,07/30/2025,Neckover Trailers,Ferrous,Dealer Clips,22300,6.25'
+[165] '11740,09/08/2025,Neckover Trailers,Ferrous,Dealer Clips,23140,6.50'
+[166] '13187,10/21/2025,Neckover Trailers,Ferrous,Dealer Clips,25880,6.50'
+[167] '14784,12/10/2025,Neckover Trailers,Ferrous,Dealer Clips,28600,7.00'
+[168] '16722,02/04/2026,Neckover Trailers,Ferrous,Dealer Clips,25080,6.8006'
+[169] '9561,07/02/2025,SKS Demolition,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,10220,5.00'
+[170] '9915,07/14/2025,Southern Tire Mart,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,8121,6.50'
+[171] '10094,07/18/2025,Jayden Root,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,8460,5.00'
+[172] '10527,07/30/2025,Delek Companies,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,18000,5.00'
+[173] '11905,09/12/2025,Black Label Pro Diesel,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,3320,6.00'
+[174] '11994,09/15/2025,Cook Compression,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,10720,6.00'
+[175] '12306,09/25/2025,Jasper Ventures Inc,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,16960,240.00'
+[176] '12670,10/06/2025,Delek Companies,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,12560,6.00'
+[177] '12755,10/08/2025,Jasper Ventures Inc,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,9200,215.00'
+[178] '13112,10/17/2025,Jasper Ventures Inc,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,8740,215.00'
+[179] '13711,11/06/2025,Joe Tex Xpress Mineola,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,2960,6.00'
+[180] '14201,11/19/2025,Astro Machine & Tool Works,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,9975,6.75'
+[181] '14237,11/19/2025,Southern Tire Mart,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,8480,6.50'
+[182] '14587,12/05/2025,Delek Companies,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,3000,6.50'
+[183] '14639,12/04/2025,Equipmentshare,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,12220,6.00'
+[184] '14989,12/16/2025,Doggett John Deer,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,20140,6.00'
+[185] '15073,12/17/2025,Rush Truck Center,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,1000,6.00'
+[186] '15196,12/22/2025,Delek Companies,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,25420,6.50'
+[187] '16064,01/13/2026,Jasper Ventures Inc,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,19420,13.25'
+[188] '16596,02/03/2026,Delek Companies,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,25000,6.1941'
+[189] '16769,02/06/2026,Jasper Ventures Inc,Ferrous,LONG IRON/UNPREPARED #1&2 MIX,17060,285.00'
+[190] '12047,09/18/2025,Hunter Demolition & Wrecking Corp.,Ferrous,P&S PREPARED,102500,200.00'
+[191] '12223,09/30/2025,Hunter Demolition & Wrecking Corp.,Ferrous,P&S PREPARED,23920,200.00'
+[192] '9719,07/10/2025,Fritcher Construction,Ferrous,REBAR,46640,5.00'
+[193] '9829,07/11/2025,Fritcher Construction,Ferrous,REBAR,43160,5.00'
+[194] '9981,07/16/2025,Fritcher Construction,Ferrous,REBAR,25460,5.00'
+[195] '10301,07/24/2025,Pinehurst Farms,Ferrous,REBAR,2000,0.50'
+[196] '9694,07/07/2025,Felicia Wray,Ferrous,SHORT IRON/#1 HEAVY MELT,6040,7.50'
+[197] '10221,07/22/2025,Allstar Ford,Ferrous,SHORT IRON/#1 HEAVY MELT,4860,7.50'
+[198] '10856,08/11/2025,Hall Truck Center,Ferrous,SHORT IRON/#1 HEAVY MELT,7340,8.00'
+[199] '11420,08/27/2025,Rush Truck Leasing,Ferrous,SHORT IRON/#1 HEAVY MELT,2500,9.00'
+[200] '11491,08/29/2025,LSR Equipment,Ferrous,SHORT IRON/#1 HEAVY MELT,23300,9.00'
+[201] '11868,09/18/2025,Rusk County Electric Cooperative., Inc,Ferrous,SHORT IRON/#1 HEAVY MELT,152,8.50'
+[202] '11905,09/12/2025,Black Label Pro Diesel,Ferrous,SHORT IRON/#1 HEAVY MELT,500,9.00'
+[203] '11961,09/15/2025,Crest Process Systems,Ferrous,SHORT IRON/#1 HEAVY MELT,36100,9.00'
+[204] '12306,09/25/2025,Jasper Ventures Inc,Ferrous,SHORT IRON/#1 HEAVY MELT,16080,260.00'
+[205] '12463,09/30/2025,Felicia Wray,Ferrous,SHORT IRON/#1 HEAVY MELT,8540,8.50'
+[206] '12582,10/06/2025,Hunter Demolition & Wrecking Corp.,Ferrous,SHORT IRON/#1 HEAVY MELT,9160,200.00'
+[207] '13017,10/16/2025,Hall Truck Center,Ferrous,SHORT IRON/#1 HEAVY MELT,2220,8.50'
+[208] '13247,10/22/2025,Midwest Truck & Trailer Maintenance,Ferrous,SHORT IRON/#1 HEAVY MELT,9820,8.50'
+[209] '13429,10/28/2025,Hex 6,Ferrous,SHORT IRON/#1 HEAVY MELT,2680,9.00'
+[210] '13523,10/31/2025,Fritcher Construction,Ferrous,SHORT IRON/#1 HEAVY MELT,3000,9.00'
+[211] '13689,11/05/2025,Byrider,Ferrous,SHORT IRON/#1 HEAVY MELT,3000,8.50'
+[212] '13723,11/10/2025,Rush Truck Center,Ferrous,SHORT IRON/#1 HEAVY MELT,8660,8.50'
+[213] '14587,12/05/2025,Delek Companies,Ferrous,SHORT IRON/#1 HEAVY MELT,1000,8.50'
+[214] '14639,12/04/2025,Equipmentshare,Ferrous,SHORT IRON/#1 HEAVY MELT,4000,8.50'
+[215] '14704,12/08/2025,Crest Process Systems,Ferrous,SHORT IRON/#1 HEAVY MELT,26460,9.00'
+[216] '15073,12/17/2025,Rush Truck Center,Ferrous,SHORT IRON/#1 HEAVY MELT,2000,8.50'
+[217] '16012,01/12/2026,Astro Machine & Tool Works,Ferrous,SHORT IRON/#1 HEAVY MELT,5000,9.00'
+[218] '16596,02/03/2026,Delek Companies,Ferrous,SHORT IRON/#1 HEAVY MELT,3000,8.5765'
+[219] '9755,07/09/2025,Rusk County Electric Cooperative., Inc,Ferrous,STEEL CABLE,240,0.50'
+[220] '11868,09/18/2025,Rusk County Electric Cooperative., Inc,Ferrous,STEEL CABLE,1440,0.50'
+[221] '14586,01/06/2026,Rusk County Electric Cooperative., Inc,Ferrous,STEEL CABLE,120,0.50'
+[222] '16146,02/06/2026,Rusk County Electric Cooperative., Inc,Ferrous,STEEL CABLE,1140,0.50'
+[223] '9571,07/02/2025,Stone Water Roofing,Ferrous,TIN/#2 LIGHT,26780,5.00'
+[224] '9662,07/07/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,3140,5.00'
+[225] '9694,07/07/2025,Felicia Wray,Ferrous,TIN/#2 LIGHT,1240,5.00'
+[226] '9699,07/08/2025,SKS Demolition,Ferrous,TIN/#2 LIGHT,3500,5.00'
+[227] '9745,07/09/2025,Benjamin Franklin Plumbing,Ferrous,TIN/#2 LIGHT,5620,5.00'
+[228] '9755,07/09/2025,Rusk County Electric Cooperative., Inc,Ferrous,TIN/#2 LIGHT,1650,5.50'
+[229] '9761,07/09/2025,TNT Demolition (Norman Ward),Ferrous,TIN/#2 LIGHT,2980,5.00'
+[230] '9802,07/10/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,20460,5.00'
+[231] '9841,07/11/2025,Xtreme Metals,Ferrous,TIN/#2 LIGHT,9900,5.00'
+[232] '9899,07/14/2025,Leons Sign,Ferrous,TIN/#2 LIGHT,2020,5.00'
+[233] '9961,07/15/2025,Lamar Advertising,Ferrous,TIN/#2 LIGHT,6900,5.00'
+[234] '9963,07/15/2025,Tailored Foam,Ferrous,TIN/#2 LIGHT,2700,3.1481'
+[235] '10014,07/17/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,20960,5.00'
+[236] '10049,07/17/2025,Adam Marsh,Ferrous,TIN/#2 LIGHT,1800,5.00'
+[237] '10050,07/17/2025,Eagle Business Machines,Ferrous,TIN/#2 LIGHT,6020,5.00'
+[238] '10220,07/22/2025,TNT Demolition (Norman Ward),Ferrous,TIN/#2 LIGHT,4600,5.00'
+[239] '10221,07/22/2025,Allstar Ford,Ferrous,TIN/#2 LIGHT,4520,5.00'
+[240] '10260,07/23/2025,TNT Demolition (Norman Ward),Ferrous,TIN/#2 LIGHT,6240,5.00'
+[241] '10261,07/23/2025,Tyler Overhead Door,Ferrous,TIN/#2 LIGHT,2820,5.00'
+[242] '10276,07/25/2025,Aesop Auto,Ferrous,TIN/#2 LIGHT,9960,7.00'
+[243] '10301,07/24/2025,Pinehurst Farms,Ferrous,TIN/#2 LIGHT,5540,5.00'
+[244] '10309,07/24/2025,MOMENTUM MIDSTREAM,Ferrous,TIN/#2 LIGHT,0,0'
+[245] '10410,07/28/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,21360,5.00'
+[246] '10436,07/28/2025,Momentum Midstream Longview Plant,Ferrous,TIN/#2 LIGHT,3940,5.00'
+[247] '10497,07/30/2025,Overhead Door Systems,Ferrous,TIN/#2 LIGHT,5800,5.00'
+[248] '10507,07/30/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,3900,5.00'
+[249] '10521,07/30/2025,Leons Sign,Ferrous,TIN/#2 LIGHT,14140,5.5615'
+[250] '10526,07/30/2025,Select Chemistry,Ferrous,TIN/#2 LIGHT,3320,5.00'
+[251] '10527,07/30/2025,Delek Companies,Ferrous,TIN/#2 LIGHT,3080,5.00'
+[252] '10587,07/31/2025,Lyle Crowell,Ferrous,TIN/#2 LIGHT,4760,5.00'
+[253] '10671,08/05/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,19900,5.00'
+[254] '10683,08/05/2025,Xtreme Metals,Ferrous,TIN/#2 LIGHT,9220,5.00'
+[255] '10000,08/05/2025,Benjamin Franklin Plumbing,Ferrous,TIN/#2 LIGHT,6000,5.00'
+[256] '10724,08/06/2025,Sanderson Farms,Ferrous,TIN/#2 LIGHT,9840,5.00'
+[257] '10810,08/08/2025,Allstar Ford,Ferrous,TIN/#2 LIGHT,8760,6.00'
+[258] '10813,08/08/2025,Aesop Auto,Ferrous,TIN/#2 LIGHT,8080,7.00'
+[259] '10856,08/11/2025,Hall Truck Center,Ferrous,TIN/#2 LIGHT,6660,6.00'
+[260] '10942,09/05/2025,United States Postal Service,Ferrous,TIN/#2 LIGHT,21320,6.00'
+[261] '11160,08/20/2025,Doggett John Deer,Ferrous,TIN/#2 LIGHT,26100,5.00'
+[262] '11383,08/26/2025,Precision Garage Door Service of Northeast Texas,Ferrous,TIN/#2 LIGHT,4520,6.00'
+[263] '11392,08/27/2025,Xtreme Metals,Ferrous,TIN/#2 LIGHT,12420,6.00'
+[264] '11420,08/27/2025,Rush Truck Leasing,Ferrous,TIN/#2 LIGHT,3909,6.00'
+[265] '11477,08/29/2025,Delek Companies,Ferrous,TIN/#2 LIGHT,17370,6.00'
+[266] '11490,08/29/2025,Stone Water Roofing,Ferrous,TIN/#2 LIGHT,500,6.00'
+[267] '11582,09/03/2025,Overhead Door Systems,Ferrous,TIN/#2 LIGHT,6680,6.00'
+[268] '11610,09/04/2025,Delek Companies,Ferrous,TIN/#2 LIGHT,22270,6.00'
+[269] '11743,09/08/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,4360,6.00'
+[270] '11791,09/10/2025,Benjamin Franklin Plumbing,Ferrous,TIN/#2 LIGHT,6220,7.00'
+[271] '11854,09/11/2025,Joe Hand,Ferrous,TIN/#2 LIGHT,7000,6.50'
+[272] '11855,09/11/2025,Wilders Seamless Gutters,Ferrous,TIN/#2 LIGHT,200,6.00'
+[273] '11868,09/18/2025,Rusk County Electric Cooperative., Inc,Ferrous,TIN/#2 LIGHT,7800,6.00'
+[274] '11906,09/12/2025,Leons Sign,Ferrous,TIN/#2 LIGHT,3960,6.00'
+[275] '12075,09/18/2025,Southern Tire Mart,Ferrous,TIN/#2 LIGHT,7000,6.50'
+[276] '12078,09/22/2025,Aesop Auto,Ferrous,TIN/#2 LIGHT,7520,6.50'
+[277] '12224,09/23/2025,Xtreme Metals,Ferrous,TIN/#2 LIGHT,11160,6.00'
+[278] '12286,09/24/2025,Benjamin Franklin Plumbing,Ferrous,TIN/#2 LIGHT,10760,6.00'
+[279] '12321,09/25/2025,Rusk County Electric Cooperative., Inc,Ferrous,TIN/#2 LIGHT,2564,6.00'
+[280] '12322,09/25/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,3580,6.00'
+[281] '12323,09/25/2025,Keith Hodges Collision,Ferrous,TIN/#2 LIGHT,3460,6.00'
+[282] '12379,09/26/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,44340,6.00'
+[283] '12390,09/29/2025,Joe Hand,Ferrous,TIN/#2 LIGHT,7400,6.00'
+[284] '12421,09/30/2025,Benjamin Franklin Plumbing,Ferrous,TIN/#2 LIGHT,6940,6.00'
+[285] '12502,10/01/2025,Daystar Electric,Ferrous,TIN/#2 LIGHT,9900,6.00'
+[286] '12544,10/02/2025,Robertson Mechanical Contractors Lic,Ferrous,TIN/#2 LIGHT,19920,6.00'
+[287] '12546,10/02/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,21580,6.00'
+[288] '12577,10/03/2025,Joseph Cotten,Ferrous,TIN/#2 LIGHT,5040,6.00'
+[289] '12671,10/06/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,20580,6.00'
+[290] '12958,10/14/2025,Ross Mills,Ferrous,TIN/#2 LIGHT,7740,6.00'
+[291] '12971,10/15/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,2060,6.00'
+[292] '13006,10/28/2025,Rusk County Electric Cooperative., Inc,Ferrous,TIN/#2 LIGHT,3920,6.00'
+[293] '13011,10/22/2025,Aesop Auto,Ferrous,TIN/#2 LIGHT,7300,7.00'
+[294] '13017,10/16/2025,Hall Truck Center,Ferrous,TIN/#2 LIGHT,9545,6.00'
+[295] '13112,10/17/2025,Jasper Ventures Inc,Ferrous,TIN/#2 LIGHT,2300,215.00'
+[296] '13139,10/21/2025,Fritcher Construction,Ferrous,TIN/#2 LIGHT,21160,6.50'
+[297] '13180,10/21/2025,Precision Garage Door Service of Northeast Texas,Ferrous,TIN/#2 LIGHT,4280,6.00'
+[298] '13232,10/22/2025,Doggett John Deer,Ferrous,TIN/#2 LIGHT,2760,6.00'
+[299] '13243,10/22/2025,Asco Equipment,Ferrous,TIN/#2 LIGHT,8420,6.00'
+[300] '13278,10/23/2025,Bennett McKenzie,Ferrous,TIN/#2 LIGHT,4060,6.00'
+[301] '13279,10/23/2025,Eagle Business Machines,Ferrous,TIN/#2 LIGHT,5220,6.00'
+[302] '13293,10/24/2025,Stone Water Roofing,Ferrous,TIN/#2 LIGHT,1960,6.00'
+[303] '13302,10/24/2025,Michael Robertson,Ferrous,TIN/#2 LIGHT,4420,6.00'
+[304] '13310,10/24/2025,Tailored Foam,Ferrous,TIN/#2 LIGHT,1880,6.00'
+[305] '13311,10/24/2025,The Brothers That Just Do Gutters,Ferrous,TIN/#2 LIGHT,300,6.00'
+[306] '13423,10/28/2025,Xtreme Metals,Ferrous,TIN/#2 LIGHT,8240,6.00'
+[307] '13429,10/28/2025,Hex 6,Ferrous,TIN/#2 LIGHT,4107,6.50'
+[308] '13473,10/29/2025,Benjamin Franklin Plumbing,Ferrous,TIN/#2 LIGHT,4740,6.00'
+[309] '13474,10/29/2025,Impressive Image Works,Ferrous,TIN/#2 LIGHT,7140,6.00'
+[310] '13513,10/30/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,3020,6.00'
+[311] '13523,10/31/2025,Fritcher Construction,Ferrous,TIN/#2 LIGHT,9020,6.50'
+[312] '13571,10/31/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,2980,6.00'
+[313] '13689,11/05/2025,Byrider,Ferrous,TIN/#2 LIGHT,6522,6.00'
+[314] '13717,11/06/2025,Tyler Overhead Door,Ferrous,TIN/#2 LIGHT,3760,6.00'
+[315] '13723,11/10/2025,Rush Truck Center,Ferrous,TIN/#2 LIGHT,16143,6.00'
+[316] '13729,11/06/2025,Lamar Advertising,Ferrous,TIN/#2 LIGHT,17900,6.00'
+[317] '13919,11/11/2025,Michael Robertson,Ferrous,TIN/#2 LIGHT,7260,6.00'
+[318] '13970,11/12/2025,Four Seasons Containers,Ferrous,TIN/#2 LIGHT,3200,6.00'
+[319] '13971,11/12/2025,Overhead Door Systems,Ferrous,TIN/#2 LIGHT,6240,6.00'
+[320] '13975,11/12/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,3000,6.00'
+[321] '14023,11/13/2025,Bennett McKenzie,Ferrous,TIN/#2 LIGHT,6400,6.00'
+[322] '14071,11/19/2025,Aesop Auto,Ferrous,TIN/#2 LIGHT,8120,7.00'
+[323] '14072,11/14/2025,Stone Water Roofing,Ferrous,TIN/#2 LIGHT,2403,6.00'
+[324] '14154,11/19/2025,Delek Companies,Ferrous,TIN/#2 LIGHT,26540,6.50'
+[325] '14232,11/19/2025,The Brothers That Just Do Gutters,Ferrous,TIN/#2 LIGHT,240,6.00'
+[326] '14292,11/21/2025,Becker Iron & Metal,Ferrous,TIN/#2 LIGHT,4420,6.00'
+[327] '14308,11/21/2025,Benjamin Franklin Plumbing,Ferrous,TIN/#2 LIGHT,5920,6.00'
+[328] '14331,11/24/2025,Grace Community Schools/Church,Ferrous,TIN/#2 LIGHT,6360,7.00'
+[329] '14370,11/24/2025,Allstar Ford,Ferrous,TIN/#2 LIGHT,5780,6.00'
+[330] '14447,11/26/2025,Xtreme Metals,Ferrous,TIN/#2 LIGHT,10120,6.00'
+[331] '14586,01/06/2026,Rusk County Electric Cooperative., Inc,Ferrous,TIN/#2 LIGHT,850,6.00'
+[332] '14587,12/05/2025,Delek Companies,Ferrous,TIN/#2 LIGHT,1480,6.50'
+[333] '14607,12/03/2025,Tyler Sheet Metal,Ferrous,TIN/#2 LIGHT,6020,6.00'
+[334] '14616,12/03/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,3320,6.00'
+[335] '14780,12/10/2025,Aesop Auto,Ferrous,TIN/#2 LIGHT,7840,7.00'
+[336] '14864,12/11/2025,Leons Sign,Ferrous,TIN/#2 LIGHT,4880,6.00'
+[337] '14884,12/12/2025,Trident Solution Services,Ferrous,TIN/#2 LIGHT,4820,6.00'
+[338] '14964,12/15/2025,G&R GUTTERS & GARAGE DOORS,Ferrous,TIN/#2 LIGHT,5300,6.00'
+[339] '14976,12/16/2025,Stone Water Roofing,Ferrous,TIN/#2 LIGHT,1540,6.00'
+[340] '14990,12/16/2025,Asco Equipment,Ferrous,TIN/#2 LIGHT,2720,6.00'
+[341] '15023,12/16/2025,JC Fence,Ferrous,TIN/#2 LIGHT,2360,6.00'
+[342] '15024,12/16/2025,Cortex Process Equipment, LLC,Ferrous,TIN/#2 LIGHT,6420,6.50'
+[343] '15025,12/16/2025,Precision Garage Door Service of Northeast Texas,Ferrous,TIN/#2 LIGHT,5380,6.00'
+[344] '15042,12/17/2025,Accelerated Diesel,Ferrous,TIN/#2 LIGHT,6280,6.00'
+[345] '15072,12/17/2025,Texas Metal Carports,Ferrous,TIN/#2 LIGHT,10620,6.25'
+[346] '15073,12/17/2025,Rush Truck Center,Ferrous,TIN/#2 LIGHT,1060,6.00'
+[347] '15193,12/19/2025,Blue Ribbon Fence Company,Ferrous,TIN/#2 LIGHT,2000,6.00'
+[348] '15195,12/19/2025,Rayson Autobody,Ferrous,TIN/#2 LIGHT,1680,6.00'
+[349] '15196,12/22/2025,Delek Companies,Ferrous,TIN/#2 LIGHT,21840,6.50'
+[350] '15377,12/23/2025,Robert Fuller,Ferrous,TIN/#2 LIGHT,5420,7.00'
+[351] '15385,12/26/2025,Hangers Of Hope,Ferrous,TIN/#2 LIGHT,2960,6.00'
+[352] '15556,12/31/2025,Texas Metal Carports,Ferrous,TIN/#2 LIGHT,5020,6.25'
+[353] '15577,12/31/2025,Eagle Business Machines,Ferrous,TIN/#2 LIGHT,5240,6.00'
+[354] '15578,12/31/2025,Overhead Door Systems,Ferrous,TIN/#2 LIGHT,6680,6.00'
+[355] '15600,12/31/2025,Robert Fuller,Ferrous,TIN/#2 LIGHT,4920,7.00'
+[356] '15617,01/02/2026,Delek Companies,Ferrous,TIN/#2 LIGHT,11300,6.0575'
+[357] '15657,01/02/2026,Bennett McKenzie,Ferrous,TIN/#2 LIGHT,8460,5.409'
+
+=== TABLES ===
+Table 0: 1047 rows x 7 cols
+  Row 0: ["'Ticket #'", "'Date'", "'Supplier'", "'Group'", "'Material'", "'Net'", "'Price'"]
+  Row 1: ["''", "'08/22/2025'", "'Townley Manufacturing'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.50'"]
+  Row 2: ["''", "'08/29/2025'", "'Abel Flores'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 3: ["''", "'09/05/2025'", "'Abel Flores'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 4: ["''", "'09/18/2025'", "'Abel Flores'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 5: ["''", "'11/21/2025'", "'Abel Flores'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'4.50'"]
+  Row 6: ["''", "'12/19/2025'", "'Arrington Lumber'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'4.50'"]
+  Row 7: ["''", "'01/02/2026'", "'Abel Flores'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'4.2271'"]
+  Row 8: ["''", "'08/20/2025'", "'Townley Manufacturing'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'7.00'"]
+  Row 9: ["''", "'07/01/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 10: ["''", "'07/01/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 11: ["''", "'07/07/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 12: ["''", "'07/11/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 13: ["''", "'07/14/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 14: ["''", "'07/15/2025'", "'Robbins & Morton'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 15: ["''", "'07/16/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 16: ["''", "'07/21/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 17: ["''", "'07/25/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 18: ["''", "'07/25/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 19: ["''", "'07/29/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 20: ["''", "'07/29/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 21: ["''", "'08/01/2025'", "'Keith Isaac'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 22: ["''", "'08/04/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 23: ["''", "'08/06/2025'", "'Hydro Con LLC'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 24: ["''", "'08/07/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 25: ["''", "'08/12/2025'", "'Dowling Heating & Air Conditioning'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 26: ["''", "'08/12/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 27: ["''", "'08/13/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 28: ["''", "'08/14/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 29: ["''", "'08/15/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 30: ["''", "'08/19/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 31: ["''", "'08/20/2025'", "'Townley Manufacturing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 32: ["''", "'08/22/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 33: ["''", "'08/25/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 34: ["''", "'08/27/2025'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 35: ["''", "'08/29/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 36: ["''", "'09/04/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 37: ["''", "'09/04/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 38: ["''", "'09/10/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 39: ["''", "'09/11/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 40: ["''", "'09/11/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 41: ["''", "'09/16/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 42: ["''", "'09/18/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 43: ["''", "'09/22/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 44: ["''", "'09/23/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 45: ["''", "'09/26/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 46: ["''", "'09/29/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 47: ["''", "'10/01/2025'", "'Dowling Heating & Air Conditioning'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 48: ["''", "'10/02/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 49: ["''", "'10/02/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 50: ["''", "'10/08/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 51: ["''", "'10/09/2025'", "'Aarons Rent to Own'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 52: ["''", "'10/14/2025'", "'T&O Fence'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 53: ["''", "'10/14/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 54: ["''", "'10/16/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 55: ["''", "'10/16/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 56: ["''", "'10/17/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 57: ["''", "'10/17/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 58: ["''", "'10/24/2025'", "'Classic Collision North Jackson'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 59: ["''", "'10/23/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 60: ["''", "'10/28/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 61: ["''", "'10/30/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 62: ["''", "'10/30/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 63: ["''", "'10/30/2025'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 64: ["''", "'10/31/2025'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 65: ["''", "'11/03/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 66: ["''", "'11/03/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 67: ["''", "'11/04/2025'", "'T&O Fence'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 68: ["''", "'11/05/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 69: ["''", "'11/07/2025'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 70: ["''", "'11/10/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 71: ["''", "'11/12/2025'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 72: ["''", "'11/13/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 73: ["''", "'11/13/2025'", "'Dowling Heating & Air Conditioning'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 74: ["''", "'11/14/2025'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 75: ["''", "'11/14/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 76: ["''", "'11/18/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 77: ["''", "'11/20/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 78: ["''", "'11/24/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 79: ["''", "'11/24/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 80: ["''", "'11/25/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 81: ["''", "'12/01/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 82: ["''", "'12/08/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 83: ["''", "'12/08/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 84: ["''", "'12/08/2025'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 85: ["''", "'12/12/2025'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 86: ["''", "'12/12/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 87: ["''", "'12/15/2025'", "'Dowling Heating & Air Conditioning'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 88: ["''", "'12/18/2025'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 89: ["''", "'12/18/2025'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 90: ["''", "'12/18/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 91: ["''", "'12/23/2025'", "'Carla Begley'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 92: ["''", "'12/26/2025'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 93: ["''", "'01/08/2026'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 94: ["''", "'01/08/2026'", "'Classic Collision North Jackson'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'2.5315'"]
+  Row 95: ["''", "'01/08/2026'", "'Cherokee County Solid Waste'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 96: ["''", "'01/13/2026'", "'Arrington Lumber'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.0247'"]
+  Row 97: ["''", "'01/13/2026'", "'Bannister Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.6525'"]
+  Row 98: ["''", "'01/15/2026'", "'Gourmet Gardens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.3938'"]
+  Row 99: ["''", "'01/16/2026'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 100: ["''", "'01/19/2026'", "'Dowling Heating & Air Conditioning'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.6007'"]
+  Row 101: ["''", "'01/23/2026'", "'Xtreme Metals'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.531'"]
+  Row 102: ["''", "'01/23/2026'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 103: ["''", "'01/30/2026'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 104: ["''", "'02/04/2026'", "'Carla Begley'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.2562'"]
+  Row 105: ["''", "'02/05/2026'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 106: ["''", "'02/11/2026'", "'STS Electronic Recycling'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 107: ["''", "'07/15/2025'", "'T&O Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 108: ["''", "'08/22/2025'", "'T&O Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 109: ["''", "'09/16/2025'", "'T&O Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 110: ["''", "'10/14/2025'", "'T&O Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 111: ["''", "'11/04/2025'", "'T&O Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 112: ["''", "'02/02/2026'", "'T&O Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0'"]
+  Row 113: ["''", "'07/01/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 114: ["''", "'07/14/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 115: ["''", "'07/15/2025'", "'T&O Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 116: ["''", "'07/15/2025'", "'Robbins & Morton'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 117: ["''", "'07/25/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 118: ["''", "'07/29/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 119: ["''", "'08/06/2025'", "'Hydro Con LLC'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 120: ["''", "'08/12/2025'", "'Dowling Heating & Air Conditioning'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 121: ["''", "'08/13/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 122: ["''", "'08/14/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 123: ["''", "'08/20/2025'", "'Townley Manufacturing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 124: ["''", "'08/22/2025'", "'Townley Manufacturing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 125: ["''", "'08/22/2025'", "'T&O Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 126: ["''", "'08/27/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 127: ["''", "'08/29/2025'", "'Abel Flores'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 128: ["''", "'09/04/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 129: ["''", "'09/05/2025'", "'Abel Flores'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 130: ["''", "'09/11/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 131: ["''", "'09/16/2025'", "'T&O Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 132: ["''", "'09/18/2025'", "'Abel Flores'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 133: ["''", "'09/22/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 134: ["''", "'10/01/2025'", "'Dowling Heating & Air Conditioning'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 135: ["''", "'10/02/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 136: ["''", "'10/09/2025'", "'Aarons Rent to Own'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 137: ["''", "'10/14/2025'", "'T&O Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 138: ["''", "'10/16/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 139: ["''", "'10/17/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 140: ["''", "'10/24/2025'", "'Classic Collision North Jackson'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 141: ["''", "'10/30/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 142: ["''", "'10/31/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 143: ["''", "'11/03/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 144: ["''", "'11/04/2025'", "'T&O Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 145: ["''", "'11/05/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 146: ["''", "'11/07/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 147: ["''", "'11/12/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 148: ["''", "'11/13/2025'", "'Dowling Heating & Air Conditioning'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 149: ["''", "'11/14/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 150: ["''", "'11/14/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 151: ["''", "'11/20/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 152: ["''", "'11/21/2025'", "'Abel Flores'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 153: ["''", "'11/25/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 154: ["''", "'12/08/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 155: ["''", "'12/08/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 156: ["''", "'12/12/2025'", "'Gourmet Gardens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 157: ["''", "'12/15/2025'", "'Dowling Heating & Air Conditioning'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 158: ["''", "'12/18/2025'", "'Bannister Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 159: ["''", "'12/19/2025'", "'Arrington Lumber'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 160: ["''", "'12/23/2025'", "'Carla Begley'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 161: ["''", "''", "''", "''", "''", "''", "''"]
+  Row 162: ["''", "'07/30/2025'", "'Neckover Trailers'", "'Ferrous'", "'Dealer Clips'", "''", "'6.25'"]
+  Row 163: ["''", "'09/08/2025'", "'Neckover Trailers'", "'Ferrous'", "'Dealer Clips'", "''", "'6.50'"]
+  Row 164: ["''", "'10/21/2025'", "'Neckover Trailers'", "'Ferrous'", "'Dealer Clips'", "''", "'6.50'"]
+  Row 165: ["''", "'12/10/2025'", "'Neckover Trailers'", "'Ferrous'", "'Dealer Clips'", "''", "'7.00'"]
+  Row 166: ["''", "'02/04/2026'", "'Neckover Trailers'", "'Ferrous'", "'Dealer Clips'", "''", "'6.8006'"]
+  Row 167: ["''", "'07/02/2025'", "'SKS Demolition'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 168: ["''", "'07/14/2025'", "'Southern Tire Mart'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.50'"]
+  Row 169: ["''", "'07/18/2025'", "'Jayden Root'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 170: ["''", "'07/30/2025'", "'Delek Companies'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 171: ["''", "'09/12/2025'", "'Black Label Pro Diesel'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.00'"]
+  Row 172: ["''", "'09/15/2025'", "'Cook Compression'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.00'"]
+  Row 173: ["''", "'09/25/2025'", "'Jasper Ventures Inc'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'240.00'"]
+  Row 174: ["''", "'10/06/2025'", "'Delek Companies'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.00'"]
+  Row 175: ["''", "'10/08/2025'", "'Jasper Ventures Inc'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'215.00'"]
+  Row 176: ["''", "'10/17/2025'", "'Jasper Ventures Inc'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'215.00'"]
+  Row 177: ["''", "'11/06/2025'", "'Joe Tex Xpress Mineola'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.00'"]
+  Row 178: ["''", "'11/19/2025'", "'Astro Machine & Tool Works'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.75'"]
+  Row 179: ["''", "'11/19/2025'", "'Southern Tire Mart'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.50'"]
+  Row 180: ["''", "'12/05/2025'", "'Delek Companies'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.50'"]
+  Row 181: ["''", "'12/04/2025'", "'Equipmentshare'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.00'"]
+  Row 182: ["''", "'12/16/2025'", "'Doggett John Deer'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.00'"]
+  Row 183: ["''", "'12/17/2025'", "'Rush Truck Center'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.00'"]
+  Row 184: ["''", "'12/22/2025'", "'Delek Companies'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.50'"]
+  Row 185: ["''", "'01/13/2026'", "'Jasper Ventures Inc'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'13.25'"]
+  Row 186: ["''", "'02/03/2026'", "'Delek Companies'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'6.1941'"]
+  Row 187: ["''", "'02/06/2026'", "'Jasper Ventures Inc'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'285.00'"]
+  Row 188: ["''", "'09/18/2025'", "'Hunter Demolition & Wrecking Corp.'", "'Ferrous'", "'P&S PREPARED'", "''", "'200.00'"]
+  Row 189: ["''", "'09/30/2025'", "'Hunter Demolition & Wrecking Corp.'", "'Ferrous'", "'P&S PREPARED'", "''", "'200.00'"]
+  Row 190: ["''", "'07/10/2025'", "'Fritcher Construction'", "'Ferrous'", "'REBAR'", "''", "'5.00'"]
+  Row 191: ["''", "'07/11/2025'", "'Fritcher Construction'", "'Ferrous'", "'REBAR'", "''", "'5.00'"]
+  Row 192: ["''", "'07/16/2025'", "'Fritcher Construction'", "'Ferrous'", "'REBAR'", "''", "'5.00'"]
+  Row 193: ["''", "'07/24/2025'", "'Pinehurst Farms'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 194: ["''", "'07/07/2025'", "'Felicia Wray'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'7.50'"]
+  Row 195: ["''", "'07/22/2025'", "'Allstar Ford'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'7.50'"]
+  Row 196: ["''", "'08/11/2025'", "'Hall Truck Center'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.00'"]
+  Row 197: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 198: ["''", "'08/29/2025'", "'LSR Equipment'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 199: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 200: ["''", "'09/12/2025'", "'Black Label Pro Diesel'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 201: ["''", "'09/15/2025'", "'Crest Process Systems'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 202: ["''", "'09/25/2025'", "'Jasper Ventures Inc'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'260.00'"]
+  Row 203: ["''", "'09/30/2025'", "'Felicia Wray'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 204: ["''", "'10/06/2025'", "'Hunter Demolition & Wrecking Corp.'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'200.00'"]
+  Row 205: ["''", "'10/16/2025'", "'Hall Truck Center'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 206: ["''", "'10/22/2025'", "'Midwest Truck & Trailer Maintenance'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 207: ["''", "'10/28/2025'", "'Hex 6'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 208: ["''", "'10/31/2025'", "'Fritcher Construction'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 209: ["''", "'11/05/2025'", "'Byrider'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 210: ["''", "'11/10/2025'", "'Rush Truck Center'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 211: ["''", "'12/05/2025'", "'Delek Companies'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 212: ["''", "'12/04/2025'", "'Equipmentshare'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 213: ["''", "'12/08/2025'", "'Crest Process Systems'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 214: ["''", "'12/17/2025'", "'Rush Truck Center'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.50'"]
+  Row 215: ["''", "'01/12/2026'", "'Astro Machine & Tool Works'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'9.00'"]
+  Row 216: ["''", "'02/03/2026'", "'Delek Companies'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'8.5765'"]
+  Row 217: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 218: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 219: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 220: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 221: ["''", "'07/02/2025'", "'Stone Water Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 222: ["''", "'07/07/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 223: ["''", "'07/07/2025'", "'Felicia Wray'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 224: ["''", "'07/08/2025'", "'SKS Demolition'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 225: ["''", "'07/09/2025'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 226: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 227: ["''", "'07/09/2025'", "'TNT Demolition (Norman Ward)'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 228: ["''", "'07/10/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 229: ["''", "'07/11/2025'", "'Xtreme Metals'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 230: ["''", "'07/14/2025'", "'Leons Sign'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 231: ["''", "'07/15/2025'", "'Lamar Advertising'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 232: ["''", "'07/15/2025'", "'Tailored Foam'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.1481'"]
+  Row 233: ["''", "'07/17/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 234: ["''", "'07/17/2025'", "'Adam Marsh'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 235: ["''", "'07/17/2025'", "'Eagle Business Machines'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 236: ["''", "'07/22/2025'", "'TNT Demolition (Norman Ward)'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 237: ["''", "'07/22/2025'", "'Allstar Ford'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 238: ["''", "'07/23/2025'", "'TNT Demolition (Norman Ward)'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 239: ["''", "'07/23/2025'", "'Tyler Overhead Door'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 240: ["''", "'07/25/2025'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 241: ["''", "'07/24/2025'", "'Pinehurst Farms'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 242: ["''", "'07/24/2025'", "'MOMENTUM MIDSTREAM'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'0'"]
+  Row 243: ["''", "'07/28/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 244: ["''", "'07/28/2025'", "'Momentum Midstream Longview Plant'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 245: ["''", "'07/30/2025'", "'Overhead Door Systems'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 246: ["''", "'07/30/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 247: ["''", "'07/30/2025'", "'Leons Sign'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.5615'"]
+  Row 248: ["''", "'07/30/2025'", "'Select Chemistry'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 249: ["''", "'07/30/2025'", "'Delek Companies'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 250: ["''", "'07/31/2025'", "'Lyle Crowell'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 251: ["''", "'08/05/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 252: ["''", "'08/05/2025'", "'Xtreme Metals'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 253: ["''", "'08/05/2025'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 254: ["''", "'08/06/2025'", "'Sanderson Farms'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 255: ["''", "'08/08/2025'", "'Allstar Ford'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 256: ["''", "'08/08/2025'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 257: ["''", "'08/11/2025'", "'Hall Truck Center'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 258: ["''", "'09/05/2025'", "'United States Postal Service'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 259: ["''", "'08/20/2025'", "'Doggett John Deer'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 260: ["''", "'08/26/2025'", "'Precision Garage Door Service of Northeast Texas'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 261: ["''", "'08/27/2025'", "'Xtreme Metals'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 262: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 263: ["''", "'08/29/2025'", "'Delek Companies'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 264: ["''", "'08/29/2025'", "'Stone Water Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 265: ["''", "'09/03/2025'", "'Overhead Door Systems'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 266: ["''", "'09/04/2025'", "'Delek Companies'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 267: ["''", "'09/08/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 268: ["''", "'09/10/2025'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 269: ["''", "'09/11/2025'", "'Joe Hand'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 270: ["''", "'09/11/2025'", "'Wilders Seamless Gutters'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 271: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 272: ["''", "'09/12/2025'", "'Leons Sign'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 273: ["''", "'09/18/2025'", "'Southern Tire Mart'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 274: ["''", "'09/22/2025'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 275: ["''", "'09/23/2025'", "'Xtreme Metals'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 276: ["''", "'09/24/2025'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 277: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 278: ["''", "'09/25/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 279: ["''", "'09/25/2025'", "'Keith Hodges Collision'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 280: ["''", "'09/26/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 281: ["''", "'09/29/2025'", "'Joe Hand'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 282: ["''", "'09/30/2025'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 283: ["''", "'10/01/2025'", "'Daystar Electric'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 284: ["''", "'10/02/2025'", "'Robertson Mechanical Contractors Lic'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 285: ["''", "'10/02/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 286: ["''", "'10/03/2025'", "'Joseph Cotten'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 287: ["''", "'10/06/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 288: ["''", "'10/14/2025'", "'Ross Mills'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 289: ["''", "'10/15/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 290: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 291: ["''", "'10/22/2025'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 292: ["''", "'10/16/2025'", "'Hall Truck Center'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 293: ["''", "'10/17/2025'", "'Jasper Ventures Inc'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'215.00'"]
+  Row 294: ["''", "'10/21/2025'", "'Fritcher Construction'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 295: ["''", "'10/21/2025'", "'Precision Garage Door Service of Northeast Texas'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 296: ["''", "'10/22/2025'", "'Doggett John Deer'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 297: ["''", "'10/22/2025'", "'Asco Equipment'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 298: ["''", "'10/23/2025'", "'Bennett McKenzie'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 299: ["''", "'10/23/2025'", "'Eagle Business Machines'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 300: ["''", "'10/24/2025'", "'Stone Water Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 301: ["''", "'10/24/2025'", "'Michael Robertson'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 302: ["''", "'10/24/2025'", "'Tailored Foam'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 303: ["''", "'10/24/2025'", "'The Brothers That Just Do Gutters'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 304: ["''", "'10/28/2025'", "'Xtreme Metals'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 305: ["''", "'10/28/2025'", "'Hex 6'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 306: ["''", "'10/29/2025'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 307: ["''", "'10/29/2025'", "'Impressive Image Works'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 308: ["''", "'10/30/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 309: ["''", "'10/31/2025'", "'Fritcher Construction'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 310: ["''", "'10/31/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 311: ["''", "'11/05/2025'", "'Byrider'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 312: ["''", "'11/06/2025'", "'Tyler Overhead Door'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 313: ["''", "'11/10/2025'", "'Rush Truck Center'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 314: ["''", "'11/06/2025'", "'Lamar Advertising'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 315: ["''", "'11/11/2025'", "'Michael Robertson'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 316: ["''", "'11/12/2025'", "'Four Seasons Containers'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 317: ["''", "'11/12/2025'", "'Overhead Door Systems'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 318: ["''", "'11/12/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 319: ["''", "'11/13/2025'", "'Bennett McKenzie'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 320: ["''", "'11/19/2025'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 321: ["''", "'11/14/2025'", "'Stone Water Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 322: ["''", "'11/19/2025'", "'Delek Companies'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 323: ["''", "'11/19/2025'", "'The Brothers That Just Do Gutters'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 324: ["''", "'11/21/2025'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 325: ["''", "'11/21/2025'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 326: ["''", "'11/24/2025'", "'Grace Community Schools/Church'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 327: ["''", "'11/24/2025'", "'Allstar Ford'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 328: ["''", "'11/26/2025'", "'Xtreme Metals'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 329: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 330: ["''", "'12/05/2025'", "'Delek Companies'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 331: ["''", "'12/03/2025'", "'Tyler Sheet Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 332: ["''", "'12/03/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 333: ["''", "'12/10/2025'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 334: ["''", "'12/11/2025'", "'Leons Sign'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 335: ["''", "'12/12/2025'", "'Trident Solution Services'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 336: ["''", "'12/15/2025'", "'G&R GUTTERS & GARAGE DOORS'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 337: ["''", "'12/16/2025'", "'Stone Water Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 338: ["''", "'12/16/2025'", "'Asco Equipment'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 339: ["''", "'12/16/2025'", "'JC Fence'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 340: ["''", "'12/16/2025'", "'Cortex Process Equipment, LLC'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 341: ["''", "'12/16/2025'", "'Precision Garage Door Service of Northeast Texas'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 342: ["''", "'12/17/2025'", "'Accelerated Diesel'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 343: ["''", "'12/17/2025'", "'Texas Metal Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.25'"]
+  Row 344: ["''", "'12/17/2025'", "'Rush Truck Center'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 345: ["''", "'12/19/2025'", "'Blue Ribbon Fence Company'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 346: ["''", "'12/19/2025'", "'Rayson Autobody'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 347: ["''", "'12/22/2025'", "'Delek Companies'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 348: ["''", "'12/23/2025'", "'Robert Fuller'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 349: ["''", "'12/26/2025'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 350: ["''", "'12/31/2025'", "'Texas Metal Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.25'"]
+  Row 351: ["''", "'12/31/2025'", "'Eagle Business Machines'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 352: ["''", "'12/31/2025'", "'Overhead Door Systems'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 353: ["''", "'12/31/2025'", "'Robert Fuller'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 354: ["''", "'01/02/2026'", "'Delek Companies'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.0575'"]
+  Row 355: ["''", "'01/02/2026'", "'Bennett McKenzie'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.409'"]
+  Row 356: ["''", "'01/07/2026'", "'Eldridge Hayter'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.0602'"]
+  Row 357: ["''", "'01/07/2026'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.0469'"]
+  Row 358: ["''", "'01/09/2026'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 359: ["''", "'01/09/2026'", "'Robert Fuller'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.1554'"]
+  Row 360: ["''", "'01/09/2026'", "'No Junk'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 361: ["''", "'01/09/2026'", "'Benjamin Franklin Plumbing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 362: ["''", "'01/12/2026'", "'Robertson Mechanical Contractors Lic'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.1071'"]
+  Row 363: ["''", "'01/12/2026'", "'Astro Machine & Tool Works'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 364: ["''", "'01/12/2026'", "'Crowded 6 Ranch'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 365: ["''", "'01/13/2026'", "'Gary Fleet'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.00'"]
+  Row 366: ["''", "'01/14/2026'", "'Texas Metal Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.25'"]
+  Row 367: ["''", "'01/14/2026'", "'Midtown Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.6034'"]
+  Row 368: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 369: ["''", "'01/16/2026'", "'Stephen Brooks'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.2604'"]
+  Row 370: ["''", "'01/19/2026'", "'Eldridge Hayter'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.1987'"]
+  Row 371: ["''", "'01/20/2026'", "'Cook Compression'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 372: ["''", "'01/21/2026'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.6979'"]
+  Row 373: ["''", "'01/21/2026'", "'Turner Steel Buildings'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.2604'"]
+  Row 374: ["''", "'01/23/2026'", "'Robert Fuller'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.1228'"]
+  Row 375: ["''", "'01/23/2026'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.7562'"]
+  Row 376: ["''", "'01/29/2026'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.8789'"]
+  Row 377: ["''", "'01/30/2026'", "'Aesop Auto'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.50'"]
+  Row 378: ["''", "'01/29/2026'", "'Texas Metal Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.25'"]
+  Row 379: ["''", "'01/30/2026'", "'Future Infrastructure'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.50'"]
+  Row 380: ["''", "'02/02/2026'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.503'"]
+  Row 381: ["''", "'02/02/2026'", "'The Brothers That Just Do Gutters'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 382: ["''", "'02/03/2026'", "'Precision Garage Door Service of Northeast Texas'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.8038'"]
+  Row 383: ["''", "'02/03/2026'", "'Future Infrastructure'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.7308'"]
+  Row 384: ["''", "'02/04/2026'", "'Crowded 6 Ranch'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 385: ["''", "'02/05/2026'", "'Keith Hodges Collision'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.0812'"]
+  Row 386: ["''", "'02/06/2026'", "'Rush Truck Leasing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.3136'"]
+  Row 387: ["''", "'02/06/2026'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.8479'"]
+  Row 388: ["''", "'02/06/2026'", "'Rayson Autobody'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.2752'"]
+  Row 389: ["''", "'02/09/2026'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.0469'"]
+  Row 390: ["''", "'02/11/2026'", "'Texas Metal Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.25'"]
+  Row 391: ["''", "'02/11/2026'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.7179'"]
+  Row 392: ["''", "'02/11/2026'", "'Hangers Of Hope'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.7876'"]
+  Row 393: ["''", "'02/12/2026'", "'Eldridge Hayter'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.6694'"]
+  Row 394: ["''", "'02/12/2026'", "'G&R GUTTERS & GARAGE DOORS'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.496'"]
+  Row 395: ["''", "'02/13/2026'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.8444'"]
+  Row 396: ["''", "'02/16/2026'", "'Tyler Sheet Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'7.50'"]
+  Row 397: ["''", "'02/16/2026'", "'Future Infrastructure'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.8938'"]
+  Row 398: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 399: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 400: ["''", "'12/16/2025'", "'JC Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 401: ["''", "'12/19/2025'", "'Blue Ribbon Fence Company'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 402: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'3.80'"]
+  Row 403: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'2.90'"]
+  Row 404: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'3.87'"]
+  Row 405: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'4.12'"]
+  Row 406: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'4.25'"]
+  Row 407: ["''", "'11/19/2025'", "'Astro Machine & Tool Works'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'4.29'"]
+  Row 408: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'4.75'"]
+  Row 409: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'4.90'"]
+  Row 410: ["''", "'01/21/2026'", "'Aesop Auto'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'5.00'"]
+  Row 411: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#2 COPPER'", "''", "'3.65'"]
+  Row 412: ["''", "'07/16/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'#2 COPPER'", "''", "'3.40'"]
+  Row 413: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'#2 COPPER'", "''", "'2.74'"]
+  Row 414: ["''", "'02/02/2026'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'2-1 COPPER'", "''", "'4.00'"]
+  Row 415: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'85% MCM'", "''", "'2.28'"]
+  Row 416: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.28'"]
+  Row 417: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.20'"]
+  Row 418: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.30'"]
+  Row 419: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.30'"]
+  Row 420: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.65'"]
+  Row 421: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.75'"]
+  Row 422: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.28'"]
+  Row 423: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 424: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 425: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 426: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.65'"]
+  Row 427: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.75'"]
+  Row 428: ["''", "'07/30/2025'", "'Leons Sign'", "'Non-Ferrous'", "'AL 3003'", "''", "'0.85'"]
+  Row 429: ["''", "'07/30/2025'", "'Leons Sign'", "'Non-Ferrous'", "'AL 5052'", "''", "'0.90'"]
+  Row 430: ["''", "'10/28/2025'", "'Leons Sign'", "'Non-Ferrous'", "'AL 5052'", "''", "'0.90'"]
+  Row 431: ["''", "'11/10/2025'", "'Rush Truck Center'", "'Non-Ferrous'", "'AL 5052'", "''", "'0.60'"]
+  Row 432: ["''", "'01/12/2026'", "'Leons Sign'", "'Non-Ferrous'", "'AL 5052'", "''", "'1.5795'"]
+  Row 433: ["''", "'12/17/2025'", "'Rush Truck Center'", "'Non-Ferrous'", "'AL 6061 CLEAN'", "''", "'0.45'"]
+  Row 434: ["''", "'07/30/2025'", "'Leons Sign'", "'Non-Ferrous'", "'AL 6063 CLEAN'", "''", "'0.60'"]
+  Row 435: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.08'"]
+  Row 436: ["''", "'07/30/2025'", "'Leons Sign'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.10'"]
+  Row 437: ["''", "'08/08/2025'", "'Aesop Auto'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.10'"]
+  Row 438: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.05'"]
+  Row 439: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.05'"]
+  Row 440: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.07'"]
+  Row 441: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.05'"]
+  Row 442: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.10'"]
+  Row 443: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.10'"]
+  Row 444: ["''", "'02/05/2026'", "'Keith Hodges Collision'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.0423'"]
+  Row 445: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL CAST'", "''", "'0.45'"]
+  Row 446: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL CLIPS'", "''", "'0.50'"]
+  Row 447: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL CLIPS'", "''", "'0.36'"]
+  Row 448: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL CLIPS'", "''", "'0.40'"]
+  Row 449: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL CLIPS'", "''", "'0.45'"]
+  Row 450: ["''", "'11/06/2025'", "'Joe Tex Xpress Mineola'", "'Non-Ferrous'", "'AL CLIPS'", "''", "'0.30'"]
+  Row 451: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL EC WIRE'", "''", "'0.96'"]
+  Row 452: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL EC WIRE'", "''", "'1.35'"]
+  Row 453: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.20'"]
+  Row 454: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.30'"]
+  Row 455: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.30'"]
+  Row 456: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.65'"]
+  Row 457: ["''", "'07/03/2025'", "'Wilders Seamless Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 458: ["''", "'07/03/2025'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 459: ["''", "'07/14/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 460: ["''", "'07/21/2025'", "'Greenway Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 461: ["''", "'07/23/2025'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 462: ["''", "'08/08/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 463: ["''", "'08/11/2025'", "'Wilders Seamless Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 464: ["''", "'08/12/2025'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 465: ["''", "'08/15/2025'", "'Greenway Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 466: ["''", "'08/29/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 467: ["''", "'09/11/2025'", "'Wilders Seamless Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 468: ["''", "'09/12/2025'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 469: ["''", "'09/15/2025'", "'G&R GUTTERS & GARAGE DOORS'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 470: ["''", "'09/22/2025'", "'Greenway Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 471: ["''", "'09/30/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 472: ["''", "'10/06/2025'", "'G&R GUTTERS & GARAGE DOORS'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 473: ["''", "'10/24/2025'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 474: ["''", "'10/28/2025'", "'Wilders Seamless Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.38'"]
+  Row 475: ["''", "'10/30/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.50'"]
+  Row 476: ["''", "'11/12/2025'", "'Greenway Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.50'"]
+  Row 477: ["''", "'11/14/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.48'"]
+  Row 478: ["''", "'11/19/2025'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.48'"]
+  Row 479: ["''", "'11/26/2025'", "'Wilders Seamless Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.48'"]
+  Row 480: ["''", "'12/01/2025'", "'Wilders Seamless Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.48'"]
+  Row 481: ["''", "'12/04/2025'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.48'"]
+  Row 482: ["''", "'12/16/2025'", "'Stone Water Roofing'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.48'"]
+  Row 483: ["''", "'01/05/2026'", "'Greenway Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.46'"]
+  Row 484: ["''", "'01/08/2026'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.51'"]
+  Row 485: ["''", "'01/23/2026'", "'Wilders Seamless Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.5108'"]
+  Row 486: ["''", "'01/23/2026'", "'Johnston Gutter'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.6584'"]
+  Row 487: ["''", "'02/02/2026'", "'The Brothers That Just Do Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.54'"]
+  Row 488: ["''", "'02/09/2026'", "'Greenway Gutters'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.401'"]
+  Row 489: ["''", "'02/10/2026'", "'G&R GUTTERS & GARAGE DOORS'", "'Non-Ferrous'", "'AL PAINTED SIDING'", "''", "'0.4853'"]
+  Row 490: ["''", "'08/08/2025'", "'Aesop Auto'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.30'"]
+  Row 491: ["''", "'08/11/2025'", "'Hall Truck Center'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.26'"]
+  Row 492: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.26'"]
+  Row 493: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.26'"]
+  Row 494: ["''", "'10/16/2025'", "'Hall Truck Center'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.23'"]
+  Row 495: ["''", "'10/28/2025'", "'Hex 6'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.25'"]
+  Row 496: ["''", "'11/05/2025'", "'Byrider'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.25'"]
+  Row 497: ["''", "'11/10/2025'", "'Rush Truck Center'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.25'"]
+  Row 498: ["''", "'11/19/2025'", "'Aesop Auto'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.30'"]
+  Row 499: ["''", "'12/17/2025'", "'Rush Truck Center'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.28'"]
+  Row 500: ["''", "'02/06/2026'", "'Rush Truck Leasing'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.2657'"]
+  Row 501: ["''", "'02/06/2026'", "'Rayson Autobody'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.1638'"]
+  Row 502: ["''", "'09/10/2025'", "'Sparc Industries'", "'Non-Ferrous'", "'AL SHEET'", "''", "'0.55'"]
+  Row 503: ["''", "'07/14/2025'", "'Southern Tire Mart'", "'Non-Ferrous'", "'AL TRUCK WHEELS'", "''", "'0.55'"]
+  Row 504: ["''", "'09/18/2025'", "'Southern Tire Mart'", "'Non-Ferrous'", "'AL TRUCK WHEELS'", "''", "'0.60'"]
+  Row 505: ["''", "'11/19/2025'", "'Southern Tire Mart'", "'Non-Ferrous'", "'AL TRUCK WHEELS'", "''", "'0.70'"]
+  Row 506: ["''", "'09/10/2025'", "'Sparc Industries'", "'Non-Ferrous'", "'AL TURNINGS'", "''", "'0.42'"]
+  Row 507: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.25'"]
+  Row 508: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.25'"]
+  Row 509: ["''", "'07/14/2025'", "'Southern Tire Mart'", "'Non-Ferrous'", "'AL WHEELS CLEAN'", "''", "'0.70'"]
+  Row 510: ["''", "'11/05/2025'", "'Byrider'", "'Non-Ferrous'", "'AL/CU REEFER UNCLEAN'", "''", "'1.83'"]
+  Row 511: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Non-Ferrous'", "'ALTERNATOR'", "''", "'0.25'"]
+  Row 512: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Non-Ferrous'", "'AUTO COMPRESSOR'", "''", "'0.08'"]
+  Row 513: ["''", "'10/28/2025'", "'Hex 6'", "'Non-Ferrous'", "'AUTO COMPRESSOR'", "''", "'0.08'"]
+  Row 514: ["''", "'08/27/2025'", "'Aesop Auto'", "'Non-Ferrous'", "'AUTO HARNESS WIRE'", "''", "'1.55'"]
+  Row 515: ["''", "'01/21/2026'", "'Aesop Auto'", "'Non-Ferrous'", "'AUTO HARNESS WIRE'", "''", "'2.02'"]
+  Row 516: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'0.50'"]
+  Row 517: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'0.50'"]
+  Row 518: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'0.50'"]
+  Row 519: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'0.55'"]
+  Row 520: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'0.75'"]
+  Row 521: ["''", "'01/08/2026'", "'Texas Water Utilities'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'2.18'"]
+  Row 522: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'1.60'"]
+  Row 523: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Non-Ferrous'", "'CLEAN ALUMINUM'", "''", "'0.42'"]
+  Row 524: ["''", "'10/28/2025'", "'Hex 6'", "'Non-Ferrous'", "'COPPER/BRASS RADIATOR UNCLEAN'", "''", "'1.62'"]
+  Row 525: ["''", "'11/19/2025'", "'Astro Machine & Tool Works'", "'Non-Ferrous'", "'ELECTRIC MOTOR #1'", "''", "'0.30'"]
+  Row 526: ["''", "'02/03/2026'", "'Delek Companies'", "'Non-Ferrous'", "'ELECTRIC MOTOR #2 LOW GRADE'", "''", "'0.2192'"]
+  Row 527: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.00'"]
+  Row 528: ["''", "'07/31/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'1.95'"]
+  Row 529: ["''", "'09/18/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.11'"]
+  Row 530: ["''", "'09/25/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.25'"]
+  Row 531: ["''", "'10/28/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.08'"]
+  Row 532: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.70'"]
+  Row 533: ["''", "'02/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.80'"]
+  Row 534: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #2 COPPER 42%'", "''", "'1.45'"]
+  Row 535: ["''", "'01/06/2026'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'INSULATED #3 COPPER 32%'", "''", "'0.70'"]
+  Row 536: ["''", "'10/08/2025'", "'Jasper Ventures Inc'", "'Non-Ferrous'", "'STAINLESS CLEAN'", "''", "'0.42'"]
+  Row 537: ["''", "'01/12/2026'", "'Astro Machine & Tool Works'", "'Non-Ferrous'", "'STAINLESS CLEAN'", "''", "'0.30'"]
+  Row 538: ["''", "'01/12/2026'", "'Astro Machine & Tool Works'", "'Non-Ferrous'", "'STAINLESS UNCLEAN'", "''", "'0.18'"]
+  Row 539: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Non-Ferrous'", "'STEEL NOSE STARTER'", "''", "'0.20'"]
+  Row 540: ["''", "'07/09/2025'", "'Rusk County Electric Cooperative., Inc'", "'Non-Ferrous'", "'YELLOW BRASS CLEAN'", "''", "'2.39'"]
+  Row 541: ["''", "'07/02/2025'", "'SKS Demolition'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 542: ["''", "'07/02/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 543: ["''", "'07/03/2025'", "'Wilders Seamless Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 544: ["''", "'07/07/2025'", "'Hangers Of Hope'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 545: ["''", "'07/07/2025'", "'Felicia Wray'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 546: ["''", "'07/08/2025'", "'SKS Demolition'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 547: ["''", "'07/09/2025'", "'TNT Demolition (Norman Ward)'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 548: ["''", "'07/10/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 549: ["''", "'07/11/2025'", "'Xtreme Metals'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 550: ["''", "'07/14/2025'", "'Leons Sign'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 551: ["''", "'07/14/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 552: ["''", "'07/14/2025'", "'Southern Tire Mart'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 553: ["''", "'07/15/2025'", "'Lamar Advertising'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 554: ["''", "'07/16/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 555: ["''", "'07/17/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 556: ["''", "'07/17/2025'", "'Adam Marsh'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 557: ["''", "'07/17/2025'", "'Eagle Business Machines'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 558: ["''", "'07/21/2025'", "'Greenway Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 559: ["''", "'07/22/2025'", "'TNT Demolition (Norman Ward)'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 560: ["''", "'07/22/2025'", "'Allstar Ford'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 561: ["''", "'07/23/2025'", "'TNT Demolition (Norman Ward)'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 562: ["''", "'07/24/2025'", "'Pinehurst Farms'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 563: ["''", "'07/28/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 564: ["''", "'07/28/2025'", "'Momentum Midstream Longview Plant'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 565: ["''", "'07/30/2025'", "'Hangers Of Hope'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 566: ["''", "'07/30/2025'", "'Leons Sign'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 567: ["''", "'07/30/2025'", "'Delek Companies'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 568: ["''", "'07/30/2025'", "'Neckover Trailers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 569: ["''", "'07/31/2025'", "'Lyle Crowell'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 570: ["''", "'08/05/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 571: ["''", "'08/05/2025'", "'Xtreme Metals'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 572: ["''", "'08/05/2025'", "'Benjamin Franklin Plumbing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 573: ["''", "'08/06/2025'", "'Sanderson Farms'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 574: ["''", "'08/08/2025'", "'Allstar Ford'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 575: ["''", "'08/08/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 576: ["''", "'08/11/2025'", "'Wilders Seamless Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 577: ["''", "'08/26/2025'", "'Precision Garage Door Service of Northeast Texas'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 578: ["''", "'08/27/2025'", "'Xtreme Metals'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 579: ["''", "'08/27/2025'", "'Rush Truck Leasing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 580: ["''", "'08/29/2025'", "'Delek Companies'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 581: ["''", "'08/29/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 582: ["''", "'09/04/2025'", "'Delek Companies'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 583: ["''", "'09/08/2025'", "'Neckover Trailers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 584: ["''", "'09/08/2025'", "'Hangers Of Hope'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 585: ["''", "'09/11/2025'", "'Joe Hand'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 586: ["''", "'09/11/2025'", "'Wilders Seamless Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 587: ["''", "'09/12/2025'", "'Black Label Pro Diesel'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 588: ["''", "'09/12/2025'", "'Leons Sign'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 589: ["''", "'09/15/2025'", "'G&R GUTTERS & GARAGE DOORS'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 590: ["''", "'09/18/2025'", "'Southern Tire Mart'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 591: ["''", "'09/22/2025'", "'Greenway Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 592: ["''", "'09/23/2025'", "'Xtreme Metals'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 593: ["''", "'09/25/2025'", "'Hangers Of Hope'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 594: ["''", "'09/25/2025'", "'Keith Hodges Collision'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 595: ["''", "'09/26/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 596: ["''", "'09/29/2025'", "'Joe Hand'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 597: ["''", "'09/30/2025'", "'Felicia Wray'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 598: ["''", "'09/30/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 599: ["''", "'10/01/2025'", "'Daystar Electric'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 600: ["''", "'10/02/2025'", "'Robertson Mechanical Contractors Llc'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 601: ["''", "'10/02/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 602: ["''", "'10/03/2025'", "'Joseph Cotten'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 603: ["''", "'10/06/2025'", "'G&R GUTTERS & GARAGE DOORS'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 604: ["''", "'10/06/2025'", "'Delek Companies'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 605: ["''", "'10/06/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 606: ["''", "'10/14/2025'", "'Ross Mills'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 607: ["''", "'10/21/2025'", "'Fritcher Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 608: ["''", "'10/21/2025'", "'Precision Garage Door Service of Northeast Texas'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 609: ["''", "'10/21/2025'", "'Neckover Trailers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 610: ["''", "'10/22/2025'", "'Asco Equipment'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 611: ["''", "'10/22/2025'", "'Midwest Truck & Trailer Maintenance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 612: ["''", "'10/23/2025'", "'Bennett McKenzie'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 613: ["''", "'10/23/2025'", "'Eagle Business Machines'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 614: ["''", "'10/28/2025'", "'Leons Sign'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 615: ["''", "'10/24/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 616: ["''", "'10/24/2025'", "'Michael Robertson'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 617: ["''", "'10/24/2025'", "'Tailored Foam'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 618: ["''", "'10/28/2025'", "'Xtreme Metals'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 619: ["''", "'10/28/2025'", "'Wilders Seamless Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 620: ["''", "'10/29/2025'", "'Impressive Image Works'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 621: ["''", "'10/30/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 622: ["''", "'10/30/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 623: ["''", "'10/31/2025'", "'Fritcher Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 624: ["''", "'10/31/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 625: ["''", "'11/05/2025'", "'Byrider'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 626: ["''", "'11/10/2025'", "'Rush Truck Center'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 627: ["''", "'11/06/2025'", "'Lamar Advertising'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 628: ["''", "'11/11/2025'", "'Michael Robertson'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 629: ["''", "'11/12/2025'", "'Four Seasons Containers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 630: ["''", "'11/12/2025'", "'Greenway Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 631: ["''", "'11/12/2025'", "'Hangers Of Hope'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 632: ["''", "'11/13/2025'", "'Bennett McKenzie'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 633: ["''", "'11/14/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 634: ["''", "'11/19/2025'", "'Delek Companies'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 635: ["''", "'11/19/2025'", "'Southern Tire Mart'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 636: ["''", "'11/21/2025'", "'Becker Iron & Metal'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 637: ["''", "'11/24/2025'", "'Allstar Ford'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 638: ["''", "'11/26/2025'", "'Xtreme Metals'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 639: ["''", "'11/26/2025'", "'Wilders Seamless Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 640: ["''", "'12/01/2025'", "'Wilders Seamless Gutters'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 641: ["''", "'12/05/2025'", "'Delek Companies'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 642: ["''", "'12/03/2025'", "'Hangers Of Hope'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 643: ["''", "'12/04/2025'", "'Equipmentshare'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 644: ["''", "'12/10/2025'", "'Neckover Trailers'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 645: ["''", "'12/11/2025'", "'Leons Sign'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 646: ["''", "'12/12/2025'", "'Trident Solution Services'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 647: ["''", "'12/15/2025'", "'G&R GUTTERS & GARAGE DOORS'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 648: ["''", "'12/16/2025'", "'Stone Water Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 649: ["''", "'12/16/2025'", "'JC Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 650: ["''", "'12/16/2025'", "'Precision Garage Door Service of Northeast Texas'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 651: ["''", "'12/17/2025'", "'Rush Truck Center'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 652: ["''", "'12/19/2025'", "'Blue Ribbon Fence Company'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 653: ["''", "'12/19/2025'", "'Rayson Autobody'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 654: ["''", "'12/22/2025'", "'Delek Companies'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 655: ["''", "'12/23/2025'", "'Robert Fuller'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 656: ["''", "'12/26/2025'", "'Hangers Of Hope'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 657: ["''", "'12/31/2025'", "'Eagle Business Machines'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 658: ["''", "'12/31/2025'", "'Robert Fuller'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 659: ["''", "'09/22/2025'", "'Greenway Gutters'", "'Other'", "'DRY RUN FEE'", "''", "'-'"]
+  Row 660: ["''", "'10/14/2025'", "'Becker Iron & Metal'", "'Other'", "'DRY RUN FEE'", "''", "'-'"]
+  Row 661: ["''", "'09/25/2025'", "'Jasper Ventures Inc'", "'Other'", "'SPLIT 50/50'", "''", "'-'"]
+  Row 662: ["''", "'10/08/2025'", "'Jasper Ventures Inc'", "'Other'", "'SPLIT 50/50'", "''", "'-'"]
+  Row 663: ["''", "'10/17/2025'", "'Jasper Ventures Inc'", "'Other'", "'SPLIT 50/50'", "''", "'-'"]
+  Row 664: ["''", "'01/13/2026'", "'Jasper Ventures Inc'", "'Other'", "'SPLIT 50/50'", "''", "'-'"]
+  Row 665: ["''", "'02/06/2026'", "'Jasper Ventures Inc'", "'Other'", "'SPLIT 50/50'", "''", "'-'"]
+  Row 666: ["''", "''", "''", "''", "''", "''", "''"]
+  Row 667: ["''", "'09/03/2025'", "'Lennon Construction'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'4.50'"]
+  Row 668: ["''", "'11/05/2025'", "'Lennon Construction'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'4.50'"]
+  Row 669: ["''", "'02/09/2026'", "'Lennon Construction'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'3.3976'"]
+  Row 670: ["''", "'08/28/2025'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 671: ["''", "'10/03/2025'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 672: ["''", "'10/15/2025'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 673: ["''", "'10/29/2025'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 674: ["''", "'11/05/2025'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 675: ["''", "'12/29/2025'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 676: ["''", "'12/29/2025'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.50'"]
+  Row 677: ["''", "'02/09/2026'", "'Lennon Construction'", "'Ferrous'", "'REBAR'", "''", "'0.3775'"]
+  Row 678: ["''", "'12/19/2025'", "'EQ Autoworks Mineola'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'6.50'"]
+  Row 679: ["''", "'01/30/2026'", "'Joe Tex Xpress Mineola'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'6.2743'"]
+  Row 680: ["''", "'02/11/2026'", "'Toliver Ford'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'6.1054'"]
+  Row 681: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 682: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 683: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 684: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 685: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'STEEL CABLE'", "''", "'0.50'"]
+  Row 686: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 687: ["''", "'07/08/2025'", "'Rex Dickens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 688: ["''", "'07/08/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 689: ["''", "'07/16/2025'", "'City Of Alba'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 690: ["''", "'07/21/2025'", "'Crowded 6 Ranch'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 691: ["''", "'07/21/2025'", "'Southwest Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 692: ["''", "'07/21/2025'", "'Rex Dickens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 693: ["''", "'08/06/2025'", "'Mineola ISD'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 694: ["''", "'08/06/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 695: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 696: ["''", "'08/11/2025'", "'Bobby Snyder'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 697: ["''", "'08/13/2025'", "'Toliver Ford'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 698: ["''", "'08/13/2025'", "'Joe Tex Xpress Mineola'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 699: ["''", "'08/26/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 700: ["''", "'08/27/2025'", "'Morton Salt'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 701: ["''", "'08/28/2025'", "'Lennon Construction'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 702: ["''", "'08/28/2025'", "'Rex Dickens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 703: ["''", "'09/03/2025'", "'Joe Tex Xpress Mineola'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 704: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 705: ["''", "'09/08/2025'", "'Southwest Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 706: ["''", "'09/12/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 707: ["''", "'09/23/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 708: ["''", "'09/26/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 709: ["''", "'09/26/2025'", "'Stephanie Bathe'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 710: ["''", "'09/29/2025'", "'City of Big Sandy'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 711: ["''", "'09/29/2025'", "'Morton Salt'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 712: ["''", "'09/29/2025'", "'John Hampson'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 713: ["''", "'10/03/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 714: ["''", "'10/10/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 715: ["''", "'10/15/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 716: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 717: ["''", "'10/21/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 718: ["''", "'10/27/2025'", "'Rex Dickens'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 719: ["''", "'10/27/2025'", "'Morton Salt'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 720: ["''", "'10/29/2025'", "'Jody Whitworth'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 721: ["''", "'10/29/2025'", "'Southwest Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 722: ["''", "'11/05/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 723: ["''", "'11/07/2025'", "'Dakota Fuller'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 724: ["''", "'11/11/2025'", "'Jody Whitworth'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 725: ["''", "'11/12/2025'", "'Lennon Construction'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 726: ["''", "'11/13/2025'", "'City Of Alba'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 727: ["''", "'11/14/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 728: ["''", "'11/18/2025'", "'Sam Moore'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 729: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 730: ["''", "'11/21/2025'", "'Precision Fence'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 731: ["''", "'11/21/2025'", "'Dualfab'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 732: ["''", "'11/26/2025'", "'Artistic Renovations'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 733: ["''", "'12/03/2025'", "'Southwest Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 734: ["''", "'12/08/2025'", "'Rhonda Whited'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 735: ["''", "'12/09/2025'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 736: ["''", "'12/19/2025'", "'EQ Autoworks Mineola'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 737: ["''", "'12/29/2025'", "'Lennon Construction'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 738: ["''", "'12/29/2025'", "'Lennon Construction'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 739: ["''", "'12/29/2025'", "'Nicholas Neeley'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.50'"]
+  Row 740: ["''", "'01/12/2026'", "'Nexgen Comfort Services'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.4122'"]
+  Row 741: ["''", "'01/15/2026'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.0207'"]
+  Row 742: ["''", "'01/30/2026'", "'Joe Tex Xpress Mineola'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.3438'"]
+  Row 743: ["''", "'02/04/2026'", "'Hughes Appliance'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.1264'"]
+  Row 744: ["''", "'02/11/2026'", "'Toliver Ford'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.2268'"]
+  Row 745: ["''", "'08/15/2025'", "'Precision Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 746: ["''", "'08/20/2025'", "'Precision Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 747: ["''", "'09/09/2025'", "'Cobb Cattle Co.'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 748: ["''", "'09/23/2025'", "'Precision Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 749: ["''", "'11/21/2025'", "'Precision Fence'", "'Ferrous'", "'WIRE/FENCING'", "''", "'0.50'"]
+  Row 750: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'3.64'"]
+  Row 751: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'3.80'"]
+  Row 752: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'3.70'"]
+  Row 753: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'4.15'"]
+  Row 754: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'#1 COPPER'", "''", "'4.55'"]
+  Row 755: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.30'"]
+  Row 756: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.30'"]
+  Row 757: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.28'"]
+  Row 758: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 759: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 760: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 761: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.60'"]
+  Row 762: ["''", "'09/29/2025'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'AL 6063 CLEAN'", "''", "'1.14'"]
+  Row 763: ["''", "'10/31/2025'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'AL 6063 CLEAN'", "''", "'1.15'"]
+  Row 764: ["''", "'02/04/2026'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'AL 6063 CLEAN'", "''", "'1.33'"]
+  Row 765: ["''", "'09/29/2025'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'AL 6063 PAINTED'", "''", "'1.05'"]
+  Row 766: ["''", "'10/31/2025'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'AL 6063 PAINTED'", "''", "'1.07'"]
+  Row 767: ["''", "'02/04/2026'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'AL 6063 PAINTED'", "''", "'1.05'"]
+  Row 768: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.08'"]
+  Row 769: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.05'"]
+  Row 770: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.05'"]
+  Row 771: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.05'"]
+  Row 772: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.07'"]
+  Row 773: ["''", "'02/11/2026'", "'Toliver Ford'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.047'"]
+  Row 774: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL CLIPS'", "''", "'0.40'"]
+  Row 775: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL CLIPS'", "''", "'0.40'"]
+  Row 776: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL EC WIRE'", "''", "'1.10'"]
+  Row 777: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL EC WIRE'", "''", "'1.30'"]
+  Row 778: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.28'"]
+  Row 779: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.30'"]
+  Row 780: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.30'"]
+  Row 781: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.30'"]
+  Row 782: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL NEOPRENE'", "''", "'0.60'"]
+  Row 783: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL NOSE STARTER'", "''", "'0.20'"]
+  Row 784: ["''", "'12/19/2025'", "'EQ Autoworks Mineola'", "'Non-Ferrous'", "'AL NOSE STARTER'", "''", "'0.21'"]
+  Row 785: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.28'"]
+  Row 786: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.23'"]
+  Row 787: ["''", "'12/19/2025'", "'EQ Autoworks Mineola'", "'Non-Ferrous'", "'AL RADIATOR UNCLEAN'", "''", "'0.28'"]
+  Row 788: ["''", "'01/12/2026'", "'Nexgen Comfort Services'", "'Non-Ferrous'", "'AL RADIATORS CLEAN'", "''", "'0.50'"]
+  Row 789: ["''", "'01/30/2026'", "'Joe Tex Xpress Mineola'", "'Non-Ferrous'", "'AL RADIATORS CLEAN'", "''", "'0.4923'"]
+  Row 790: ["''", "'02/11/2026'", "'Toliver Ford'", "'Non-Ferrous'", "'AL RADIATORS CLEAN'", "''", "'0.479'"]
+  Row 791: ["''", "'01/30/2026'", "'Joe Tex Xpress Mineola'", "'Non-Ferrous'", "'AL TRUCK WHEELS'", "''", "'0.5309'"]
+  Row 792: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.08'"]
+  Row 793: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.25'"]
+  Row 794: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.20'"]
+  Row 795: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.25'"]
+  Row 796: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.15'"]
+  Row 797: ["''", "'02/11/2026'", "'Toliver Ford'", "'Non-Ferrous'", "'AL WHEEL DIRTY'", "''", "'0.6481'"]
+  Row 798: ["''", "'01/12/2026'", "'Nexgen Comfort Services'", "'Non-Ferrous'", "'AL/CU REEFER CLEAN'", "''", "'2.1178'"]
+  Row 799: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'AUTO COMPRESSOR'", "''", "'0.10'"]
+  Row 800: ["''", "'12/19/2025'", "'EQ Autoworks Mineola'", "'Non-Ferrous'", "'AUTO COMPRESSOR'", "''", "'0.10'"]
+  Row 801: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'0.60'"]
+  Row 802: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'COMPRESSOR/SEALED UNIT'", "''", "'0.15'"]
+  Row 803: ["''", "'01/12/2026'", "'Nexgen Comfort Services'", "'Non-Ferrous'", "'COMPRESSOR/SEALED UNIT'", "''", "'0.1471'"]
+  Row 804: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'ELECTRIC MOTOR #1'", "''", "'0.25'"]
+  Row 805: ["''", "'01/12/2026'", "'Nexgen Comfort Services'", "'Non-Ferrous'", "'ELECTRIC MOTOR #1'", "''", "'0.2941'"]
+  Row 806: ["''", "'07/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.05'"]
+  Row 807: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.10'"]
+  Row 808: ["''", "'09/05/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.05'"]
+  Row 809: ["''", "'10/28/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.15'"]
+  Row 810: ["''", "'12/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.50'"]
+  Row 811: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'INSULATED #2 COPPER 42%'", "''", "'1.10'"]
+  Row 812: ["''", "'10/31/2025'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'THERMAL EXTRUSION'", "''", "'0.50'"]
+  Row 813: ["''", "'02/04/2026'", "'Drive On Manufacturing'", "'Non-Ferrous'", "'THERMAL EXTRUSION'", "''", "'0.60'"]
+  Row 814: ["''", "'08/08/2025'", "'Wood County Electric Cooperative Inc.'", "'Non-Ferrous'", "'YELLOW BRASS CLEAN'", "''", "'2.40'"]
+  Row 815: ["''", "'07/08/2025'", "'Rex Dickens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 816: ["''", "'07/08/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 817: ["''", "'07/21/2025'", "'Southwest Metal'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 818: ["''", "'07/21/2025'", "'Rex Dickens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 819: ["''", "'08/06/2025'", "'Mineola ISD'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 820: ["''", "'08/06/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 821: ["''", "'08/11/2025'", "'Bobby Snyder'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 822: ["''", "'08/13/2025'", "'Toliver Ford'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 823: ["''", "'08/13/2025'", "'Joe Tex Xpress Mineola'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 824: ["''", "'08/15/2025'", "'Precision Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 825: ["''", "'08/20/2025'", "'Precision Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 826: ["''", "'08/26/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 827: ["''", "'08/28/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 828: ["''", "'08/28/2025'", "'Rex Dickens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 829: ["''", "'09/03/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 830: ["''", "'09/03/2025'", "'Joe Tex Xpress Mineola'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 831: ["''", "'09/08/2025'", "'Southwest Metal'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 832: ["''", "'09/09/2025'", "'Cobb Cattle Co.'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 833: ["''", "'09/12/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 834: ["''", "'09/23/2025'", "'Precision Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 835: ["''", "'09/23/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 836: ["''", "'09/26/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 837: ["''", "'09/26/2025'", "'Stephanie Bathe'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 838: ["''", "'09/29/2025'", "'City of Big Sandy'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 839: ["''", "'09/29/2025'", "'John Hampson'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 840: ["''", "'10/03/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 841: ["''", "'10/03/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 842: ["''", "'10/10/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 843: ["''", "'10/15/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 844: ["''", "'10/15/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 845: ["''", "'10/21/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 846: ["''", "'10/27/2025'", "'Rex Dickens'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 847: ["''", "'10/29/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 848: ["''", "'10/29/2025'", "'Jody Whitworth'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 849: ["''", "'10/29/2025'", "'Southwest Metal'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 850: ["''", "'11/05/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 851: ["''", "'11/05/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 852: ["''", "'11/07/2025'", "'Dakota Fuller'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 853: ["''", "'11/11/2025'", "'Jody Whitworth'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 854: ["''", "'11/12/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 855: ["''", "'11/14/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 856: ["''", "'11/18/2025'", "'Sam Moore'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 857: ["''", "'11/21/2025'", "'Precision Fence'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 858: ["''", "'11/21/2025'", "'Dualfab'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 859: ["''", "'11/26/2025'", "'Artistic Renovations'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 860: ["''", "'12/03/2025'", "'Southwest Metal'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 861: ["''", "'12/08/2025'", "'Rhonda Whited'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 862: ["''", "'12/09/2025'", "'Hughes Appliance'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 863: ["''", "'12/19/2025'", "'EQ Autoworks Mineola'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 864: ["''", "'12/29/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 865: ["''", "'12/29/2025'", "'Lennon Construction'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 866: ["''", "'12/29/2025'", "'Nicholas Neeley'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 867: ["''", "''", "''", "''", "''", "''", "''"]
+  Row 868: ["''", "'07/23/2025'", "'Pinnacle Gas Treating'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 869: ["''", "'10/30/2025'", "'Pinnacle Gas Treating'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 870: ["''", "'11/20/2025'", "'Pinnacle Gas Treating'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 871: ["''", "'12/05/2025'", "'Pinnacle Gas Treating'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 872: ["''", "'02/02/2026'", "'Pinnacle Gas Treating'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 873: ["''", "'02/06/2026'", "'RTP'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'4.6561'"]
+  Row 874: ["''", "'02/12/2026'", "'Pinnacle Gas Treating'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 875: ["''", "'07/23/2025'", "'Pinnacle Gas Treating'", "'Ferrous'", "'SHORT IRON/#1 HEAVY MELT'", "''", "'7.00'"]
+  Row 876: ["''", "'07/11/2025'", "'Houston County Co-Op'", "'Ferrous'", "'STEEL CABLE'", "''", "'2.00'"]
+  Row 877: ["''", "'10/22/2025'", "'ASAP INDUSTRIES LLC'", "'Ferrous'", "'STEEL TURNINGS'", "''", "'2.00'"]
+  Row 878: ["''", "'07/11/2025'", "'Houston County Co-Op'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 879: ["''", "'07/17/2025'", "'Don Hamilton'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 880: ["''", "'07/17/2025'", "'Vulcraft Division Of Nucore'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 881: ["''", "'07/23/2025'", "'Lucas Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 882: ["''", "'07/23/2025'", "'Jimmy McMillian'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 883: ["''", "'07/31/2025'", "'Crockett Isd'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 884: ["''", "'07/31/2025'", "'Lovelady Isd'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 885: ["''", "'08/05/2025'", "'Diamond S Ag Services'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 886: ["''", "'08/05/2025'", "'Pinnacle Gas Treating'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 887: ["''", "'08/21/2025'", "'Jason Wink'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 888: ["''", "'08/21/2025'", "'RTP'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 889: ["''", "'08/21/2025'", "'Houston County Co-Op'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 890: ["''", "'08/21/2025'", "'Kellye Enterprises'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 891: ["''", "'08/21/2025'", "'Casie Hawthorne'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 892: ["''", "'08/27/2025'", "'Brent McArthur'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 893: ["''", "'09/02/2025'", "'Lovelady Isd'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 894: ["''", "'09/10/2025'", "'Bruners Economy Car Center'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 895: ["''", "'09/29/2025'", "'Houston County Co-Op'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 896: ["''", "'09/24/2025'", "'Kellye Enterprises'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 897: ["''", "'10/01/2025'", "'Lucas Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 898: ["''", "'10/10/2025'", "'RTP'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 899: ["''", "'10/20/2025'", "'Shannon Sullivan'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 900: ["''", "'10/20/2025'", "'Jordan Westerfield'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 901: ["''", "'10/20/2025'", "'Don Hamilton'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 902: ["''", "'10/22/2025'", "'WC Tractor'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 903: ["''", "'11/10/2025'", "'Houston County Co-Op'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 904: ["''", "'11/17/2025'", "'Trinity Isd'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 905: ["''", "'12/15/2025'", "'Bruners Economy Car Center'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 906: ["''", "'12/15/2025'", "'Classic Collision 2031 Crockett'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 907: ["''", "'01/14/2026'", "'Houston County Co-Op'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 908: ["''", "'01/02/2026'", "'Crockett Isd'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.4177'"]
+  Row 909: ["''", "'01/13/2026'", "'H&H Construction'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.5247'"]
+  Row 910: ["''", "'01/16/2026'", "'Joe Cruseturner'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'1.7949'"]
+  Row 911: ["''", "'01/22/2026'", "'Matt Anderson'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.5265'"]
+  Row 912: ["''", "'01/22/2026'", "'Kellye Enterprises'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.6429'"]
+  Row 913: ["''", "'01/28/2026'", "'Jimmy McMillian'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'3.4076'"]
+  Row 914: ["''", "'01/28/2026'", "'Bruners Economy Car Center'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 915: ["''", "'02/09/2026'", "'Houston County Co-Op'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 916: ["''", "'02/06/2026'", "'Pinnacle Gas Treating'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 917: ["''", "'02/06/2026'", "'Pinnacle Gas Treating'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 918: ["''", "'02/12/2026'", "'Kenan Noble'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'4.1582'"]
+  Row 919: ["''", "'01/14/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'#2 COPPER'", "''", "'4.92'"]
+  Row 920: ["''", "'07/11/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'2-1 COPPER'", "''", "'1.00'"]
+  Row 921: ["''", "'09/29/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'2-1 COPPER'", "''", "'1.55'"]
+  Row 922: ["''", "'11/10/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'2-1 COPPER'", "''", "'1.85'"]
+  Row 923: ["''", "'01/14/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'2-1 COPPER'", "''", "'2.35'"]
+  Row 924: ["''", "'07/11/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.28'"]
+  Row 925: ["''", "'08/21/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.30'"]
+  Row 926: ["''", "'09/29/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.30'"]
+  Row 927: ["''", "'11/10/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.60'"]
+  Row 928: ["''", "'01/14/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.70'"]
+  Row 929: ["''", "'02/09/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR ALUMINUM COATED STEEL REINFORCED'", "''", "'0.75'"]
+  Row 930: ["''", "'07/11/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.28'"]
+  Row 931: ["''", "'08/21/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 932: ["''", "'09/29/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.30'"]
+  Row 933: ["''", "'11/10/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.60'"]
+  Row 934: ["''", "'01/14/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.70'"]
+  Row 935: ["''", "'02/09/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'ACSR NEOPRENE MIX'", "''", "'0.75'"]
+  Row 936: ["''", "'08/21/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.05'"]
+  Row 937: ["''", "'09/29/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.07'"]
+  Row 938: ["''", "'11/10/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'AL BREAKAGE >60%'", "''", "'0.08'"]
+  Row 939: ["''", "'09/29/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.20'"]
+  Row 940: ["''", "'11/10/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.25'"]
+  Row 941: ["''", "'01/14/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'AL W/CU URD'", "''", "'0.25'"]
+  Row 942: ["''", "'07/11/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'AL/CU REEFER UNCLEAN'", "''", "'0.05'"]
+  Row 943: ["''", "'02/09/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'BRASS UNCLEAN/DIRTY'", "''", "'1.70'"]
+  Row 944: ["''", "'08/21/2025'", "'Houston County Co-Op'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'1.50'"]
+  Row 945: ["''", "'01/14/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.80'"]
+  Row 946: ["''", "'02/09/2026'", "'Houston County Co-Op'", "'Non-Ferrous'", "'INSULATED #1 COPPER 60%'", "''", "'2.80'"]
+  Row 947: ["''", "'07/17/2025'", "'Don Hamilton'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 948: ["''", "'07/17/2025'", "'Vulcraft Division Of Nucore'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 949: ["''", "'07/23/2025'", "'Lucas Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 950: ["''", "'07/23/2025'", "'Pinnacle Gas Treating'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 951: ["''", "'07/23/2025'", "'Jimmy McMillian'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 952: ["''", "'07/31/2025'", "'Crockett Isd'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 953: ["''", "'07/31/2025'", "'Lovelady Isd'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 954: ["''", "'08/05/2025'", "'Diamond S Ag Services'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 955: ["''", "'08/05/2025'", "'Pinnacle Gas Treating'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 956: ["''", "'08/21/2025'", "'Jason Wink'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 957: ["''", "'08/21/2025'", "'RTP'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 958: ["''", "'08/21/2025'", "'Kellye Enterprises'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 959: ["''", "'08/21/2025'", "'Casie Hawthorne'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 960: ["''", "'08/27/2025'", "'Brent McArthur'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 961: ["''", "'09/02/2025'", "'Lovelady Isd'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 962: ["''", "'09/24/2025'", "'Kellye Enterprises'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 963: ["''", "'10/01/2025'", "'Lucas Roofing'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 964: ["''", "'10/10/2025'", "'RTP'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 965: ["''", "'10/20/2025'", "'Shannon Sullivan'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 966: ["''", "'10/20/2025'", "'Jordan Westerfield'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 967: ["''", "'10/20/2025'", "'Don Hamilton'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 968: ["''", "'10/22/2025'", "'ASAP INDUSTRIES LLC'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 969: ["''", "'10/22/2025'", "'WC Tractor'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 970: ["''", "'10/30/2025'", "'Pinnacle Gas Treating'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 971: ["''", "'11/17/2025'", "'Trinity Isd'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 972: ["''", "'11/20/2025'", "'Pinnacle Gas Treating'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 973: ["''", "'12/15/2025'", "'Classic Collision 2031 Crockett'", "'Other'", "'DISPATCH FEE'", "''", "'-'"]
+  Row 974: ["''", "'07/31/2025'", "'Quality Paint & Body'", "'Other'", "'DRY RUN FEE'", "''", "'-'"]
+  Row 975: ["''", "''", "''", "''", "''", "''", "''"]
+  Row 976: ["''", "'08/28/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'LONG IRON/UNPREPARED #1&2 MIX'", "''", "'5.00'"]
+  Row 977: ["''", "'08/28/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'REBAR'", "''", "'5.00'"]
+  Row 978: ["''", "'09/08/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'REBAR'", "''", "'5.00'"]
+  Row 979: ["''", "'07/01/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 980: ["''", "'07/01/2025'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 981: ["''", "'07/03/2025'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 982: ["''", "'07/03/2025'", "'Bo Ervin'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 983: ["''", "'07/08/2025'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 984: ["''", "'07/08/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 985: ["''", "'07/08/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 986: ["''", "'07/09/2025'", "'Solis Brothers Excavation'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 987: ["''", "'07/10/2025'", "'Solis Brothers Excavation'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 988: ["''", "'07/14/2025'", "'Solis Brothers Excavation'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 989: ["''", "'07/15/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 990: ["''", "'07/15/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 991: ["''", "'07/16/2025'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 992: ["''", "'07/17/2025'", "'American Timber & Steel'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 993: ["''", "'07/18/2025'", "'Tejas Carports & Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 994: ["''", "'07/21/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 995: ["''", "'07/22/2025'", "'Becker Iron & Metal'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 996: ["''", "'07/22/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 997: ["''", "'07/29/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 998: ["''", "'07/30/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 999: ["''", "'07/30/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1000: ["''", "'08/06/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1001: ["''", "'08/07/2025'", "'Tejas Carports & Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1002: ["''", "'08/12/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1003: ["''", "'08/13/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1004: ["''", "'08/18/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1005: ["''", "'08/19/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1006: ["''", "'08/18/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1007: ["''", "'08/18/2025'", "'Donna Lenhardt'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1008: ["''", "'08/19/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1009: ["''", "'08/20/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1010: ["''", "'08/26/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1011: ["''", "'08/28/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 1012: ["''", "'09/02/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1013: ["''", "'09/02/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1014: ["''", "'09/02/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1015: ["''", "'09/03/2025'", "'Juan Villasenor Elite Demolition & Abatement'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.00'"]
+  Row 1016: ["''", "'09/04/2025'", "'Tejas Carports & Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1017: ["''", "'09/05/2025'", "'United States Postal Service'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1018: ["''", "'09/09/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1019: ["''", "'09/16/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1020: ["''", "'09/17/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1021: ["''", "'09/23/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1022: ["''", "'09/25/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1023: ["''", "'09/25/2025'", "'Tejas Carports & Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1024: ["''", "'09/30/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1025: ["''", "'10/03/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1026: ["''", "'10/03/2025'", "'American Timber & Steel'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1027: ["''", "'10/07/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1028: ["''", "'10/07/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1029: ["''", "'10/14/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1030: ["''", "'10/16/2025'", "'Kathy Hawks'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1031: ["''", "'10/17/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1032: ["''", "'10/17/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1033: ["''", "'10/21/2025'", "'Tejas Carports & Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1034: ["''", "'10/21/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1035: ["''", "'10/22/2025'", "'Bo Ervin'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1036: ["''", "'10/28/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1037: ["''", "'10/28/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1038: ["''", "'11/04/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1039: ["''", "'11/06/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1040: ["''", "'11/10/2025'", "'Tejas Carports & Roofing'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1041: ["''", "'11/10/2025'", '"Pichy\'s Buildings and Carports"', "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1042: ["''", "'11/10/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1043: ["''", "'11/17/2025'", "'Wells ISD'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'5.50'"]
+  Row 1044: ["''", "'11/19/2025'", "'Star Buildings & Carports'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1045: ["''", "'11/24/2025'", "'1 WAY DIESEL PERFORMANCE'", "'Ferrous'", "'TIN/#2 LIGHT'", "''", "'6.00'"]
+  Row 1046: ["''", "'11/24/2025'", "'Tejas Mex'", "'Ferrous'", "'TIN/#2 LIG...'", "''", "'-'"]

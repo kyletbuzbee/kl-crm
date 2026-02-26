@@ -1,0 +1,10 @@
+Reading: transactions.docx
+Found 1 table(s) in document.
+  Table 0: 1042 data rows extracted.
+
+Success! 1042 transactions written to: converted_transactions.csv
+
+Row breakdown by category:
+  Ferrous                          557 rows
+  Non-Ferrous                      232 rows
+  Other                            253 rows

@@ -1,0 +1,900 @@
+================================================================================
+       K&L RECYCLING CRM - COMPREHENSIVE BLUEPRINT & HEALTH REPORT       
+================================================================================
+
+Generated: 2026-02-25 13:50:42
+Files Analyzed: 46
+Functions Found: 538
+Total Lines of Code: 29944
+
+--------------------------------------------------------------------------------
+SYSTEM ARCHITECTURE OVERVIEW
+--------------------------------------------------------------------------------
+
+📊 SHEET STRUCTURE (from Schema):
+
+   📋 OUTREACH
+      • Company
+      • Company ID
+      • Competitor
+      • Contact Type
+      • Days Since Last Visit
+      • Email Sent
+      • Follow Up Action
+      • Next Visit Countdown
+      • Next Visit Date
+      • Notes
+      ... and 8 more columns
+
+   📋 PROSPECTS
+      • Address
+      • City
+      • Close Probability
+      • Company ID
+      • Company Name
+      • Contact Status
+      • Days Since Last Contact
+      • Industry
+      • Last Outcome
+      • Last Outreach Date
+      ... and 9 more columns
+
+   📋 ACCOUNTS
+      • Company Name
+      • Contact Name
+      • Contact Phone
+      • Contact Role
+      • Deployed
+      • Handling of Metal
+      • Mailing Location
+      • Notes
+      • Payout Price
+      • Roll Off Container Size
+      ... and 3 more columns
+
+   📋 CONTACTS
+      • Account
+      • Address
+      • Company
+      • Department
+      • Email
+      • Name
+      • Phone Number
+      • Role
+
+   📋 SETTINGS
+      • Category
+      • Description
+      • Key
+      • Value_1
+      • Value_2
+      • Value_3
+      • Value_4
+
+   📋 SALES
+      • Company ID
+      • Company Name
+      • Date
+      • Material
+      • Payment Amount
+      • Price
+      • Sales ID
+      • Weight
+
+   📋 ACTIVE_CONTAINERS
+      • City
+      • Company ID
+      • Company Name
+      • Container Size
+      • Current Deployed Asset(s)
+      • Location Address
+      • Location Name
+      • Zip Code
+
+⚙️  SETTINGS & VALIDATION RULES:
+   Valid Outcomes: Account Won, Disqualified, Follow-Up, Initial Contact, Interested (Hot), Interested (Warm), No Answer, Not Interested
+   Valid Stages: Lost, Nurture, Outreach, Prospect, Won
+   Workflow Rules: 9 defined
+      • Account Won → Stage: Won, Status: Active
+      • Interested (Hot) → Stage: Nurture, Status: Interested (Hot)
+      • Interested (Warm) → Stage: Nurture, Status: Interested (Warm)
+      • Interested → Stage: Nurture, Status: Interested (Warm)
+      • Initial Contact → Stage: Outreach, Status: Interested (Warm)
+
+📁 FILE BREAKDOWN:
+
+   📦 Core Services (4 files):
+      • CRM_API.js (9 lines, 0 functions)
+      • Config.js (240 lines, 2 functions)
+      • MenuFunctions.js (55 lines, 1 functions)
+      • Settings.js (293 lines, 4 functions)
+
+   🎨 UI Components (5 files):
+      • CRM_Scripts.html (347 lines, 15 functions)
+      • CRM_Styles.html (459 lines, 0 functions)
+      • CRM_Suite.html (2716 lines, 43 functions)
+      • DashboardBackend.js (1784 lines, 30 functions)
+      • dashboard.html (4744 lines, 83 functions)
+
+   🔄 Sync & Workflow (3 files):
+      • OutreachSyncFunctions.js (307 lines, 5 functions)
+      • Sync.js (582 lines, 29 functions)
+      • WorkflowAutomationService.js (294 lines, 8 functions)
+
+   ✅ Validation (5 files):
+      • BusinessValidation.js (1502 lines, 56 functions)
+      • ComprehensiveValidationSystem.js (1661 lines, 29 functions)
+      • DataValidation.js (1842 lines, 32 functions)
+      • SettingsValidation.js (951 lines, 17 functions)
+      • ValidationUtils.js (203 lines, 12 functions)
+
+   🧪 Testing (0 files):
+
+   🔧 Utilities (5 files):
+      • DataHelpers.js (901 lines, 19 functions)
+      • FuzzyMatchingUtils.js (168 lines, 4 functions)
+      • PerformanceUtils.js (794 lines, 26 functions)
+      • SharedUtils.js (872 lines, 6 functions)
+      • StringUtils.js (140 lines, 15 functions)
+
+   📄 Other (24 files):
+      • AccountFunction.js (278 lines, 3 functions)
+      • ActiveContainerFunctions.js (143 lines, 4 functions)
+      • AlertingService.js (159 lines, 5 functions)
+      • AutoFillService.js (97 lines, 3 functions)
+      • BatchProcessor.js (719 lines, 18 functions)
+      • CRMBrain.js (342 lines, 3 functions)
+      • CSVImport.js (681 lines, 12 functions)
+      • ColumnMapper.js (127 lines, 4 functions)
+      • DATE_AND_STATUS_FIXES.js (263 lines, 4 functions)
+      • ErrorBoundary.js (557 lines, 15 functions)
+
+🔄 DATA FLOW:
+   Outreach Entry → Sync to Prospects → Account Won → Migrate to Accounts
+   Key Functions:
+      • syncCRMLogic() - Main sync orchestrator
+      • processAccountWon() - Account migration trigger
+      • processOutreachSubmission() - Form submission handler
+
+🔗 EXTERNAL DEPENDENCIES:
+   • CacheService
+   • DriveApp
+   • MailApp
+   • ScriptApp
+   • SpreadsheetApp
+
+🔑 CRITICAL FUNCTIONS:
+   ✅ processNewAccount (AccountFunction.js:57)
+   ✅ sendAccountProcessingAlert (AlertingService.js:12)
+   ✅ showAccountProcessingNotification (AlertingService.js:41)
+   ✅ processBatch (BatchProcessor.js:627)
+   ⚠️ processData (LoggerInjector.js:330)
+   ✅ getBatchProcessor (Normalization.js:173)
+   ✅ processOutreachSubmission (OutreachFunctions.js:108)
+   ✅ syncOutreachToProspects (OutreachSyncFunctions.js:14)
+   ✅ processInBatches (PerformanceUtils.js:132)
+   ✅ processBatch (PerformanceUtils.js:203)
+   ✅ getWonProspects (PipelineService.js:196)
+   ⚠️ getWonAccounts (PipelineService.js:245)
+   ✅ getBatchProcessor (Sync.js:25)
+   ✅ getSyncLoggerInjector (Sync.js:36)
+   ✅ getSyncErrorBoundary (Sync.js:47)
+   ⚠️ createSyncLogger (Sync.js:58)
+   ✅ createSyncTimer (Sync.js:91)
+   ⚠️ wrapSyncFunction (Sync.js:128)
+   ⚠️ runFullCRM_Sync (Sync.js:144)
+   ✅ syncCRMLogic (Sync.js:188)
+
+
+================================================================================
+                          SYSTEM HEALTH ASSESSMENT                          
+================================================================================
+
+OVERALL HEALTH SCORE: 75/100 - 🟡 NEEDS ATTENTION
+Total Issues Found: 109
+  🔴 Critical: 0
+  🟠 High: 0
+  🟡 Medium: 40
+  🟢 Low: 69
+  ℹ️  Info: 0
+
+--------------------------------------------------------------------------------
+ISSUES BY CATEGORY
+--------------------------------------------------------------------------------
+  Code Quality: 84
+  Maintainability: 9
+  Error Handling: 8
+  Schema: 5
+  Performance: 3
+
+--------------------------------------------------------------------------------
+DETAILED ISSUE LIST
+--------------------------------------------------------------------------------
+
+🔸 MEDIUM ISSUES:
+
+   📄 ActiveContainerFunctions.js:29
+   Category: Schema
+   Message: Access to undocumented sheet: 'Active'
+   Context: getSheetByName('Active')...
+   💡 Recommendation: Add 'Active' to Config.js HEADERS or System_Schema.csv
+
+   📄 BusinessValidation.js:241
+   Category: Code Quality
+   Message: Function 'createProspectPipeline' has high complexity (32)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 BusinessValidation.js:466
+   Category: Code Quality
+   Message: Function 'createAccountPipeline' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 CRMBrain.js:119
+   Category: Code Quality
+   Message: Function 'getPipelineInsights' has high complexity (29)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 CRMBrain.js:252
+   Category: Error Handling
+   Message: Function 'analyzeNoteText' lacks error handling (complexity: 13)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 CSVImport.js:14
+   Category: Code Quality
+   Message: Function 'importCSVData' has high complexity (33)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ComprehensiveValidationSystem.js:266
+   Category: Code Quality
+   Message: Function '_validateProspectsRow' has high complexity (31)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ComprehensiveValidationSystem.js:471
+   Category: Code Quality
+   Message: Function '_validateOutreachRow' has high complexity (28)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:87
+   Category: Code Quality
+   Message: Function 'getPipelineFunnelForDashboard' has high complexity (23)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:175
+   Category: Code Quality
+   Message: Function 'crmGateway' has high complexity (43)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:569
+   Category: Code Quality
+   Message: Function '_getOutreachHistoryInternal' has high complexity (31)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:569
+   Category: Error Handling
+   Message: Function '_getOutreachHistoryInternal' lacks error handling (complexity: 31)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 DashboardBackend.js:600
+   Category: Code Quality
+   Message: Function 'getProspectDetails' has high complexity (39)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:913
+   Category: Code Quality
+   Message: Function 'getCalendarEvents' has high complexity (70)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:1139
+   Category: Code Quality
+   Message: Function 'getOutreachData' has high complexity (28)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:1417
+   Category: Code Quality
+   Message: Function 'getCompanyDetailsForAutofill' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DataHelpers.js:230
+   Category: Code Quality
+   Message: Function 'prependRowSafe' has high complexity (23)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DataHelpers.js:383
+   Category: Code Quality
+   Message: Function 'appendRowSafe' has high complexity (21)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DataHelpers.js:472
+   Category: Performance
+   Message: appendRow called - consider batch append for multiple rows
+   Context: Performance anti-pattern detected...
+   💡 Recommendation: Consider using batch operations or caching
+
+   📄 DataHelpers.js:762
+   Category: Error Handling
+   Message: Function 'prependRowsBatch' lacks error handling (complexity: 13)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 DataHelpers.js:763
+   Category: Error Handling
+   Message: Function 'fn' lacks error handling (complexity: 13)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 DataHelpers.js:835
+   Category: Error Handling
+   Message: Function 'appendRowsBatch' lacks error handling (complexity: 13)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 DataHelpers.js:836
+   Category: Error Handling
+   Message: Function 'fn' lacks error handling (complexity: 13)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 DataValidation.js:382
+   Category: Code Quality
+   Message: Function 'validateProspectsData' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DataValidation.js:600
+   Category: Code Quality
+   Message: Function 'validateOutreachData' has high complexity (24)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DataValidation.js:1392
+   Category: Code Quality
+   Message: Function 'normalizeFieldValue' has high complexity (40)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 HtmlSafeRenderer.js:164
+   Category: Code Quality
+   Message: Function 'sanitizeHtml' has high complexity (23)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 OutreachFunctions.js:428
+   Category: Code Quality
+   Message: Function 'calculateDashboardMetrics' has high complexity (21)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 OutreachSyncFunctions.js:14
+   Category: Code Quality
+   Message: Function 'syncOutreachToProspects' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 Settings.js:6
+   Category: Code Quality
+   Message: Function 'getSettings' has high complexity (25)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 SettingsValidation.js:588
+   Category: Code Quality
+   Message: Function 'validateFieldsForCategory' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 SetupNewSheets.js:12
+   Category: Schema
+   Message: Access to undocumented sheet: 'Sales'
+   Context: getSheetByName('Sales')...
+   💡 Recommendation: Add 'Sales' to Config.js HEADERS or System_Schema.csv
+
+   📄 SetupNewSheets.js:26
+   Category: Schema
+   Message: Access to undocumented sheet: 'Active Containers'
+   Context: getSheetByName('Active Containers')...
+   💡 Recommendation: Add 'Active Containers' to Config.js HEADERS or System_Schema.csv
+
+   📄 SetupNewSheets.js:48
+   Category: Schema
+   Message: Access to undocumented sheet: 'Sales'
+   Context: getSheetByName('Sales')...
+   💡 Recommendation: Add 'Sales' to Config.js HEADERS or System_Schema.csv
+
+   📄 SetupNewSheets.js:71
+   Category: Performance
+   Message: appendRow called - consider batch append for multiple rows
+   Context: Performance anti-pattern detected...
+   💡 Recommendation: Consider using batch operations or caching
+
+   📄 SetupNewSheets.js:86
+   Category: Schema
+   Message: Access to undocumented sheet: 'Active Containers'
+   Context: getSheetByName('Active Containers')...
+   💡 Recommendation: Add 'Active Containers' to Config.js HEADERS or System_Schema.csv
+
+   📄 SetupNewSheets.js:107
+   Category: Performance
+   Message: appendRow called - consider batch append for multiple rows
+   Context: Performance anti-pattern detected...
+   💡 Recommendation: Consider using batch operations or caching
+
+   📄 SharedUtils.js:208
+   Category: Code Quality
+   Message: Function 'parseDate' has high complexity (25)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 SharedUtils.js:283
+   Category: Code Quality
+   Message: Function 'parseDateString' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 Sync.js:374
+   Category: Code Quality
+   Message: Function 'processAccountWon' has high complexity (21)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+🔸 LOW ISSUES:
+
+   📄 ActiveContainerFunctions.js:15
+   Category: Code Quality
+   Message: Function 'getActiveContainers' has no logging
+   Context: Function with 10 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BusinessValidation.js:286
+   Category: Code Quality
+   Message: Function 'prospectScores' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BusinessValidation.js:304
+   Category: Code Quality
+   Message: Function 'prospectDates' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BusinessValidation.js:340
+   Category: Code Quality
+   Message: Function 'pipeline' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BusinessValidation.js:431
+   Category: Code Quality
+   Message: Function 'pipeline' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BusinessValidation.js:532
+   Category: Code Quality
+   Message: Function 'pipeline' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BusinessValidation.js:573
+   Category: Code Quality
+   Message: Function 'getWrappedValidator' has no logging
+   Context: Function with 13 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BusinessValidation.js:578
+   Category: Code Quality
+   Message: Function 'wrappedFn' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 CRMBrain.js:79
+   Category: Code Quality
+   Message: Function '_loadConfig' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 CRMBrain.js:252
+   Category: Code Quality
+   Message: Function 'analyzeNoteText' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 CSVImport.js:224
+   Category: Code Quality
+   Message: Function 'parseCSVLine' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 CSVImport.js:424
+   Category: Code Quality
+   Message: Function 'parseDelimitedLine' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 CSVImport.js:527
+   Category: Maintainability
+   Message: Function 'previewCSVMapping' appears orphaned (never called) with complexity 14
+   Context: Function defined at line 527...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 CSVImport.js:527
+   Category: Code Quality
+   Message: Function 'previewCSVMapping' has no logging
+   Context: Function with 20 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:10
+   Category: Code Quality
+   Message: Function 'validateProspectsData' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:92
+   Category: Code Quality
+   Message: Function 'validateOutreachData' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:174
+   Category: Code Quality
+   Message: Function '_validateHeaders' has no logging
+   Context: Function with 9 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:266
+   Category: Code Quality
+   Message: Function '_validateProspectsRow' has no logging
+   Context: Function with 14 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:471
+   Category: Code Quality
+   Message: Function '_validateOutreachRow' has no logging
+   Context: Function with 13 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:1412
+   Category: Code Quality
+   Message: Function 'generateValidationReport' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:1499
+   Category: Code Quality
+   Message: Function 'parseCSV' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ComprehensiveValidationSystem.js:1576
+   Category: Code Quality
+   Message: Function '_parseCSVLine' has no logging
+   Context: Function with 9 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DATE_AND_STATUS_FIXES.js:93
+   Category: Maintainability
+   Message: Function 'parseDateForReport' appears orphaned (never called) with complexity 13
+   Context: Function defined at line 93...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 DashboardBackend.js:539
+   Category: Code Quality
+   Message: Function '_findProspectInternal' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DashboardBackend.js:569
+   Category: Code Quality
+   Message: Function '_getOutreachHistoryInternal' has no logging
+   Context: Function with 10 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DashboardBackend.js:1284
+   Category: Maintainability
+   Message: Function 'getLastTouchInfo' appears orphaned (never called) with complexity 13
+   Context: Function defined at line 1284...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 DashboardBackend.js:1417
+   Category: Maintainability
+   Message: Function 'getCompanyDetailsForAutofill' appears orphaned (never called) with complexity 22
+   Context: Function defined at line 1417...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 DashboardBackend.js:1710
+   Category: Code Quality
+   Message: Function 'runDiagnostics' has no logging
+   Context: Function with 6 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataHelpers.js:762
+   Category: Maintainability
+   Message: Function 'prependRowsBatch' appears orphaned (never called) with complexity 13
+   Context: Function defined at line 762...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 DataHelpers.js:762
+   Category: Code Quality
+   Message: Function 'prependRowsBatch' has no logging
+   Context: Function with 17 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataHelpers.js:763
+   Category: Code Quality
+   Message: Function 'fn' has no logging
+   Context: Function with 15 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataHelpers.js:835
+   Category: Maintainability
+   Message: Function 'appendRowsBatch' appears orphaned (never called) with complexity 13
+   Context: Function defined at line 835...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 DataHelpers.js:835
+   Category: Code Quality
+   Message: Function 'appendRowsBatch' has no logging
+   Context: Function with 17 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataHelpers.js:836
+   Category: Code Quality
+   Message: Function 'fn' has no logging
+   Context: Function with 15 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:309
+   Category: Code Quality
+   Message: Function 'parseCSVLine' has no logging
+   Context: Function with 9 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:382
+   Category: Code Quality
+   Message: Function 'validateProspectsData' has no logging
+   Context: Function with 12 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:600
+   Category: Code Quality
+   Message: Function 'validateOutreachData' has no logging
+   Context: Function with 14 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:832
+   Category: Code Quality
+   Message: Function 'validateHeaders' has no logging
+   Context: Function with 11 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:928
+   Category: Code Quality
+   Message: Function 'validateIndustry' has no logging
+   Context: Function with 12 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:988
+   Category: Code Quality
+   Message: Function 'validateOutcomeCategory' has no logging
+   Context: Function with 12 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:1048
+   Category: Code Quality
+   Message: Function 'validateStatus' has no logging
+   Context: Function with 12 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:1108
+   Category: Code Quality
+   Message: Function 'validateContactType' has no logging
+   Context: Function with 12 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:1652
+   Category: Code Quality
+   Message: Function 'importToProspectsSheet' has no logging
+   Context: Function with 15 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DataValidation.js:1711
+   Category: Code Quality
+   Message: Function 'importToOutreachSheet' has no logging
+   Context: Function with 15 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 FunctionRefactorer.js:98
+   Category: Code Quality
+   Message: Function 'splitValidationFunction' has no logging
+   Context: Function with 12 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 FunctionRefactorer.js:475
+   Category: Code Quality
+   Message: Function 'refactor' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 HtmlSafeRenderer.js:384
+   Category: Code Quality
+   Message: Function 'createTableRows' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 HtmlSafeRenderer.js:385
+   Category: Code Quality
+   Message: Function 'fragment' has no logging
+   Context: Function with 6 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 LoggerInjector.js:334
+   Category: Code Quality
+   Message: Function 'inject' has no logging
+   Context: Function with 9 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 Normalization.js:117
+   Category: Code Quality
+   Message: Function '_normalizeCompanyName' has no logging
+   Context: Function with 16 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 OutreachFunctions.js:274
+   Category: Maintainability
+   Message: Function 'fetchOutreachHistory' appears orphaned (never called) with complexity 16
+   Context: Function defined at line 274...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 OutreachFunctions.js:428
+   Category: Maintainability
+   Message: Function 'calculateDashboardMetrics' appears orphaned (never called) with complexity 21
+   Context: Function defined at line 428...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 SalesFunctions.js:13
+   Category: Code Quality
+   Message: Function 'getSalesData' has no logging
+   Context: Function with 11 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SalesFunctions.js:77
+   Category: Code Quality
+   Message: Function 'createSale' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SalesFunctions.js:128
+   Category: Code Quality
+   Message: Function 'getSalesSummary' has no logging
+   Context: Function with 9 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SettingsValidation.js:144
+   Category: Code Quality
+   Message: Function 'parseCSVLine' has no logging
+   Context: Function with 9 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SettingsValidation.js:217
+   Category: Code Quality
+   Message: Function 'validateSettingsData' has no logging
+   Context: Function with 10 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SettingsValidation.js:355
+   Category: Code Quality
+   Message: Function 'validateHeaders' has no logging
+   Context: Function with 11 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SettingsValidation.js:451
+   Category: Code Quality
+   Message: Function 'validateCategory' has no logging
+   Context: Function with 11 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SettingsValidation.js:588
+   Category: Code Quality
+   Message: Function 'validateFieldsForCategory' has no logging
+   Context: Function with 11 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SettingsValidation.js:824
+   Category: Code Quality
+   Message: Function 'importToSettingsSheet' has no logging
+   Context: Function with 15 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SetupNewSheets.js:7
+   Category: Code Quality
+   Message: Function 'setupNewSheets' has no logging
+   Context: Function with 8 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SharedUtils.js:283
+   Category: Code Quality
+   Message: Function 'parseDateString' has no logging
+   Context: Function with 15 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SharedUtils.js:400
+   Category: Code Quality
+   Message: Function 'dateDiff' has no logging
+   Context: Function with 6 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 SharedUtils.js:792
+   Category: Maintainability
+   Message: Function 'getNextSequentialNumber' appears orphaned (never called) with complexity 17
+   Context: Function defined at line 792...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 StringUtils.js:0
+   Category: Error Handling
+   Message: File lacks error handling in any function
+   Context: No try/catch blocks found...
+   💡 Recommendation: Add error handling to critical functions
+
+   📄 Sync.js:374
+   Category: Code Quality
+   Message: Function 'processAccountWon' has no logging
+   Context: Function with 34 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ValidationUtils.js:0
+   Category: Error Handling
+   Message: File lacks error handling in any function
+   Context: No try/catch blocks found...
+   💡 Recommendation: Add error handling to critical functions
+
+   📄 ValidationUtils.js:8
+   Category: Code Quality
+   Message: Function 'validateDate' has no logging
+   Context: Function with 6 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+================================================================================
+                        ACTIONABLE RECOMMENDATIONS                          
+================================================================================
+
+
+🟠 HIGH - Add Error Handling
+----------------------------------------
+  • Add try/catch blocks to 3 files lacking error handling
+  • Focus on files with complex functions first
+  • Use ErrorHandling.js patterns for consistency
+
+🟡 MEDIUM - Optimize Performance
+----------------------------------------
+  • Address 3 performance issues
+  • Batch SpreadsheetApp operations
+  • Cache frequently accessed data
+  • Use getDataRange() sparingly
+
+🟢 LOW - Code Cleanup
+----------------------------------------
+  • Review 189 potentially orphaned functions
+  • Remove dead code or add documentation
+  • Consolidate duplicate utility functions
+
+📚 INFO - Documentation
+----------------------------------------
+  • Add JSDoc comments to 538 functions
+  • Document function parameters and return types
+  • Add usage examples for complex functions

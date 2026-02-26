@@ -1,0 +1,19 @@
+Sheet,Column,Column Name,Formula
+Prospects,H,Last Outcome,"=XLOOKUP(A2, Outreach!$B:$B, Outreach!$F:$F, """", 0, -1)"
+Prospects,I,Last Outreach Date,"=XLOOKUP(A2, Outreach!$B:$B, Outreach!$D:$D, """", 0, -1)"
+Prospects,J,Days Since Contact,"=IF(I2="""", """", TODAY() - I2)"
+Prospects,K,Step Countdown,=L2 - TODAY()
+Prospects,L,Next Step Due Date,"=IF(I2="""", TODAY()+14, I2 + IFERROR(XLOOKUP(H2, Settings!$B:$B, Settings!$E:$E), 14))"
+Prospects,M,Contact Status,"=IFERROR(XLOOKUP(H2, Settings!$B:$B, Settings!$D:$D), ""Prospect"")"
+Prospects,N,Close Probability,"=IFS(H2=""Account Won"", 1, H2=""Interested (Hot)"", 0.75, H2=""Interested (Warm)"", 0.4, TRUE, 0.1)"
+Prospects,O,Priority Score,"See ""Priority Score Formula"" (Uses LET for Industry keyword matching)"
+Prospects,P,Urgency Band,"=IFS(K2 < 0, ""Overdue"", K2 <= 7, ""High"", K2 <= 30, ""Medium"", TRUE, ""Low"")"
+Prospects,Q,Urgency Score,"=IFS(K2 < 0, 150, K2 <= 7, 115, K2 <= 30, 75, TRUE, 25)"
+Prospects,R,Totals,=(O2 * 0.6) + (Q2 * 0.4)
+Outreach,G,Stage,"=IF(F2=""Initial Contact"", ""Outreach"", IFERROR(XLOOKUP(F2, Settings!$B:$B, Settings!$C:$C), ""Outreach""))"
+Outreach,H,Status,"=IFERROR(XLOOKUP(F2, Settings!$B:$B, Settings!$D:$D), ""Cold"")"
+Outreach,I,Next Visit Date,"=IF(D2="""", """", D2 + IFERROR(XLOOKUP(F2, Settings!$B:$B, Settings!$E:$E), 14))"
+Outreach,J,Days Since Visit,"=IF(D2="""", """", TODAY() - D2)"
+Outreach,K,Visit Countdown,"=IF(I2="""", """", I2 - TODAY())"
+Outreach,L,Outcome Category,"=F2 (or use the ""Smart Grouping"" version)"
+Outreach,M,Follow Up Action,"See ""Follow Up Action"" (Maps Outcome to Settings Templates)"

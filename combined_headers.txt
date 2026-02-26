@@ -1,0 +1,32 @@
+=== Accounts.csv ===
+Deployed,Timestamp,Company Name,Contact Name,Contact Phone,Contact Role,Site Location,Mailing Location,Roll-Off Fee,Handling of Metal,Roll Off Container Size,Notes,Payout Price
+=== Active.csv ===
+Company ID,Company Name,Location Name,Location Address,Column 8,Zip Code,Current Deployed Asset(s),Container Size
+=== Active_Containers.csv ===
+Company ID,Company Name,Location Name,Location Address,City,Zip Code,Current Deployed Asset(s),Container Size
+=== Contacts.csv ===
+Name,Company,Account,Role,Department,Phone Number,Email,Address
+=== INFORMATION_FOR_KYLE.csv ===
+Ticket #,Date,Supplier/Material,Net,Price
+=== K&L Recycling Outreach Log - Transactions.csv ===
+Date,Company,Material,Net Weight,Price
+=== Outreach.csv ===
+Outreach ID,Company ID,Company,Visit Date,Notes,Outcome,Stage,Status,Next Visit Date,Days Since Last Visit,Next Visit Countdown,Outcome Category,Follow Up Action,Owner,Prospects Match,Contact Type,Email Sent,Competitor
+=== Prospects.csv ===
+Company ID,Address,City,Zip Code,Company Name,Industry,Latitude,Longitude,Last Outcome,Last Outreach Date,Days Since Last Contact,Next Step Due Countdown,Next Steps Due Date,Contact Status,Close Probability,Priority Score,UrgencyBand,Urgency Score,Totals
+=== Sales.csv ===
+Sales ID,Date,Company Name,Company ID,Material,Weight, Price ,Payment Amount
+=== Settings.csv ===
+Category,Key,Value_1,Value_2,Value_3,Value_4,Description,Column 8
+=== System_Schema.csv ===
+Object,API_Name,Label,Type,Required,Options (Aligned & Validated),Default_Value,Is_System
+=== Transaction.csv ===
+Date,Company,Material,Net Weight,Price,,Date,Company,Material,Net Weight,Price
+=== Transactions.csv ===
+Date,Company,Material,Net Weight,Price
+=== converted_transactions.csv ===
+Ticket #,Date,Supplier,Category,Material,Net Weight,Price
+=== gutter.csv ===
+"﻿""ID""",Name,Address,Featured image,Bing Maps URL,Latitude,Longitude,Rating,Rating Info,Category,Open Hours,Website,Phone,Emails,Social Medias,Facebook,Instagram,Twitter
+=== metal.csv ===
+"﻿""ID""",Name,Address,Featured image,Bing Maps URL,Latitude,Longitude,Rating,Rating Info,Category,Open Hours,Website,Phone,Emails,Social Medias,Facebook,Instagram,Twitter

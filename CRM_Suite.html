@@ -1,0 +1,2716 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <title>K&L Recycling CRM Suite</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* ===== CSS Variables & Theme ===== */
+    :root {
+        /* Primary Palette - K&L Green Inspired */
+        --primary: #10b981;
+        --primary-dark: #059669;
+        --primary-light: #34d399;
+        --primary-bg: #ecfdf5;
+        
+        /* Accent Colors */
+        --accent-hot: #ef4444;
+        --accent-warm: #f59e0b;
+        --accent-cold: #3b82f6;
+        --accent-won: #10b981;
+        
+        /* Neutral Palette */
+        --bg-main: #0f172a;
+        --bg-secondary: #1e293b;
+        --bg-card: #ffffff;
+        --bg-hover: #f1f5f9;
+        
+        /* Text Colors */
+        --text-primary: #1e293b;
+        --text-secondary: #64748b;
+        --text-muted: #94a3b8;
+        --text-inverse: #ffffff;
+        
+        /* Semantic Colors */
+        --success: #10b981;
+        --warning: #f59e0b;
+        --error: #ef4444;
+        --info: #3b82f6;
+        
+        /* Shadows */
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        --shadow-glow: 0 0 20px rgba(16, 185, 129, 0.3);
+        
+        /* Spacing */
+        --spacing-xs: 0.25rem;
+        --spacing-sm: 0.5rem;
+        --spacing-md: 1rem;
+        --spacing-lg: 1.5rem;
+        --spacing-xl: 2rem;
+        
+        /* Border Radius */
+        --radius-sm: 0.375rem;
+        --radius-md: 0.5rem;
+        --radius-lg: 0.75rem;
+        --radius-xl: 1rem;
+        --radius-full: 9999px;
+        
+        /* Transitions */
+        --transition-fast: 150ms ease;
+        --transition-normal: 250ms ease;
+        --transition-slow: 350ms ease;
+        
+        /* Sidebar Width */
+        --sidebar-width: 280px;
+    }
+
+    /* ===== Base Reset ===== */
+    *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-size: 16px;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        background: var(--bg-main);
+        color: var(--text-primary);
+        line-height: 1.6;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ===== Scrollbar Styling ===== */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--bg-secondary);
+        border-radius: var(--radius-full);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--primary);
+        border-radius: var(--radius-full);
+        transition: var(--transition-fast);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--primary-light);
+    }
+
+    /* ===== Layout ===== */
+    .suite-wrapper {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    /* ===== Sidebar Navigation ===== */
+    .suite-nav {
+        width: var(--sidebar-width);
+        background: linear-gradient(180deg, var(--bg-secondary) 0%, #0f172a 100%);
+        color: var(--text-inverse);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 100;
+        box-shadow: var(--shadow-xl);
+    }
+
+    .suite-nav::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.5), transparent);
+    }
+
+    .brand {
+        padding: var(--spacing-xl) var(--spacing-lg);
+        font-weight: 800;
+        font-size: 1.25rem;
+        letter-spacing: 2px;
+        color: var(--primary);
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+        position: relative;
+    }
+
+    .brand::before {
+        content: '';
+    }
+
+    .brand::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: var(--spacing-lg);
+        right: var(--spacing-lg);
+        height: 1px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .nav-links {
+        flex: 1;
+        padding: var(--spacing-md);
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-xs);
+        overflow-y: auto;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-md);
+        padding: var(--spacing-md) var(--spacing-lg);
+        border-radius: var(--radius-lg);
+        cursor: pointer;
+        transition: all var(--transition-normal);
+        color: var(--text-muted);
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav-item::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 4px;
+        height: 0;
+        background: var(--primary);
+        border-radius: var(--radius-full);
+        transition: height var(--transition-normal);
+    }
+
+    .nav-item:hover {
+        background: rgba(16, 185, 129, 0.1);
+        color: var(--text-inverse);
+        transform: translateX(4px);
+    }
+
+    .nav-item:hover::before {
+        height: 24px;
+    }
+
+    .nav-item.active {
+        background: linear-gradient(90deg, rgba(16, 185, 129, 0.2), transparent);
+        color: var(--primary);
+        font-weight: 600;
+    }
+
+    .nav-item.active::before {
+        height: 32px;
+        box-shadow: var(--shadow-glow);
+    }
+
+    .nav-item i {
+        width: 24px;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .nav-footer {
+        padding: var(--spacing-lg);
+        text-align: center;
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        position: relative;
+    }
+
+    .nav-footer::before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 2px;
+        background: var(--primary);
+        border-radius: var(--radius-full);
+    }
+
+    /* ===== Main Content Area ===== */
+    .suite-main {
+        flex: 1;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    }
+
+    .suite-header {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        padding: var(--spacing-lg) var(--spacing-xl);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 50;
+    }
+
+    .suite-header h1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        position: relative;
+        padding-left: var(--spacing-md);
+    }
+
+    .suite-header h1::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 4px;
+        height: 24px;
+        background: var(--primary);
+        border-radius: var(--radius-full);
+    }
+
+    .user-profile {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-md);
+        padding: var(--spacing-sm) var(--spacing-lg);
+        background: var(--bg-card);
+        border-radius: var(--radius-full);
+        box-shadow: var(--shadow-sm);
+        font-weight: 500;
+        color: var(--text-secondary);
+        font-size: 0.875rem;
+    }
+
+    .user-profile::before {
+        content: '';
+        width: 32px;
+        height: 32px;
+        background: linear-gradient(135deg, var(--primary), var(--primary-light));
+        border-radius: var(--radius-full);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 0.875rem;
+    }
+
+    /* ===== Tab Content ===== */
+    .tab-content {
+        padding: var(--spacing-xl);
+        flex: 1;
+        animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ===== Stats Grid ===== */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-lg);
+        margin-bottom: var(--spacing-xl);
+    }
+
+    .stat-card {
+        background: var(--bg-card);
+        padding: var(--spacing-xl);
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow-md);
+        transition: all var(--transition-normal);
+        position: relative;
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .stat-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: var(--primary);
+        opacity: 0;
+        transition: opacity var(--transition-normal);
+    }
+
+    .stat-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-xl);
+    }
+
+    .stat-card:hover::before {
+        opacity: 1;
+    }
+
+    .stat-card.accent {
+        border-top: none;
+    }
+
+    .stat-card.accent::before {
+        background: linear-gradient(90deg, var(--accent-hot), #fca5a5);
+        opacity: 1;
+    }
+
+    .stat-card.win::before {
+        background: linear-gradient(90deg, var(--accent-won), #6ee7b7);
+        opacity: 1;
+    }
+
+    .stat-card h4 {
+        margin: 0;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--text-muted);
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .stat-card h2 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, var(--text-primary), var(--primary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .stat-card .trend {
+        position: absolute;
+        bottom: var(--spacing-lg);
+        right: var(--spacing-lg);
+        font-size: 0.75rem;
+        color: var(--success);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-xs);
+    }
+
+    .stat-card .trend.down {
+        color: var(--error);
+    }
+
+    /* ===== Content Split ===== */
+    .content-split {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .card {
+        background: var(--bg-card);
+        padding: var(--spacing-xl);
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow-md);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .card h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: var(--spacing-lg);
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+        padding-bottom: var(--spacing-md);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .card h3 i {
+        color: var(--primary);
+    }
+
+    .data-list {
+        margin-top: var(--spacing-md);
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    .list-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: var(--spacing-md);
+        border-radius: var(--radius-md);
+        transition: all var(--transition-fast);
+        cursor: pointer;
+    }
+
+    .list-item:hover {
+        background: var(--bg-hover);
+        transform: translateX(4px);
+    }
+
+    .list-item span:first-child {
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .list-item small {
+        color: var(--text-muted);
+        font-size: 0.75rem;
+    }
+
+    /* ===== Badge System ===== */
+    .badge {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        border-radius: var(--radius-full);
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        display: inline-flex;
+        align-items: center;
+        gap: var(--spacing-xs);
+    }
+
+    .badge.overdue {
+        background: linear-gradient(135deg, #000000, #333333);
+        color: #ffffff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .badge.high, .badge.hot {
+        background: linear-gradient(135deg, #fee2e2, #fecaca);
+        color: #b91c1c;
+    }
+
+    .badge.medium, .badge.warm {
+        background: linear-gradient(135deg, #fef3c7, #fde68a);
+        color: #d97706;
+    }
+
+    .badge.low, .badge.cold {
+        background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+        color: #1d4ed8;
+    }
+
+    .badge.won, .badge.active {
+        background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+        color: #059669;
+    }
+
+    /* ===== Pipeline View ===== */
+    .pipeline-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--spacing-lg);
+        height: calc(100vh - 200px);
+    }
+
+    .pipeline-stage {
+        background: var(--bg-card);
+        border-radius: var(--radius-xl);
+        padding: var(--spacing-lg);
+        display: flex;
+        flex-direction: column;
+        box-shadow: var(--shadow-sm);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        transition: all var(--transition-normal);
+    }
+
+    .pipeline-stage:hover {
+        box-shadow: var(--shadow-md);
+    }
+
+    .pipeline-stage h4 {
+        margin: 0 0 var(--spacing-lg) 0;
+        padding-bottom: var(--spacing-md);
+        border-bottom: 2px solid;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+
+    .pipeline-stage h4::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: var(--radius-full);
+    }
+
+    #pipeline-hot h4 { border-color: var(--accent-hot); color: var(--accent-hot); }
+    #pipeline-hot h4::before { background: var(--accent-hot); box-shadow: 0 0 10px var(--accent-hot); }
+    
+    #pipeline-warm h4 { border-color: var(--accent-warm); color: var(--accent-warm); }
+    #pipeline-warm h4::before { background: var(--accent-warm); box-shadow: 0 0 10px var(--accent-warm); }
+    
+    #pipeline-cold h4 { border-color: var(--accent-cold); color: var(--accent-cold); }
+    #pipeline-cold h4::before { background: var(--accent-cold); box-shadow: 0 0 10px var(--accent-cold); }
+    
+    #pipeline-won h4 { border-color: var(--accent-won); color: var(--accent-won); }
+    #pipeline-won h4::before { background: var(--accent-won); box-shadow: 0 0 10px var(--accent-won); }
+
+    .pipeline-deals {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        overflow-y: auto;
+        padding-right: var(--spacing-xs);
+    }
+
+    .pipeline-deal {
+        background: linear-gradient(135deg, #f8fafc, #ffffff);
+        padding: var(--spacing-md);
+        border-radius: var(--radius-lg);
+        border-left: 4px solid;
+        transition: all var(--transition-fast);
+        cursor: pointer;
+        position: relative;
+    }
+
+    .pipeline-deal:hover {
+        transform: translateX(4px);
+        box-shadow: var(--shadow-sm);
+    }
+
+    #pipeline-hot .pipeline-deal { border-left-color: var(--accent-hot); }
+    #pipeline-warm .pipeline-deal { border-left-color: var(--accent-warm); }
+    #pipeline-cold .pipeline-deal { border-left-color: var(--accent-cold); }
+    #pipeline-won .pipeline-deal { border-left-color: var(--accent-won); }
+
+    .pipeline-deal strong {
+        display: block;
+        color: var(--text-primary);
+        font-weight: 600;
+        margin-bottom: var(--spacing-xs);
+    }
+
+    .pipeline-deal small {
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-xs);
+    }
+
+    .empty-state {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        color: var(--text-muted);
+        font-size: 0.875rem;
+    }
+
+    .empty-state i {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-md);
+        opacity: 0.5;
+    }
+
+    /* ===== Prospects View ===== */
+    .prospects-toolbar {
+        display: flex;
+        gap: var(--spacing-md);
+        margin-bottom: var(--spacing-xl);
+        background: var(--bg-card);
+        padding: var(--spacing-lg);
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow-sm);
+    }
+
+    .prospects-toolbar input {
+        flex: 1;
+        padding: var(--spacing-md) var(--spacing-lg);
+        border: 2px solid transparent;
+        border-radius: var(--radius-lg);
+        font-size: 0.9rem;
+        background: var(--bg-hover);
+        transition: all var(--transition-fast);
+    }
+
+    .prospects-toolbar input:focus {
+        outline: none;
+        border-color: var(--primary);
+        background: var(--bg-card);
+        box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
+    }
+
+    .prospects-toolbar select {
+        padding: var(--spacing-md) var(--spacing-lg);
+        border: 2px solid transparent;
+        border-radius: var(--radius-lg);
+        font-size: 0.9rem;
+        background: var(--bg-hover);
+        cursor: pointer;
+        transition: all var(--transition-fast);
+        min-width: 150px;
+    }
+
+    .prospects-toolbar select:focus {
+        outline: none;
+        border-color: var(--primary);
+        background: var(--bg-card);
+        box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
+    }
+
+    .prospects-table-container {
+        background: var(--bg-card);
+        border-radius: var(--radius-xl);
+        overflow: hidden;
+        box-shadow: var(--shadow-md);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .prospects-table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    .prospects-table thead {
+        background: linear-gradient(135deg, var(--bg-secondary), #0f172a);
+    }
+
+    .prospects-table th {
+        background: transparent;
+        padding: var(--spacing-lg);
+        text-align: left;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--text-muted);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .prospects-table td {
+        padding: var(--spacing-lg);
+        border-bottom: 1px solid var(--bg-hover);
+        vertical-align: middle;
+    }
+
+    .prospects-table tbody tr {
+        transition: all var(--transition-fast);
+        cursor: pointer;
+    }
+
+    .prospects-table tbody tr:hover {
+        background: rgba(16, 185, 129, 0.05);
+        cursor: pointer;
+    }
+
+    /* Modal Styles */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(4px);
+    }
+
+    .modal-content {
+        background-color: var(--bg-card);
+        margin: 2% auto;
+        padding: 0;
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow-xl);
+        max-width: 600px;
+        position: relative;
+        animation: slideIn 0.3s ease-out;
+    }
+
+    @keyframes slideIn {
+        from { transform: translateY(-20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+
+    .modal-close {
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 28px;
+        font-weight: bold;
+        color: var(--text-muted);
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .modal-close:hover {
+        color: var(--text-primary);
+    }
+
+    .modal-header {
+        background: linear-gradient(135deg, var(--bg-secondary), #0f172a);
+        padding: 20px 24px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .modal-header h2 {
+        margin: 0 0 8px 0;
+        font-size: 1.5rem;
+        color: var(--text-primary);
+    }
+
+    .status-badge {
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .status-badge.hot { background: #fee2e2; color: #dc2626; }
+    .status-badge.warm { background: #fef3c7; color: #d97706; }
+    .status-badge.cold { background: #e0f2fe; color: #0284c7; }
+    .status-badge.won { background: #dcfce7; color: #16a34a; }
+
+    .detail-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 20px 24px;
+    }
+
+    .detail-section {
+        margin-bottom: 0;
+    }
+
+    .detail-section h3 {
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        margin-bottom: 12px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .detail-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 0;
+    }
+
+    .detail-label {
+        color: var(--text-muted);
+        font-size: 0.875rem;
+    }
+
+    .detail-value {
+        color: var(--text-primary);
+        font-weight: 500;
+        font-size: 0.875rem;
+        text-align: right;
+    }
+
+    .count-badge {
+        background: var(--primary);
+        color: white;
+        padding: 2px 8px;
+        border-radius: 10px;
+        font-size: 0.75rem;
+        margin-left: 8px;
+    }
+
+    /* Timeline Styles */
+    .timeline {
+        padding: 0 24px 20px;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .timeline-empty {
+        text-align: center;
+        color: var(--text-muted);
+        padding: 40px;
+    }
+
+    .timeline-item {
+        display: flex;
+        padding: 12px 0;
+        border-left: 2px solid rgba(255, 255, 255, 0.1);
+        margin-left: 12px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -6px;
+        top: 16px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--primary);
+    }
+
+    .timeline-item.won::before { background: #16a34a; }
+    .timeline-item.warm::before { background: #d97706; }
+    .timeline-item.cold::before { background: #0284c7; }
+
+    .timeline-date {
+        min-width: 80px;
+        font-size: 0.75rem;
+        color: var(--text-muted);
+    }
+
+    .timeline-content {
+        flex: 1;
+    }
+
+    .timeline-outcome {
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .timeline-outcome.won { color: #16a34a; }
+    .timeline-outcome.warm { color: #d97706; }
+    .timeline-outcome.cold { color: #0284c7; }
+
+    .timeline-notes {
+        font-size: 0.8rem;
+        color: var(--text-muted);
+        font-style: italic;
+    }
+
+    /* Stats in Modal */
+    .detail-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        padding: 16px 24px 20px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .stat-card {
+        text-align: center;
+        padding: 12px;
+        background: var(--bg-card);
+        border-radius: var(--radius-lg);
+    }
+
+    .stat-card .stat-value {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--primary);
+    }
+
+    .stat-card .stat-label {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-top: 4px;
+    }
+    /* Toast Notification */
+    .toast-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 2000;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .toast {
+      padding: 1rem 1.5rem;
+      border-radius: var(--radius-lg);
+      color: white;
+      font-weight: 500;
+      box-shadow: var(--shadow-lg);
+      animation: slideInRight 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    
+    @keyframes slideInRight {
+      from { transform: translateX(100%); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+    
+    .toast.success { background: var(--success); }
+    .toast.error { background: var(--error); }
+    .toast.warning { background: var(--warning); }
+    .toast.info { background: var(--info); }
+    
+    .toast-close {
+      margin-left: auto;
+      cursor: pointer;
+      opacity: 0.8;
+    }
+    
+    .toast-close:hover { opacity: 1; }
+    
+    /* Days Badge */
+    .days-badge {
+      padding: 0.25rem 0.5rem;
+      border-radius: var(--radius-full);
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+    
+    .days-badge.fresh { background: #d1fae5; color: #059669; }
+    .days-badge.aging { background: #fef3c7; color: #d97706; }
+    .days-badge.stale { background: #fee2e2; color: #b91c1c; }
+    
+    /* Log Outreach Form */
+    .form-card {
+      background: var(--bg-card);
+      border-radius: var(--radius-xl);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-md);
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-card h3 {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    
+    .form-group label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 2px solid var(--bg-hover);
+      border-radius: var(--radius-lg);
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+    
+    .form-group textarea {
+      min-height: 80px;
+      resize: vertical;
+    }
+    
+    .form-actions {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    
+    .btn-primary {
+      flex: 1;
+      padding: 0.75rem 1.5rem;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius-lg);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .btn-primary:hover {
+      background: var(--primary-dark);
+    }
+    
+    .btn-primary:disabled {
+      background: var(--text-muted);
+      cursor: not-allowed;
+    }
+    
+    .btn-secondary {
+      padding: 0.75rem 1.5rem;
+      background: var(--bg-hover);
+      color: var(--text-secondary);
+      border: none;
+      border-radius: var(--radius-lg);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .btn-secondary:hover {
+      background: var(--bg-secondary);
+      color: var(--text-inverse);
+    }
+    
+    .status-preview {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: var(--bg-hover);
+      border-radius: var(--radius-lg);
+      display: none;
+    }
+    
+    .status-preview.visible {
+      display: block;
+    }
+    
+    .status-preview-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+    
+    .today-logs {
+      margin-top: 1.5rem;
+    }
+    
+    .today-logs h4 {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.75rem;
+    }
+    
+    .today-log-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--bg-hover);
+    }
+    
+    .today-log-item:last-child {
+      border-bottom: none;
+    }
+    
+    .today-log-company {
+      font-weight: 500;
+    }
+    
+    .today-log-outcome {
+      font-size: 0.75rem;
+    }
+    
+    .btn-log-interaction {
+      display: block;
+      width: calc(100% - 48px);
+      margin: 0 24px 20px;
+      padding: 12px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius-lg);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .btn-log-interaction:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+    
+    .prospects-table tbody tr.stale-warning {
+      background: rgba(245, 158, 11, 0.1);
+    }
+    
+    .prospects-table tbody tr.stale-danger {
+      background: rgba(239, 68, 68, 0.1);
+    }
+    </style>
+</head>
+
+<body>
+  <div class="toast-container" id="toast-container"></div>
+  <div class="suite-wrapper">
+    <nav class="suite-nav">
+      <div class="brand">K&L RECYCLING</div>
+      <div class="nav-links">
+        <div class="nav-item active" onclick="switchTab('dashboard', this)">
+          <i class="fas fa-th-large"></i> <span>Dashboard</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('pipeline', this)">
+          <i class="fas fa-filter"></i> <span>Pipeline</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('prospects', this)">
+          <i class="fas fa-address-book"></i> <span>Prospects</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('log-outreach', this)">
+          <i class="fas fa-plus-circle"></i> <span>Log Outreach</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('sales', this)">
+          <i class="fas fa-dollar-sign"></i> <span>Sales</span>
+        </div>
+        <div class="nav-item" onclick="switchTab('containers', this)">
+          <i class="fas fa-box"></i> <span>Containers</span>
+        </div>
+      </div>
+      <div class="nav-footer">System v2.6.0</div>
+    </nav>
+
+    <main class="suite-main">
+      <header class="suite-header">
+        <h1 id="tab-title">Executive Dashboard</h1>
+        <div class="user-profile">Operations Analyst</div>
+      </header>
+
+      <div id="view-dashboard" class="tab-content">
+        <div class="stats-grid" id="stat-cards">
+        </div>
+
+        <div class="content-split">
+          <div class="card">
+            <h3><i class="fas fa-fire"></i> Urgent Follow-ups</h3>
+            <div id="urgent-list" class="data-list">Loading...</div>
+          </div>
+          <div class="card">
+            <h3><i class="fas fa-trophy"></i> Recent Wins</h3>
+            <div id="wins-list" class="data-list">Loading...</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="view-pipeline" class="tab-content" style="display: none;">
+        <div class="pipeline-container" id="pipeline-container">
+          <div class="pipeline-stage">
+            <h4><i class="fas fa-fire"></i> Hot</h4>
+            <div id="pipeline-hot" class="pipeline-deals">Loading...</div>
+          </div>
+          <div class="pipeline-stage">
+            <h4><i class="fas fa-sun"></i> Warm</h4>
+            <div id="pipeline-warm" class="pipeline-deals">Loading...</div>
+          </div>
+          <div class="pipeline-stage">
+            <h4><i class="fas fa-snowflake"></i> Cold</h4>
+            <div id="pipeline-cold" class="pipeline-deals">Loading...</div>
+          </div>
+          <div class="pipeline-stage">
+            <h4><i class="fas fa-check"></i> Won</h4>
+            <div id="pipeline-won" class="pipeline-deals">Loading...</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="view-prospects" class="tab-content" style="display: none;">
+        <div class="prospects-toolbar">
+          <input type="text" id="prospects-search" list="company-suggestions" placeholder="Search prospects..." onkeyup="filterProspects()">
+          <datalist id="company-suggestions"></datalist>
+          <select id="prospects-filter" onchange="filterProspects()">
+            <option value="all">All Statuses</option>
+            <option value="hot">Hot</option>
+            <option value="warm">Warm</option>
+            <option value="cold">Cold</option>
+          </select>
+        </div>
+        <div class="prospects-table-container">
+          <table class="prospects-table">
+            <thead>
+              <tr>
+                <th>Company Name</th>
+                <th>Contact Status</th>
+                <th>Urgency</th>
+                <th>Priority Score</th>
+                <th>Last Outreach</th>
+                <th>Days Since</th>
+              </tr>
+            </thead>
+            <tbody id="prospects-table-body">
+              <tr><td colspan="6">Loading...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="view-log-outreach" class="tab-content" style="display: none;">
+        <div class="form-card">
+          <h3><i class="fas fa-edit"></i> Log New Interaction</h3>
+          <form id="outreach-form" onsubmit="return false;">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="log-company">Company *</label>
+                <input type="text" id="log-company" list="company-datalist" placeholder="Type to search..." required>
+                <datalist id="company-datalist"></datalist>
+              </div>
+              <div class="form-group">
+                <label for="log-contact-type">Contact Type</label>
+                <select id="log-contact-type">
+                  <option value="Visit">Visit</option>
+                  <option value="Phone">Phone</option>
+                  <option value="Email">Email</option>
+                  <option value="Text">Text</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="log-outcome">Outcome *</label>
+                <select id="log-outcome" required onchange="onOutcomeChange(this.value)">
+                  <option value="">Select outcome...</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="log-visit-date">Visit Date</label>
+                <input type="date" id="log-visit-date">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="log-next-date">Next Follow-up</label>
+                <input type="date" id="log-next-date">
+              </div>
+              <div class="form-group">
+                <label for="log-competitor">Competitor</label>
+                <input type="text" id="log-competitor" placeholder="None">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="log-notes">Notes</label>
+              <textarea id="log-notes" placeholder="Interaction details..."></textarea>
+            </div>
+            <div id="status-preview" class="status-preview">
+              <div class="status-preview-label">Status Preview</div>
+              <span id="status-preview-badge" class="badge"></span>
+            </div>
+            <div class="form-actions">
+              <button type="button" class="btn-primary" onclick="submitOutreachLog()"><i class="fas fa-save"></i> Save Interaction</button>
+              <button type="button" class="btn-secondary" onclick="resetOutreachForm()">Clear</button>
+            </div>
+          </form>
+        </div>
+        <div class="form-card today-logs">
+          <h4><i class="fas fa-history"></i> Today's Logs</h4>
+          <div id="today-logs-list">Loading...</div>
+        </div>
+      </div>
+
+      <!-- Sales View -->
+      <div id="view-sales" class="tab-content" style="display: none;">
+        <div class="stats-grid" id="sales-stat-cards">
+        </div>
+        <div class="content-split">
+          <div class="card">
+            <h3><i class="fas fa-truck-loading"></i> Top Materials</h3>
+            <div id="top-materials-list" class="data-list">Loading...</div>
+          </div>
+          <div class="card">
+            <h3><i class="fas fa-building"></i> Top Companies</h3>
+            <div id="top-companies-list" class="data-list">Loading...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Containers View -->
+      <div id="view-containers" class="tab-content" style="display: none;">
+        <div class="stats-grid" id="container-stat-cards">
+        </div>
+        <div class="card">
+          <h3><i class="fas fa-boxes"></i> Active Containers</h3>
+          <div class="prospects-table-container">
+            <table class="prospects-table">
+              <thead>
+                <tr>
+                  <th>Company Name</th>
+                  <th>Location Name</th>
+                  <th>City</th>
+                  <th>Zip Code</th>
+                  <th>Container Size</th>
+                  <th>Current Deployed Asset(s)</th>
+                </tr>
+              </thead>
+              <tbody id="containers-table-body">
+                <tr><td colspan="6">Loading...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prospect Detail Modal -->
+      <div id="prospect-detail-modal" class="modal" style="display: none;">
+        <div class="modal-content" style="max-width: 900px; max-height: 90vh; overflow-y: auto;">
+          <span class="modal-close" onclick="closeProspectModal()">&times;</span>
+          <div id="prospect-detail-content">
+            <div class="modal-header">
+              <h2 id="detail-company-name">Company Name</h2>
+              <span id="detail-status" class="status-badge">Status</span>
+            </div>
+            
+            <div class="detail-grid">
+              <div class="detail-section">
+                <h3>Contact Information</h3>
+                <div class="detail-row">
+                  <span class="detail-label">Company ID:</span>
+                  <span id="detail-company-id" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Address:</span>
+                  <span id="detail-address" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">City:</span>
+                  <span id="detail-city" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Zip:</span>
+                  <span id="detail-zip" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Industry:</span>
+                  <span id="detail-industry" class="detail-value">-</span>
+                </div>
+              </div>
+              
+              <div class="detail-section">
+                <h3>Pipeline Info</h3>
+                <div class="detail-row">
+                  <span class="detail-label">Priority Score:</span>
+                  <span id="detail-priority" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Urgency:</span>
+                  <span id="detail-urgency" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Last Outcome:</span>
+                  <span id="detail-outcome" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Last Contact:</span>
+                  <span id="detail-last-contact" class="detail-value">-</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Days Since:</span>
+                  <span id="detail-days-since" class="detail-value">-</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="detail-section">
+              <h3>Outreach History <span id="detail-outreach-count" class="count-badge"></span></h3>
+              <div id="detail-timeline" class="timeline">
+                <div class="timeline-empty">Loading outreach history...</div>
+              </div>
+            </div>
+            
+            <div class="detail-stats">
+              <div class="stat-card">
+                <div class="stat-value" id="stat-total-outreach">0</div>
+                <div class="stat-label">Total Outreach</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value" id="stat-won">0</div>
+                <div class="stat-label">Won</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value" id="stat-warm">0</div>
+                <div class="stat-label">Interested</div>
+              </div>
+            </div>
+            
+            <button class="btn-log-interaction" onclick="openLogInteractionForProspect()"><i class="fas fa-plus"></i> Log Interaction</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // ============================================================================
+    // HTML SAFE RENDERER INTEGRATION
+    // ============================================================================
+    
+    /**
+     * HtmlSafeRenderer - Prevents XSS vulnerabilities
+     * Provides safe DOM manipulation methods
+     */
+    var HtmlSafeRenderer = (function() {
+      // ============================================================================
+      // ESCAPE FUNCTIONS
+      // ============================================================================
+      
+      /**
+       * Escape HTML special characters to prevent XSS
+       * @param {string} str - String to escape
+       * @return {string} Escaped string
+       */
+      function escapeHtml(str) {
+        if (str === null || str === undefined) return '';
+        var div = document.createElement('div');
+        div.textContent = String(str);
+        return div.innerHTML;
+      }
+      
+      /**
+       * Escape HTML attributes (more restrictive than escapeHtml)
+       * @param {string} str - String to escape
+       * @return {string} Escaped string for attributes
+       */
+      function escapeAttribute(str) {
+        if (str === null || str === undefined) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;');
+      }
+      
+      /**
+       * Sanitize HTML by removing dangerous tags and attributes
+       * @param {string} html - HTML string to sanitize
+       * @return {string} Sanitized HTML
+       */
+      function sanitizeHtml(html) {
+        if (!html || typeof html !== 'string') return '';
+        
+        // Remove script tags and their contents
+        html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+        
+        // Remove event handlers
+        html = html.replace(/\s+on\w+\s*=\s*(['"])[^'"]*\1/gi, '');
+        html = html.replace(/\s+on\w+\s*=\s*[^\s>]*/gi, '');
+        
+        // Remove javascript: URLs
+        html = html.replace(/href\s*=\s*(['"])\s*javascript:[^'"]*\1/gi, 'href="#"');
+        html = html.replace(/href\s*=\s*javascript:[^\s>]+/gi, 'href="#"');
+        
+        // Remove data: URLs (can contain JavaScript)
+        html = html.replace(/src\s*=\s*(['"])\s*data:[^'"]*\1/gi, 'src=""');
+        
+        return html;
+      }
+      
+      // ============================================================================
+      // DOM MANIPULATION FUNCTIONS
+      // ============================================================================
+      
+      /**
+       * Safely set text content of an element (replaces innerHTML for text-only)
+       * @param {string} elementId - ID of the element
+       * @param {string} text - Text to set
+       */
+      function setText(elementId, text) {
+        var el = document.getElementById(elementId);
+        if (el) {
+          el.textContent = text || '';
+        }
+      }
+      
+      /**
+       * Safely append text to an element
+       * @param {string} elementId - ID of the element
+       * @param {string} text - Text to append
+       */
+      function appendText(elementId, text) {
+        var el = document.getElementById(elementId);
+        if (el) {
+          el.textContent += text || '';
+        }
+      }
+      
+      /**
+       * Safely set innerHTML with escaping (safeInnerHTML)
+       * @param {string} elementId - ID of the element
+       * @param {string} html - HTML string (will be sanitized)
+       */
+      function setInnerHtml(elementId, html) {
+        var el = document.getElementById(elementId);
+        if (el) {
+          el.innerHTML = sanitizeHtml(html);
+        }
+      }
+      
+      /**
+       * Safely append innerHTML with escaping
+       * @param {string} elementId - ID of the element
+       * @param {string} html - HTML string to append (will be sanitized)
+       */
+      function appendInnerHtml(elementId, html) {
+        var el = document.getElementById(elementId);
+        if (el) {
+          el.innerHTML += sanitizeHtml(html);
+        }
+      }
+      
+      /**
+       * Create an element with safe properties
+       * @param {string} tagName - Tag name of the element
+       * @param {Object} attributes - Attributes to set
+       * @param {string} textContent - Text content (optional)
+       * @return {HTMLElement} Created element
+       */
+      function createElement(tagName, attributes, textContent) {
+        var el = document.createElement(tagName);
+        
+        if (attributes && typeof attributes === 'object') {
+          for (var key in attributes) {
+            if (attributes.hasOwnProperty(key)) {
+              var value = attributes[key];
+              
+              // Only set safe attributes
+              var safeAttributes = ['class', 'className', 'id', 'title', 'style', 'href', 'target', 
+                                   'src', 'alt', 'data-*', 'role', 'aria-*'];
+              
+              var isSafe = false;
+              for (var i = 0; i < safeAttributes.length; i++) {
+                var safeAttr = safeAttributes[i];
+                if (safeAttr === key || 
+                    (safeAttr.endsWith('-*') && key.startsWith(safeAttr.slice(0, -2))) ||
+                    key.startsWith('data-') ||
+                    key.startsWith('aria-')) {
+                  isSafe = true;
+                  break;
+                }
+              }
+              
+              if (isSafe) {
+                var attrName = key === 'className' ? 'class' : key;
+                el.setAttribute(attrName, value);
+              }
+            }
+          }
+        }
+          
+        if (textContent !== undefined && textContent !== null) {
+          el.textContent = textContent;
+        }
+        
+        return el;
+      }
+      
+      /**
+       * Safely build a list item
+       * @param {string} primary - Primary text (company name)
+       * @param {string} secondary - Secondary text (badge/status)
+       * @param {Object} options - Options for the list item
+       * @return {string} HTML string for list item
+       */
+      function buildListItem(primary, secondary, options) {
+        options = options || {};
+        var item = document.createElement('div');
+        item.className = 'list-item';
+        if (options.onclick) {
+          item.setAttribute('onclick', options.onclick);
+        }
+
+        var primarySpan = document.createElement('span');
+        var strong = document.createElement('strong');
+        strong.textContent = primary || 'Unknown';
+        primarySpan.appendChild(strong);
+        item.appendChild(primarySpan);
+
+        if (secondary) {
+          var secondarySpan = document.createElement('span');
+          secondarySpan.className = 'badge ' + (options.badgeClass || secondary || '').toLowerCase();
+          secondarySpan.textContent = secondary;
+          item.appendChild(secondarySpan);
+        }
+        return item;
+      }
+      
+      /**
+       * Safely build a table row
+       * @param {Array} cells - Array of cell data objects
+       * @return {string} HTML string for table row
+       */
+      function buildTableRow(cells) {
+        if (!Array.isArray(cells)) return document.createElement('tr');
+        
+        var tr = document.createElement('tr');
+        cells.forEach(function(cell) {
+            var td = document.createElement('td');
+            td.textContent = cell.text || cell || 'N/A';
+            if (cell.colspan) {
+                td.setAttribute('colspan', String(cell.colspan));
+            }
+            if (cell.className) {
+                td.className = cell.className;
+            }
+            tr.appendChild(td);
+        });
+        
+        return tr;
+      }
+      
+      /**
+       * Safely build a pipeline deal card
+       * @param {Object} deal - Deal data object
+       * @param {Array} fields - Fields to display
+       * @return {string} HTML string for deal card
+       */
+      function buildPipelineDeal(deal, fields) {
+        fields = fields || ['companyName', 'urgencyBand'];
+        
+        var dealDiv = document.createElement('div');
+        dealDiv.className = 'pipeline-deal';
+
+        fields.forEach(function(field) {
+            // FIX: Check multiple possible field name formats for BOTH company and urgency fields
+            var normalizedField = field.toLowerCase().replace(/\s+/g, '');
+            var value = '';
+            
+            // Try multiple field name variations
+            if (deal[field] !== undefined && deal[field] !== null && deal[field] !== '') {
+                value = deal[field];
+            } else if (deal[normalizedField] !== undefined && deal[normalizedField] !== null && deal[normalizedField] !== '') {
+                value = deal[normalizedField];
+            } else if (deal[field.replace(/([A-Z])/g, ' $1').toLowerCase()] !== undefined) {
+                // Handle camelCase to space-separated conversion
+                value = deal[field.replace(/([A-Z])/g, ' $1').toLowerCase()];
+            } else if (deal[field.replace(/\s+/g, '').toLowerCase()] !== undefined) {
+                // Handle space-separated to no-space conversion  
+                value = deal[field.replace(/\s+/g, '').toLowerCase()];
+            }
+            
+            var isTitle = normalizedField.includes('company');
+            if (isTitle) {
+                var strong = document.createElement('strong');
+                strong.textContent = value;
+                dealDiv.appendChild(strong);
+                dealDiv.appendChild(document.createElement('br'));
+            } else {
+                var small = document.createElement('small');
+                small.textContent = value;
+                dealDiv.appendChild(small);
+                dealDiv.appendChild(document.createElement('br'));
+            }
+        });
+        
+        return dealDiv;
+      }
+      
+      /**
+       * Safely build stat card HTML
+       * @param {string} title - Card title
+       * @param {string|number} value - Card value
+       * @param {Object} options - Card options
+       * @return {string} HTML string for stat card
+       */
+      function buildStatCard(title, value, options) {
+        options = options || {};
+        var card = document.createElement('div');
+        card.className = 'stat-card' + (options.accent ? ' ' + options.accent : '') + (options.win ? ' win' : '');
+        
+        var h4 = document.createElement('h4');
+        h4.textContent = title || '';
+        card.appendChild(h4);
+
+        var h2 = document.createElement('h2');
+        h2.textContent = String(value || 0);
+        card.appendChild(h2);
+
+        return card;
+      }
+      
+      // ============================================================================
+      // PUBLIC API
+      // ============================================================================
+      
+      return {
+        escapeHtml: escapeHtml,
+        escapeAttribute: escapeAttribute,
+        sanitizeHtml: sanitizeHtml,
+        setText: setText,
+        appendText: appendText,
+        setInnerHtml: setInnerHtml,
+        appendInnerHtml: appendInnerHtml,
+        createElement: createElement,
+        buildListItem: buildListItem,
+        buildTableRow: buildTableRow,
+        buildPipelineDeal: buildPipelineDeal,
+        buildStatCard: buildStatCard
+      };
+    })();
+
+    // ============================================================================
+    // CRM APPLICATION CODE
+    // ============================================================================
+
+    // Global data storage — fields use camelCase API_Names from System_Schema.csv
+    var crmData = {
+      dashboard: null,
+      pipeline: null,
+      prospects: null,
+      validationLists: null,
+      companyList: null,
+      currentProspectId: null
+    };
+    
+    // Outcome to Status mapping for status preview
+    var OUTCOME_STATUS_MAP = {
+      'Account Won': 'won',
+      'Interested (Hot)': 'hot',
+      'Interested (Warm)': 'warm',
+      'Follow-Up': 'warm',
+      'No Answer': 'cold',
+      'Not Interested': 'cold',
+      'Disqualified': 'cold',
+      'Callback': 'warm'
+    };
+
+    /**
+     * 🧠 Data Filter: Removes duplicate companies, keeping only the most recent entry.
+     */
+    function deduplicateCompanies(list) {
+      if (!list || !Array.isArray(list)) return [];
+      
+      // 1. Sort the list by date (newest to oldest)
+      var sortedList = list.slice().sort(function(a, b) {
+        var dateRawA = a.lastOutreachDate || a['Last Outreach Date'] || a.visitDate || a['Visit Date'] || a.timestamp || a.Timestamp || 0;
+        var dateRawB = b.lastOutreachDate || b['Last Outreach Date'] || b.visitDate || b['Visit Date'] || b.timestamp || b.Timestamp || 0;
+        return new Date(dateRawB) - new Date(dateRawA); 
+      });
+
+      var seen = {};
+      var uniqueList = [];
+      
+      // 2. Keep only the first (newest) instance of each company
+      sortedList.forEach(function(item) {
+        var name = (item.companyName || item.companyname || item['Company Name'] || item['company name'] || item.company || item.Company || '').toLowerCase().trim();
+        
+        if (name && !seen[name]) {
+          seen[name] = true;
+          uniqueList.push(item);
+        }
+      });
+      
+      return uniqueList;
+    }
+
+    function callAPI(action, payload) {
+      return new Promise(function(resolve, reject) {
+        google.script.run
+          .withSuccessHandler(function(res) {
+            // DEFENSIVE: Ensure response is always an object with success property
+            if (res === null || res === undefined) {
+              console.warn('API returned null/undefined for action:', action);
+              resolve({ success: false, error: 'No data returned', data: null });
+              return;
+            }
+            console.log('API response for', action, ':', res);
+            // DEFENSIVE: Check if response has success property
+            if (typeof res.success === 'undefined') {
+              console.warn('API returned object without success property for action:', action, res);
+              // Assume success if data is present
+              resolve({ success: true, data: res, error: null });
+              return;
+            }
+            resolve(res);
+          })
+          .withFailureHandler(function(error) {
+            console.error('API call failed for action:', action, error);
+            reject({ success: false, error: error.message || 'Unknown error', data: null });
+          })
+          .crmGateway({ action: action, payload: payload || {} });
+      });
+    }
+    
+    // Diagnostic function to check service availability
+    function runDiagnostics() {
+      return callAPI('DIAGNOSTIC');
+    }
+    
+    /**
+     * Show a toast notification
+     * @param {string} message - Message to display
+     * @param {string} type - Type: success, error, warning, info
+     * @param {number} duration - Duration in ms
+     */
+    function showToast(message, type, duration) {
+      type = type || 'info';
+      duration = duration || 4000;
+      
+      var container = document.getElementById('toast-container');
+      var toast = document.createElement('div');
+      toast.className = 'toast ' + type;
+      
+      var icon = type === 'success' ? 'fa-check-circle' : 
+                 type === 'error' ? 'fa-exclamation-circle' : 
+                 type === 'warning' ? 'fa-exclamation-triangle' : 'fa-info-circle';
+      
+      toast.innerHTML = '<i class="fas ' + icon + '"></i><span>' + HtmlSafeRenderer.escapeHtml(message) + '</span><span class="toast-close" onclick="this.parentElement.remove()">&times;</span>';
+      
+      container.appendChild(toast);
+      
+      setTimeout(function() {
+        if (toast.parentElement) {
+          toast.remove();
+        }
+      }, duration);
+    }
+
+    function init() {
+      console.log('CRM Dashboard initializing...');
+
+      // Run diagnostics first to understand what's available
+      runDiagnostics().then(function(diagRes) {
+        console.log('Diagnostics:', diagRes);
+        if (diagRes && diagRes.data && diagRes.data.issues && diagRes.data.issues.length > 0) {
+          console.error('Service issues found:', diagRes.data.issues);
+          showToast('Service issue detected: ' + diagRes.data.issues[0], 'error');
+        }
+      }).catch(function(e) {
+        console.error('Diagnostics failed:', e);
+      });
+
+      // Load validation lists from Settings in parallel — used to drive filter dropdowns.
+      // These come from Settings VALIDATION_LIST rows, sourced via GET_VALIDATION_LISTS.
+      callAPI('GET_VALIDATION_LISTS')
+        .then(function(vlRes) {
+          if (vlRes && vlRes.success && vlRes.data) {
+            crmData.validationLists = vlRes.data;
+            populateFilterDropdown(vlRes.data);
+            populateOutcomeSelect(vlRes.data);
+          } else {
+            console.warn('Validation lists unavailable, using schema defaults.');
+            populateFilterDropdown(null); // Will use hardcoded schema fallback
+            populateOutcomeSelect(null);
+          }
+        })
+        .catch(function(e) {
+          console.warn('Could not load validation lists:', e);
+          populateFilterDropdown(null);
+          populateOutcomeSelect(null);
+        });
+
+      callAPI('GET_DASHBOARD_STATS')
+        .then(function(res) {
+          console.log('API Response:', res);
+          // DEFENSIVE: Check for null/undefined response
+          if (!res || res === null) {
+            console.error('init: API response was null');
+            showError('No data returned from server');
+            return;
+          }
+          if (res.success === true && res.data) {
+            console.log('Dashboard data loaded successfully, rendering...');
+            crmData.dashboard = res;
+            renderDashboard(res.data);
+          } else {
+            console.error('Failed to load dashboard stats:', res.error);
+            showError('Failed to load dashboard data: ' + (res.error || 'Unknown error'));
+          }
+        })
+        .catch(function(e) {
+          console.error('Error initializing dashboard:', e);
+          showError('Error loading dashboard: ' + (e.message || 'Unknown error'));
+        });
+    }
+
+    /**
+     * Populates the #prospects-filter dropdown from Settings VALIDATION_LIST → Statuses.
+     * Falls back to the canonical status list from System_Schema.csv if Settings unavailable.
+     * @param {Object|null} validationLists - Data from GET_VALIDATION_LISTS, or null for fallback.
+     */
+    function populateFilterDropdown(validationLists) {
+      var select = document.getElementById('prospects-filter');
+      if (!select) return;
+
+      // Attempt to extract statuses from the validation lists response.
+      // getValidationLists() in Settings.js typically returns { statuses: [...], stages: [...], ... }
+      var statuses = null;
+      if (validationLists) {
+        statuses = validationLists.statuses ||
+                   validationLists.Statuses ||
+                   validationLists['VALIDATION_LIST.Statuses'] ||
+                   null;
+      }
+
+      // Fallback: canonical values from System_Schema.csv contactStatus options
+      if (!statuses || !Array.isArray(statuses) || statuses.length === 0) {
+        statuses = [
+          'Active',
+          'Cold',
+          'Disqualified',
+          'Interested (Hot)',
+          'Interested (Warm)',
+          'Lost',
+          'Not Contacted',
+          'Nurture',
+          'Outreach',
+          'Prospect',
+          'Won'
+        ];
+      }
+
+      // Clear existing options and repopulate dynamically
+      select.innerHTML = '';
+      var allOption = document.createElement('option');
+      allOption.value = 'all';
+      allOption.textContent = 'All Statuses';
+      select.appendChild(allOption);
+
+      statuses.forEach(function(status) {
+        var opt = document.createElement('option');
+        opt.value = status;          // Exact match against API_Name contactStatus values
+        opt.textContent = status;
+        select.appendChild(opt);
+      });
+    }
+    
+    /**
+     * Populates the #log-outcome select dropdown from validation lists
+     */
+    function populateOutcomeSelect(validationLists) {
+      var select = document.getElementById('log-outcome');
+      if (!select) return;
+      
+      var outcomes = null;
+      if (validationLists) {
+        outcomes = validationLists.outcomes ||
+                   validationLists.Outcomes ||
+                   validationLists['VALIDATION_LIST.Outcomes'] ||
+                   null;
+      }
+      
+      if (!outcomes || !Array.isArray(outcomes) || outcomes.length === 0) {
+        outcomes = [
+          'Account Won',
+          'Interested (Hot)',
+          'Interested (Warm)',
+          'Follow-Up',
+          'No Answer',
+          'Not Interested',
+          'Disqualified',
+          'Callback'
+        ];
+      }
+      
+      select.innerHTML = '<option value="">Select outcome...</option>';
+      outcomes.forEach(function(o) {
+        var opt = document.createElement('option');
+        opt.value = o;
+        opt.textContent = o;
+        select.appendChild(opt);
+      });
+    }
+    
+    /**
+     * Load the Log Outreach form - called when switching to log-outreach tab
+     */
+    function loadLogOutreachForm() {
+      // Set today's date
+      var today = new Date().toISOString().split('T')[0];
+      document.getElementById('log-visit-date').value = today;
+      
+      // Load company list for autocomplete
+      callAPI('GET_COMPANY_LIST')
+        .then(function(res) {
+          if (res && res.success && res.data) {
+            var datalist = document.getElementById('company-datalist');
+            datalist.innerHTML = '';
+            res.data.forEach(function(company) {
+              var option = document.createElement('option');
+              option.value = company.companyName || company.name || '';
+              datalist.appendChild(option);
+            });
+          }
+        })
+        .catch(function(e) {
+          console.warn('Could not load company list:', e);
+        });
+      
+      // Load today's logs
+      loadTodayLogs();
+    }
+    
+    /**
+     * Load today's outreach logs
+     */
+    function loadTodayLogs() {
+      var today = new Date().toISOString().split('T')[0];
+      var tomorrow = new Date();
+      tomorrow.setDate(tomorrow.getDate() + 1);
+      var tomorrowStr = tomorrow.toISOString().split('T')[0];
+      
+      callAPI('GET_OUTREACH_DATA', { startDate: today, endDate: tomorrowStr })
+        .then(function(res) {
+          var listEl = document.getElementById('today-logs-list');
+          if (res && res.success && res.data && res.data.length > 0) {
+            listEl.innerHTML = '';
+            res.data.slice(0, 10).forEach(function(log) {
+              var item = document.createElement('div');
+              item.className = 'today-log-item';
+              item.innerHTML = '<span class="today-log-company">' + HtmlSafeRenderer.escapeHtml(log.company || log.companyName || 'Unknown') + '</span><span class="today-log-outcome badge ' + ((log.outcome || '').toLowerCase().replace(/\s+/g, '')) + '">' + HtmlSafeRenderer.escapeHtml(log.outcome || 'N/A') + '</span>';
+              listEl.appendChild(item);
+            });
+          } else {
+            listEl.innerHTML = '<div style="color: #666; padding: 10px;">No outreach logged today</div>';
+          }
+        })
+        .catch(function(e) {
+          document.getElementById('today-logs-list').innerHTML = '<div style="color: #666; padding: 10px;">Could not load logs</div>';
+        });
+    }
+    
+    /**
+     * Handle outcome selection change - show status preview
+     */
+    function onOutcomeChange(value) {
+      var preview = document.getElementById('status-preview');
+      var badge = document.getElementById('status-preview-badge');
+      
+      if (value && OUTCOME_STATUS_MAP[value]) {
+        var status = OUTCOME_STATUS_MAP[value];
+        badge.className = 'badge ' + status;
+        badge.textContent = status.toUpperCase();
+        preview.classList.add('visible');
+      } else {
+        preview.classList.remove('visible');
+      }
+    }
+    
+    /**
+     * Submit the outreach log form
+     */
+    function submitOutreachLog() {
+      var company = document.getElementById('log-company').value.trim();
+      var outcome = document.getElementById('log-outcome').value;
+      
+      if (!company) {
+        showToast('Please enter a company name', 'warning');
+        return;
+      }
+      
+      if (!outcome) {
+        showToast('Please select an outcome', 'warning');
+        return;
+      }
+      
+      var data = {
+        company: company,
+        outcome: outcome,
+        activityType: document.getElementById('log-contact-type').value,
+        visitDate: document.getElementById('log-visit-date').value,
+        nextVisitDate: document.getElementById('log-next-date').value,
+        notes: document.getElementById('log-notes').value,
+        competitor: document.getElementById('log-competitor').value || 'None'
+      };
+      
+      callAPI('LOG_OUTREACH', data)
+        .then(function(res) {
+          if (res && res.success) {
+            showToast('Interaction logged successfully!', 'success');
+            resetOutreachForm();
+            // Invalidate cache
+            crmData.pipeline = null;
+            crmData.prospects = null;
+            loadTodayLogs();
+          } else {
+            showToast('Failed to log: ' + (res.error || 'Unknown error'), 'error');
+          }
+        })
+        .catch(function(e) {
+          showToast('Error: ' + (e.error || e.message || 'Unknown'), 'error');
+        });
+    }
+    
+    /**
+     * Reset the outreach form
+     */
+    function resetOutreachForm() {
+      document.getElementById('outreach-form').reset();
+      var today = new Date().toISOString().split('T')[0];
+      document.getElementById('log-visit-date').value = today;
+      document.getElementById('status-preview').classList.remove('visible');
+    }
+    
+    /**
+     * Open Log Interaction for current prospect from detail modal
+     */
+    function openLogInteractionForProspect() {
+      var companyName = document.getElementById('detail-company-name').textContent;
+      if (companyName && companyName !== 'Loading...' && companyName !== 'Not Found') {
+        closeProspectModal();
+        // Find the Log Outreach nav item and switch to it
+        var navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(function(item) {
+          if (item.textContent.includes('Log Outreach')) {
+            switchTab('log-outreach', item);
+          }
+        });
+        // Pre-fill company name after tab switches
+        setTimeout(function() {
+          document.getElementById('log-company').value = companyName;
+        }, 100);
+      }
+    }
+    
+    function showError(message) {
+      var safeMessage = HtmlSafeRenderer.escapeHtml(message);
+      HtmlSafeRenderer.setInnerHtml('stat-cards', 
+        '<div style="color: red; padding: 10px;">' + safeMessage + '</div>');
+      HtmlSafeRenderer.setInnerHtml('urgent-list', 
+        '<div style="color: red; padding: 10px;">' + safeMessage + '</div>');
+      HtmlSafeRenderer.setInnerHtml('wins-list', 
+        '<div style="color: red; padding: 10px;">' + safeMessage + '</div>');
+    }
+
+    function renderDashboard(data) {
+      if (!data) {
+        console.error('renderDashboard: data is null or undefined');
+        showError('No data available');
+        return;
+      }
+
+      var stats = data.pipeline || { total: 0, hot: 0, warm: 0, won: 0 };
+      
+      var statCardsContainer = document.getElementById('stat-cards');
+      statCardsContainer.innerHTML = ''; 
+      statCardsContainer.appendChild(HtmlSafeRenderer.buildStatCard('PROSPECTS', stats.total || 0, {}));
+      statCardsContainer.appendChild(HtmlSafeRenderer.buildStatCard('HOT LEADS', stats.hot || 0, { accent: 'accent' }));
+      statCardsContainer.appendChild(HtmlSafeRenderer.buildStatCard('WARM LEADS', stats.warm || 0, {}));
+      statCardsContainer.appendChild(HtmlSafeRenderer.buildStatCard('TOTAL WINS', stats.won || 0, { win: true }));
+
+      var urgentList = document.getElementById('urgent-list');
+      urgentList.innerHTML = ''; 
+      
+      // Apply the filter here!
+      var uniqueUrgent = deduplicateCompanies(data.prospects);
+      
+      if (uniqueUrgent.length > 0) {
+        uniqueUrgent.forEach(function(p) {
+          var item = document.createElement('div');
+          item.className = 'list-item';
+          
+          var companyId = p.companyId || p.companyid || p['Company ID'] || p['company id'] || '';
+          if (companyId) {
+            item.onclick = function() { openProspectDetail(companyId); };
+          }
+          
+          var primarySpan = document.createElement('span');
+          var strong = document.createElement('strong');
+          strong.textContent = p.companyName || p.companyname || p['Company Name'] || p['company name'] || 'Unknown';
+          primarySpan.appendChild(strong);
+          item.appendChild(primarySpan);
+          
+          var badgeSpan = document.createElement('span');
+          var urgency = p.urgencyBand || p.urgencyband || p['UrgencyBand'] || p['Urgency Band'] || 'N/A';
+          badgeSpan.className = 'badge ' + urgency.toLowerCase();
+          badgeSpan.textContent = urgency;
+          item.appendChild(badgeSpan);
+          
+          urgentList.appendChild(item);
+        });
+      } else {
+        urgentList.innerHTML = '<div style="padding: 10px; color: #666;">No urgent prospects</div>';
+      }
+
+      var winsList = document.getElementById('wins-list');
+      winsList.innerHTML = ''; 
+      
+      // Apply the filter here!
+      var uniqueWins = deduplicateCompanies(data.accounts);
+
+      if (uniqueWins.length > 0) {
+        uniqueWins.forEach(function(a) {
+          var companyName = a.companyName || a.companyname || a['Company Name'] || a['company name'] || 'Unknown Company';
+          var containerSize = a.rolloffContainerSize || a.rolloffcontainersize || a['Roll Off Container Size'] || a['roll off container size'] || 'N/A';
+          winsList.appendChild(HtmlSafeRenderer.buildListItem(companyName, containerSize));
+        });
+      } else {
+        winsList.innerHTML = '<div style="padding: 10px; color: #666;">No recent wins</div>';
+      }
+    }
+
+    function renderPipeline(data) {
+      if (!data) {
+        console.error('renderPipeline: data is null or undefined');
+        return;
+      }
+
+      // Apply the filter to all pipeline columns!
+      var stages = {
+        hot: deduplicateCompanies(data.hot || []),
+        warm: deduplicateCompanies(data.warm || []),
+        cold: deduplicateCompanies(data.cold || []),
+        won: deduplicateCompanies(data.won || [])
+      };
+
+      function renderStage(stageName, deals, fields) {
+        var container = document.getElementById('pipeline-' + stageName);
+        container.innerHTML = ''; 
+        if (deals.length > 0) {
+          deals.forEach(function(deal) {
+            container.appendChild(HtmlSafeRenderer.buildPipelineDeal(deal, fields));
+          });
+        } else {
+          var emptyState = document.createElement('div');
+          emptyState.className = 'empty-state';
+          var icon = document.createElement('i');
+          icon.className = 'fas ' + (stageName === 'won' ? 'fa-trophy' : 'fa-inbox');
+          emptyState.appendChild(icon);
+          emptyState.appendChild(document.createTextNode('No ' + stageName + ' prospects'));
+          container.appendChild(emptyState);
+        }
+      }
+
+      renderStage('hot', stages.hot, ['companyName', 'urgencyBand']);
+      renderStage('warm', stages.warm, ['companyName', 'urgencyBand']);
+      renderStage('cold', stages.cold, ['companyName', 'urgencyBand']);
+      renderStage('won', stages.won, ['companyName', 'timestamp']);
+    }
+
+    function renderProspects(data) {
+      if (!data || !data.all) {
+        console.error('renderProspects: invalid data');
+        crmData.prospects = [];
+      } else {
+        crmData.prospects = data.all;
+      }
+      updateProspectsTable(crmData.prospects);
+    }
+
+    function updateProspectsTable(prospects) {
+      var tableBody = document.getElementById('prospects-table-body');
+      tableBody.innerHTML = ''; 
+
+      // Apply the filter here!
+      var uniqueProspects = deduplicateCompanies(prospects);
+
+      if (!uniqueProspects || uniqueProspects.length === 0) {
+        var tr = document.createElement('tr');
+        var td = document.createElement('td');
+        td.setAttribute('colspan', '6');
+        td.style.textAlign = 'center';
+        td.style.color = '#666';
+        td.textContent = 'No prospects found';
+        tr.appendChild(td);
+        tableBody.appendChild(tr);
+        return;
+      }
+      
+      uniqueProspects.forEach(function(p) {
+        var row = document.createElement('tr');
+        
+        var daysSince = p.daysSinceLastContact || p.dayssincelastcontact || p['Days Since Last Contact'] || p['days since last contact'] || 0;
+        var daysBadgeClass = 'fresh';
+        var rowClass = '';
+        
+        if (daysSince >= 60) {
+          daysBadgeClass = 'stale';
+          rowClass = 'stale-danger';
+        } else if (daysSince >= 30) {
+          daysBadgeClass = 'aging';
+          rowClass = 'stale-warning';
+        }
+        
+        if (rowClass) row.className = rowClass;
+        
+        var td1 = document.createElement('td');
+        td1.textContent = p.companyName || p.companyname || p['Company Name'] || p['company name'] || 'Unknown';
+        row.appendChild(td1);
+        
+        var td2 = document.createElement('td');
+        var statusSpan = document.createElement('span');
+        var statusRaw = p.contactStatus || p.contactstatus || p['Contact Status'] || p['contact status'] || '';
+        statusSpan.className = 'badge ' + statusRaw.toLowerCase().replace(/\s+/g, '');
+        statusSpan.textContent = statusRaw || 'N/A';
+        td2.appendChild(statusSpan);
+        row.appendChild(td2);
+        
+        var td3 = document.createElement('td');
+        td3.textContent = p.urgencyBand || p.urgencyband || p['UrgencyBand'] || p['Urgency Band'] || 'N/A';
+        row.appendChild(td3);
+        
+        var td4 = document.createElement('td');
+        td4.textContent = p.priorityScore || p.priorityscore || p['Priority Score'] || p['priority score'] || 'N/A';
+        row.appendChild(td4);
+        
+        var td5 = document.createElement('td');
+        td5.textContent = p.lastOutreachDate || p.lastoutreachdate || p['Last Outreach Date'] || p['last outreach date'] || 'N/A';
+        row.appendChild(td5);
+        
+        var td6 = document.createElement('td');
+        var daysSpan = document.createElement('span');
+        daysSpan.className = 'days-badge ' + daysBadgeClass;
+        daysSpan.textContent = daysSince + 'd';
+        td6.appendChild(daysSpan);
+        row.appendChild(td6);
+        
+        row.style.cursor = 'pointer';
+        var companyId = p.companyId || p.companyid || p['Company ID'] || p['company id'] || '';
+        row.onclick = function() { openProspectDetail(companyId); };
+        tableBody.appendChild(row);
+      });
+    }
+
+    function filterProspects() {
+      var searchTerm = document.getElementById('prospects-search').value.toLowerCase();
+      // filterStatus uses the exact API_Name contactStatus values from System_Schema.csv
+      // (e.g., "Interested (Hot)", not a lowercased alias) — populated by populateFilterDropdown()
+      var filterStatus = document.getElementById('prospects-filter').value;
+
+      if (!crmData.prospects) return;
+
+      var filtered = crmData.prospects.filter(function(p) {
+        var matchesSearch = (p.companyName || '').toLowerCase().includes(searchTerm);
+        // Use the raw contactStatus value for exact schema-aligned matching
+        var status = p.contactStatus || p.contactstatus || '';
+        var matchesFilter = filterStatus === 'all' || status === filterStatus;
+        return matchesSearch && matchesFilter;
+      });
+
+      updateProspectsTable(filtered);
+    }
+
+    // ============================================================================
+    // PROSPECT DETAIL MODAL FUNCTIONS
+    // ============================================================================
+
+    async function openProspectDetail(companyId) {
+      if (!companyId) {
+        console.warn('No companyId provided to openProspectDetail');
+        return;
+      }
+      
+      var modal = document.getElementById('prospect-detail-modal');
+      var content = document.getElementById('detail-company-name');
+      
+      // Show modal with loading state
+      content.textContent = 'Loading...';
+      modal.style.display = 'block';
+      
+      try {
+        // Use callAPI instead of direct google.script.run
+        var response = await callAPI('GET_PROSPECT_DETAILS', { companyId: companyId });
+        displayProspectDetails(response);
+      } catch (e) {
+        console.error('Error in openProspectDetail:', e);
+        content.textContent = 'Error loading details';
+        showToast('Failed to load prospect details', 'error');
+      }
+    }
+
+    function displayProspectDetails(data) {
+      if (!data || !data.success || !data.data) {
+        document.getElementById('detail-company-name').textContent = 'Not Found';
+        return;
+      }
+      
+      var prospect = data.data.prospect;
+      var stats = data.data.stats;
+      var timeline = data.data.timeline;
+      
+      // Basic info
+      document.getElementById('detail-company-name').textContent = prospect.companyName || 'Unknown';
+      document.getElementById('detail-company-id').textContent = prospect.companyId || '-';
+      document.getElementById('detail-address').textContent = prospect.address || '-';
+      document.getElementById('detail-city').textContent = prospect.city || '-';
+      document.getElementById('detail-zip').textContent = prospect.zipCode || '-';
+      document.getElementById('detail-industry').textContent = prospect.industry || '-';
+      
+      // Pipeline info
+      document.getElementById('detail-priority').textContent = prospect.priorityScore || '-';
+      document.getElementById('detail-urgency').textContent = prospect.urgencyBand || '-';
+      document.getElementById('detail-outcome').textContent = prospect.lastOutcome || '-';
+      document.getElementById('detail-last-contact').textContent = prospect.lastOutreachDate || '-';
+      document.getElementById('detail-days-since').textContent = prospect.daysSinceContact || '-';
+      
+      // Status badge
+      var statusEl = document.getElementById('detail-status');
+      var status = (prospect.contactStatus || '').toLowerCase();
+      statusEl.textContent = prospect.contactStatus || 'Unknown';
+      statusEl.className = 'status-badge';
+      if (status.includes('hot') || status.includes('won')) statusEl.classList.add('hot');
+      else if (status.includes('warm')) statusEl.classList.add('warm');
+      else if (status.includes('cold') || status.includes('disqualified')) statusEl.classList.add('cold');
+      
+      // Stats
+      document.getElementById('stat-total-outreach').textContent = stats.totalOutreach || 0;
+      document.getElementById('stat-won').textContent = stats.wonCount || 0;
+      document.getElementById('stat-warm').textContent = stats.warmCount || 0;
+      document.getElementById('detail-outreach-count').textContent = '(' + (stats.totalOutreach || 0) + ')';
+      
+      // Timeline
+      var timelineEl = document.getElementById('detail-timeline');
+      if (!timeline || timeline.length === 0) {
+        timelineEl.innerHTML = '<div class="timeline-empty">No outreach history</div>';
+      } else {
+        var html = '';
+        timeline.forEach(function(item) {
+          var outcomeClass = 'cold';
+          if ((item.outcome || '').toLowerCase().includes('won')) outcomeClass = 'won';
+          else if ((item.outcome || '').toLowerCase().includes('warm') || (item.outcome || '').toLowerCase().includes('interested')) outcomeClass = 'warm';
+          
+          html += '<div class="timeline-item ' + outcomeClass + '">';
+          html += '<div class="timeline-date">' + (item.date || '-') + '</div>';
+          html += '<div class="timeline-content">';
+          html += '<div class="timeline-outcome ' + outcomeClass + '">' + HtmlSafeRenderer.escapeHtml(item.outcome || '-') + '</div>';
+          if (item.notes) {
+            html += '<div class="timeline-notes">' + HtmlSafeRenderer.escapeHtml(item.notes) + '</div>';
+          }
+          html += '</div></div>';
+        });
+        timelineEl.innerHTML = html;
+      }
+    }
+
+    function closeProspectModal() {
+      document.getElementById('prospect-detail-modal').style.display = 'none';
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+      var modal = document.getElementById('prospect-detail-modal');
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    };
+
+    async function switchTab(view, el) {
+      // Update nav state
+      document.querySelectorAll('.nav-item').forEach(function(n) { n.classList.remove('active'); });
+      el.classList.add('active');
+      
+      var tabTitle = document.getElementById('tab-title');
+      tabTitle.textContent = view.charAt(0).toUpperCase() + view.slice(1);
+
+      // Hide all views
+      document.querySelectorAll('.tab-content').forEach(function(c) { c.style.display = 'none'; });
+
+      var viewEl = document.getElementById('view-' + view);
+      if (viewEl) {
+        viewEl.style.display = 'block';
+      }
+
+      if (view === 'pipeline' && !crmData.pipeline) {
+        try {
+          var pipelineRes = await callAPI('GET_PIPELINE');
+          if (pipelineRes.success) {
+            crmData.pipeline = pipelineRes.data;
+            renderPipeline(pipelineRes.data);
+          } else {
+            console.error('Failed to load pipeline:', pipelineRes.error);
+          }
+        } catch (e) {
+          console.error('Error loading pipeline:', e);
+        }
+      } else if (view === 'pipeline' && crmData.pipeline) {
+        renderPipeline(crmData.pipeline);
+      }
+
+      if (view === 'prospects' && !crmData.prospects) {
+        try {
+          var prospectsRes = await callAPI('GET_PROSPECTS');
+          if (prospectsRes.success) {
+            renderProspects(prospectsRes.data);
+          } else {
+            console.error('Failed to load prospects:', prospectsRes.error);
+          }
+        } catch (e) {
+          console.error('Error loading prospects:', e);
+        }
+      }
+      
+      // Handle Log Outreach tab
+      if (view === 'log-outreach') {
+        loadLogOutreachForm();
+      }
+      
+      // Handle Sales tab
+      if (view === 'sales') {
+        loadSalesView();
+      }
+      
+      // Handle Containers tab
+      if (view === 'containers') {
+        loadContainersView();
+      }
+    }
+
+    /**
+     * Load Sales view data
+     */
+    function loadSalesView() {
+      callAPI('GET_SALES_STATS', {})
+        .then(function(res) {
+          if (res && res.success && res.data) {
+            renderSalesStats(res.data);
+          } else {
+            document.getElementById('sales-stat-cards').innerHTML = '<div style="padding:10px;color:red;">No sales data available</div>';
+            document.getElementById('top-materials-list').innerHTML = '<div style="padding:10px;color:#666;">No data</div>';
+            document.getElementById('top-companies-list').innerHTML = '<div style="padding:10px;color:#666;">No data</div>';
+          }
+        })
+        .catch(function(e) {
+          console.error('Error loading sales:', e);
+        });
+      
+      callAPI('GET_TOP_MATERIALS', { limit: 10 })
+        .then(function(res) {
+          if (res && res.success && res.data) {
+            renderTopMaterials(res.data);
+          }
+        });
+      
+      callAPI('GET_TOP_COMPANIES', { limit: 10 })
+        .then(function(res) {
+          if (res && res.success && res.data) {
+            renderTopCompanies(res.data);
+          }
+        });
+    }
+
+    /**
+     * Render sales statistics
+     */
+    function renderSalesStats(data) {
+      var container = document.getElementById('sales-stat-cards');
+      container.innerHTML = '';
+      container.appendChild(HtmlSafeRenderer.buildStatCard('TRANSACTIONS', data.totalTransactions || 0, {}));
+      container.appendChild(HtmlSafeRenderer.buildStatCard('TOTAL WEIGHT', (data.totalWeight || 0).toFixed(0) + ' lbs', {}));
+      container.appendChild(HtmlSafeRenderer.buildStatCard('TOTAL PAYOUT', '$' + (data.totalPayout || 0).toLocaleString(), { accent: 'accent' }));
+      container.appendChild(HtmlSafeRenderer.buildStatCard('MATERIALS', Object.keys(data.byMaterial || {}).length, { win: true }));
+    }
+
+    /**
+     * Render top materials list
+     */
+    function renderTopMaterials(materials) {
+      var container = document.getElementById('top-materials-list');
+      container.innerHTML = '';
+      if (materials && materials.length > 0) {
+        materials.forEach(function(m) {
+          var item = document.createElement('div');
+          item.className = 'list-item';
+          item.innerHTML = '<span><strong>' + HtmlSafeRenderer.escapeHtml(m.material || 'Unknown') + '</strong></span><span>' + (m.weight || 0).toFixed(0) + ' lbs</span>';
+          container.appendChild(item);
+        });
+      } else {
+        container.innerHTML = '<div style="padding:10px;color:#666;">No materials data</div>';
+      }
+    }
+
+    /**
+     * Render top companies list
+     */
+    function renderTopCompanies(companies) {
+      var container = document.getElementById('top-companies-list');
+      container.innerHTML = '';
+      if (companies && companies.length > 0) {
+        companies.forEach(function(c) {
+          var item = document.createElement('div');
+          item.className = 'list-item';
+          item.innerHTML = '<span><strong>' + HtmlSafeRenderer.escapeHtml(c.company || 'Unknown') + '</strong></span><span>$' + (c.payout || 0).toLocaleString() + '</span>';
+          container.appendChild(item);
+        });
+      } else {
+        container.innerHTML = '<div style="padding:10px;color:#666;">No company data</div>';
+      }
+    }
+
+    /**
+     * Load Containers view data
+     */
+    function loadContainersView() {
+      callAPI('GET_CONTAINER_STATS', {})
+        .then(function(res) {
+          if (res && res.success && res.data) {
+            renderContainerStats(res.data);
+          } else {
+            document.getElementById('container-stat-cards').innerHTML = '<div style="padding:10px;color:red;">No container data</div>';
+          }
+        });
+      
+      callAPI('GET_ACTIVE_CONTAINERS', { filters: {} })
+        .then(function(res) {
+          if (res && res.success && res.data) {
+            renderContainersTable(res.data);
+          } else {
+            document.getElementById('containers-table-body').innerHTML = '<tr><td colspan="6">No containers found</td></tr>';
+          }
+        });
+    }
+
+    /**
+     * Render container statistics
+     */
+    function renderContainerStats(data) {
+      var container = document.getElementById('container-stat-cards');
+      container.innerHTML = '';
+      container.appendChild(HtmlSafeRenderer.buildStatCard('CONTAINERS', data.totalContainers || 0, {}));
+      container.appendChild(HtmlSafeRenderer.buildStatCard('LOCATIONS', Object.keys(data.byZipCode || {}).length, {}));
+      container.appendChild(HtmlSafeRenderer.buildStatCard('COMPANIES', Object.keys(data.companiesWithContainers || {}).length, { accent: 'accent' }));
+      container.appendChild(HtmlSafeRenderer.buildStatCard('SIZES', Object.keys(data.byContainerSize || {}).length, { win: true }));
+    }
+
+    /**
+     * Render containers table
+     */
+    function renderContainersTable(containers) {
+      var tbody = document.getElementById('containers-table-body');
+      tbody.innerHTML = '';
+      if (containers && containers.length > 0) {
+        containers.forEach(function(c) {
+          var row = document.createElement('tr');
+          row.innerHTML = '<td>' + HtmlSafeRenderer.escapeHtml(c['Company Name'] || c.companyName || 'Unknown') + '</td>' +
+            '<td>' + HtmlSafeRenderer.escapeHtml(c['Location Name'] || c['Location Address'] || c.location || '-') + '</td>' +
+            '<td>' + HtmlSafeRenderer.escapeHtml(c.City || c.city || '-') + '</td>' +
+            '<td>' + HtmlSafeRenderer.escapeHtml(c['Zip Code'] || c.zipCode || '-') + '</td>' +
+            '<td>' + HtmlSafeRenderer.escapeHtml(c['Container Size'] || c.containerSize || '-') + '</td>' +
+            '<td>' + HtmlSafeRenderer.escapeHtml(c['Current Deployed Asset(s)'] || c['Current Deployed Assets'] || c.currentDeployedAssets || '-') + '</td>';
+          tbody.appendChild(row);
+        });
+      } else {
+        tbody.innerHTML = '<tr><td colspan="6">No containers found</td></tr>';
+      }
+    }
+
+    window.onload = init;
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+=== K&L RECYCLING CRM LOGIC ANALYSIS ===
+
+Scanned directory: .
+Files found: 54
+
+--- CROSS-FILE DEPENDENCIES ---
+AccountFunction.js calls: ['SharedUtils', 'CONFIG', 'ValidationUtils']
+ActiveContainerFunctions.js calls: ['SharedUtils', 'CONFIG']
+AlertingService.js calls: ['SharedUtils', 'CONFIG', 'ValidationUtils']
+apply-fixes.js calls: ['SharedUtils', 'CONFIG', 'ValidationUtils']
+AutoFillService.js calls: ['CONFIG']
+BatchProcessor.js calls: ['CONFIG']
+BusinessValidation.js calls: ['SharedUtils', 'CONFIG', 'ValidationUtils']
+ColumnMapper.js calls: ['SharedUtils']
+ComprehensiveValidationSystem.js calls: ['CONFIG']
+Config.js calls: ['SharedUtils', 'CONFIG', 'ValidationUtils']
+CRMBrain.js calls: ['SharedUtils', 'CONFIG']
+CRM_BLUEPRINT_REPORT.html calls: ['SharedUtils', 'ValidationUtils', 'OutreachFunctions']
+CSVImport.js calls: ['SharedUtils', 'CONFIG']
+DashboardBackend.js calls: ['SharedUtils', 'CONFIG', 'OutreachFunctions']
+DataHelpers.js calls: ['SharedUtils', 'CONFIG']
+DataValidation.js calls: ['SharedUtils', 'CONFIG']
+ErrorBoundary.js calls: ['CONFIG']
+ErrorHandling.js calls: ['CONFIG']
+FunctionRefactorer.js calls: ['CONFIG']
+HtmlSafeRenderer.js calls: ['CONFIG']
+LoggerInjector.js calls: ['CONFIG']
+Normalization.js calls: ['CONFIG']
+OutreachFunctions.js calls: ['SharedUtils', 'CONFIG']
+OutreachSyncFunctions.js calls: ['SharedUtils', 'CONFIG']
+PerformanceUtils.js calls: ['SharedUtils', 'ValidationUtils']
+PipelineService.js calls: ['SharedUtils', 'CONFIG']
+ProspectFunctions.js calls: ['SharedUtils', 'CONFIG', 'ProspectFunctions', 'ValidationUtils']
+ProspectScoringService.js calls: ['SharedUtils', 'CONFIG']
+ReportFunctions.js calls: ['SharedUtils', 'CONFIG']
+RouteFunction.js calls: ['SharedUtils', 'CONFIG']
+SalesFunctions.js calls: ['SharedUtils', 'CONFIG']
+Settings.js calls: ['SharedUtils', 'CONFIG']
+SettingsValidation.js calls: ['SharedUtils', 'CONFIG']
+SharedUtils.js calls: ['SharedUtils', 'CONFIG', 'ValidationUtils']
+StaleProspectsReport.js calls: ['SharedUtils', 'CONFIG']
+Sync.js calls: ['SharedUtils', 'CONFIG']
+WorkflowAutomationService.js calls: ['CONFIG']
+
+--- CRITICAL BUG DETECTION: _rowIndex Injection ---
+[PASS] SharedUtils.js contains _rowIndex injection.
+
+--- CONSOLIDATED LOGIC GROUPS ---
+
+>> GROUP: DATA_ENGINE
+   - SharedUtils.js
+   - DataHelpers.js
+   - Config.js
+   - Normalization.js
+   - DataValidation.js
+   - BusinessValidation.js
+   - CSVImport.js
+   - SchemaNormalizer.js
+   [8/8 files present]
+
+>> GROUP: BUSINESS_LOGIC
+   - ProspectFunctions.js
+   - OutreachFunctions.js
+   - AccountFunction.js
+   - ProspectScoringService.js
+   - SalesFunctions.js
+   - ActiveContainerFunctions.js
+   [6/6 files present]
+
+>> GROUP: VALIDATION
+   - ValidationUtils.js
+   - BusinessValidation.js
+   - DataValidation.js
+   - ErrorHandling.js
+   - FuzzyMatchingUtils.js
+   - ComprehensiveValidationSystem.js
+   - SettingsValidation.js
+   [7/7 files present]
+
+>> GROUP: UI_BACKEND
+   - DashboardBackend.js
+   - MenuFunctions.js
+   - ReportFunctions.js
+   - CRMBrain.js
+   [4/4 files present]
+
+>> GROUP: WORKFLOW_AUTOMATION
+   - Sync.js
+   - PipelineService.js
+   - WorkflowAutomationService.js
+   - BatchProcessor.js
+   [4/4 files present]

@@ -1,0 +1,153 @@
+Pages: 95
+
+=== PAGE 1 TEXT (first 3000 chars) ===
+Ticket # Date Supplier Group Material Net Price
+11290 08/22/2025 Townley Ferrous LONG 18,740 5.50
+Manufactur IRON/UNP
+ing REPARED
+#1&2 MIX
+11489 08/29/2025 Abel Ferrous LONG 30,580 5.00
+Flores IRON/UNP
+REPARED
+#1&2 MIX
+11679 09/05/2025 Abel Ferrous LONG 30,220 5.00
+Flores IRON/UNP
+REPARED
+#1&2 MIX
+12077 09/18/2025 Abel Ferrous LONG 25,980 5.00
+Flores IRON/UNP
+REPARED
+#1&2 MIX
+14307 11/21/2025 Abel Ferrous LONG 19,100 4.50
+Flores IRON/UNP
+REPARED
+#1&2 MIX
+15197 12/19/2025 Arrington Ferrous LONG 13,260 4.50
+Lumber IRON/UNP
+REPARED
+#1&2 MIX
+15655 01/02/2026 Abel Ferrous LONG 18,320 4.2271
+Flores IRON/UNP
+REPARED
+#1&2 MIX
+11168 08/20/2025 Townley Ferrous SHORT 21,000 7.00
+Manufactur IRON/#1
+ing HEAVY
+MELT
+
+=== PAGE 1 TABLES ===
+  Found 1 table(s)
+
+  Table 0 (9 rows):
+    Row 0: ['Ticket #', 'Date', 'Supplier', 'Group', 'Material', 'Net', 'Price']
+    Row 1: ['11290', '08/22/2025', 'Townley\nManufactur\ning', 'Ferrous', 'LONG\nIRON/UNP\nREPARED\n#1&2 MIX', '18,740', '5.50']
+    Row 2: ['11489', '08/29/2025', 'Abel\nFlores', 'Ferrous', 'LONG\nIRON/UNP\nREPARED\n#1&2 MIX', '30,580', '5.00']
+    Row 3: ['11679', '09/05/2025', 'Abel\nFlores', 'Ferrous', 'LONG\nIRON/UNP\nREPARED\n#1&2 MIX', '30,220', '5.00']
+    Row 4: ['12077', '09/18/2025', 'Abel\nFlores', 'Ferrous', 'LONG\nIRON/UNP\nREPARED\n#1&2 MIX', '25,980', '5.00']
+    Row 5: ['14307', '11/21/2025', 'Abel\nFlores', 'Ferrous', 'LONG\nIRON/UNP\nREPARED\n#1&2 MIX', '19,100', '4.50']
+    Row 6: ['15197', '12/19/2025', 'Arrington\nLumber', 'Ferrous', 'LONG\nIRON/UNP\nREPARED\n#1&2 MIX', '13,260', '4.50']
+    Row 7: ['15655', '01/02/2026', 'Abel\nFlores', 'Ferrous', 'LONG\nIRON/UNP\nREPARED\n#1&2 MIX', '18,320', '4.2271']
+    Row 8: ['11168', '08/20/2025', 'Townley\nManufactur\ning', 'Ferrous', 'SHORT\nIRON/#1\nHEAVY\nMELT', '21,000', '7.00']
+
+=== PAGE 2 TEXT (first 3000 chars) ===
+9545 07/01/2025 STS Ferrous TIN/#2 26,660 6.00
+Electronic LIGHT
+Recycling
+9547 07/01/2025 Bannister Ferrous TIN/#2 4,140 5.00
+Plumbing LIGHT
+9653 07/07/2025 STS Ferrous TIN/#2 17,120 6.00
+Electronic LIGHT
+Recycling
+9844 07/11/2025 STS Ferrous TIN/#2 22,300 6.00
+Electronic LIGHT
+Recycling
+9914 07/14/2025 Gourmet Ferrous TIN/#2 9,580 5.00
+Gardens LIGHT
+9959 07/15/2025 Robbins & Ferrous TIN/#2 2,380 5.00
+Morton LIGHT
+10000 07/16/2025 STS Ferrous TIN/#2 23,960 6.00
+Electronic LIGHT
+Recycling
+10189 07/21/2025 STS Ferrous TIN/#2 18,520 6.00
+Electronic LIGHT
+Recycling
+10396 07/25/2025 Cherokee Ferrous TIN/#2 12,200 5.00
+County LIGHT
+Solid
+Waste
+10397 07/25/2025 Bannister Ferrous TIN/#2 5,340 5.00
+Plumbing LIGHT
+10477 07/29/2025 Gourmet Ferrous TIN/#2 7,720 5.00
+Gardens LIGHT
+10484 07/29/2025 STS Ferrous TIN/#2 27,240 6.00
+Electronic LIGHT
+Recycling
+10617 08/01/2025 Keith Isaac Ferrous TIN/#2 16,980 6.50
+LIGHT
+
+=== PAGE 2 TABLES ===
+  Found 1 table(s)
+
+  Table 0 (13 rows):
+    Row 0: ['9545', '07/01/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '26,660', '6.00']
+    Row 1: ['9547', '07/01/2025', 'Bannister\nPlumbing', 'Ferrous', 'TIN/#2\nLIGHT', '4,140', '5.00']
+    Row 2: ['9653', '07/07/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '17,120', '6.00']
+    Row 3: ['9844', '07/11/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '22,300', '6.00']
+    Row 4: ['9914', '07/14/2025', 'Gourmet\nGardens', 'Ferrous', 'TIN/#2\nLIGHT', '9,580', '5.00']
+    Row 5: ['9959', '07/15/2025', 'Robbins &\nMorton', 'Ferrous', 'TIN/#2\nLIGHT', '2,380', '5.00']
+    Row 6: ['10000', '07/16/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '23,960', '6.00']
+    Row 7: ['10189', '07/21/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '18,520', '6.00']
+    Row 8: ['10396', '07/25/2025', 'Cherokee\nCounty\nSolid\nWaste', 'Ferrous', 'TIN/#2\nLIGHT', '12,200', '5.00']
+    Row 9: ['10397', '07/25/2025', 'Bannister\nPlumbing', 'Ferrous', 'TIN/#2\nLIGHT', '5,340', '5.00']
+
+=== PAGE 3 TEXT (first 3000 chars) ===
+10642 08/04/2025 STS Ferrous TIN/#2 16,120 6.00
+Electronic LIGHT
+Recycling
+10711 08/06/2025 Hydro Con Ferrous TIN/#2 16,000 5.00
+LLC LIGHT
+10749 08/07/2025 STS Ferrous TIN/#2 27,500 6.00
+Electronic LIGHT
+Recycling
+10902 08/12/2025 Dowling Ferrous TIN/#2 5,160 5.00
+Heating & LIGHT
+Air
+Conditionin
+g
+10904 08/12/2025 STS Ferrous TIN/#2 18,960 6.00
+Electronic LIGHT
+Recycling
+10932 08/13/2025 Bannister Ferrous TIN/#2 5,520 5.00
+Plumbing LIGHT
+10953 08/14/2025 Gourmet Ferrous TIN/#2 7,760 5.00
+Gardens LIGHT
+10979 08/15/2025 STS Ferrous TIN/#2 15,880 6.00
+Electronic LIGHT
+Recycling
+11164 08/19/2025 STS Ferrous TIN/#2 19,860 6.00
+Electronic LIGHT
+Recycling
+11168 08/20/2025 Townley Ferrous TIN/#2 15,500 5.00
+Manufactur LIGHT
+ing
+11224 08/22/2025 Cherokee Ferrous TIN/#2 12,420 5.00
+County LIGHT
+Solid
+Waste
+11348 08/25/2025 STS Ferrous TIN/#2 27,240 6.00
+Electronic LIGHT
+
+=== PAGE 3 TABLES ===
+  Found 1 table(s)
+
+  Table 0 (12 rows):
+    Row 0: ['10642', '08/04/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '16,120', '6.00']
+    Row 1: ['10711', '08/06/2025', 'Hydro Con\nLLC', 'Ferrous', 'TIN/#2\nLIGHT', '16,000', '5.00']
+    Row 2: ['10749', '08/07/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '27,500', '6.00']
+    Row 3: ['10902', '08/12/2025', 'Dowling\nHeating &\nAir\nConditionin\ng', 'Ferrous', 'TIN/#2\nLIGHT', '5,160', '5.00']
+    Row 4: ['10904', '08/12/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '18,960', '6.00']
+    Row 5: ['10932', '08/13/2025', 'Bannister\nPlumbing', 'Ferrous', 'TIN/#2\nLIGHT', '5,520', '5.00']
+    Row 6: ['10953', '08/14/2025', 'Gourmet\nGardens', 'Ferrous', 'TIN/#2\nLIGHT', '7,760', '5.00']
+    Row 7: ['10979', '08/15/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '15,880', '6.00']
+    Row 8: ['11164', '08/19/2025', 'STS\nElectronic\nRecycling', 'Ferrous', 'TIN/#2\nLIGHT', '19,860', '6.00']
+    Row 9: ['11168', '08/20/2025', 'Townley\nManufactur\ning', 'Ferrous', 'TIN/#2\nLIGHT', '15,500', '5.00']
