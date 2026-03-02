@@ -2076,8 +2076,8 @@
             <button type="button" class="control-tab" onclick="showTool('quick-actions', this)">
               ⚡ Quick Actions
             </button>
-            <button type="button" class="control-tab" onclick="showTool('csv', this)">
-              📁 CSV Import
+            <button type="button" class="control-tab" onclick="showTool('export', this)">
+              📤 Export
             </button>
             <button type="button" class="control-tab" onclick="showTool('report', this)">
               📊 Reports
@@ -2119,37 +2119,35 @@
             </div>
           </div>
 
-          <!-- CSV Import Tool -->
-          <div id="tool-csv" class="control-tool">
+          <!-- Data Export Tool -->
+          <div id="tool-export" class="control-tool">
             <div class="form-group">
-              <label for="csvFileInput" class="form-label">Upload File (CSV, TXT, TSV)</label>
-              <input type="file" id="csvFileInput" class="form-input" accept=".csv,.txt,.tsv,.tab" onchange="handleFileUpload(this)">
-            </div>
-            <div class="form-group">
-              <label for="csvText" class="form-label">Or Paste Data</label>
-              <textarea id="csvText" class="form-textarea" rows="4"
-                placeholder="Paste your CSV data here..." oninput="clearFileInput()"></textarea>
-            </div>
-            <div class="form-group">
-              <label for="importSheet" class="form-label">Target Sheet</label>
-              <select id="importSheet" class="form-select">
-                <option value="Outreach">Outreach</option>
+              <label for="exportSheet" class="form-label">Select Data to Export</label>
+              <select id="exportSheet" class="form-select">
+                <option value="Outreach">Outreach Records</option>
                 <option value="Prospects">Prospects</option>
-                <option value="New Accounts">New Accounts</option>
+                <option value="Accounts">Accounts</option>
+                <option value="Containers">Containers</option>
               </select>
             </div>
             <div class="form-group">
-              <label for="headerNormalization" class="form-label">Header Options</label>
-              <select id="headerNormalization" class="form-select">
-                <option value="normalize">Normalize Headers (Recommended)</option>
-                <option value="keep">Keep Original Headers</option>
+              <label for="exportFormat" class="form-label">Export Format</label>
+              <select id="exportFormat" class="form-select">
+                <option value="csv">CSV (Spreadsheet)</option>
+                <option value="json">JSON (Developer)</option>
               </select>
             </div>
-            <button type="button" class="btn btn-warning" onclick="previewCSVMapping()">
-              <span>👁️</span> Preview Mapping
-            </button>
-            <button type="button" class="btn btn-primary" onclick="importCSV()">
-              <span>📥</span> Import CSV
+            <div class="form-group">
+              <label for="exportDateRange" class="form-label">Date Range</label>
+              <select id="exportDateRange" class="form-select">
+                <option value="all">All Time</option>
+                <option value="last30">Last 30 Days</option>
+                <option value="last90">Last 90 Days</option>
+                <option value="thisyear">This Year</option>
+              </select>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="exportData()">
+              <span>📥</span> Download Export
             </button>
           </div>
 
@@ -4244,141 +4242,59 @@
     }
 
     // ========================================
-    // CSV / Raw Data Import
+    // Data Export Functionality
     // ========================================
-    function importCSV() {
-      const csvText = document.getElementById('csvText').value.trim();
-      const targetSheet = document.getElementById('importSheet').value;
-      const headerOption = document.getElementById('headerNormalization').value;
-      const normalizeHeaders = (headerOption === 'normalize');
-
-      if (!csvText) {
-        showToast('⚠️ Please paste CSV data first', 'warning');
-        document.getElementById('csvText').focus();
-        return;
-      }
+    function exportData() {
+      const exportSheet = document.getElementById('exportSheet').value;
+      const exportFormat = document.getElementById('exportFormat').value;
+      const dateRange = document.getElementById('exportDateRange').value;
 
       showLoading(true);
+      showToast('📥 Preparing export...', 'info');
 
-      // Show feedback about header normalization and format detection
-      if (normalizeHeaders) {
-        console.log('CSV Import: Headers will be normalized (trimmed, lowercase, whitespace normalized)');
-      } else {
-        console.log('CSV Import: Headers will be kept as-is');
-      }
-      console.log('CSV Import: Using importRawData for automatic delimiter detection');
-
-      // Use importRawData which handles both CSV and raw/ delimited data
       google.script.run
-        .withSuccessHandler(handleCSVImportSuccess)
-        .withFailureHandler(handleCSVImportError)
-        .importRawData(csvText, targetSheet, normalizeHeaders);
+        .withSuccessHandler(handleExportSuccess)
+        .withFailureHandler(handleExportError)
+        .exportCRMData(exportSheet, exportFormat, dateRange);
     }
 
-    function handleCSVImportSuccess(result) {
+    function handleExportSuccess(result) {
       showLoading(false);
 
       if (result.success) {
-        const importedCount = result.data.importedCount || 0;
-        const skippedCount = result.data.skippedCount || 0;
+        const format = document.getElementById('exportFormat').value;
+        const sheetName = document.getElementById('exportSheet').value;
+        const timestamp = new Date().toISOString().split('T')[0];
+        const filename = `${sheetName}_export_${timestamp}.${format}`;
 
-        let message = `✅ Successfully imported ${importedCount} rows to ${result.data.sheetName}`;
-        if (skippedCount > 0) {
-          message += ` (${skippedCount} skipped due to validation)`;
-        }
+        // Create download link
+        const blob = new Blob([result.data], { type: format === 'csv' ? 'text/csv' : 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
 
-        showToast(message, 'success');
-
-        // Clear the form
-        document.getElementById('csvText').value = '';
+        showToast('✅ Export downloaded: ' + filename, 'success');
       } else {
-        showToast('❌ ' + (result.error || 'Import failed'), 'error');
+        showToast('❌ ' + (result.error || 'Export failed'), 'error');
       }
     }
 
-    function handleCSVImportError(error) {
+    function handleExportError(error) {
       showLoading(false);
-      showToast('❌ CSV import error: ' + (error.message || error), 'error');
+      showToast('❌ Export error: ' + (error.message || error), 'error');
     }
 
     // ========================================
-    // File Upload & Preview Functions
+    // CSV Import Removed - Using native Sheets import instead
     // ========================================
-    
-    /**
-     * Handle file upload from input
-     */
-    function handleFileUpload(input) {
-      const file = input.files[0];
-      if (!file) return;
-      
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        const content = e.target.result;
-        document.getElementById('csvText').value = content;
-        showToast('📄 File loaded: ' + file.name, 'success');
-        console.log('File loaded:', file.name, 'Size:', file.size, 'bytes');
-      };
-      reader.onerror = function() {
-        showToast('❌ Failed to read file', 'error');
-      };
-      reader.readAsText(file);
-    }
-    
-    /**
-     * Clear file input when user types in text area
-     */
-    function clearFileInput() {
-      document.getElementById('csvFileInput').value = '';
-    }
-    
-    /**
-     * Preview CSV mapping - shows how data will be mapped to columns
-     */
-    function previewCSVMapping() {
-      const csvText = document.getElementById('csvText').value.trim();
-      const targetSheet = document.getElementById('importSheet').value;
-      const headerOption = document.getElementById('headerNormalization').value;
-      const normalizeHeaders = (headerOption === 'normalize');
-      
-      if (!csvText) {
-        showToast('⚠️ No data to preview', 'warning');
-        return;
-      }
-      
-      showLoading(true);
-      
-      // Call backend to get preview
-      google.script.run
-        .withSuccessHandler(showCSVMappingPreview)
-        .withFailureHandler(function(error) {
-          showLoading(false);
-          showToast('❌ Preview error: ' + (error.message || error), 'error');
-        })
-        .previewCSVMapping(csvText, targetSheet, normalizeHeaders);
-    }
-    
-    /**
-     * Display the CSV mapping preview in a modal/alert
-     */
-    function showCSVMappingPreview(result) {
-      showLoading(false);
-      
-      if (!result.success) {
-        showToast('❌ ' + (result.error || 'Preview failed'), 'error');
-        return;
-      }
-      
-      const data = result.data;
-      let message = '📋 CSV Mapping Preview\n\n';
-      message += '📊 Rows: ' + data.totalRows + '\n';
-      message += '📑 Detected Format: ' + (data.delimiter === ',' ? 'CSV (comma)' : data.delimiter === '\t' ? 'TSV (tab)' : data.delimiter) + '\n\n';
-      
-      message += 'Column Mapping:\n';
-      message += '─'.repeat(30) + '\n';
-      
-      // Show header mappings
-      if (data.headerMappings && data.headerMappings.length > 0) {
+    // Note: CSV import functionality has been removed from Quick Actions.
+    // Users should use Google Sheets native import: File > Import > Upload
+    // This provides better error handling and data validation.
         data.headerMappings.forEach(function(mapping) {
           const sourceCol = mapping.source || 'Column ' + (mapping.sourceIndex + 1);
           const targetCol = mapping.target || '⚠️ Not Mapped';

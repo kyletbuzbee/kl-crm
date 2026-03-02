@@ -244,8 +244,11 @@ var BusinessValidation = (function() {
       function prospectRequiredFields(data, options) {
         var errors = [];
         var warnings = [];
-        // Use normalized field names (Title Case as per system schema)
-        var requiredFields = ['Company Name', 'Address'];
+        // Use CONFIG.SCHEMA for consistent header references
+        var requiredFields = [
+          CONFIG.SCHEMA.PROSPECTS.companyName.header,
+          CONFIG.SCHEMA.PROSPECTS.address.header
+        ];
         requiredFields.forEach(function(field) {
           var normalizedField = SharedUtils ? SharedUtils.normalizeHeader(field) : field.toLowerCase();
           var value = data[normalizedField] || data[field];
@@ -258,9 +261,9 @@ var BusinessValidation = (function() {
       function prospectCompanyName(data) {
         var errors = [];
         var warnings = [];
-        // FIX: Use Title Case header as primary, lowercase as fallback
-        var companyNameField = 'Company Name';
-        var value = data[companyNameField] || data['Company Name'];
+        // FIX: Use CONFIG.SCHEMA for header reference
+        var companyNameField = CONFIG.SCHEMA.PROSPECTS.companyName.header;
+        var value = data[companyNameField] || data[SharedUtils.normalizeHeader(companyNameField)];
         if (value) {
           var isValid = FieldValidators.validateCompanyName(value, errors);
           if (!isValid && errors.length === 0) {
@@ -272,9 +275,9 @@ var BusinessValidation = (function() {
       function prospectAddress(data) {
         var errors = [];
         var warnings = [];
-        // FIX: Use Title Case header as primary, lowercase as fallback
-        var addressField = 'Address';
-        var value = data[addressField] || data['Address'];
+        // FIX: Use CONFIG.SCHEMA for header reference
+        var addressField = CONFIG.SCHEMA.PROSPECTS.address.header;
+        var value = data[addressField] || data[SharedUtils.normalizeHeader(addressField)];
         if (value) {
           var isValid = FieldValidators.validateAddress(value, errors);
           if (!isValid && errors.length === 0) {
@@ -286,9 +289,11 @@ var BusinessValidation = (function() {
       function prospectScores(data) {
         var errors = [];
         var warnings = [];
-        // FIX: Use Title Case headers as per Config.js
-        var priorityValue = data['Priority Score'] || data['Priority Score'];
-        var urgencyValue = data['Urgency Score'] || data['Urgency Score'];
+        // FIX: Use CONFIG.SCHEMA for header references
+        var priorityValue = data[CONFIG.SCHEMA.PROSPECTS.priorityScore.header] || 
+                           data[SharedUtils.normalizeHeader(CONFIG.SCHEMA.PROSPECTS.priorityScore.header)];
+        var urgencyValue = data[CONFIG.SCHEMA.PROSPECTS.urgencyScore.header] || 
+                          data[SharedUtils.normalizeHeader(CONFIG.SCHEMA.PROSPECTS.urgencyScore.header)];
         
         var priorityValid = FieldValidators.validatePriorityScore(priorityValue, errors);
         var urgencyValid = FieldValidators.validateUrgencyScore(urgencyValue, errors);
@@ -305,29 +310,33 @@ var BusinessValidation = (function() {
         var errors = [];
         var warnings = [];
         
-        // FIX: Use Title Case headers
-        var lastOutreachValue = data['Last Outreach Date'] || data['last outreach date'];
+        // FIX: Use CONFIG.SCHEMA for header references
+        var lastOutreachHeader = CONFIG.SCHEMA.PROSPECTS.lastOutreachDate.header;
+        var lastOutreachValue = data[lastOutreachHeader] || 
+                               data[SharedUtils.normalizeHeader(lastOutreachHeader)];
         if (lastOutreachValue) {
           var isDateValid = FieldValidators.validateDate(lastOutreachValue, errors, {
             minYear: 1900,
             maxYear: new Date().getFullYear() + 1,
             allowFuture: false,
             allowPast: true,
-            fieldName: 'Last Outreach Date'
+            fieldName: lastOutreachHeader
           });
           if (!isDateValid && !errors.some(function(e) { return e.indexOf('Last Outreach Date') > -1; })) {
             errors.push('Invalid last outreach date format');
           }
         }
         
-        var nextStepsValue = data['Next Steps Due Date'] || data['next steps due date'];
+        var nextStepsHeader = CONFIG.SCHEMA.PROSPECTS.nextStepsDueDate.header;
+        var nextStepsValue = data[nextStepsHeader] || 
+                            data[SharedUtils.normalizeHeader(nextStepsHeader)];
         if (nextStepsValue) {
           var isNextStepsValid = FieldValidators.validateDate(nextStepsValue, errors, {
             minYear: 1900,
             maxYear: 2100,
             allowFuture: true,
             allowPast: true,
-            fieldName: 'Next Steps Due Date'
+            fieldName: nextStepsHeader
           });
           if (!isNextStepsValid && !errors.some(function(e) { return e.indexOf('Next Steps Due Date') > -1; })) {
             errors.push('Invalid next steps due date format');
@@ -377,10 +386,14 @@ var BusinessValidation = (function() {
       var validationSteps = [
       function outreachRequiredFields(data) {
         var errors = [];
-        // FIX: Use Title Case headers
-        var requiredFields = ['Company', 'Visit Date', 'Outcome'];
+        // FIX: Use CONFIG.SCHEMA for header references
+        var requiredFields = [
+          CONFIG.SCHEMA.OUTREACH.company.header,
+          CONFIG.SCHEMA.OUTREACH.visitDate.header,
+          CONFIG.SCHEMA.OUTREACH.outcome.header
+        ];
         requiredFields.forEach(function(field) {
-          var value = data[field] || data[field.toLowerCase()];
+          var value = data[field] || data[SharedUtils.normalizeHeader(field)];
           if (!value || String(value).trim() === '') {
             errors.push('Missing required field: ' + field);
           }
@@ -389,40 +402,46 @@ var BusinessValidation = (function() {
       },
       function outreachVisitDate(data) {
         var errors = [];
-        var value = data['Visit Date'] || data['visit date'];
+        var visitDateHeader = CONFIG.SCHEMA.OUTREACH.visitDate.header;
+        var value = data[visitDateHeader] || data[SharedUtils.normalizeHeader(visitDateHeader)];
         FieldValidators.validateDate(value, errors, {
-          fieldName: 'Visit Date',
+          fieldName: visitDateHeader,
           allowFuture: true
         });
         return { isValid: errors.length === 0, errors: errors };
       },
       function outreachOutcome(data) {
         var errors = [];
-        var value = data['Outcome'] || data['Outcome'];
+        var outcomeHeader = CONFIG.SCHEMA.OUTREACH.outcome.header;
+        var value = data[outcomeHeader] || data[SharedUtils.normalizeHeader(outcomeHeader)];
         FieldValidators.validateOutcome(value, errors);
         return { isValid: errors.length === 0, errors: errors, warnings: errors };
       },
       function outreachStage(data) {
         var errors = [];
-        var value = data['Stage'] || data['stage'];
+        var stageHeader = CONFIG.SCHEMA.OUTREACH.stage.header;
+        var value = data[stageHeader] || data[SharedUtils.normalizeHeader(stageHeader)];
         FieldValidators.validateStage(value, errors);
         return { isValid: errors.length === 0, errors: errors, warnings: errors };
       },
       function outreachStatus(data) {
         var errors = [];
-        var value = data['Status'] || data['status'];
+        var statusHeader = CONFIG.SCHEMA.OUTREACH.status.header;
+        var value = data[statusHeader] || data[SharedUtils.normalizeHeader(statusHeader)];
         FieldValidators.validateStatus(value, errors);
         return { isValid: errors.length === 0, errors: errors, warnings: errors };
       },
       function outreachCompanyId(data) {
         var errors = [];
-        var value = data['Company ID'] || data['company id'];
+        var companyIdHeader = CONFIG.SCHEMA.OUTREACH.companyId.header;
+        var value = data[companyIdHeader] || data[SharedUtils.normalizeHeader(companyIdHeader)];
         FieldValidators.validateCompanyId(value, errors);
         return { isValid: errors.length === 0, errors: errors, warnings: errors };
       },
       function outreachNotes(data) {
         var errors = [];
-        var value = data['Notes'] || data['notes'];
+        var notesHeader = CONFIG.SCHEMA.OUTREACH.notes.header;
+        var value = data[notesHeader] || data[SharedUtils.normalizeHeader(notesHeader)];
         FieldValidators.validateNotesLength(value, errors);
         return { isValid: errors.length === 0, errors: errors };
       }
@@ -468,9 +487,14 @@ var BusinessValidation = (function() {
       var validationSteps = [
       function accountRequiredFields(data) {
         var errors = [];
-        var requiredFields = ['Company Name', 'Contact Name', 'Site Location'];
+        // FIX: Use CONFIG.SCHEMA for header references
+        var requiredFields = [
+          CONFIG.SCHEMA.ACCOUNTS.companyName.header,
+          CONFIG.SCHEMA.ACCOUNTS.contactName.header,
+          CONFIG.SCHEMA.ACCOUNTS.siteLocation.header
+        ];
         requiredFields.forEach(function(field) {
-          var value = data[field] || data[field.toLowerCase()];
+          var value = data[field] || data[SharedUtils.normalizeHeader(field)];
           if (!value || String(value).trim() === '') {
             errors.push('Missing required field: ' + field);
           }
@@ -479,19 +503,22 @@ var BusinessValidation = (function() {
       },
       function accountCompanyName(data) {
         var errors = [];
-        var value = data['Company Name'] || data['Company Name'];
+        var companyNameHeader = CONFIG.SCHEMA.ACCOUNTS.companyName.header;
+        var value = data[companyNameHeader] || data[SharedUtils.normalizeHeader(companyNameHeader)];
         FieldValidators.validateCompanyName(value, errors);
         return { isValid: errors.length === 0, errors: errors };
       },
       function accountContactName(data) {
         var errors = [];
-        var value = data['Contact Name'] || data['contact name'];
+        var contactNameHeader = CONFIG.SCHEMA.ACCOUNTS.contactName.header;
+        var value = data[contactNameHeader] || data[SharedUtils.normalizeHeader(contactNameHeader)];
         FieldValidators.validateContactName(value, errors);
         return { isValid: errors.length === 0, errors: errors, warnings: errors };
       },
       function accountSiteLocation(data) {
         var errors = [];
-        var value = data['Site Location'] || data['site location'];
+        var siteLocationHeader = CONFIG.SCHEMA.ACCOUNTS.siteLocation.header;
+        var value = data[siteLocationHeader] || data[SharedUtils.normalizeHeader(siteLocationHeader)];
         if (value && String(value).trim().length < 5) {
           errors.push('Site location seems unusually short');
         }
@@ -499,14 +526,17 @@ var BusinessValidation = (function() {
       },
       function accountContainerSize(data) {
         var errors = [];
-        var value = data['Roll Off Container Size'] || data['roll off container size'];
+        var containerSizeHeader = CONFIG.SCHEMA.ACCOUNTS.rollOffContainerSize.header;
+        var value = data[containerSizeHeader] || data[SharedUtils.normalizeHeader(containerSizeHeader)];
         FieldValidators.validateContainerSize(value, errors);
         return { isValid: errors.length === 0, errors: errors, warnings: errors };
       },
       function accountFees(data) {
         var errors = [];
-        var rollOffFee = data['Roll-Off Fee'] || data['roll-off fee'];
-        var payoutPrice = data['Payout Price'] || data['payout price'];
+        var rollOffFeeHeader = CONFIG.SCHEMA.ACCOUNTS.rollOffFee.header;
+        var payoutPriceHeader = CONFIG.SCHEMA.ACCOUNTS.payoutPrice.header;
+        var rollOffFee = data[rollOffFeeHeader] || data[SharedUtils.normalizeHeader(rollOffFeeHeader)];
+        var payoutPrice = data[payoutPriceHeader] || data[SharedUtils.normalizeHeader(payoutPriceHeader)];
         FieldValidators.validateRollOffFee(rollOffFee, errors);
         if (payoutPrice !== undefined) {
           var payout = Number(payoutPrice);
@@ -518,7 +548,8 @@ var BusinessValidation = (function() {
       },
       function accountHandlingMethod(data) {
         var errors = [];
-        var value = data['Handling of Metal'] || data['Handling of Metal'];
+        var handlingHeader = CONFIG.SCHEMA.ACCOUNTS.handlingOfMetal.header;
+        var value = data[handlingHeader] || data[SharedUtils.normalizeHeader(handlingHeader)];
         if (value) {
           var validMethods = ['All together', 'Separate', 'Employees take', 'Scrap guy picks up', 'Haul themselves', 'Roll-off vendor', 'Unknown'];
           if (validMethods.indexOf(String(value).trim()) === -1) {
@@ -927,8 +958,9 @@ BusinessValidation.validateProspect = function(prospectData, options) {
   });
   
   // Validate company name format
-  if (prospectData['Company Name']) {
-    var companyName = prospectData['Company Name'].toString().trim();
+  var companyNameHeader = CONFIG.SCHEMA.PROSPECTS.companyName.header;
+  if (prospectData[companyNameHeader] || prospectData[SharedUtils.normalizeHeader(companyNameHeader)]) {
+    var companyName = (prospectData[companyNameHeader] || prospectData[SharedUtils.normalizeHeader(companyNameHeader)]).toString().trim();
     if (companyName.length < 2) {
       result.success = false;
       result.errors.push('Company name must be at least 2 characters long');
@@ -1395,9 +1427,10 @@ BusinessValidation._checkForDuplicateCompanies = function(companyName) {
     var headers = data[0];
     var companyCol = -1;
     
-    // Find company name column
+    // Find company name column using CONFIG.SCHEMA
+    var companyNameHeader = CONFIG.SCHEMA.PROSPECTS.companyName.header;
     for (var i = 0; i < headers.length; i++) {
-      if (SharedUtils.normalizeHeader(headers[i]) === 'Company Name') {
+      if (SharedUtils.normalizeHeader(headers[i]) === SharedUtils.normalizeHeader(companyNameHeader)) {
         companyCol = i;
         break;
       }

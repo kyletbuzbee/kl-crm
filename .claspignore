@@ -1,0 +1,51 @@
+# .claspignore - Configuration for K&L Recycling CRM
+
+# 1. Ignore everything by default to ensure a clean push
+**
+
+# 2. Whitelist essential Apps Script files
+!appsscript.json
+!*.gs
+!*.js
+!*.html
+!.clasp.json
+
+# 3. Explicitly ignore Node.js and local test files
+# (Prevents local-only logic from cluttering the Apps Script project)
+node_modules/
+package.json
+package-lock.json
+run_tests.js
+count_tests.js
+simple_gas_tests.js
+test_outreach_prospects_logic.js
+apply-fixes.js
+TestRunner.js
+
+# 4. Ignore all data, python scripts, and documentation
+*.csv
+*.py
+*.md
+*.txt
+*.pdf
+*.docx
+*.ps1
+*.json
+!appsscript.json
+!.clasp.json
+# 5. Ignore internal tool metadata and caches
+.git/
+.analyzer_cache/
+.clinerules/
+.kilocode/
+.vscode/
+__pycache__/
+plans/
+todo/
+Formulas/
+.clasp.json
+telemetry-id
+.analyzer_cache/
+__pycache__/
+.vscode\gemini-mcp\status.json
+.vscode\gemini-mcp

@@ -552,3 +552,59 @@ if (typeof module !== 'undefined' && module.exports) {
     mapOutcomeToStatus: mapOutcomeToStatus
   };
 }
+
+/**
+ * Quick test runner for this file only
+ * Run this function directly to test Outreach-Prospects logic
+ */
+function runOutreachProspectsTests() {
+  console.log('====================================');
+  console.log(' Outreach-Prospects Logic Tests');
+  console.log('====================================');
+  console.log('');
+  
+  if (typeof TestRunner === 'undefined') {
+    console.error('❌ TestRunner not found. Make sure TestRunner.js is loaded.');
+    return;
+  }
+  
+  var results = { passed: 0, failed: 0 };
+  var tests = [
+    'testCompanyIdLinking',
+    'testLastOutreachDateSync',
+    'testContactStatusUpdate',
+    'testPriorityScoring',
+    'testEmptyDataHandling',
+    'testMalformedDateHandling',
+    'testMultipleOutreachPerProspect'
+  ];
+  
+  tests.forEach(function(testName) {
+    try {
+      if (typeof OutreachProspectsLogicTests[testName] === 'function') {
+        OutreachProspectsLogicTests[testName]();
+        console.log('✅ ' + testName);
+        results.passed++;
+      } else {
+        console.log('⚠️ Test not found: ' + testName);
+      }
+    } catch (e) {
+      console.log('❌ ' + testName + ': ' + e.message);
+      results.failed++;
+    }
+  });
+  
+  console.log('');
+  console.log('====================================');
+  console.log('Results: ' + results.passed + ' passed, ' + results.failed + ' failed');
+  console.log('====================================');
+  
+  if (typeof SpreadsheetApp !== 'undefined') {
+    var msg = results.failed === 0 
+      ? '✅ All ' + results.passed + ' tests passed!' 
+      : '❌ ' + results.failed + ' tests failed';
+    SpreadsheetApp.getActiveSpreadsheet().toast(msg, 'Test Results', 5);
+  }
+  
+  return results;
+}

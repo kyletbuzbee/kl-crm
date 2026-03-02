@@ -63,8 +63,7 @@ var CONFIG = {
     ],
     // Sales sheet headers - aligned with Sales.csv
     SALES: [
-      'Sales ID', 'Date', 'Company Name', 'Company ID', 'Material', 'Weight', 
-      'Price', 'Payment Amount'
+      'Sales ID', 'Date', 'Company Name', 'Company ID', 'Material', 'Weight', ' Price ', 'Payment Amount'
     ],
     // Active Containers sheet headers exactly as specified by user
     ACTIVE_CONTAINERS: [
@@ -143,7 +142,7 @@ var CONFIG = {
       companyId: { header: 'Company ID', type: 'string', required: false },
       material: { header: 'Material', type: 'string', required: false },
       weight: { header: 'Weight', type: 'number', required: false },
-      price: { header: 'Price', type: 'number', required: false },
+      price: { header: ' Price ', type: 'number', required: false },
       paymentAmount: { header: 'Payment Amount', type: 'number', required: false }
     },
     // Active containers schema - exactly as user specified

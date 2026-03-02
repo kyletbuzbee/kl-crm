@@ -1646,3 +1646,173 @@ function runDiagnostics() {
     error: diagnostics.issues.length > 0 ? diagnostics.issues.join('; ') : null
   };
 }
+
+/**
+ * exportCRMData - Exports CRM data from specified sheet in CSV or JSON format
+ * Called by dashboard.html exportData()
+ * @param {string} sheetName - Name of sheet to export (Outreach, Prospects, Accounts, Containers)
+ * @param {string} format - Export format ('csv' or 'json')
+ * @param {string} dateRange - Date range filter ('all', '30days', '90days', 'thisYear')
+ * @returns {Object} Object with success flag and export data (csv string or json object)
+ */
+function exportCRMData(sheetName, format, dateRange) {
+  try {
+    // Validate inputs
+    if (!sheetName) {
+      return { success: false, error: 'Sheet name is required', data: null };
+    }
+    
+    var validSheets = ['Outreach', 'Prospects', 'Accounts', 'Containers'];
+    var normalizedSheet = sheetName.charAt(0).toUpperCase() + sheetName.slice(1).toLowerCase();
+    if (validSheets.indexOf(normalizedSheet) === -1) {
+      return { success: false, error: 'Invalid sheet name. Valid options: ' + validSheets.join(', '), data: null };
+    }
+    
+    format = (format || 'csv').toLowerCase();
+    if (format !== 'csv' && format !== 'json') {
+      return { success: false, error: 'Invalid format. Use "csv" or "json"', data: null };
+    }
+    
+    // Map sheet names to CONFIG constants
+    var configSheetName = null;
+    switch (normalizedSheet) {
+      case 'Outreach':
+        configSheetName = CONFIG.SHEETS.OUTREACH;
+        break;
+      case 'Prospects':
+        configSheetName = CONFIG.SHEETS.PROSPECTS;
+        break;
+      case 'Accounts':
+        configSheetName = CONFIG.SHEETS.ACCOUNTS;
+        break;
+      case 'Containers':
+        configSheetName = CONFIG.SHEETS.ACTIVE_CONTAINERS || 'Active_Containers';
+        break;
+    }
+    
+    // Get spreadsheet access
+    var accessResult = SharedUtils.checkSpreadsheetAccess('exportCRMData');
+    if (!accessResult.success) {
+      return { success: false, error: accessResult.error, data: null };
+    }
+    
+    var ss = accessResult.spreadsheet;
+    var sheet = ss.getSheetByName(configSheetName);
+    if (!sheet) {
+      return { success: false, error: 'Sheet not found: ' + configSheetName, data: null };
+    }
+    
+    var lastRow = sheet.getLastRow();
+    if (lastRow < 2) {
+      return { success: true, data: format === 'csv' ? '' : [], message: 'No data to export' };
+    }
+    
+    // Get headers and data
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0].map(function(h) { 
+      return String(h).trim(); 
+    });
+    var dataRows = sheet.getRange(2, 1, lastRow - 1, headers.length).getValues();
+    
+    // Determine date column based on sheet type
+    var dateColName = 'Visit Date';
+    if (normalizedSheet === 'Prospects') {
+      dateColName = 'Last Outreach Date';
+    } else if (normalizedSheet === 'Accounts') {
+      dateColName = 'Created Date';
+    } else if (normalizedSheet === 'Containers') {
+      dateColName = 'Last Updated';
+    }
+    
+    var dateColIdx = headers.indexOf(dateColName);
+    if (dateColIdx < 0) { dateColIdx = -1; } // No date filtering if column not found
+    
+    // Calculate date filter
+    var startDate = null;
+    var endDate = new Date();
+    endDate.setHours(23, 59, 59, 999);
+    
+    if (dateRange && dateRange !== 'all') {
+      switch (dateRange) {
+        case '30days':
+          startDate = new Date();
+          startDate.setDate(startDate.getDate() - 30);
+          break;
+        case '90days':
+          startDate = new Date();
+          startDate.setDate(startDate.getDate() - 90);
+          break;
+        case 'thisYear':
+          startDate = new Date(new Date().getFullYear(), 0, 1);
+          break;
+      }
+    }
+    
+    // Filter data by date if applicable
+    var filteredData = [];
+    if (startDate && dateColIdx >= 0) {
+      for (var i = 0; i < dataRows.length; i++) {
+        var row = dataRows[i];
+        var rowDate = row[dateColIdx];
+        
+        if (rowDate) {
+          var parsedDate = typeof SharedUtils !== 'undefined' && SharedUtils.parseDate
+            ? SharedUtils.parseDate(rowDate)
+            : new Date(rowDate);
+          
+          if (parsedDate && !isNaN(parsedDate.getTime()) && parsedDate >= startDate && parsedDate <= endDate) {
+            filteredData.push(row);
+          }
+        }
+      }
+    } else {
+      filteredData = dataRows;
+    }
+    
+    // Build result data
+    if (format === 'csv') {
+      // Build CSV string
+      var csvContent = headers.join(',') + '\n';
+      for (var j = 0; j < filteredData.length; j++) {
+        var rowData = filteredData[j].map(function(cell) {
+          var cellStr = cell === null || cell === undefined ? '' : String(cell);
+          // Escape quotes and wrap in quotes if contains comma, quote, or newline
+          if (cellStr.indexOf(',') >= 0 || cellStr.indexOf('"') >= 0 || cellStr.indexOf('\n') >= 0) {
+            cellStr = '"' + cellStr.replace(/"/g, '""') + '"';
+          }
+          return cellStr;
+        });
+        csvContent += rowData.join(',') + '\n';
+      }
+      
+      return {
+        success: true,
+        data: csvContent,
+        format: 'csv',
+        rowCount: filteredData.length,
+        message: 'Exported ' + filteredData.length + ' rows to CSV'
+      };
+    } else {
+      // Build JSON array
+      var jsonData = [];
+      for (var k = 0; k < filteredData.length; k++) {
+        var rowObj = {};
+        for (var h = 0; h < headers.length; h++) {
+          rowObj[headers[h]] = filteredData[k][h];
+        }
+        jsonData.push(rowObj);
+      }
+      
+      return {
+        success: true,
+        data: jsonData,
+        format: 'json',
+        rowCount: filteredData.length,
+        message: 'Exported ' + filteredData.length + ' rows to JSON'
+      };
+    }
+    
+  } catch (e) {
+    console.error('Error in exportCRMData:', e);
+    return { success: false, error: e.message, data: null };
+  }
+}

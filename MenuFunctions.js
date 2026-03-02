@@ -18,6 +18,10 @@ function onOpen() {
     console.log('K&L CRM: UI accessed successfully');
     
     ui.createMenu('K&L CRM')
+      // Diagnostics
+      .addItem('🔍 Diagnose Data Status', 'diagnoseDataStatus')
+      .addSeparator()
+      
       // Primary CRM Views
       .addItem('📋 Show Dashboard (Sidepanel)', 'showSidebar')
       .addItem('🚀 Open CRM Suite (Full Screen)', 'showCRMSuite')
@@ -50,7 +54,9 @@ function onOpen() {
       .addSubMenu(ui.createMenu('⚙️ System Maintenance')
         .addItem('Run Daily Automation', 'runDailyAutomation')
         .addItem('Update Geocodes', 'updateGeocodes')
-        .addItem('Refresh Priority Scores', 'runBatchScoring'))
+        .addItem('Refresh Priority Scores', 'runBatchScoring')
+        .addSeparator()
+        .addItem('Normalize Prospects Data', 'normalizeProspectsData'))
       
       .addToUi();
     
@@ -75,3 +81,40 @@ function testOnOpen() {
  * Note: Legacy functions like addCRMMenu() have been decommissioned 
  * to prevent conflicting UI namespaces.
  */
+
+/**
+ * Diagnostic function to check if sheets have data
+ * Run this to see why "no data found" is showing
+ */
+function diagnoseDataStatus() {
+  var ui = SpreadsheetApp.getUi();
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var report = '=== K&L CRM Data Status ===\n\n';
+  
+  var sheetNames = ['Prospects', 'Outreach', 'Accounts', 'Contacts'];
+  
+  sheetNames.forEach(function(name) {
+    var sheet = ss.getSheetByName(name);
+    if (sheet) {
+      var lastRow = sheet.getLastRow();
+      if (lastRow > 1) {
+        report += '✓ ' + name + ': Has ' + (lastRow - 1) + ' rows of data\n';
+      } else if (lastRow === 1) {
+        report += '⚠ ' + name + ': Sheet exists but has NO DATA (headers only)\n';
+      } else {
+        report += '✗ ' + name + ': Sheet is EMPTY\n';
+      }
+    } else {
+      report += '✗ ' + name + ': Sheet DOES NOT EXIST\n';
+    }
+  });
+  
+  report += '\n=== SOLUTION ===\n';
+  report += 'The CSV files must be IMPORTED into Google Sheets.\n';
+  report += 'In Google Sheets: File > Import > Upload\n';
+  report += 'Use sheet names: Prospects, Outreach, Accounts';
+  
+  ui.alert('Data Status Report', report, ui.ButtonSet.OK);
+  console.log(report);
+  return report;
+}

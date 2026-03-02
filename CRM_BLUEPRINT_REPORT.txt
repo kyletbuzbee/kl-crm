@@ -2,10 +2,10 @@
        K&L RECYCLING CRM - COMPREHENSIVE BLUEPRINT & HEALTH REPORT       
 ================================================================================
 
-Generated: 2026-02-25 13:50:42
-Files Analyzed: 46
-Functions Found: 538
-Total Lines of Code: 29944
+Generated: 2026-02-26 19:56:59
+Files Analyzed: 52
+Functions Found: 733
+Total Lines of Code: 33507
 
 --------------------------------------------------------------------------------
 SYSTEM ARCHITECTURE OVERVIEW
@@ -91,6 +91,15 @@ SYSTEM ARCHITECTURE OVERVIEW
       • Location Name
       • Zip Code
 
+   📋 TRANSACTIONS
+      • Company
+      • Date
+      • Material
+      • Net Weight
+      • Price
+      • Total Payment
+      • Transaction ID
+
 ⚙️  SETTINGS & VALIDATION RULES:
    Valid Outcomes: Account Won, Disqualified, Follow-Up, Initial Contact, Interested (Hot), Interested (Warm), No Answer, Not Interested
    Valid Stages: Lost, Nurture, Outreach, Prospect, Won
@@ -105,16 +114,18 @@ SYSTEM ARCHITECTURE OVERVIEW
 
    📦 Core Services (4 files):
       • CRM_API.js (9 lines, 0 functions)
-      • Config.js (240 lines, 2 functions)
-      • MenuFunctions.js (55 lines, 1 functions)
+      • Config.js (255 lines, 2 functions)
+      • MenuFunctions.js (119 lines, 3 functions)
       • Settings.js (293 lines, 4 functions)
 
-   🎨 UI Components (5 files):
+   🎨 UI Components (7 files):
       • CRM_Scripts.html (347 lines, 15 functions)
       • CRM_Styles.html (459 lines, 0 functions)
       • CRM_Suite.html (2716 lines, 43 functions)
-      • DashboardBackend.js (1784 lines, 30 functions)
-      • dashboard.html (4744 lines, 83 functions)
+      • DashboardBackend.js (1649 lines, 31 functions)
+      • ReportFunctions.js (1434 lines, 24 functions)
+      • StaleProspectsReport.js (257 lines, 4 functions)
+      • dashboard.html (4752 lines, 83 functions)
 
    🔄 Sync & Workflow (3 files):
       • OutreachSyncFunctions.js (307 lines, 5 functions)
@@ -128,7 +139,10 @@ SYSTEM ARCHITECTURE OVERVIEW
       • SettingsValidation.js (951 lines, 17 functions)
       • ValidationUtils.js (203 lines, 12 functions)
 
-   🧪 Testing (0 files):
+   🧪 Testing (3 files):
+      • count_tests.js (89 lines, 2 functions)
+      • simple_gas_tests.js (191 lines, 4 functions)
+      • test_outreach_prospects_logic.js (555 lines, 14 functions)
 
    🔧 Utilities (5 files):
       • DataHelpers.js (901 lines, 19 functions)
@@ -137,7 +151,7 @@ SYSTEM ARCHITECTURE OVERVIEW
       • SharedUtils.js (872 lines, 6 functions)
       • StringUtils.js (140 lines, 15 functions)
 
-   📄 Other (24 files):
+   📄 Other (25 files):
       • AccountFunction.js (278 lines, 3 functions)
       • ActiveContainerFunctions.js (143 lines, 4 functions)
       • AlertingService.js (159 lines, 5 functions)
@@ -146,8 +160,8 @@ SYSTEM ARCHITECTURE OVERVIEW
       • CRMBrain.js (342 lines, 3 functions)
       • CSVImport.js (681 lines, 12 functions)
       • ColumnMapper.js (127 lines, 4 functions)
-      • DATE_AND_STATUS_FIXES.js (263 lines, 4 functions)
       • ErrorBoundary.js (557 lines, 15 functions)
+      • ErrorHandling.js (280 lines, 10 functions)
 
 🔄 DATA FLOW:
    Outreach Entry → Sync to Prospects → Account Won → Migrate to Accounts
@@ -168,22 +182,22 @@ SYSTEM ARCHITECTURE OVERVIEW
    ✅ sendAccountProcessingAlert (AlertingService.js:12)
    ✅ showAccountProcessingNotification (AlertingService.js:41)
    ✅ processBatch (BatchProcessor.js:627)
+   ⚠️ submitOutreachLog (CRM_Suite.html:0)
+   ⚠️ _processProspectEvents (DashboardBackend.js:622)
+   ⚠️ _processOutreachEvents (DashboardBackend.js:688)
    ⚠️ processData (LoggerInjector.js:330)
    ✅ getBatchProcessor (Normalization.js:173)
    ✅ processOutreachSubmission (OutreachFunctions.js:108)
    ✅ syncOutreachToProspects (OutreachSyncFunctions.js:14)
    ✅ processInBatches (PerformanceUtils.js:132)
    ✅ processBatch (PerformanceUtils.js:203)
-   ✅ getWonProspects (PipelineService.js:196)
    ⚠️ getWonAccounts (PipelineService.js:245)
+   ✅ getWonProspects (PipelineService.js:196)
+   ✅ hasAccountBeenWon (ReportFunctions.js:950)
    ✅ getBatchProcessor (Sync.js:25)
    ✅ getSyncLoggerInjector (Sync.js:36)
    ✅ getSyncErrorBoundary (Sync.js:47)
    ⚠️ createSyncLogger (Sync.js:58)
-   ✅ createSyncTimer (Sync.js:91)
-   ⚠️ wrapSyncFunction (Sync.js:128)
-   ⚠️ runFullCRM_Sync (Sync.js:144)
-   ✅ syncCRMLogic (Sync.js:188)
 
 
 ================================================================================
@@ -191,19 +205,19 @@ SYSTEM ARCHITECTURE OVERVIEW
 ================================================================================
 
 OVERALL HEALTH SCORE: 75/100 - 🟡 NEEDS ATTENTION
-Total Issues Found: 109
+Total Issues Found: 162
   🔴 Critical: 0
   🟠 High: 0
-  🟡 Medium: 40
-  🟢 Low: 69
+  🟡 Medium: 70
+  🟢 Low: 92
   ℹ️  Info: 0
 
 --------------------------------------------------------------------------------
 ISSUES BY CATEGORY
 --------------------------------------------------------------------------------
-  Code Quality: 84
-  Maintainability: 9
-  Error Handling: 8
+  Code Quality: 112
+  Maintainability: 25
+  Error Handling: 17
   Schema: 5
   Performance: 3
 
@@ -212,6 +226,12 @@ DETAILED ISSUE LIST
 --------------------------------------------------------------------------------
 
 🔸 MEDIUM ISSUES:
+
+   📄 AccountFunction.js:57
+   Category: Code Quality
+   Message: Function 'processNewAccount' has high complexity (18)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
 
    📄 ActiveContainerFunctions.js:29
    Category: Schema
@@ -249,6 +269,18 @@ DETAILED ISSUE LIST
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
+   📄 CSVImport.js:224
+   Category: Code Quality
+   Message: Function 'parseCSVLine' has high complexity (19)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 CSVImport.js:424
+   Category: Code Quality
+   Message: Function 'parseDelimitedLine' has high complexity (19)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
    📄 ComprehensiveValidationSystem.js:266
    Category: Code Quality
    Message: Function '_validateProspectsRow' has high complexity (31)
@@ -273,39 +305,63 @@ DETAILED ISSUE LIST
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
-   📄 DashboardBackend.js:569
+   📄 DashboardBackend.js:622
    Category: Code Quality
-   Message: Function '_getOutreachHistoryInternal' has high complexity (31)
+   Message: Function '_processProspectEvents' has high complexity (35)
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
-   📄 DashboardBackend.js:569
+   📄 DashboardBackend.js:622
    Category: Error Handling
-   Message: Function '_getOutreachHistoryInternal' lacks error handling (complexity: 31)
+   Message: Function '_processProspectEvents' lacks error handling (complexity: 35)
    Context: Complex function without try/catch...
    💡 Recommendation: Add try/catch blocks for robust error handling
 
-   📄 DashboardBackend.js:600
+   📄 DashboardBackend.js:688
+   Category: Error Handling
+   Message: Function '_processOutreachEvents' lacks error handling (complexity: 12)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 DashboardBackend.js:877
    Category: Code Quality
-   Message: Function 'getProspectDetails' has high complexity (39)
+   Message: Function 'showAccountsModal' has high complexity (16)
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
-   📄 DashboardBackend.js:913
+   📄 DashboardBackend.js:935
    Category: Code Quality
-   Message: Function 'getCalendarEvents' has high complexity (70)
+   Message: Function 'showCalendarModal' has high complexity (16)
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
-   📄 DashboardBackend.js:1139
+   📄 DashboardBackend.js:1004
    Category: Code Quality
    Message: Function 'getOutreachData' has high complexity (28)
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
-   📄 DashboardBackend.js:1417
+   📄 DashboardBackend.js:1087
+   Category: Code Quality
+   Message: Function 'getCompanyAutocompleteList' has high complexity (19)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:1282
    Category: Code Quality
    Message: Function 'getCompanyDetailsForAutofill' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DashboardBackend.js:1521
+   Category: Code Quality
+   Message: Function 'logOutreachFromDashboard' has high complexity (18)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 DataHelpers.js:101
+   Category: Code Quality
+   Message: Function 'updateCellSafe' has high complexity (17)
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
@@ -326,6 +382,12 @@ DETAILED ISSUE LIST
    Message: appendRow called - consider batch append for multiple rows
    Context: Performance anti-pattern detected...
    💡 Recommendation: Consider using batch operations or caching
+
+   📄 DataHelpers.js:587
+   Category: Code Quality
+   Message: Function 'getSheetSafe' has high complexity (18)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
 
    📄 DataHelpers.js:762
    Category: Error Handling
@@ -375,6 +437,12 @@ DETAILED ISSUE LIST
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
+   📄 OutreachFunctions.js:274
+   Category: Code Quality
+   Message: Function 'fetchOutreachHistory' has high complexity (16)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
    📄 OutreachFunctions.js:428
    Category: Code Quality
    Message: Function 'calculateDashboardMetrics' has high complexity (21)
@@ -384,6 +452,108 @@ DETAILED ISSUE LIST
    📄 OutreachSyncFunctions.js:14
    Category: Code Quality
    Message: Function 'syncOutreachToProspects' has high complexity (22)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 PipelineService.js:36
+   Category: Code Quality
+   Message: Function 'calculateFunnel' has high complexity (16)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ProspectFunctions.js:51
+   Category: Code Quality
+   Message: Function 'searchProspectsByName' has high complexity (16)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ProspectFunctions.js:122
+   Category: Code Quality
+   Message: Function 'getCompanyDetailsForAutofill' has high complexity (24)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ProspectFunctions.js:251
+   Category: Code Quality
+   Message: Function 'updateProspectAfterVisit' has high complexity (20)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ProspectFunctions.js:345
+   Category: Code Quality
+   Message: Function 'fuzzyMatchCompany' has high complexity (24)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ProspectFunctions.js:345
+   Category: Error Handling
+   Message: Function 'fuzzyMatchCompany' lacks error handling (complexity: 24)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 ProspectFunctions.js:825
+   Category: Code Quality
+   Message: Function 'normalizeAndGenerateIDs' has high complexity (23)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ProspectScoringService.js:80
+   Category: Code Quality
+   Message: Function 'calculateUrgencyScore' has high complexity (16)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ProspectScoringService.js:80
+   Category: Error Handling
+   Message: Function 'calculateUrgencyScore' lacks error handling (complexity: 16)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 ReportFunctions.js:22
+   Category: Code Quality
+   Message: Function 'generateReportHtml' has high complexity (23)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ReportFunctions.js:137
+   Category: Code Quality
+   Message: Function 'generateProfessionalReport' has high complexity (34)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ReportFunctions.js:631
+   Category: Code Quality
+   Message: Function 'calculateActionPriority' has high complexity (19)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ReportFunctions.js:721
+   Category: Error Handling
+   Message: Function 'calculateStatusPriority' lacks error handling (complexity: 13)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 ReportFunctions.js:759
+   Category: Error Handling
+   Message: Function 'analyzeRecentActivity' lacks error handling (complexity: 11)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 ReportFunctions.js:818
+   Category: Error Handling
+   Message: Function 'calculateOpportunityValue' lacks error handling (complexity: 10)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 ReportFunctions.js:1130
+   Category: Code Quality
+   Message: Function 'generatePlainTextReportForRange' has high complexity (24)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 SalesFunctions.js:13
+   Category: Code Quality
+   Message: Function 'getSalesData' has high complexity (16)
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
@@ -447,11 +617,35 @@ DETAILED ISSUE LIST
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
 
+   📄 SharedUtils.js:792
+   Category: Code Quality
+   Message: Function 'getNextSequentialNumber' has high complexity (17)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
    📄 Sync.js:374
    Category: Code Quality
    Message: Function 'processAccountWon' has high complexity (21)
    Context: Consider breaking into smaller functions...
    💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 ValidationUtils.js:8
+   Category: Error Handling
+   Message: Function 'validateDate' lacks error handling (complexity: 12)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
+
+   📄 WorkflowAutomationService.js:24
+   Category: Code Quality
+   Message: Function 'runDailyAutomation' has high complexity (16)
+   Context: Consider breaking into smaller functions...
+   💡 Recommendation: Refactor to reduce cyclomatic complexity
+
+   📄 simple_gas_tests.js:56
+   Category: Error Handling
+   Message: Function 'testTestSuitesAvailability' lacks error handling (complexity: 10)
+   Context: Complex function without try/catch...
+   💡 Recommendation: Add try/catch blocks for robust error handling
 
 🔸 LOW ISSUES:
 
@@ -460,6 +654,12 @@ DETAILED ISSUE LIST
    Message: Function 'getActiveContainers' has no logging
    Context: Function with 10 calls should log...
    💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 BatchProcessor.js:139
+   Category: Maintainability
+   Message: Function 'batchAppendRows' appears orphaned (never called) with complexity 11
+   Context: Function defined at line 139...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
 
    📄 BusinessValidation.js:286
    Category: Code Quality
@@ -587,37 +787,49 @@ DETAILED ISSUE LIST
    Context: Function with 9 calls should log...
    💡 Recommendation: Add console.log or Logger.log for debugging
 
-   📄 DATE_AND_STATUS_FIXES.js:93
+   📄 DashboardBackend.js:175
    Category: Maintainability
-   Message: Function 'parseDateForReport' appears orphaned (never called) with complexity 13
-   Context: Function defined at line 93...
+   Message: Function 'crmGateway' appears orphaned (never called) with complexity 43
+   Context: Function defined at line 175...
    💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
 
-   📄 DashboardBackend.js:539
+   📄 DashboardBackend.js:531
    Category: Code Quality
-   Message: Function '_findProspectInternal' has no logging
-   Context: Function with 7 calls should log...
+   Message: Function '_parseCalendarDateRange' has no logging
+   Context: Function with 6 calls should log...
    💡 Recommendation: Add console.log or Logger.log for debugging
 
-   📄 DashboardBackend.js:569
+   📄 DashboardBackend.js:622
    Category: Code Quality
-   Message: Function '_getOutreachHistoryInternal' has no logging
-   Context: Function with 10 calls should log...
+   Message: Function '_processProspectEvents' has no logging
+   Context: Function with 13 calls should log...
    💡 Recommendation: Add console.log or Logger.log for debugging
 
-   📄 DashboardBackend.js:1284
+   📄 DashboardBackend.js:688
+   Category: Code Quality
+   Message: Function '_processOutreachEvents' has no logging
+   Context: Function with 13 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 DashboardBackend.js:1149
    Category: Maintainability
    Message: Function 'getLastTouchInfo' appears orphaned (never called) with complexity 13
-   Context: Function defined at line 1284...
+   Context: Function defined at line 1149...
    💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
 
-   📄 DashboardBackend.js:1417
+   📄 DashboardBackend.js:1226
    Category: Maintainability
-   Message: Function 'getCompanyDetailsForAutofill' appears orphaned (never called) with complexity 22
-   Context: Function defined at line 1417...
+   Message: Function 'checkProspectStatus' appears orphaned (never called) with complexity 11
+   Context: Function defined at line 1226...
    💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
 
-   📄 DashboardBackend.js:1710
+   📄 DashboardBackend.js:1427
+   Category: Maintainability
+   Message: Function 'getCalendarMonthData' appears orphaned (never called) with complexity 12
+   Context: Function defined at line 1427...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 DashboardBackend.js:1575
    Category: Code Quality
    Message: Function 'runDiagnostics' has no logging
    Context: Function with 6 calls should log...
@@ -767,6 +979,102 @@ DETAILED ISSUE LIST
    Context: Function defined at line 428...
    💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
 
+   📄 OutreachSyncFunctions.js:14
+   Category: Maintainability
+   Message: Function 'syncOutreachToProspects' appears orphaned (never called) with complexity 22
+   Context: Function defined at line 14...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 PipelineService.js:256
+   Category: Maintainability
+   Message: Function 'getDashboardMetrics' appears orphaned (never called) with complexity 12
+   Context: Function defined at line 256...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ProspectFunctions.js:51
+   Category: Maintainability
+   Message: Function 'searchProspectsByName' appears orphaned (never called) with complexity 16
+   Context: Function defined at line 51...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ProspectFunctions.js:122
+   Category: Code Quality
+   Message: Function 'getCompanyDetailsForAutofill' has no logging
+   Context: Function with 6 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ProspectFunctions.js:185
+   Category: Maintainability
+   Message: Function 'fetchLastTouchInfo' appears orphaned (never called) with complexity 12
+   Context: Function defined at line 185...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ProspectFunctions.js:737
+   Category: Maintainability
+   Message: Function 'runPreciseIndustryMapper' appears orphaned (never called) with complexity 13
+   Context: Function defined at line 737...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ProspectFunctions.js:825
+   Category: Maintainability
+   Message: Function 'normalizeAndGenerateIDs' appears orphaned (never called) with complexity 23
+   Context: Function defined at line 825...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ReportFunctions.js:22
+   Category: Maintainability
+   Message: Function 'generateReportHtml' appears orphaned (never called) with complexity 23
+   Context: Function defined at line 22...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ReportFunctions.js:721
+   Category: Maintainability
+   Message: Function 'calculateStatusPriority' appears orphaned (never called) with complexity 13
+   Context: Function defined at line 721...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ReportFunctions.js:759
+   Category: Maintainability
+   Message: Function 'analyzeRecentActivity' appears orphaned (never called) with complexity 11
+   Context: Function defined at line 759...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ReportFunctions.js:759
+   Category: Code Quality
+   Message: Function 'analyzeRecentActivity' has no logging
+   Context: Function with 10 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ReportFunctions.js:818
+   Category: Code Quality
+   Message: Function 'calculateOpportunityValue' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
+   📄 ReportFunctions.js:950
+   Category: Maintainability
+   Message: Function 'hasAccountBeenWon' appears orphaned (never called) with complexity 11
+   Context: Function defined at line 950...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ReportFunctions.js:1130
+   Category: Maintainability
+   Message: Function 'generatePlainTextReportForRange' appears orphaned (never called) with complexity 24
+   Context: Function defined at line 1130...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 ReportFunctions.js:1241
+   Category: Maintainability
+   Message: Function 'parseDateForReport' appears orphaned (never called) with complexity 13
+   Context: Function defined at line 1241...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 RouteFunction.js:6
+   Category: Maintainability
+   Message: Function 'updateGeocodes' appears orphaned (never called) with complexity 15
+   Context: Function defined at line 6...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
    📄 SalesFunctions.js:13
    Category: Code Quality
    Message: Function 'getSalesData' has no logging
@@ -845,6 +1153,12 @@ DETAILED ISSUE LIST
    Context: Function defined at line 792...
    💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
 
+   📄 StaleProspectsReport.js:110
+   Category: Code Quality
+   Message: Function 'getStaleProspectsData' has no logging
+   Context: Function with 14 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
    📄 StringUtils.js:0
    Category: Error Handling
    Message: File lacks error handling in any function
@@ -869,6 +1183,24 @@ DETAILED ISSUE LIST
    Context: Function with 6 calls should log...
    💡 Recommendation: Add console.log or Logger.log for debugging
 
+   📄 WorkflowAutomationService.js:24
+   Category: Maintainability
+   Message: Function 'runDailyAutomation' appears orphaned (never called) with complexity 16
+   Context: Function defined at line 24...
+   💡 Recommendation: Verify if this function is needed, add to exports, or remove dead code
+
+   📄 test_outreach_prospects_logic.js:0
+   Category: Error Handling
+   Message: File lacks error handling in any function
+   Context: No try/catch blocks found...
+   💡 Recommendation: Add error handling to critical functions
+
+   📄 test_outreach_prospects_logic.js:237
+   Category: Code Quality
+   Message: Function 'testUrgencyBandCalculation' has no logging
+   Context: Function with 7 calls should log...
+   💡 Recommendation: Add console.log or Logger.log for debugging
+
 ================================================================================
                         ACTIONABLE RECOMMENDATIONS                          
 ================================================================================
@@ -876,7 +1208,7 @@ DETAILED ISSUE LIST
 
 🟠 HIGH - Add Error Handling
 ----------------------------------------
-  • Add try/catch blocks to 3 files lacking error handling
+  • Add try/catch blocks to 4 files lacking error handling
   • Focus on files with complex functions first
   • Use ErrorHandling.js patterns for consistency
 
@@ -889,12 +1221,12 @@ DETAILED ISSUE LIST
 
 🟢 LOW - Code Cleanup
 ----------------------------------------
-  • Review 189 potentially orphaned functions
+  • Review 339 potentially orphaned functions
   • Remove dead code or add documentation
   • Consolidate duplicate utility functions
 
 📚 INFO - Documentation
 ----------------------------------------
-  • Add JSDoc comments to 538 functions
+  • Add JSDoc comments to 733 functions
   • Document function parameters and return types
   • Add usage examples for complex functions

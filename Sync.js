@@ -241,7 +241,7 @@ function syncCRMLogic(ss) {
     var typoLogger = createSyncLogger('fixOutreachTypos');
     typoLogger.log('Starting typo correction');
     
-    var outOutcomeIdx = getColIndex(outreachSheet, 'Outcome');
+    var outOutcomeIdx = getColIndex(outreachSheet, CONFIG.SCHEMA.OUTREACH.outcome.header);
     
     // Load Settings Data
     var settingsData = settingsSheet.getDataRange().getValues();
@@ -301,27 +301,33 @@ function syncCRMLogic(ss) {
   fixOutreachTypos();
 
   // --- STEP 2: MAP COLUMNS ---
-  // Defined in System_Schema.csv
-  var p_ID = getColLetter(prospectsSheet, 'Company ID');
-  var p_LastOutcome = getColLetter(prospectsSheet, 'Last Outcome');
-  var p_LastDate = getColLetter(prospectsSheet, 'Last Outreach Date');
-  var p_DaysSince = getColLetter(prospectsSheet, 'Days Since Last Contact');
-  var p_NextCount = getColLetter(prospectsSheet, 'Next Step Due Countdown');
-  var p_NextDate = getColLetter(prospectsSheet, 'Next Steps Due Date');
-  var p_Status = getColLetter(prospectsSheet, 'Contact Status');
+  // Use CONFIG.HEADERS for consistent header name lookups
+  var p_ID = getColLetter(prospectsSheet, CONFIG.SCHEMA.PROSPECTS.companyId.header);
+  var p_LastOutcome = getColLetter(prospectsSheet, CONFIG.SCHEMA.PROSPECTS.lastOutcome.header);
+  var p_LastDate = getColLetter(prospectsSheet, CONFIG.SCHEMA.PROSPECTS.lastOutreachDate.header);
+  var p_DaysSince = getColLetter(prospectsSheet, CONFIG.SCHEMA.PROSPECTS.daysSinceLastContact.header);
+  var p_NextCount = getColLetter(prospectsSheet, CONFIG.SCHEMA.PROSPECTS.nextStepDueCountdown.header);
+  var p_NextDate = getColLetter(prospectsSheet, CONFIG.SCHEMA.PROSPECTS.nextStepsDueDate.header);
+  var p_Status = getColLetter(prospectsSheet, CONFIG.SCHEMA.PROSPECTS.contactStatus.header);
 
-  var o_ID = getColLetter(outreachSheet, 'Company ID');
-  var o_Date = getColLetter(outreachSheet, 'Visit Date');
-  var o_Outcome = getColLetter(outreachSheet, 'Outcome');
+  var o_ID = getColLetter(outreachSheet, CONFIG.SCHEMA.OUTREACH.companyId.header);
+  var o_Date = getColLetter(outreachSheet, CONFIG.SCHEMA.OUTREACH.visitDate.header);
+  var o_Outcome = getColLetter(outreachSheet, CONFIG.SCHEMA.OUTREACH.outcome.header);
 
-  // Defined in Settings.tsv
-  var s_Key = getColLetter(settingsSheet, 'Key');       // Col B
-  var s_Status = getColLetter(settingsSheet, 'Value_2'); // Col D (Status)
-  var s_Days = getColLetter(settingsSheet, 'Value_3');   // Col E (Days)
+  // Defined in Settings sheet - using header names from CONFIG
+  var s_Key = getColLetter(settingsSheet, 'Key');
+  var s_Status = getColLetter(settingsSheet, 'Value_2');
+  var s_Days = getColLetter(settingsSheet, 'Value_3');
 
   if (!p_ID || !o_ID || !o_Outcome) {
-    console.error('CRITICAL: Missing ID or Outcome columns.');
-    return;
+    var missingCols = [];
+    if (!p_ID) missingCols.push('Company ID (Prospects)');
+    if (!o_ID) missingCols.push('Company ID (Outreach)');
+    if (!o_Outcome) missingCols.push('Outcome (Outreach)');
+    
+    logger.error('CRITICAL: Missing required columns: ' + missingCols.join(', '));
+    throw new Error('Sync failed - Missing columns: ' + missingCols.join(', ') + 
+      '. Ensure sheet headers match Config.js HEADERS definition.');
   }
 
   var lastRow = prospectsSheet.getLastRow();
@@ -390,11 +396,17 @@ function processAccountWon(ss) {
   var oData = outreachSheet.getDataRange().getValues();
   var oHeaders = oData.shift().map(function(h) { return String(h).trim(); });
   
-  var idxOutcome = SharedUtils.findColumnIndex(oHeaders, 'Outcome', 'OUTREACH');
-  var idxCompID = SharedUtils.findColumnIndex(oHeaders, 'Company ID', 'OUTREACH');
-  var idxCompName = SharedUtils.findColumnIndex(oHeaders, 'Company', 'OUTREACH');
-  var idxNotes = SharedUtils.findColumnIndex(oHeaders, 'Notes', 'OUTREACH');
-  var idxDate = SharedUtils.findColumnIndex(oHeaders, 'Visit Date', 'OUTREACH');
+  var idxOutcome = SharedUtils.findColumnIndex(oHeaders, CONFIG.SCHEMA.OUTREACH.outcome.header, 'OUTREACH');
+  var idxCompID = SharedUtils.findColumnIndex(oHeaders, CONFIG.SCHEMA.OUTREACH.companyId.header, 'OUTREACH');
+  var idxCompName = SharedUtils.findColumnIndex(oHeaders, CONFIG.SCHEMA.OUTREACH.company.header, 'OUTREACH');
+  var idxNotes = SharedUtils.findColumnIndex(oHeaders, CONFIG.SCHEMA.OUTREACH.notes.header, 'OUTREACH');
+  var idxDate = SharedUtils.findColumnIndex(oHeaders, CONFIG.SCHEMA.OUTREACH.visitDate.header, 'OUTREACH');
+  
+  // Validate required columns were found
+  if (idxOutcome === -1 || idxCompID === -1) {
+    logger.error('Required columns not found in Outreach sheet. Outcome idx: ' + idxOutcome + ', Company ID idx: ' + idxCompID);
+    throw new Error('Account Won processing failed - Could not find Outcome or Company ID columns in Outreach sheet');
+  }
 
   // Get existing Account IDs to prevent duplicates
   var accData = accountsSheet.getDataRange().getValues();

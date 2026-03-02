@@ -33,12 +33,12 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            background: conic-gradient(#fd7e14 163.8deg, #e0e0e0 0deg);
+            background: conic-gradient(#dc3545 68.4deg, #e0e0e0 0deg);
             position: relative;
             margin: 20px auto;
         }
         .health-score::before {
-            content: '45';
+            content: '19';
             position: absolute;
             top: 50%;
             left: 50%;
@@ -161,7 +161,7 @@
         <div class="header">
             <h1>🚀 K&L Recycling CRM</h1>
             <p>Comprehensive Blueprint & Health Analysis Report</p>
-            <p>Generated: 2026-02-25 13:50:42</p>
+            <p>Generated: 2026-02-26 19:56:59</p>
             <div class="health-score"></div>
             <p>Overall Health Score</p>
         </div>
@@ -169,19 +169,19 @@
         <div class="content">
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="stat-number">46</div>
+                    <div class="stat-number">52</div>
                     <div class="stat-label">Files Analyzed</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">538</div>
+                    <div class="stat-number">733</div>
                     <div class="stat-label">Functions</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">29,944</div>
+                    <div class="stat-number">33,507</div>
                     <div class="stat-label">Lines of Code</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">109</div>
+                    <div class="stat-number">162</div>
                     <div class="stat-label">Issues Found</div>
                 </div>
             </div>
@@ -195,7 +195,17 @@
             <div id="issues" class="tab-content active">
                 <div class="section">
                     <h2>🚨 Issues by Severity</h2>
-<h3 style="color: #ffc107; margin: 20px 0 15px;">MEDIUM (40)</h3>
+<h3 style="color: #ffc107; margin: 20px 0 15px;">MEDIUM (70)</h3>
+                    <div class="issue-card medium">
+                        <div class="issue-header">
+                            <span class="issue-severity" style="background: #ffc107;">MEDIUM</span>
+                            <span>✨ Code Quality</span>
+                        </div>
+                        <div class="issue-location">📄 AccountFunction.js:57</div>
+                        <div class="issue-message">Function 'processNewAccount' has high complexity (18)</div>
+                        <div class="issue-recommendation">💡 Refactor to reduce cyclomatic complexity</div>
+                    </div>
+                    
                     <div class="issue-card medium">
                         <div class="issue-header">
                             <span class="issue-severity" style="background: #ffc107;">MEDIUM</span>
@@ -271,8 +281,8 @@
                             <span class="issue-severity" style="background: #ffc107;">MEDIUM</span>
                             <span>✨ Code Quality</span>
                         </div>
-                        <div class="issue-location">📄 DashboardBackend.js:87</div>
-                        <div class="issue-message">Function 'getPipelineFunnelForDashboard' has high complexity (23)</div>
+                        <div class="issue-location">📄 CSVImport.js:224</div>
+                        <div class="issue-message">Function 'parseCSVLine' has high complexity (19)</div>
                         <div class="issue-recommendation">💡 Refactor to reduce cyclomatic complexity</div>
                     </div>
                     
@@ -281,21 +291,21 @@
                             <span class="issue-severity" style="background: #ffc107;">MEDIUM</span>
                             <span>✨ Code Quality</span>
                         </div>
-                        <div class="issue-location">📄 DashboardBackend.js:175</div>
-                        <div class="issue-message">Function 'crmGateway' has high complexity (43)</div>
+                        <div class="issue-location">📄 CSVImport.js:424</div>
+                        <div class="issue-message">Function 'parseDelimitedLine' has high complexity (19)</div>
                         <div class="issue-recommendation">💡 Refactor to reduce cyclomatic complexity</div>
+                    </div>
+                    <p style="text-align: center; color: #666; margin-top: 15px;">... and 60 more MEDIUM issues</p><h3 style="color: #17a2b8; margin: 20px 0 15px;">LOW (92)</h3>
+                    <div class="issue-card low">
+                        <div class="issue-header">
+                            <span class="issue-severity" style="background: #17a2b8;">LOW</span>
+                            <span>🔧 Maintainability</span>
+                        </div>
+                        <div class="issue-location">📄 BatchProcessor.js:139</div>
+                        <div class="issue-message">Function 'batchAppendRows' appears orphaned (never called) with complexity 11</div>
+                        <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
                     </div>
                     
-                    <div class="issue-card medium">
-                        <div class="issue-header">
-                            <span class="issue-severity" style="background: #ffc107;">MEDIUM</span>
-                            <span>✨ Code Quality</span>
-                        </div>
-                        <div class="issue-location">📄 DashboardBackend.js:569</div>
-                        <div class="issue-message">Function '_getOutreachHistoryInternal' has high complexity (31)</div>
-                        <div class="issue-recommendation">💡 Refactor to reduce cyclomatic complexity</div>
-                    </div>
-                    <p style="text-align: center; color: #666; margin-top: 15px;">... and 30 more MEDIUM issues</p><h3 style="color: #17a2b8; margin: 20px 0 15px;">LOW (69)</h3>
                     <div class="issue-card low">
                         <div class="issue-header">
                             <span class="issue-severity" style="background: #17a2b8;">LOW</span>
@@ -311,7 +321,17 @@
                             <span class="issue-severity" style="background: #17a2b8;">LOW</span>
                             <span>🔧 Maintainability</span>
                         </div>
-                        <div class="issue-location">📄 DashboardBackend.js:1284</div>
+                        <div class="issue-location">📄 DashboardBackend.js:175</div>
+                        <div class="issue-message">Function 'crmGateway' appears orphaned (never called) with complexity 43</div>
+                        <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
+                    </div>
+                    
+                    <div class="issue-card low">
+                        <div class="issue-header">
+                            <span class="issue-severity" style="background: #17a2b8;">LOW</span>
+                            <span>🔧 Maintainability</span>
+                        </div>
+                        <div class="issue-location">📄 DashboardBackend.js:1149</div>
                         <div class="issue-message">Function 'getLastTouchInfo' appears orphaned (never called) with complexity 13</div>
                         <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
                     </div>
@@ -321,8 +341,18 @@
                             <span class="issue-severity" style="background: #17a2b8;">LOW</span>
                             <span>🔧 Maintainability</span>
                         </div>
-                        <div class="issue-location">📄 DashboardBackend.js:1417</div>
-                        <div class="issue-message">Function 'getCompanyDetailsForAutofill' appears orphaned (never called) with complexity 22</div>
+                        <div class="issue-location">📄 DashboardBackend.js:1226</div>
+                        <div class="issue-message">Function 'checkProspectStatus' appears orphaned (never called) with complexity 11</div>
+                        <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
+                    </div>
+                    
+                    <div class="issue-card low">
+                        <div class="issue-header">
+                            <span class="issue-severity" style="background: #17a2b8;">LOW</span>
+                            <span>🔧 Maintainability</span>
+                        </div>
+                        <div class="issue-location">📄 DashboardBackend.js:1427</div>
+                        <div class="issue-message">Function 'getCalendarMonthData' appears orphaned (never called) with complexity 12</div>
                         <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
                     </div>
                     
@@ -351,16 +381,6 @@
                             <span class="issue-severity" style="background: #17a2b8;">LOW</span>
                             <span>🔧 Maintainability</span>
                         </div>
-                        <div class="issue-location">📄 DATE_AND_STATUS_FIXES.js:93</div>
-                        <div class="issue-message">Function 'parseDateForReport' appears orphaned (never called) with complexity 13</div>
-                        <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
-                    </div>
-                    
-                    <div class="issue-card low">
-                        <div class="issue-header">
-                            <span class="issue-severity" style="background: #17a2b8;">LOW</span>
-                            <span>🔧 Maintainability</span>
-                        </div>
                         <div class="issue-location">📄 OutreachFunctions.js:274</div>
                         <div class="issue-message">Function 'fetchOutreachHistory' appears orphaned (never called) with complexity 16</div>
                         <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
@@ -375,27 +395,7 @@
                         <div class="issue-message">Function 'calculateDashboardMetrics' appears orphaned (never called) with complexity 21</div>
                         <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
                     </div>
-                    
-                    <div class="issue-card low">
-                        <div class="issue-header">
-                            <span class="issue-severity" style="background: #17a2b8;">LOW</span>
-                            <span>🔧 Maintainability</span>
-                        </div>
-                        <div class="issue-location">📄 SharedUtils.js:792</div>
-                        <div class="issue-message">Function 'getNextSequentialNumber' appears orphaned (never called) with complexity 17</div>
-                        <div class="issue-recommendation">💡 Verify if this function is needed, add to exports, or remove dead code</div>
-                    </div>
-                    
-                    <div class="issue-card low">
-                        <div class="issue-header">
-                            <span class="issue-severity" style="background: #17a2b8;">LOW</span>
-                            <span>✨ Code Quality</span>
-                        </div>
-                        <div class="issue-location">📄 ActiveContainerFunctions.js:15</div>
-                        <div class="issue-message">Function 'getActiveContainers' has no logging</div>
-                        <div class="issue-recommendation">💡 Add console.log or Logger.log for debugging</div>
-                    </div>
-                    <p style="text-align: center; color: #666; margin-top: 15px;">... and 59 more LOW issues</p>
+                    <p style="text-align: center; color: #666; margin-top: 15px;">... and 82 more LOW issues</p>
                 </div>
             </div>
             
@@ -411,12 +411,12 @@
                         
                         <div class="file-item">
                             <span class="file-name">Config.js</span>
-                            <span class="file-stats">240 lines | 2 functions</span>
+                            <span class="file-stats">255 lines | 2 functions</span>
                         </div>
                         
                         <div class="file-item">
                             <span class="file-name">MenuFunctions.js</span>
-                            <span class="file-stats">55 lines | 1 functions</span>
+                            <span class="file-stats">119 lines | 3 functions</span>
                         </div>
                         
                         <div class="file-item">
@@ -441,12 +441,22 @@
                         
                         <div class="file-item">
                             <span class="file-name">DashboardBackend.js</span>
-                            <span class="file-stats">1784 lines | 30 functions</span>
+                            <span class="file-stats">1649 lines | 31 functions</span>
+                        </div>
+                        
+                        <div class="file-item">
+                            <span class="file-name">ReportFunctions.js</span>
+                            <span class="file-stats">1434 lines | 24 functions</span>
+                        </div>
+                        
+                        <div class="file-item">
+                            <span class="file-name">StaleProspectsReport.js</span>
+                            <span class="file-stats">257 lines | 4 functions</span>
                         </div>
                         
                         <div class="file-item">
                             <span class="file-name">dashboard.html</span>
-                            <span class="file-stats">4744 lines | 83 functions</span>
+                            <span class="file-stats">4752 lines | 83 functions</span>
                         </div>
                         <h3 style="margin: 20px 0 10px; color: #1e3c72;">🔄 Sync & Workflow</h3>
                         <div class="file-item">
@@ -487,6 +497,21 @@
                         <div class="file-item">
                             <span class="file-name">ValidationUtils.js</span>
                             <span class="file-stats">203 lines | 12 functions</span>
+                        </div>
+                        <h3 style="margin: 20px 0 10px; color: #1e3c72;">🧪 Testing</h3>
+                        <div class="file-item">
+                            <span class="file-name">count_tests.js</span>
+                            <span class="file-stats">89 lines | 2 functions</span>
+                        </div>
+                        
+                        <div class="file-item">
+                            <span class="file-name">simple_gas_tests.js</span>
+                            <span class="file-stats">191 lines | 4 functions</span>
+                        </div>
+                        
+                        <div class="file-item">
+                            <span class="file-name">test_outreach_prospects_logic.js</span>
+                            <span class="file-stats">555 lines | 14 functions</span>
                         </div>
                         <h3 style="margin: 20px 0 10px; color: #1e3c72;">🔧 Utilities</h3>
                         <div class="file-item">
@@ -555,11 +580,6 @@
                         </div>
                         
                         <div class="file-item">
-                            <span class="file-name">DATE_AND_STATUS_FIXES.js</span>
-                            <span class="file-stats">263 lines | 4 functions</span>
-                        </div>
-                        
-                        <div class="file-item">
                             <span class="file-name">ErrorBoundary.js</span>
                             <span class="file-stats">557 lines | 15 functions</span>
                         </div>
@@ -596,7 +616,17 @@
                         
                         <div class="file-item">
                             <span class="file-name">PipelineService.js</span>
-                            <span class="file-stats">327 lines | 10 functions</span>
+                            <span class="file-stats">337 lines | 18 functions</span>
+                        </div>
+                        
+                        <div class="file-item">
+                            <span class="file-name">ProspectFunctions.js</span>
+                            <span class="file-stats">934 lines | 17 functions</span>
+                        </div>
+                        
+                        <div class="file-item">
+                            <span class="file-name">ProspectScoringService.js</span>
+                            <span class="file-stats">324 lines | 8 functions</span>
                         </div>
                         
                         <div class="file-item">
@@ -607,11 +637,6 @@
                         <div class="file-item">
                             <span class="file-name">SalesFunctions.js</span>
                             <span class="file-stats">245 lines | 12 functions</span>
-                        </div>
-                        
-                        <div class="file-item">
-                            <span class="file-name">SchemaNormalizer.js</span>
-                            <span class="file-stats">902 lines | 21 functions</span>
                         </div>
                         
                     </div>
@@ -656,6 +681,11 @@
                     <div style="background: white; padding: 15px; margin-bottom: 10px; border-radius: 10px;">
                         <h4 style="color: #667eea; margin-bottom: 10px;">ACTIVE_CONTAINERS</h4>
                         <p style="color: #666;">8 columns defined</p>
+                    </div>
+            
+                    <div style="background: white; padding: 15px; margin-bottom: 10px; border-radius: 10px;">
+                        <h4 style="color: #667eea; margin-bottom: 10px;">TRANSACTIONS</h4>
+                        <p style="color: #666;">7 columns defined</p>
                     </div>
             
                     <h3 style="margin: 30px 0 10px;">🔗 External Dependencies</h3>

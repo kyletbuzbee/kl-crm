@@ -324,3 +324,13 @@ var PipelineService = {
     }
   }
 };
+
+// Global wrapper functions to expose PipelineService methods
+function getRecentWins() { return PipelineService.getRecentWins(); }
+function getWonAccounts() { return PipelineService.getWonAccounts(); }
+function getUrgentProspects() { return PipelineService.getUrgentProspects(); }
+function calculateFunnel() { return PipelineService.calculateFunnel(); }
+function getAllProspects() { return PipelineService.getAllProspects(); }
+function getProspectsByStatus(status) { return PipelineService.getProspectsByStatus(status); }
+function getWonProspects() { return PipelineService.getWonProspects(); }
+function getDashboardMetrics() { return PipelineService.getDashboardMetrics(); }

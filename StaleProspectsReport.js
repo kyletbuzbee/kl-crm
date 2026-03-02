@@ -118,11 +118,11 @@ function getStaleProspectsData(ss, staleDays) {
   
   var headers = data.shift().map(function(h) { return String(h).trim(); });
   
-  // Find column indices using fuzzy matching
-  var companyIdx = SharedUtils.findColumnIndex(headers, 'Company Name', 'PROSPECTS');
-  var daysSinceIdx = SharedUtils.findColumnIndex(headers, 'Days Since Last Contact', 'PROSPECTS');
-  var lastOutcomeIdx = SharedUtils.findColumnIndex(headers, 'Last Outcome', 'PROSPECTS');
-  var statusIdx = SharedUtils.findColumnIndex(headers, 'Contact Status', 'PROSPECTS');
+  // Find column indices using CONFIG.SCHEMA
+  var companyIdx = SharedUtils.findColumnIndex(headers, CONFIG.SCHEMA.PROSPECTS.companyName.header, 'PROSPECTS');
+  var daysSinceIdx = SharedUtils.findColumnIndex(headers, CONFIG.SCHEMA.PROSPECTS.daysSinceLastContact.header, 'PROSPECTS');
+  var lastOutcomeIdx = SharedUtils.findColumnIndex(headers, CONFIG.SCHEMA.PROSPECTS.lastOutcome.header, 'PROSPECTS');
+  var statusIdx = SharedUtils.findColumnIndex(headers, CONFIG.SCHEMA.PROSPECTS.contactStatus.header, 'PROSPECTS');
   
   if (companyIdx === -1 || daysSinceIdx === -1) {
     throw new Error('Required columns not found: Company Name, Days Since Last Contact');
